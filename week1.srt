@@ -44,7 +44,7 @@ del laboratorio, porque algunas
 
 12
 00:00:25,560 --> 00:00:27,779
-configuraciones no se guardan correctamente.
+configuraciones no se guardan correctamente
 
 13
 00:00:27,779 --> 00:00:29,580
