@@ -1,0 +1,7265 @@
+1
+00:00:00,000 --> 00:00:03,419
+¡Buenos días, bienvenidos de vuelta!
+
+2
+00:00:03,419 --> 00:00:06,299
+Hoy vamos a continuar con
+
+3
+00:00:06,299 --> 00:00:08,519
+el plan de estudios, un poco, y luego
+
+4
+00:00:08,519 --> 00:00:10,019
+vamos a entrar en
+
+5
+00:00:10,019 --> 00:00:12,179
+la instalación del software y te mostraré cómo
+
+6
+00:00:12,179 --> 00:00:15,120
+configurarlo para que sepas qué
+
+7
+00:00:15,120 --> 00:00:16,619
+vamos a usar durante el semestre.
+
+8
+00:00:16,619 --> 00:00:19,859
+Por lo tanto, y como mencioné anteriormente,
+
+9
+00:00:19,859 --> 00:00:22,080
+pueden traer su computadora.
+
+10
+00:00:22,080 --> 00:00:24,240
+No confíen en la computadora
+
+11
+00:00:24,240 --> 00:00:25,560
+del laboratorio, porque algunas
+
+12
+00:00:25,560 --> 00:00:27,779
+configuraciones no se guardan correctamente.
+
+13
+00:00:27,779 --> 00:00:29,580
+y debes volver a hacerlas cada vez, lo que es
+
+14
+00:00:29,580 --> 00:00:32,640
+molesto. Además, los programas que necesitamos
+
+15
+00:00:32,640 --> 00:00:34,500
+son muy pequeños, por lo que no ocuparán mucho espacio.
+
+16
+00:00:34,500 --> 00:00:38,160
+Para que sea fácil de configurar, vamos a
+
+17
+00:00:38,160 --> 00:00:39,600
+explicar cómo hacerlo paso a paso,
+
+18
+00:00:39,600 --> 00:00:41,219
+instalar el software y configurarlo,
+
+19
+00:00:41,219 --> 00:00:43,379
+para que, por ejemplo,
+
+20
+00:00:43,379 --> 00:00:45,300
+podamos obtener cosas de GitHub o enviar cosas
+
+21
+00:00:45,300 --> 00:00:47,640
+a GitHub. Eso es exactamente lo que
+
+22
+00:00:47,640 --> 00:00:48,719
+haremos para todas las asignaciones de laboratorio,
+
+23
+00:00:48,719 --> 00:00:50,700
+construirás algo sobre lo que
+
+24
+00:00:50,700 --> 00:00:52,140
+hayas puesto en GitHub
+
+25
+00:00:52,140 --> 00:00:54,420
+y luego lo desarrollarás cada
+
+26
+00:00:54,420 --> 00:00:56,760
+semana agregando nuevas características.
+
+27
+00:00:56,760 --> 00:00:59,879
+Así que les mostraré cómo
+
+28
+00:00:59,879 --> 00:01:01,500
+construir la base y luego
+
+29
+00:01:01,500 --> 00:01:03,960
+pueden hacer lo que quieran. Como
+
+30
+00:01:03,960 --> 00:01:06,659
+Mencioné, para las clases, todo
+
+31
+00:01:06,659 --> 00:01:08,400
+estará grabado aquí y está
+
+32
+00:01:08,400 --> 00:01:13,200
+disponible en las 
+
+33
+00:01:13,200 --> 00:01:15,060
+pestañas de acceso 
+
+34
+00:01:15,060 --> 00:01:16,320
+al sitio de Google.
+
+35
+00:01:16,320 --> 00:01:19,320
+Si falta audio
+
+36
+00:01:19,320 --> 00:01:20,580
+o la calidad no es buena, avísame porque
+
+37
+00:01:20,580 --> 00:01:23,100
+no vuelvo a revisar todo cada vez,
+
+38
+00:01:23,100 --> 00:01:24,780
+Parece que
+
+39
+00:01:24,780 --> 00:01:27,060
+el sonido ha estado un poco alto
+
+40
+00:01:27,060 --> 00:01:30,119
+así que lo bajaré
+
+41
+00:01:30,119 --> 00:01:32,280
+Si a veces está muy alto, 
+
+42
+00:01:32,280 --> 00:01:34,380
+avísame.
+
+43
+00:01:34,380 --> 00:01:38,100
+Tengo otra
+
+44
+00:01:38,100 --> 00:01:41,939
+lista de reproducción aquí. Esta
+
+45
+00:01:41,939 --> 00:01:44,579
+tiene todos los videos que tomé la última vez
+
+46
+00:01:44,579 --> 00:01:48,119
+en la primavera de 2021, hace dos años.
+
+47
+00:01:48,119 --> 00:01:49,740
+Por supuesto, el contenido será similar, pero
+
+48
+00:01:49,740 --> 00:01:52,200
+agregamos cosas más recientes, por lo que estará
+
+49
+00:01:52,200 --> 00:01:54,420
+actualizado, pero puedes revisar
+
+50
+00:01:54,420 --> 00:01:56,280
+esos videos. Algunas cosas serán
+
+51
+00:01:56,280 --> 00:01:58,500
+similares, algunas pueden ser nuevas, y algunas
+
+52
+00:01:58,500 --> 00:02:00,960
+pueden no funcionar más porque el código abierto
+
+53
+00:02:00,960 --> 00:02:03,240
+cambia todo el tiempo
+
+54
+00:02:03,240 --> 00:02:05,820
+lo que tomé la última vez ya no es
+
+55
+00:02:05,820 --> 00:02:08,399
+utilizable, por lo que necesito
+
+56
+00:02:08,399 --> 00:02:10,860
+mantenerlo actualizado, pero eres 
+
+57
+00:02:10,860 --> 00:02:12,420
+bienvenido a revisar el video.
+
+58
+00:02:12,420 --> 00:02:15,300
+Las clases las tomé en línea, así que la calidad del video es
+
+59
+00:02:15,300 --> 00:02:17,220
+bastante buena porque
+
+60
+00:02:17,220 --> 00:02:19,080
+grabé mi pantalla,
+
+61
+00:02:19,080 --> 00:02:22,800
+no en el aula. Si quieres
+
+62
+00:02:22,800 --> 00:02:24,840
+avanzar antes de que enseñemos, revisa
+
+63
+00:02:24,840 --> 00:02:28,860
+los videos, todos
+
+64
+00:02:28,860 --> 00:02:30,599
+están en secuencia para que puedas ir desde el
+
+65
+00:02:30,599 --> 00:02:33,599
+principio hasta el final, y
+
+66
+00:02:33,599 --> 00:02:34,920
+también puedes revisar el video que estamos
+
+67
+00:02:34,920 --> 00:02:36,599
+haciendo aquí en
+
+68
+00:02:36,599 --> 00:02:39,540
+tiempo real en clase, por lo que tienes todos
+
+69
+00:02:39,540 --> 00:02:41,400
+los recursos que necesitas. Como
+
+70
+00:02:41,400 --> 00:02:44,160
+mencioné, si tienes alguna pregunta,
+
+71
+00:02:44,160 --> 00:02:46,680
+solo pregúntala en clase o pregúntame
+
+72
+00:02:46,680 --> 00:02:49,920
+después de clase. No te quedes atascado en algún lugar.
+
+73
+00:02:49,920 --> 00:02:50,519
+Así que
+
+74
+00:02:50,519 --> 00:02:53,940
+esto es todo sobre los recursos.
+
+75
+00:02:53,940 --> 00:02:56,760
+Esta lista tiene 38
+
+76
+00:02:56,760 --> 00:02:58,580
+Clases.
+
+77
+00:02:58,580 --> 00:03:02,040
+Las clases fueron lunes, miércoles  y
+
+78
+00:03:02,040 --> 00:03:04,620
+viernes, así que
+
+79
+00:03:04,620 --> 00:03:06,000
+son tres clases a la semana,
+
+80
+00:03:06,000 --> 00:03:07,920
+algo así. Así que tenemos muchas
+
+81
+00:03:07,920 --> 00:03:09,599
+más clases, pero los videos son
+
+82
+00:03:09,599 --> 00:03:11,819
+un poco más cortos, tal vez 15-20 minutos
+
+83
+00:03:11,819 --> 00:03:14,099
+como máximo, media hora, pero
+
+84
+00:03:14,099 --> 00:03:15,900
+ahora tendremos una hora y 15 minutos,
+
+85
+00:03:15,900 --> 00:03:18,540
+así que parece un poco más largo, pero
+
+86
+00:03:18,540 --> 00:03:20,519
+puedes revisar el plan de estudios 
+87
+00:03:20,519 --> 00:03:22,340
+y el horario. Si miras el horario,
+
+88
+00:03:22,340 --> 00:03:25,019
+creo que cambiaremos un poco,
+
+89
+00:03:25,019 --> 00:03:27,360
+similar a la última vez, pero agregaré algunas
+
+90
+00:03:27,360 --> 00:03:29,819
+cosas nuevas que son más relevantes ahora,
+
+91
+00:03:29,819 --> 00:03:31,739
+así que
+
+92
+00:03:31,739 --> 00:03:33,360
+las primeras semanas
+
+93
+00:03:33,360 --> 00:03:34,980
+te mostraré cómo configurar un software,
+
+94
+00:03:34,980 --> 00:03:37,140
+no mucho de codificación, pero luego
+
+
+95
+00:03:37,140 --> 00:03:39,180
+te presentaré lo básico sobre Python.
+
+96
+00:03:39,180 --> 00:03:41,040
+Así que, si eres nuevo en la programación,
+
+97
+00:03:41,040 --> 00:03:43,440
+no te preocupes por eso, cubriremos lo básico y
+
+98
+00:03:43,440 --> 00:03:45,000
+te ayudaremos a comenzar, y
+
+99
+00:03:45,000 --> 00:03:48,420
+una vez que estés familiarizado, podemos construir cosas.
+
+100
+00:03:48,420 --> 00:03:50,700
+Creo que dos o tres semanas
+
+101
+00:03:50,700 --> 00:03:52,860
+nos enfocaremos en lo básico y en algunas de las mejores prácticas,
+
+102
+00:03:52,860 --> 00:03:55,379
+y luego nos adentraremos en cómo puedes
+
+103
+00:03:55,379 --> 00:03:57,840
+realmente construir algunas cosas geoespaciales,
+
+104
+00:03:57,840 --> 00:04:00,299
+cómo puedes utilizar esos paquetes de código abierto geoespaciales
+
+105
+00:04:00,299 --> 00:04:02,640
+para construir tus propios paquetes
+
+106
+00:04:02,640 --> 00:04:04,739
+y luego hablaremos sobre
+
+107
+00:04:04,739 --> 00:04:07,379
+cómo puedes publicar eso en internet para que
+
+108
+00:04:07,379 --> 00:04:08,940
+cualquiera pueda instalarlo.
+
+109
+00:04:08,940 --> 00:04:10,799
+Así como descargas e instalas objetos en tu computadora,
+
+110
+00:04:10,799 --> 00:04:13,560
+puedes desarrollar un paquete de Python y
+
+111
+00:04:13,560 --> 00:04:15,540
+las personas pueden instalar tu paquete de Python.
+
+112
+00:04:15,540 --> 00:04:16,798
+Y luego, puedes construir funciones,
+
+113
+00:04:16,798 --> 00:04:18,720
+mantenerlas, publicarlas,
+
+114
+00:04:18,720 --> 00:04:21,120
+retirarlas, y construir un sitio web para
+
+115
+00:04:21,120 --> 00:04:22,800
+presentar tu paquete. Ese es el objetivo.
+
+116
+00:04:22,800 --> 00:04:25,620
+Y también veremos al final del
+
+117
+00:04:25,620 --> 00:04:27,120
+semestre que tendrás que desarrollar
+
+118
+00:04:27,120 --> 00:04:29,759
+una aplicación web interactiva para que
+
+119
+00:04:29,759 --> 00:04:31,259
+cualquiera pueda ir a tu sitio web, hacer clic,
+
+120
+00:04:31,259 --> 00:04:33,360
+navegar y crear cosas geniales
+
+121
+00:04:33,360 --> 00:04:35,160
+sin tener que instalar nada
+
+122
+00:04:35,160 --> 00:04:37,139
+en su computadora. Así que eso también
+
+123
+00:04:37,139 --> 00:04:39,120
+es algo que me gustaría ver. Pero
+
+124
+00:04:39,120 --> 00:04:41,580
+déjame ver si puedo mostrarte aquí.
+
+125
+00:04:41,580 --> 00:04:43,680
+Esta aplicación geoespacial,
+
+126
+00:04:43,680 --> 00:04:47,240
+para crear aplicaciones web interactivas.
+
+127
+00:04:47,400 --> 00:04:49,139
+Puedes probarlo más tarde si no funciona,
+
+128
+00:04:49,139 --> 00:04:51,000
+a veces, si demasiadas personas lo están usando
+
+129
+00:04:51,000 --> 00:04:53,220
+en mi clase pasa eso, por ejemplo, esta es
+
+130
+00:04:53,220 --> 00:04:56,400
+una de las aplicaciones que creé.
+
+131
+00:04:56,400 --> 00:04:58,139
+La he mostrado en algunas de mis clases anteriores.
+
+132
+00:04:58,139 --> 00:04:59,280
+Entonces, vas a
+
+133
+00:04:59,280 --> 00:05:01,740
+crear una animación de lapso de tiempo
+
+134
+00:05:01,740 --> 00:05:05,160
+utilizando satélites, si quieres mostrar a la
+
+135
+00:05:05,160 --> 00:05:06,780
+gente cómo hacerlo, esta será
+
+136
+00:05:06,780 --> 00:05:08,040
+la forma en que puedes hacerlo. Puedes crear
+
+137
+00:05:08,040 --> 00:05:09,840
+todo tipo de aplicaciones web, todas son interactivas,
+
+138
+00:05:09,840 --> 00:05:11,880
+así que puedes tener todo tipo de menús
+
+139
+00:05:11,880 --> 00:05:13,860
+y todo es gratis y de código abierto, por lo que,
+
+140
+00:05:13,860 --> 00:05:15,120
+si quieres, puedes revisar el código fuente
+
+141
+00:05:15,120 --> 00:05:16,460
+en GitHub.
+
+142
+00:05:16,460 --> 00:05:19,740
+Esta es probablemente demasiado complicada para
+
+143
+00:05:19,740 --> 00:05:21,360
+ti, en este momento, no espero
+
+144
+00:05:21,360 --> 00:05:23,039
+que hagas algo así
+
+145
+00:05:23,039 --> 00:05:24,840
+al final del semestre, pero solo voy
+
+146
+00:05:24,840 --> 00:05:26,280
+a mostrarte algunos ejemplos
+
+147
+00:05:26,280 --> 00:05:28,199
+si quieres ir más lejos, puedes hacerlo
+
+148
+00:05:28,199 --> 00:05:30,479
+y puedes ver todos los iconos aquí.
+
+149
+00:05:30,479 --> 00:05:33,060
+Puedes hacer, por ejemplo, déjame mostrarte,
+
+150
+00:05:33,060 --> 00:05:36,360
+a veces se rompe, pero necesito
+
+151
+00:05:36,360 --> 00:05:38,220
+verificarlo. Aquí
+
+152
+00:05:38,220 --> 00:05:39,539
+puedes tener algunos mapas
+
+153
+00:05:39,539 --> 00:05:42,840
+y permitir que los usuarios visualicen el
+
+154
+00:05:42,840 --> 00:05:44,639
+mercado inmobiliario de EE. UU. Los datos no están
+
+155
+00:05:44,639 --> 00:05:46,740
+actualizados, pero te estoy mostrando el ejemplo.
+
+156
+00:05:46,740 --> 00:05:48,600
+Así que puedes
+
+157
+00:05:48,600 --> 00:05:50,699
+ver la fecha y
+
+158
+00:05:50,699 --> 00:05:52,860
+el precio. Si quieres ver algo
+
+159
+00:05:52,860 --> 00:05:55,699
+en 3D, puedes hacerlo
+
+160
+00:05:56,880 --> 00:05:59,220
+como la lista de precios de la vivienda, por ejemplo,
+
+161
+00:05:59,220 --> 00:06:01,400
+Vea aquí
+
+162
+00:06:01,740 --> 00:06:03,600
+esto es genial,
+
+163
+00:06:03,600 --> 00:06:04,979
+puedes ver cualquier dato,
+
+164
+00:06:04,979 --> 00:06:07,440
+no tiene que ser una vivienda,
+
+165
+00:06:07,440 --> 00:06:09,960
+puede ser forestal, puede ser la altura, puede ser cualquier cosa. 
+
+166
+00:06:09,960 --> 00:06:13,320
+Lo más importante es que 
+
+167
+00:06:13,320 --> 00:06:15,120
+pueden personalizar el marco y el código
+
+168
+00:06:15,120 --> 00:06:18,060
+para ajustar sus propios datos y 
+
+169
+00:06:18,060 --> 00:06:19,199
+cambiar el color si no les gusta. 
+
+170
+00:06:19,199 --> 00:06:20,880
+Pueden ignorar 
+
+171
+00:06:20,880 --> 00:06:23,340
+los mensajes de error. Como dije, el paquete 
+
+172
+00:06:23,340 --> 00:06:25,380
+se cambia todo el tiempo. 
+
+173
+00:06:25,380 --> 00:06:27,060
+Si sobre ese paquete 
+
+174
+00:06:27,060 --> 00:06:29,160
+hago algunos cambios importantes, 
+
+175
+00:06:29,160 --> 00:06:31,440
+volveré arreglarlo y 
+
+176
+00:06:31,440 --> 00:06:33,240
+este es el proceso normal. Pueden tener varias de opciones. 
+
+177
+00:06:33,240 --> 00:06:34,979
+Por ejemplo, aquí puedo cambiar a 
+
+178
+00:06:34,979 --> 00:06:37,979
+cualquier color que desee, se reflejará 
+
+179
+00:06:37,979 --> 00:06:40,740
+casi instantáneamente. Así que hay muchas 
+
+180
+00:06:40,740 --> 00:06:42,360
+cosas que pueden hacer. 
+
+181
+00:06:42,360 --> 00:06:45,060
+Esencialmente la construí sobre otros 
+
+182
+00:06:45,060 --> 00:06:46,560
+paquetes, pero también pueden construir 
+
+183
+00:06:46,560 --> 00:06:49,080
+uno basado en este y luego tener 
+
+184
+00:06:49,080 --> 00:06:50,520
+una línea de código. 
+
+185
+00:06:50,520 --> 00:06:51,900
+Solo díganme dónde están sus datos y 
+
+186
+00:06:51,900 --> 00:06:54,360
+les daré un mapa como este, algo así en 3D.
+
+187
+00:06:54,360 --> 00:06:57,000
+Pueden exportarlo si desean y, 
+
+188
+00:06:57,000 --> 00:06:59,340
+por ejemplo, dividir el mapa. 
+
+189
+00:06:59,340 --> 00:07:02,819
+Pueden tener algunos mapas realmente geniales.
+
+190
+00:07:02,819 --> 00:07:04,919
+Si ven algo que no funciona correctamente,
+
+191
+00:07:04,919 --> 00:07:07,020
+les mostraré más tarde
+
+192
+00:07:07,020 --> 00:07:09,900
+cómo solucionarlo, 
+
+193
+00:07:09,900 --> 00:07:11,699
+hay varias cosas que pueden hacer. Déjenme 
+
+194
+00:07:11,699 --> 00:07:13,979
+ver si esta funciona correctamente: “Huella global 
+
+195
+00:07:13,979 --> 00:07:15,780
+del edificio” para que puedan cargar datos 
+
+196
+00:07:15,780 --> 00:07:17,759
+de Internet y pueden tener los datos vectoriales de la 
+
+197
+00:07:17,759 --> 00:07:21,660
+huella del edificio para cualquier 
+
+198
+00:07:21,660 --> 00:07:23,819
+ubicación u otro grupo, pero todo está 
+
+199
+00:07:23,819 --> 00:07:26,580
+usando inteligencia artificial y se explique
+
+200
+00:07:26,580 --> 00:07:28,380
+la huella del edificio.
+
+201
+00:07:28,380 --> 00:07:30,539
+Si dicen "¿cómo obtengo los datos del edificio? 
+
+202
+00:07:30,539 --> 00:07:32,340
+Quiero los datos del edificio 
+
+203
+00:07:32,340 --> 00:07:33,840
+de Knoxville" 
+
+204
+00:07:33,840 --> 00:07:36,780
+Pueden intentar descargar desde Knox 
+
+205
+00:07:36,780 --> 00:07:39,240
+County GIS o no estoy seguro de si tienen 
+
+206
+00:07:39,240 --> 00:07:40,740
+eso o no, pero a 
+
+207
+00:07:40,740 --> 00:07:43,740
+escala global en el grupo entero, todos los 
+
+208
+00:07:43,740 --> 00:07:45,720
+edificios de los que pueden obtener. 
+
+209
+00:07:45,720 --> 00:07:47,759
+Si vengo de los EE. UU. Puedo 
+
+210
+00:07:47,759 --> 00:07:49,259
+seleccionar el país, puedo seleccionar el estado. 
+
+211
+00:07:49,259 --> 00:07:51,120
+Por ejemplo, dicen: "Está bien, quiero 
+
+212
+00:07:51,120 --> 00:07:53,580
+un edificio para Tennessee".
+
+213
+00:07:53,580 --> 00:07:56,280
+Sigues estos pasos
+
+214
+00:07:56,280 --> 00:08:00,199
+Y obtendrás los edificios. 
+
+215
+00:08:00,660 --> 00:08:02,340
+Podría tomar un poco tiempo, porque 
+
+216
+00:08:02,340 --> 00:08:04,199
+los datos están en la nube, por lo que se 
+
+217
+00:08:04,199 --> 00:08:06,780
+están poniendo los datos de la nube, 
+
+218
+00:08:06,780 --> 00:08:09,539
+es bastante bueno. Todo es automático, por lo que esto 
+
+219
+00:08:09,539 --> 00:08:12,599
+no es como la delineación manual 
+
+220
+00:08:12,599 --> 00:08:15,000
+como Google Map. El punto es 
+
+221
+00:08:15,000 --> 00:08:16,740
+que Google Map no es de código abierto, 
+
+222
+00:08:16,740 --> 00:08:18,840
+no es gratis, 
+
+223
+00:08:18,840 --> 00:08:20,639
+no se pueden obtener los datos. Si intentan 
+
+224
+00:08:20,639 --> 00:08:23,340
+responder una pregunta simple 
+
+225
+00:08:23,340 --> 00:08:25,500
+como cuántos edificios en 
+
+226
+00:08:25,500 --> 00:08:26,759
+Tennessee conocen, 
+
+227
+00:08:26,759 --> 00:08:29,039
+no tienen idea, pero con esto pueden obtener 
+
+228
+00:08:29,039 --> 00:08:30,599
+los datos, pueden hacer el cálculo, pueden 
+
+229
+00:08:30,599 --> 00:08:32,580
+realizar el análisis o como estaba el 
+
+230
+00:08:32,580 --> 00:08:35,339
+área del edificio en total, por ejemplo. 
+
+231
+00:08:35,339 --> 00:08:37,919
+Si tienen acceso a estos datos configurados y pueden 
+
+232
+00:08:37,919 --> 00:08:40,260
+hacer un análisis real. Google Map, 
+
+233
+00:08:40,260 --> 00:08:42,120
+Google Earth no le permite. 
+
+234
+00:08:42,120 --> 00:08:44,039
+Es solo para visualización.
+
+235
+00:08:44,039 --> 00:08:46,260
+Hay diferencias: código abierto, se pueden 
+
+236
+00:08:46,260 --> 00:08:49,640
+descargar de forma gratuita
+
+237
+00:08:57,480 --> 00:08:59,160
+Si estás trabajando, puedes utilizar 
+
+238
+00:08:59,160 --> 00:09:01,620
+algunas herramientas 
+
+239
+00:09:01,620 --> 00:09:03,779
+para realizar pruebas. Básicamente, 
+
+240
+00:09:03,779 --> 00:09:06,060
+cuando desarrollas un paquete, 
+
+241
+00:09:06,060 --> 00:09:06,600
+puedes hacer 
+
+242
+00:09:06,600 --> 00:09:08,700
+pruebas 
+
+243
+00:09:08,700 --> 00:09:10,380
+manualmente, pero también puedes 
+
+244
+00:09:10,380 --> 00:09:12,600
+escribir un script para que 
+
+245
+00:09:12,600 --> 00:09:14,820
+se ejecuten todas las pruebas automáticamente. 
+
+246
+00:09:14,820 --> 00:09:17,220
+Si algo falla, lo sabrás. Sin embargo, la interfaz 
+
+247
+00:09:17,220 --> 00:09:18,720
+es un poco 
+
+248
+00:09:18,720 --> 00:09:21,180
+más difícil de 
+
+249
+00:09:21,180 --> 00:09:22,500
+automatizar, ya que 
+
+250
+00:09:22,500 --> 00:09:24,060
+cuando tienes una función, 
+
+251
+00:09:24,060 --> 00:09:25,800
+tienes que llamar a la función y necesitas 
+
+252
+00:09:25,800 --> 00:09:27,540
+un script para probarla. 
+
+253
+00:09:27,540 --> 00:09:29,640
+La interfaz es un poco 
+
+254
+00:09:29,640 --> 00:09:31,200
+más difícil de automatizar. Es por eso por lo que para 
+
+255
+00:09:31,200 --> 00:09:32,640
+las pruebas de software se necesitan personas que las usen 
+
+256
+00:09:32,640 --> 00:09:34,620
+manualmente para 
+
+257
+00:09:34,620 --> 00:09:36,180
+detectar problemas. Sin embargo, hay formas
+
+258
+00:09:36,180 --> 00:09:38,760
+de mitigar el problema,
+
+259
+00:09:38,760 --> 00:09:40,320
+y durante el semestre
+
+260
+00:09:40,320 --> 00:09:42,019
+se hablará de cómo hacer pruebas 
+
+261
+00:09:42,019 --> 00:09:44,700
+automatizadas de acuerdo con las funciones 
+
+262
+00:09:44,700 --> 00:09:46,380
+para asegurarnos de que los datos, 
+
+263
+00:09:46,380 --> 00:09:48,000
+por ejemplo, si dicen que estoy intentando construir 
+
+264
+00:09:48,000 --> 00:09:50,339
+un mapa y me dan un archivo de conjunto, ¿cómo puedo asegurarme 
+
+265
+00:09:50,339 --> 00:09:52,620
+de que el servidor que proporcionas es válido? 
+
+266
+00:09:52,620 --> 00:09:55,560
+Puede que hayas proporcionado un archivo CSV o 
+
+267
+00:09:55,560 --> 00:09:57,839
+un archivo GeoJSON, pero esta 
+
+268
+00:09:57,839 --> 00:10:00,300
+función solo puede manejar archivos Shapefiles,
+
+269
+00:10:00,300 --> 00:10:02,040
+por lo que el programa debe ser capaz de hacerlo.
+
+270
+00:10:02,040 --> 00:10:04,860
+En cuanto a la interfaz, 
+
+271
+00:10:04,860 --> 00:10:07,019
+es otra historia. Por ejemplo, 
+
+272
+00:10:07,019 --> 00:10:08,640
+aquí puedo tener un mapa dividido, pero no estoy seguro
+
+273
+00:10:08,640 --> 00:10:10,140
+si este funciona. Si no funciona, 
+
+274
+00:10:10,140 --> 00:10:11,760
+entonces necesito arreglarlo. 
+
+275
+00:10:11,760 --> 00:10:13,800
+Verás, el siguiente paquete hace algunos cambios y 
+
+276
+00:10:13,800 --> 00:10:16,260
+rompe cosas. Ahora mismo, 
+
+277
+00:10:16,260 --> 00:10:17,760
+la barra deslizante debería moverse de izquierda a derecha, 
+
+278
+00:10:17,760 --> 00:10:19,680
+pero no está funcionando correctamente en este momento. 
+
+279
+00:10:19,680 --> 00:10:21,899
+Debería ser capaz de arreglarlo. También puedes elegir 
+
+280
+00:10:21,899 --> 00:10:23,580
+cualquier país, por ejemplo, puedo 
+
+281
+00:10:23,580 --> 00:10:25,140
+cambiar el mapa base si no me gusta el de 
+
+282
+00:10:25,140 --> 00:10:27,000
+satélite, puedo elegir otro. 
+
+283
+00:10:27,000 --> 00:10:28,500
+Estas son cosas que se 
+
+284
+00:10:28,500 --> 00:10:30,839
+pueden hacer con bastante facilidad y, 
+
+285
+00:10:30,839 --> 00:10:33,540
+nuevamente, todo es gratuito y de acceso abierto. 
+
+286
+00:10:33,540 --> 00:10:36,240
+Cualquiera puede usarlo, 
+
+287
+00:10:36,240 --> 00:10:37,740
+no 
+
+288
+00:10:37,740 --> 00:10:40,680
+tienes alojarlo (host) en tu propia computadora. 
+
+289
+00:10:40,680 --> 00:10:42,779
+No estoy seguro si el primero aquí funciona bien. 
+
+290
+00:10:42,779 --> 00:10:44,279
+Esto se llama lapso temporal, 
+
+291
+00:10:44,279 --> 00:10:47,160
+puedes acercarte a cualquier ubicación 
+
+292
+00:10:47,160 --> 00:10:49,260
+y simplemente dibujar un rectángulo 
+
+293
+00:10:49,260 --> 00:10:50,700
+o puedes seleccionar 
+
+294
+00:10:50,700 --> 00:10:53,040
+una muestra, puedo decir que quiero mirar
+
+295
+00:10:53,040 --> 00:10:55,800
+las imágenes de satélite de Hong Kong.
+
+296
+00:10:55,800 --> 00:10:57,899
+Puedes personalizar la
+
+297
+00:10:57,899 --> 00:10:59,820
+animación eligiendo la frecuencia de las imágenes, 
+
+298
+00:10:59,820 --> 00:11:02,220
+ya sea anual, 
+
+299
+00:11:02,220 --> 00:11:04,260
+mensual o trimestral. 
+
+300
+00:11:04,260 --> 00:11:07,440
+Hay muchos 
+
+301
+00:11:07,440 --> 00:11:10,040
+tipos de datos que puedes usar, 
+
+302
+00:11:10,040 --> 00:11:13,980
+como meteorológicos y climáticos. 
+
+303
+00:11:13,980 --> 00:11:16,500
+Una vez que tengas eso.
+
+304
+00:11:16,500 --> 00:11:19,800
+Puedes hacer cambios, 
+
+305
+00:11:19,800 --> 00:11:21,420
+puedes cambiar el color, 
+
+306
+00:11:21,420 --> 00:11:23,940
+puedes cambiar la velocidad, hay muchas 
+
+307
+00:11:23,940 --> 00:11:26,160
+cosas que puedes personalizar y una vez que 
+
+308
+00:11:26,160 --> 00:11:28,980
+lo tienes, probablemente te llevará medio minuto 
+
+309
+00:11:28,980 --> 00:11:31,500
+o de 20 a 30 segundos obtener 
+
+310
+00:11:31,500 --> 00:11:33,180
+la animación. Así que piensas que detrás de la 
+
+311
+00:11:33,180 --> 00:11:35,700
+escena el programa se ha ido en línea. 
+
+312
+00:11:35,700 --> 00:11:39,000
+Lo ves bastante bien, 
+
+313
+00:11:39,000 --> 00:11:40,440
+cada año obtienes 
+
+314
+00:11:40,440 --> 00:11:43,320
+una imagen y puedes mostrar los cambios de nuevo. 
+
+315
+00:11:43,320 --> 00:11:44,519
+No importa dónde esté ubicado, 
+
+316
+00:11:44,519 --> 00:11:45,899
+puedes hacerlo en cualquier lugar, en tu ciudad natal. 
+
+317
+00:11:45,899 --> 00:11:48,420
+Y luego obtienes las 
+
+318
+00:11:48,420 --> 00:11:50,700
+imágenes de configuración cada año, cada mes, cada trimestre, 
+
+319
+00:11:50,700 --> 00:11:52,740
+dependiendo de lo que quieras. 
+
+320
+00:11:52,740 --> 00:11:55,140
+En este caso, es el aeropuerto 
+
+321
+00:11:55,140 --> 00:11:55,860
+internacional 
+
+322
+00:11:55,860 --> 00:11:57,959
+de Hong Kong, por lo que 
+
+323
+00:11:57,959 --> 00:12:00,660
+sabes exactamente qué está sucediendo 
+
+324
+00:12:00,660 --> 00:12:01,800
+en el entorno 
+
+325
+00:12:01,800 --> 00:12:05,040
+para cualquier cosa, puede ser Landsat, 
+
+326
+00:12:05,040 --> 00:12:07,200
+puede ser todo tipo de satélite. 
+
+327
+00:12:07,200 --> 00:12:10,440
+Déjame usar otro ejemplo, 
+
+328
+00:12:10,440 --> 00:12:14,339
+puedo decir el satélite Gold 
+
+329
+00:12:14,339 --> 00:12:16,860
+y tengo algunos ejemplos aquí. 
+
+330
+00:12:16,860 --> 00:12:18,779
+Puedes subir tus propias áreas de interés (ROI) como 
+
+331
+00:12:18,779 --> 00:12:20,160
+GeoJSON y generar visualizaciones 
+
+332
+00:12:20,160 --> 00:12:22,560
+por ejemplo, 
+
+333
+00:12:22,560 --> 00:12:26,540
+la erupción volcánica en esta área 
+
+334
+00:12:27,800 --> 00:12:29,640
+usando Google Assistant
+
+335
+00:12:29,640 --> 00:12:32,100
+en la nube, 
+
+336
+00:12:32,100 --> 00:12:33,660
+también lo cubrimos más adelante. 
+
+337
+00:12:33,660 --> 00:12:36,000
+Ahora solo te muestro algunas de las cosas que puedes hacer 
+
+338
+00:12:36,000 --> 00:12:37,860
+desarrollando paquetes de código abierto y 
+
+339
+00:12:37,860 --> 00:12:41,459
+luego haciéndolos accesibles 
+
+340
+00:12:41,459 --> 00:12:42,959
+para cualquiera. Entonces, la mayoría de los datos están en dominio público, 
+
+341
+00:12:42,959 --> 00:12:45,120
+puedes extraer los datos de allí, 
+
+342
+00:12:45,120 --> 00:12:46,560
+hacer cálculos y generar 
+
+343
+00:12:46,560 --> 00:12:49,019
+alguna visualización usando el
+
+344
+00:12:49,019 --> 00:12:51,660
+software que desarrollas. 
+
+345
+00:12:51,660 --> 00:12:54,779
+Y puede ser accesible para cualquier persona, 
+
+346
+00:12:54,779 --> 00:12:56,339
+por lo que no necesitas realmente escribir código. 
+
+347
+00:12:56,339 --> 00:12:58,620
+Haces la codificación detrás de escena y otras personas 
+
+348
+00:12:58,620 --> 00:13:00,300
+no tienen que hacerlo. Entonces, 
+
+349
+00:13:00,300 --> 00:13:03,600
+el punto es hacerlo más fácil y reducir la 
+
+350
+00:13:03,600 --> 00:13:06,060
+barrera para que cualquiera pueda acceder a esto. Puedes hacerlo en un teléfono 
+
+351
+00:13:06,060 --> 00:13:07,440
+celular, en tu computadora portátil, 
+
+352
+00:13:07,440 --> 00:13:08,760
+no importa. No hay una computadora 
+
+353
+00:13:08,760 --> 00:13:10,680
+detrás de escena ni un servidor que necesites 
+
+354
+00:13:10,680 --> 00:13:13,500
+mantener, y es bastante bueno. Por lo tanto, 
+
+355
+00:13:13,500 --> 00:13:15,480
+va a 
+
+356
+00:13:15,480 --> 00:13:17,519
+hacer 
+
+357
+00:13:17,519 --> 00:13:19,680
+tu vida más fácil si sabes cómo utilizar 
+
+358
+00:13:19,680 --> 00:13:21,480
+esas herramientas de código abierto y cosas gratuitas 
+
+359
+00:13:21,480 --> 00:13:23,279
+para hacerlo más fácil. 
+
+360
+00:13:23,279 --> 00:13:25,980
+Puedes ver la erupción volcánica, creo que fue 
+
+361
+00:13:25,980 --> 00:13:28,500
+el año pasado, con una marca de tiempo 
+
+362
+00:13:28,500 --> 00:13:29,820
+aquí
+
+363
+00:13:29,820 --> 00:13:31,620
+el 15 de enero. 
+
+364
+00:13:31,620 --> 00:13:33,720
+Fue bastante dramático, por lo que puede ser 
+
+365
+00:13:33,720 --> 00:13:35,820
+el clima y lo que sea. 
+
+366
+00:13:35,820 --> 00:13:37,920
+Estos datos son todos del 
+
+367
+00:13:37,920 --> 00:13:40,740
+dominio público. Todos ustedes 
+
+368
+00:13:40,740 --> 00:13:43,079
+lo pagaron como contribuyentes, pero probablemente nunca lo usaron. 
+
+369
+00:13:43,079 --> 00:13:45,420
+Viene de la NASA, de la Agencia Espacial Europea 
+
+370
+00:13:45,420 --> 00:13:47,880
+y todo tipo de cosas. 
+
+371
+00:13:47,880 --> 00:13:49,440
+Y ahora, si sabes cómo acceder a ello, 
+
+372
+00:13:49,440 --> 00:13:53,160
+realmente puedes hacer cosas interesantes con esos datos.
+
+373
+00:13:53,160 --> 00:13:55,019
+Esas son algunas de las cosas
+
+374
+00:13:55,019 --> 00:13:56,399
+que quiero demostrarte. Eres 
+
+375
+00:13:56,399 --> 00:13:58,500
+bienvenido a explorar, te mostraré más 
+
+376
+00:13:58,500 --> 00:14:01,139
+ejemplos más tarde. Por ahora, solo estoy haciendo 
+
+377
+00:14:01,139 --> 00:14:03,240
+una impresión visual de qué 
+
+378
+00:14:03,240 --> 00:14:05,940
+tipo de cosas puedes hacer con eso, 
+
+379
+00:14:05,940 --> 00:14:08,820
+si quieres seguir adelante. Pero vamos 
+
+380
+00:14:08,820 --> 00:14:11,100
+a cubrir algunos de los 
+
+381
+00:14:11,100 --> 00:14:13,500
+paquetes de código abierto muy populares 
+
+382
+00:14:13,500 --> 00:14:15,839
+y cómo se pueden construir sobre ellos para que puedas proporcionar 
+
+383
+00:14:15,839 --> 00:14:18,540
+alguna interfaz, puedes proporcionar algunas funciones. 
+
+384
+00:14:18,540 --> 00:14:20,339
+Recuerda
+
+385
+00:14:20,339 --> 00:14:22,079
+si has tomado algún curso de SIG o de Teledetección. 
+
+386
+00:14:22,079 --> 00:14:23,339
+piensa en la experiencia
+
+387
+00:14:23,339 --> 00:14:24,839
+usando una interfaz
+
+388
+00:14:24,839 --> 00:14:28,680
+No es muy conveniente, es lento. 
+
+389
+00:14:28,680 --> 00:14:31,320
+Trae tus ideas y piensa en cómo 
+
+390
+00:14:31,320 --> 00:14:33,480
+podemos hacerlo más rápido y automatizarlo.
+
+391
+00:14:33,480 --> 00:14:34,500
+Ese es el objetivo, necesitas tener 
+
+392
+00:14:34,500 --> 00:14:37,019
+algo que en el pasado pensabas: 
+
+393
+00:14:37,019 --> 00:14:38,700
+'realmente deseo que pudiera 
+
+394
+00:14:38,700 --> 00:14:39,959
+haber una mejor manera de hacer esto'. 
+
+395
+00:14:39,959 --> 00:14:42,420
+Puedo decirte que siempre hay algo 
+
+396
+00:14:42,420 --> 00:14:43,980
+que puede ayudarte a hacerlo más eficiente. 
+
+397
+00:14:43,980 --> 00:14:46,079
+Solo necesitas encontrar la manera correcta, 
+
+398
+00:14:46,079 --> 00:14:47,279
+el paquete y 
+
+399
+00:14:47,279 --> 00:14:51,120
+la mentalidad correctos para hacerlo. 
+
+400
+00:14:51,120 --> 00:14:53,459
+Y bien, hay una mención acerca 
+
+401
+00:14:53,459 --> 00:14:56,220
+del plan de estudios y 
+
+402
+00:14:56,220 --> 00:14:58,560
+el horario. También puedes mirar 
+
+403
+00:14:58,560 --> 00:15:00,240
+el plan de estudios, ya cubrimos algunos de ellos 
+
+404
+00:15:00,240 --> 00:15:02,519
+la última vez. Déjame ir rápidamente aquí.
+
+405
+00:15:02,519 --> 00:15:04,399
+Tenemos 
+
+406
+00:15:04,399 --> 00:15:07,760
+algunas
+
+407
+00:15:09,420 --> 00:15:11,579
+Herramientas. Eres bienvenido 
+
+408
+00:15:11,579 --> 00:15:13,740
+a recomendar herramientas si ves 
+
+409
+00:15:13,740 --> 00:15:15,959
+algo que parece muy genial, muy bueno, y 
+
+410
+00:15:15,959 --> 00:15:18,120
+quieres integrar Python con 
+
+411
+00:15:18,120 --> 00:15:20,160
+algunos otros paquetes, avísame, podría 
+
+412
+00:15:20,160 --> 00:15:21,240
+ser capaz de 
+
+413
+00:15:21,240 --> 00:15:23,639
+incorporarlo en la clase. Así que 
+
+414
+00:15:23,639 --> 00:15:26,399
+quiero enseñar lo último. Este curso 
+
+415
+00:15:26,399 --> 00:15:27,959
+no está enseñando algo 
+
+416
+00:15:27,959 --> 00:15:30,480
+desactualizado, como siempre el mismo contenido 
+
+417
+00:15:30,480 --> 00:15:32,519
+cada año durante 10 años. 
+
+418
+00:15:32,519 --> 00:15:34,500
+No, se actualiza prácticamente 
+
+419
+00:15:34,500 --> 00:15:37,019
+cada par de meses, al menos. Así que todos 
+
+420
+00:15:37,019 --> 00:15:38,220
+los días habrá nuevos paquetes 
+
+421
+00:15:38,220 --> 00:15:40,139
+saliendo y si desarrollas algo 
+
+422
+00:15:40,139 --> 00:15:41,760
+realmente genial, podría ser capaz de integrarlo 
+
+423
+00:15:41,760 --> 00:15:44,040
+y luego TC la próxima vez que esté
+
+424
+00:15:44,040 --> 00:15:46,320
+y enseñarlo en la próxima ocasión. 
+
+425
+00:15:46,320 --> 00:15:50,040
+En cuanto a las tareas, tenemos 
+
+426
+00:15:50,040 --> 00:15:51,660
+aproximadamente una 
+
+427
+00:15:51,660 --> 00:15:54,360
+tarea semanal, y todas las tareas 
+
+428
+00:15:54,360 --> 00:15:57,079
+de laboratorio se presentarán en el campus, 
+
+429
+00:15:57,079 --> 00:15:59,399
+y como mencioné, solo 
+
+430
+00:15:59,399 --> 00:16:01,560
+se presentará un enlace, solo tienes que enviar una URL. 
+
+431
+00:16:01,560 --> 00:16:03,120
+Vas a alojar tu trabajo en 
+
+432
+00:16:03,120 --> 00:16:05,880
+GitHub. Y también a través de la 
+
+433
+00:16:05,880 --> 00:16:08,220
+discusión del campus, quiero que 
+
+434
+00:16:08,220 --> 00:16:10,139
+todos vean lo que las demás personas están construyendo 
+
+435
+00:16:10,139 --> 00:16:11,339
+para que puedan ver el enlace, puedan revisar el trabajo 
+
+436
+00:16:11,339 --> 00:16:13,199
+de los demás y hablar entre sí para 
+
+437
+00:16:13,199 --> 00:16:15,019
+tratar de ver cómo pueden 
+
+438
+00:16:15,019 --> 00:16:17,399
+idear algunas ideas.
+
+439
+00:16:17,399 --> 00:16:21,120
+El examen parcial y el proyecto final, 
+
+440
+00:16:21,120 --> 00:16:23,220
+básicamente solo agrega algo a eso y 
+
+441
+00:16:23,220 --> 00:16:24,839
+el proyecto final es tu 
+
+442
+00:16:24,839 --> 00:16:27,360
+producto final, cuál es tu sitio web del paquete, 
+
+443
+00:16:27,360 --> 00:16:30,060
+tu representación, algo así. Tendremos 
+
+444
+00:16:30,060 --> 00:16:31,800
+más información una vez que tengamos 
+
+445
+00:16:31,800 --> 00:16:33,720
+eso y el examen final será 
+
+446
+00:16:33,720 --> 00:16:35,459
+muy similar, básicamente es 
+
+447
+00:16:35,459 --> 00:16:37,920
+similar a todas las tareas de laboratorio, 
+
+448
+00:16:37,920 --> 00:16:39,480
+si te pido que hagas algo, por ejemplo, agregar 
+
+449
+00:16:39,480 --> 00:16:41,699
+una funcionalidad, 
+
+450
+00:16:41,699 --> 00:16:43,500
+si has pasado por 
+
+451
+00:16:43,500 --> 00:16:46,199
+todas las tareas de laboratorio, deberías ser 
+
+452
+00:16:46,199 --> 00:16:48,000
+capaz de hacerlo.
+
+453
+00:16:48,000 --> 00:16:50,399
+Y eres bienvenido a 
+
+454
+00:16:50,399 --> 00:16:53,220
+buscar ayuda en línea para resolver el 
+
+455
+00:16:53,220 --> 00:16:56,339
+problema por ti mismo, pero trata de no 
+
+456
+00:16:56,339 --> 00:16:57,779
+copiar las mismas cosas de tus 
+
+457
+00:16:57,779 --> 00:16:59,880
+compañeros de clase. Puedes buscar en Google en internet, 
+
+458
+00:16:59,880 --> 00:17:02,100
+eso está bien, pero no copies de tus compañeros de clase. 
+
+459
+00:17:02,100 --> 00:17:04,020
+Puedes ver, 
+
+460
+00:17:04,020 --> 00:17:05,119
+puedes revisar, 
+
+461
+00:17:05,119 --> 00:17:07,799
+pero la idea principal es que no hagas trampa.
+
+462
+00:17:07,799 --> 00:17:11,339
+Este curso no es realmente 
+
+463
+00:17:11,339 --> 00:17:13,140
+difícil porque si dedicas algo de tiempo, 
+
+464
+00:17:13,140 --> 00:17:14,640
+podrás resolverlo y puedes obtener 
+
+465
+00:17:14,640 --> 00:17:17,099
+ayuda de mí, pero nunca copies algo de 
+
+466
+00:17:17,099 --> 00:17:20,040
+tus compañeros de clase, 
+
+467
+00:17:20,040 --> 00:17:23,640
+eso no te ayudará. En el pasado, ha sucedido que 
+
+468
+00:17:23,640 --> 00:17:25,740
+las personas copian el trabajo de otros 
+
+469
+00:17:25,740 --> 00:17:27,660
+y luego, incluso 
+
+470
+00:17:27,660 --> 00:17:30,179
+sin cambiar el nombre de usuario, 
+
+471
+00:17:30,179 --> 00:17:31,679
+envían el trabajo de su compañero de clase. 
+
+472
+00:17:31,679 --> 00:17:33,780
+Puedo ver el nombre en tu envío y eso es realmente 
+
+473
+00:17:33,780 --> 00:17:36,059
+estúpido, así que no lo hagas. Si necesitas ayuda, 
+
+474
+00:17:36,059 --> 00:17:38,520
+Avísame de una extensión, 
+
+475
+00:17:38,520 --> 00:17:40,440
+pero no hagas 
+
+476
+00:17:40,440 --> 00:17:42,780
+algo que no se supone que debas hacer. 
+
+477
+00:17:42,780 --> 00:17:45,360
+No tiene sentido porque al 
+
+478
+00:17:45,360 --> 00:17:46,740
+final del semestre todos podrán ver 
+
+479
+00:17:46,740 --> 00:17:49,080
+algo único, no estás tratando de 
+
+480
+00:17:49,080 --> 00:17:50,760
+construir algo que sea todo igual 
+
+481
+00:17:50,760 --> 00:17:53,039
+porque tienes tus propias ideas. Te ayudo 
+
+482
+00:17:53,039 --> 00:17:55,740
+a implementarlas, está bien. 
+
+483
+00:17:55,740 --> 00:17:57,059
+Así que 
+
+484
+00:17:57,059 --> 00:17:59,280
+no toques el fuego, de lo contrario 
+
+485
+00:17:59,280 --> 00:18:02,460
+obtendrás cero, está bien, y no será divertido. 
+
+486
+00:18:02,460 --> 00:18:03,419
+En cuanto 
+
+487
+00:18:03,419 --> 00:18:05,400
+a la escala de calificación, 
+
+488
+00:18:05,400 --> 00:18:08,059
+es bastante similar a otros cursos, pero 
+
+489
+00:18:08,059 --> 00:18:10,740
+como dije, al final del semestre 
+
+490
+00:18:10,740 --> 00:18:13,860
+generalmente subo una o dos notas, 
+
+491
+00:18:13,860 --> 00:18:16,080
+pero si ya tienes un ocho, 
+
+492
+00:18:16,080 --> 00:18:19,140
+puedes obtener un A y más. 
+
+493
+00:18:19,140 --> 00:18:21,240
+Pero no te preocupes demasiado por la calificación, 
+
+494
+00:18:21,240 --> 00:18:22,340
+si dedicas tiempo, 
+
+495
+00:18:22,340 --> 00:18:26,100
+nunca he reprobado a nadie en mi curso, 
+
+496
+00:18:26,100 --> 00:18:27,900
+excepto aquellos que nunca se presentan a clase, 
+
+497
+00:18:27,900 --> 00:18:30,600
+entonces no tengo otra opción. Pero si haces el 
+
+498
+00:18:30,600 --> 00:18:33,059
+trabajo, si estás luchando, avísame, 
+
+499
+00:18:33,059 --> 00:18:34,799
+pero no esperes hasta el final del semestre, 
+
+500
+00:18:34,799 --> 00:18:37,679
+no hay mucho que puedas hacer, y no 
+
+501
+00:18:37,679 --> 00:18:40,320
+ofrezco trabajo adicional, está bien. 
+
+502
+00:18:40,320 --> 00:18:41,880
+Si obtienes lo que obtienes, si no haces el trabajo, 
+
+503
+00:18:41,880 --> 00:18:44,179
+no lo obtendrás. Necesito ser justo con todos. 
+
+504
+00:18:44,179 --> 00:18:47,580
+Si ofrezco la oportunidad a alguien, 
+
+505
+00:18:47,580 --> 00:18:49,740
+tiene que estar 
+
+506
+00:18:49,740 --> 00:18:51,660
+disponible para que todos 
+
+507
+00:18:51,660 --> 00:18:53,820
+puedan tomarla, así que no 
+
+508
+00:18:53,820 --> 00:18:57,299
+ofreceré crédito individual a nadie. 
+
+509
+00:18:57,299 --> 00:18:58,500
+Todos podrán hacer 
+
+510
+00:18:58,500 --> 00:18:59,820
+lo mismo y eso es todo. 
+
+511
+00:18:59,820 --> 00:19:02,580
+En cuanto 
+
+512
+00:19:02,580 --> 00:19:04,799
+a los exámenes, 
+
+513
+00:19:04,799 --> 00:19:07,260
+no tenemos 
+
+514
+00:19:07,260 --> 00:19:10,500
+cuestionarios, pero si necesitas tomar el 
+
+515
+00:19:10,500 --> 00:19:12,600
+examen antes o después, avísame y 
+
+516
+00:19:12,600 --> 00:19:13,820
+podré 
+
+517
+00:19:13,820 --> 00:19:17,160
+acomodar tu solicitud. Soy 
+
+518
+00:19:17,160 --> 00:19:18,960
+flexible en las tareas del laboratorio, 
+
+519
+00:19:18,960 --> 00:19:21,179
+como dije, generalmente las publico 
+
+520
+00:19:21,179 --> 00:19:24,000
+hasta el jueves 
+
+521
+00:19:24,000 --> 00:19:25,500
+y tienes una semana 
+
+522
+00:19:25,500 --> 00:19:27,900
+(hasta el próximo miércoles) para hacerlas, pero 
+
+523
+00:19:27,900 --> 00:19:31,080
+si necesitas tiempo, avísame. 
+
+524
+00:19:31,080 --> 00:19:33,240
+No te quedes despierto toda la noche haciendo la tarea 
+
+525
+00:19:33,240 --> 00:19:37,080
+y no hay necesidad de hacerlo si estás 
+
+526
+00:19:37,080 --> 00:19:39,299
+enfermo 
+
+527
+00:19:39,299 --> 00:19:41,400
+quédate en casa, ¿de acuerdo? 
+
+528
+00:19:41,400 --> 00:19:43,559
+Puedes ver el video que estoy 
+
+529
+00:19:43,559 --> 00:19:45,000
+enseñando aquí, también tienes un video de 
+
+530
+00:19:45,000 --> 00:19:47,580
+hace dos años, así que no hay forma de que 
+
+531
+00:19:47,580 --> 00:19:49,740
+pagues este curso si quieres 
+
+532
+00:19:49,740 --> 00:19:51,120
+ahorrar tiempo. 
+
+533
+00:19:51,120 --> 00:19:55,340
+Intenta mantenerte saludable y, 
+
+534
+00:19:56,220 --> 00:19:58,380
+sí, eso es todo sobre el programa. 
+
+535
+00:19:58,380 --> 00:20:00,679
+¿Algún pregunta? 
+
+536
+00:20:01,740 --> 00:20:05,100
+Si no, vuelve al 
+
+537
+00:20:05,100 --> 00:20:07,260
+sitio web del curso y terminamos el horario adecuado. 
+
+538
+00:20:07,260 --> 00:20:10,080
+Las clases estarán aquí, 
+
+539
+00:20:10,080 --> 00:20:13,200
+las asignaciones se publicarán aquí, así que verifica 
+
+540
+00:20:13,200 --> 00:20:14,640
+las instrucciones y habrá un 
+
+541
+00:20:14,640 --> 00:20:16,620
+Documento de Google aquí. "laboratorio uno" 
+
+542
+00:20:16,620 --> 00:20:18,960
+y luego tendré una breve instrucción aquí. 
+
+543
+00:20:18,960 --> 00:20:20,820
+Todas las asignaciones de laboratorio van a ser 
+
+544
+00:20:20,820 --> 00:20:22,740
+muy breves, solo agrega algo a 
+
+545
+00:20:22,740 --> 00:20:25,440
+tus paquetes. Te enseñaré cómo construir 
+
+546
+00:20:25,440 --> 00:20:27,360
+el paquete, lo puedes hacer 
+
+547
+00:20:27,360 --> 00:20:29,880
+en el dormitorio, 
+
+548
+00:20:29,880 --> 00:20:31,440
+la cocina o 
+
+549
+00:20:31,440 --> 00:20:32,820
+la sala de estar. Puedes agregar cualquier 
+
+550
+00:20:32,820 --> 00:20:34,559
+función que quieras y, paso 
+
+551
+00:20:34,559 --> 00:20:36,299
+a paso, tendré todas las 
+
+552
+00:20:36,299 --> 00:20:38,580
+asignaciones de laboratorio aquí. Luego 
+
+553
+00:20:38,580 --> 00:20:40,620
+solo envía el 
+
+554
+00:20:40,620 --> 00:20:43,760
+URL donde puedo ver tu trabajo.
+
+555
+00:20:43,760 --> 00:20:48,179
+Eso es todo sobre los recursos. 
+
+556
+00:20:48,179 --> 00:20:49,860
+Aquí hay algunas cosas que cubriremos 
+
+557
+00:20:49,860 --> 00:20:52,200
+más adelante en este curso. Te 
+
+558
+00:20:52,200 --> 00:20:54,720
+enseñaré cómo bloquear algunos de los comandos. 
+
+559
+00:20:54,720 --> 00:20:56,480
+No te sientas intimidado, 
+
+560
+00:20:56,480 --> 00:20:59,039
+codifico todos los días y solo hay 
+
+561
+00:20:59,039 --> 00:21:01,260
+cuatro o cinco comandos que debo 
+
+562
+00:21:01,260 --> 00:21:03,419
+recordar y es muy corto. Una vez que 
+
+563
+00:21:03,419 --> 00:21:05,880
+te acostumbras, es muy intuitivo, 
+
+564
+00:21:05,880 --> 00:21:10,860
+no necesitas memorizar nada. 
+
+565
+00:21:10,860 --> 00:21:13,559
+Como mencioné, este curso básicamente, si 
+
+566
+00:21:13,559 --> 00:21:14,760
+realmente quieres aprender, puedes aprender 
+
+567
+00:21:14,760 --> 00:21:16,500
+todas las cosas en línea. Puedes 
+
+568
+00:21:16,500 --> 00:21:19,260
+tener tiempo para descubrirlo, pero 
+
+569
+00:21:19,260 --> 00:21:20,820
+el punto de tomar este curso es que 
+
+570
+00:21:20,820 --> 00:21:22,559
+te mostraré los atajos, algunos de 
+
+571
+00:21:22,559 --> 00:21:24,000
+las mejores prácticas para que puedas 
+
+572
+00:21:24,000 --> 00:21:26,880
+hacer las cosas más rápidamente. 
+
+573
+00:21:26,880 --> 00:21:29,039
+Una vez que alcances cierto nivel, puedes 
+
+574
+00:21:29,039 --> 00:21:31,679
+aprender muchas cosas en línea 
+
+575
+00:21:31,679 --> 00:21:33,659
+cuando tengas tiempo. Tenemos apartados de Google Collab y 
+
+576
+00:21:33,659 --> 00:21:35,940
+Visual Studio Code, luego 
+
+577
+00:21:35,940 --> 00:21:37,620
+instalaremos todos los paquetes que necesitamos 
+
+578
+00:21:37,620 --> 00:21:39,240
+paso a paso,
+
+579
+00:21:39,240 --> 00:21:41,580
+puedes revisar algunas 
+
+580
+00:21:41,580 --> 00:21:44,640
+cosas aquí y los libros. 
+
+581
+00:21:44,640 --> 00:21:45,840
+Realmente no necesitas leer los libros, pero 
+
+582
+00:21:45,840 --> 00:21:48,960
+si quieres, también incluí un curso intensivo de Python. 
+
+583
+00:21:48,960 --> 00:21:51,360
+Este es el libro que uso 
+
+584
+00:21:51,360 --> 00:21:55,440
+para mi Programación de SIG. 
+
+585
+00:21:55,440 --> 00:21:56,940
+Aprenderás la página, 
+
+586
+00:21:56,940 --> 00:21:58,980
+si quieres aprender más, puedes hacerlo, pero cubrimos 
+
+587
+00:21:58,980 --> 00:22:02,220
+los conceptos básicos en las próximas semanas. 
+
+588
+00:22:02,220 --> 00:22:04,860
+Solo asegúrate de conocer la sintaxis del 
+
+589
+00:22:04,860 --> 00:22:07,260
+lenguaje de Python. Si ya conoces 
+
+590
+00:22:07,260 --> 00:22:11,100
+otros lenguajes, es bastante fácil, 
+
+591
+00:22:11,100 --> 00:22:13,919
+creo que Python es el más fácil para 
+
+592
+00:22:13,919 --> 00:22:16,520
+comenzar y también algunos atajos de teclado. 
+
+593
+00:22:16,520 --> 00:22:21,260
+¿Cuántos de ustedes usan una computadora Mac? 
+
+594
+00:22:21,440 --> 00:22:24,840
+Uno, dos, tres. ¿Computadora Windows? 
+
+595
+00:22:24,840 --> 00:22:28,020
+Okay, la mayoría. ¿Computadora Linux? 
+
+596
+00:22:28,020 --> 00:22:29,159
+No, 
+
+597
+00:22:29,159 --> 00:22:32,520
+bueno, genial. Sí, uso Linux prácticamente 
+
+598
+00:22:32,520 --> 00:22:34,799
+para todo mi trabajo, pero para enseñar, 
+
+599
+00:22:34,799 --> 00:22:40,200
+porque Panopto no está disponible, 
+
+600
+00:22:40,440 --> 00:22:42,360
+haz lo posible para saber cómo usar la 
+
+601
+00:22:42,360 --> 00:22:43,860
+línea de comandos, hará tu 
+
+602
+00:22:43,860 --> 00:22:47,340
+vida mucho más eficiente y todo es de 
+
+603
+00:22:47,340 --> 00:22:49,440
+código abierto, es gratis y no necesitas 
+
+604
+00:22:49,440 --> 00:22:51,299
+preocuparte por actualizar tu 
+
+605
+00:22:51,299 --> 00:22:54,179
+software como Windows, a veces 
+
+606
+00:22:54,179 --> 00:22:56,700
+actualizar no es divertido. Pero de todos modos, no estoy 
+
+607
+00:22:56,700 --> 00:22:58,620
+tratando de vender Linux, 
+
+608
+00:22:58,620 --> 00:23:00,260
+solo te digo que 
+
+609
+00:23:00,260 --> 00:23:03,020
+una vez que te acostumbras a un software específico, lo conoces de 
+
+610
+00:23:03,020 --> 00:23:07,140
+adentro hacia afuera y sabes cómo hacer 
+
+611
+00:23:07,140 --> 00:23:09,659
+el trabajo rápidamente. Así que este es 
+
+612
+00:23:09,659 --> 00:23:11,460
+el que se usará aquí y los tres como atajos de teclado, 
+
+613
+00:23:11,460 --> 00:23:14,100
+lo que sea que ambos usen. 
+
+614
+00:23:14,100 --> 00:23:15,539
+Básicamente, usarás Visual Studio Code, 
+
+615
+00:23:15,539 --> 00:23:18,720
+así que por favor asegúrate de tenerlo instalado en todas partes 
+
+616
+00:23:18,720 --> 00:23:20,640
+para tener el curso correcto. Visual Studio Code 
+
+617
+00:23:20,640 --> 00:23:24,059
+es el editor de texto número uno, 
+
+618
+00:23:24,059 --> 00:23:26,220
+y no es necesario que sea solo para programación, 
+
+619
+00:23:26,220 --> 00:23:27,960
+puedes escribir cualquier cosa en Markdown, 
+
+620
+00:23:27,960 --> 00:23:31,500
+puedes ejecutar Python, R, C ++ y 
+
+621
+00:23:31,500 --> 00:23:33,659
+todos los lenguajes. 
+
+622
+00:23:33,659 --> 00:23:34,760
+Es el IDE más popular 
+
+623
+00:23:34,760 --> 00:23:38,340
+en la actualidad. 
+
+624
+00:23:38,340 --> 00:23:40,860
+No usamos realmente ArcGIS (ArcGIS Pro), 
+
+625
+00:23:40,860 --> 00:23:42,659
+pero eres bienvenido si quieres usarlo,
+
+626
+00:23:42,659 --> 00:23:45,240
+También QGIS.
+
+627
+00:23:45,240 --> 00:23:47,760
+Estos son algunos de los programas 
+
+628
+00:23:47,760 --> 00:23:49,500
+de escritorio y Google Drive para escritorio, 
+
+629
+00:23:49,500 --> 00:23:52,140
+Visual Studio Code, Git y 
+
+630
+00:23:52,140 --> 00:23:55,740
+Miniconda, estos son los cuatro 
+
+631
+00:23:55,740 --> 00:23:59,179
+paquetes de software que se van a usar. 
+
+632
+00:23:59,700 --> 00:24:01,080
+Te mostraré paso a paso 
+
+633
+00:24:01,080 --> 00:24:04,140
+cómo instalarlos. 
+
+634
+00:24:04,140 --> 00:24:06,419
+Este primero no es realmente necesario, pero 
+
+635
+00:24:06,419 --> 00:24:08,280
+hace que sea más fácil acceder al 
+
+636
+00:24:08,280 --> 00:24:10,919
+contenido de este curso. ¿Cuántos de ustedes 
+
+637
+00:24:10,919 --> 00:24:13,679
+lo han usado antes? Bueno, algunos de ustedes. 
+
+638
+00:24:13,679 --> 00:24:17,280
+Solo bájalo y también 
+
+639
+00:24:17,280 --> 00:24:18,780
+está en Google Drive. 
+
+640
+00:24:18,780 --> 00:24:20,039
+haga clic en la unidad de Google
+
+641
+00:24:20,039 --> 00:24:22,260
+te lleva a aquí.
+
+642
+00:24:22,260 --> 00:24:25,080
+Si haces clic en "Software", todo estará ahí. 
+
+643
+00:24:25,080 --> 00:24:27,960
+Ya descargué todos los 
+
+644
+00:24:27,960 --> 00:24:32,299
+paquetes de instalación, dependiendo 
+
+645
+00:24:32,700 --> 00:24:35,340
+del sistema operativo, tengo Windows 
+
+646
+00:24:35,340 --> 00:24:37,260
+y Mac, 
+
+647
+00:24:37,260 --> 00:24:39,059
+así que probablemente querrás instalar 
+
+648
+00:24:39,059 --> 00:24:42,360
+esto primero. Una vez 
+
+649
+00:24:42,360 --> 00:24:45,919
+que instales 
+
+650
+00:24:48,059 --> 00:24:50,039
+el paquete, 
+
+651
+00:24:50,039 --> 00:24:51,840
+aparecerá como 
+
+652
+00:24:51,840 --> 00:24:53,340
+Google Drive en tu 
+
+653
+00:24:53,340 --> 00:24:55,980
+computadora y de esa manera 
+
+654
+00:24:55,980 --> 00:24:57,480
+no necesitas usar el navegador 
+
+655
+00:24:57,480 --> 00:24:58,980
+cada vez para ver el contenido, 
+
+656
+00:24:58,980 --> 00:25:01,740
+puedes verlo desde aquí. 
+
+657
+00:25:01,740 --> 00:25:02,940
+Básicamente, 
+
+658
+00:25:02,940 --> 00:25:05,159
+en tu computadora 
+
+659
+00:25:05,159 --> 00:25:06,840
+puedes ubicar los archivos en Google Drive. 
+
+660
+00:25:06,840 --> 00:25:09,059
+Google Drive (G:), luego,
+
+661
+00:25:09,059 --> 00:25:10,620
+Shared drives, luego, GEOG-510
+
+662
+00:25:10,620 --> 00:25:12,059
+así que todo el contenido va a hacer aquí
+
+663
+00:25:12,059 --> 00:25:15,179
+así que básicamente es un explorador de archivos en 
+
+664
+00:25:15,179 --> 00:25:17,760
+tu computadora para localizar los archivos en
+
+665
+00:25:17,760 --> 00:25:19,500
+Google Drive para que pueda ver, por ejemplo,
+
+666
+00:25:19,500 --> 00:25:21,720
+Los softwares como lo puedes
+
+667
+00:25:21,720 --> 00:25:24,299
+en la
+
+668
+00:25:24,299 --> 00:25:27,480
+en la web
+
+669
+00:25:27,480 --> 00:25:30,059
+probablemente sea más fácil 
+
+670
+00:25:30,059 --> 00:25:31,500
+si quieres
+
+671
+00:25:31,500 --> 00:25:33,600
+descargar estos archivos simplemente puede
+
+672
+00:25:33,600 --> 00:25:35,760
+puede abrirlo directamente o puede simplemente
+
+673
+00:25:35,760 --> 00:25:38,220
+copiar este archivo 
+
+674
+00:25:38,220 --> 00:25:41,220
+en tu
+
+675
+00:25:41,279 --> 00:25:44,880
+computadora
+
+676
+00:25:44,880 --> 00:25:47,880
+básicamente sería una descarga
+
+677
+00:25:47,880 --> 00:25:49,799
+de Google Drive, por lo general es mucho
+
+678
+00:25:49,799 --> 00:25:52,200
+más rápido en comparación
+
+679
+00:25:52,200 --> 00:25:53,580
+desde Google Drive, porque a veces necesitas
+
+680
+00:25:53,580 --> 00:25:55,799
+descomprimir y revisar si tiene virus
+
+681
+00:25:55,799 --> 00:25:58,500
+y toma un tiempo así que este es mejor
+
+682
+00:25:58,500 --> 00:26:00,419
+pero depende de internet es
+
+683
+00:26:00,419 --> 00:26:03,299
+básicamente voy a copiar el archivo
+
+684
+00:26:03,299 --> 00:26:06,659
+de Google Drive a tu computadora para que
+
+685
+00:26:06,659 --> 00:26:09,600
+lo que quieres hacer. Déjame mostrarte
+
+686
+00:26:09,600 --> 00:26:11,520
+una 
+
+687
+00:26:11,520 --> 00:26:13,980
+vez 
+
+688
+00:26:13,980 --> 00:26:15,360
+más, mira aquí.
+
+689
+00:26:15,360 --> 00:26:17,100
+GEOG-510
+
+690
+00:26:17,100 --> 00:26:19,679
+Puedes hacer una
+
+691
+00:26:19,679 --> 00:26:21,960
+copia de todo el directorio, pero
+
+692
+00:26:21,960 --> 00:26:24,059
+depende de si tienes
+
+693
+00:26:24,059 --> 00:26:29,039
+Mac o Windows.
+
+694
+00:26:29,039 --> 00:26:30,360
+      Aunque los paquetes
+
+695
+00:26:30,360 --> 00:26:32,820
+de aquí son solo para 
+
+696
+00:26:32,820 --> 00:26:35,279
+instalación de Windows, si estás usando Mac
+
+697
+00:26:35,279 --> 00:26:37,260
+consulte el sitio web,
+
+698
+00:26:37,260 --> 00:26:43,740
+como dije, aquí les muestro los
+
+699
+00:26:43,740 --> 00:26:46,440
+enlaces donde puede descargarlos
+
+700
+00:26:46,440 --> 00:26:49,860
+si es necesario, así que vamos
+
+701
+00:26:49,860 --> 00:26:52,559
+Vamos a instalar el Google Drive para 
+
+702
+00:26:52,559 --> 00:26:55,320
+escritorio y luego Visual Studio Code, Git y 
+
+703
+00:26:55,320 --> 00:26:58,500
+Miniconda. 
+
+704
+00:26:58,500 --> 00:27:00,419
+Si ya has instalado el paquete 
+
+705
+00:27:00,419 --> 00:27:02,520
+antes, está bien, no necesitas hacerlo 
+
+706
+00:27:02,520 --> 00:27:04,740
+de nuevo, pero hay alguna configuración 
+
+707
+00:27:04,740 --> 00:27:07,320
+que debe hacerse antes 
+
+708
+00:27:07,320 --> 00:27:09,000
+de poder programar. 
+
+709
+00:27:09,000 --> 00:27:13,940
+Déjame ver el primero aquí
+
+710
+00:27:14,159 --> 00:27:17,100
+Voy a copiar Git que sería más
+
+711
+00:27:17,100 --> 00:27:19,080
+fácil descargarlo así que
+
+712
+00:27:19,080 --> 00:27:20,580
+de internet.
+
+713
+00:27:20,580 --> 00:27:22,460
+Copio esto
+
+714
+00:27:22,460 --> 00:27:26,720
+en una nueva pestaña, aquí,
+
+715
+00:27:30,799 --> 00:27:34,080
+y el siguiente
+
+716
+00:27:34,080 --> 00:27:36,480
+será Visual Studio Code
+
+717
+00:27:36,480 --> 00:27:38,460
+y Miniconda, así para cada
+
+718
+00:27:38,460 --> 00:27:41,340
+uno, así se tiene para Mac (.zip) y el .exe
+
+719
+00:27:41,340 --> 00:27:44,100
+para Windows
+
+720
+00:27:44,100 --> 00:27:48,120
+Y así
+
+721
+00:27:48,120 --> 00:27:50,539
+así se 
+
+722
+00:27:54,240 --> 00:27:56,220
+va 
+
+723
+00:27:56,220 --> 00:27:58,580
+Copiando
+
+724
+00:28:01,020 --> 00:28:04,080
+todos esos paquetes deberían estar
+
+725
+00:28:04,080 --> 00:28:05,520
+instaladas en las computadoras del laboratorio
+
+726
+00:28:05,520 --> 00:28:07,860
+por lo general excepto la primera (Google Drive)
+
+727
+00:28:07,860 --> 00:28:10,620
+tendremos Visual Studio y miniconda
+
+728
+00:28:10,620 --> 00:28:13,679
+(o tal vez Anaconda) son buenas ambas.
+
+729
+00:28:13,679 --> 00:28:15,480
+Te voy a mostrar el
+
+730
+00:28:15,480 --> 00:28:18,179
+Diferencias, más tarde, pero deberían tener
+
+731
+00:28:18,179 --> 00:28:21,120
+configurado
+
+732
+00:28:21,120 --> 00:28:23,900
+También miniconda.
+
+733
+00:28:24,179 --> 00:28:27,020
+Puedes ver
+
+734
+00:28:27,059 --> 00:28:29,100
+estos cuatro paquetes que
+
+735
+00:28:29,100 --> 00:28:32,760
+necesitas y entonces
+
+736
+00:28:32,760 --> 00:28:34,919
+secuencia recomendada Google Drive primero
+
+737
+00:28:34,919 --> 00:28:38,279
+y luego Visual Studio, y luego
+
+738
+00:28:38,279 --> 00:28:42,299
+Git y luego Miniconda, Git te
+
+739
+00:28:42,299 --> 00:28:44,340
+pedirá que elejir un editor predeterminado
+
+740
+00:28:44,340 --> 00:28:46,260
+así que es mejor instalar el Visual Studio 
+
+741
+00:28:46,260 --> 00:28:47,820
+Code (VSC).
+
+742
+00:28:47,820 --> 00:28:51,000
+Para instalar Google Drive simplemente haga doble clic en
+
+743
+00:28:51,000 --> 00:28:52,740
+su computadora (Mac o Windows),
+
+744
+00:28:52,740 --> 00:28:55,440
+el profesor ya lo
+
+745
+00:28:55,440 --> 00:28:57,840
+tengo instalado, ten en cuenta
+
+746
+00:28:57,840 --> 00:28:59,400
+algo sencillo: doble clic, luego darle 
+
+747
+00:28:59,400 --> 00:29:01,679
+a todo siguiente, siguiente… y luego abrirlo 
+
+748
+00:29:01,679 --> 00:29:03,360
+entonces
+
+749
+00:29:03,360 --> 00:29:06,240
+Tengo una versión más reciente
+
+750
+00:29:06,240 --> 00:29:08,220
+No podré mostrarte la instalación
+
+751
+00:29:08,220 --> 00:29:10,799
+solo haz lo que te recomendé con
+
+752
+00:29:10,799 --> 00:29:12,419
+la configuración predeterminada, abres e
+
+753
+00:29:12,419 --> 00:29:15,059
+inicias sesión en su cuenta de Google. Una vez que 
+
+754
+00:29:15,059 --> 00:29:18,480
+inicies sesión, deberías poder ver la 
+
+755
+00:29:18,480 --> 00:29:21,179
+cubierta uno debajo de tu cuenta. 
+
+756
+00:29:21,179 --> 00:29:23,880
+De esa manera, no necesitas 
+
+757
+00:29:23,880 --> 00:29:26,340
+ir en línea para buscar todo el 
+
+758
+00:29:26,340 --> 00:29:28,260
+contenido, es más rápido. 
+
+759
+00:29:28,260 --> 00:29:30,320
+Si 
+
+760
+00:29:30,659 --> 00:29:33,000
+has tomado mis cursos, sabes que lo uso para 
+
+761
+00:29:33,000 --> 00:29:35,039
+todos mis cursos, así que asegúrate 
+
+762
+00:29:35,039 --> 00:29:37,320
+de instalarlo. El siguiente 
+
+763
+00:29:37,320 --> 00:29:40,320
+será Visual Studio Code. 
+
+764
+00:29:40,320 --> 00:29:43,399
+Puedes 
+
+765
+00:29:43,799 --> 00:29:48,020
+ir al sitio web.
+
+766
+00:29:48,360 --> 00:29:52,020
+Mira la página.
+
+767
+00:29:52,020 --> 00:29:54,240
+¿Quién desarrolló 
+
+768
+00:29:54,240 --> 00:29:55,679
+Visual Studio Code? 
+
+769
+00:29:55,679 --> 00:29:58,399
+Pues la compañia
+
+770
+00:30:00,600 --> 00:30:03,600
+Microsoft, es de código abierto, o sea
+
+771
+00:30:03,600 --> 00:30:06,480
+Microsoft inició VSC, y luego
+
+772
+00:30:06,480 --> 00:30:08,340
+liberó como código abierto y todos
+
+773
+00:30:08,340 --> 00:30:10,500
+están contribuyendo y se ha vuelto muy poderoso.
+
+774
+00:30:10,500 --> 00:30:12,659
+En Google Chrome 
+
+775
+00:30:12,659 --> 00:30:16,100
+hay una extensión.
+
+776
+00:30:23,179 --> 00:30:25,919
+(pregunta).
+
+777
+00:30:25,919 --> 00:30:27,659
+Si la computadora del laboratorio ya tiene eso
+
+778
+00:30:27,659 --> 00:30:29,820
+no necesitas instalar nada, 
+
+779
+00:30:29,820 --> 00:30:31,380
+excepto Google Drive para 
+
+780
+00:30:31,380 --> 00:30:34,020
+escritorio, que no está aquí, 
+
+781
+00:30:34,020 --> 00:30:35,580
+pero igual tenemos todo lo demás aquí. 
+
+782
+00:30:35,580 --> 00:30:37,799
+Deberías instalar 
+
+783
+00:30:37,799 --> 00:30:40,919
+esto en 
+
+784
+00:30:40,919 --> 00:30:44,820
+tu laptop. Visual Studio, creo que 
+
+785
+00:30:44,820 --> 00:30:46,940
+fue solo hace un par de años, pero 
+
+786
+00:30:46,940 --> 00:30:50,580
+se volvió tan popular. Entonces, de nuevo, 
+
+787
+00:30:50,580 --> 00:30:53,640
+si estás en Mac o Linux, puedes 
+
+788
+00:30:53,640 --> 00:30:56,460
+descargar desde aquí. 
+
+789
+00:30:56,460 --> 00:30:59,000
+Hacemos 
+
+790
+00:31:00,299 --> 00:31:02,340
+esto 
+
+791
+00:31:02,340 --> 00:31:03,240
+primero 
+
+792
+00:31:03,240 --> 00:31:05,820
+y luego 
+
+
+793
+00:31:05,820 --> 00:31:08,159
+git, 
+
+794
+00:31:08,159 --> 00:31:11,340
+porque git te pedirá que 
+
+795
+00:31:11,340 --> 00:31:14,580
+selecciones un editor, 
+
+796
+00:31:14,580 --> 00:31:16,140
+y como podemos seleccionar Visual Studio, solo hazlo así. 
+
+797
+00:31:16,140 --> 00:31:17,039
+Permíteme 
+
+798
+00:31:17,039 --> 00:31:18,840
+mostrarte, 
+
+799
+00:31:18,840 --> 00:31:20,880
+la instalación de VSC no hay 
+
+800
+00:31:20,880 --> 00:31:22,740
+nada extravagante, solo necesitas asegurarte 
+
+801
+00:31:22,740 --> 00:31:24,539
+de ver todas las configuraciones predeterminadas. 
+
+802
+00:31:24,539 --> 00:31:26,279
+Si lo deseas, puedes agregar un icono.
+
+803
+00:31:26,279 --> 00:31:27,779
+y luego simplemente mantenga el valor predeterminado
+
+804
+00:31:27,779 --> 00:31:30,240
+no hay nada que necesites cambiar.
+
+805
+00:31:30,240 --> 00:31:31,860
+Deberías poder tenerlo 
+
+806
+00:31:31,860 --> 00:31:34,919
+en tu computadora. 
+
+807
+00:31:34,919 --> 00:31:39,000
+Si abres este archivo, 
+
+808
+00:31:39,000 --> 00:31:41,279
+no pienses que es algo 
+
+809
+00:31:41,279 --> 00:31:44,279
+complicado, es simplemente un 
+
+810
+00:31:44,279 --> 00:31:46,260
+editor de texto llamado Visual Studio Code, 
+
+811
+00:31:46,260 --> 00:31:48,600
+como el Bloc de notas, pero es muy 
+
+812
+00:31:48,600 --> 00:31:50,700
+poderoso. 
+
+813
+00:31:50,700 --> 00:31:53,520
+Puedes escribir código y ejecutarlo, y agregar 
+
+814
+00:31:53,520 --> 00:31:55,140
+todas las preguntas que quieras. 
+
+815
+00:31:55,140 --> 00:31:56,700
+Te mostraré cómo 
+
+816
+00:31:56,700 --> 00:31:58,860
+puedes instalar otras extensiones, 
+
+817
+00:31:58,860 --> 00:32:02,159
+lo que hace que 
+
+818
+00:32:02,159 --> 00:32:04,260
+sea aún más poderoso. 
+
+819
+00:32:04,260 --> 00:32:06,600
+Al igual que 
+
+820
+00:32:06,600 --> 00:32:08,159
+Google Chrome, 
+
+821
+00:32:08,159 --> 00:32:10,440
+puedes instalar extensiones de.
+
+822
+00:32:10,440 --> 00:32:12,539
+todo tipo, lo que lo hace 
+
+823
+00:32:12,539 --> 00:32:14,580
+muy versátil si sabes cómo usarlo.
+
+824
+00:32:14,580 --> 00:32:16,320
+También puedes desarrollar una extensión 
+
+825
+00:32:16,320 --> 00:32:18,960
+si quieres. 
+
+826
+00:32:18,960 --> 00:32:19,919
+Eso es el segundo, 
+
+827
+00:32:19,919 --> 00:32:21,539
+¿listo en tu 
+
+828
+00:32:21,539 --> 00:32:23,279
+portátil? 
+
+829
+00:32:23,279 --> 00:32:25,320
+¿No?
+
+830
+00:32:25,320 --> 00:32:28,620
+Bien, el siguiente será Git. 
+
+831
+00:32:28,620 --> 00:32:31,380
+Para este necesitas hacer algunos cambios, 
+
+832
+00:32:31,380 --> 00:32:34,500
+pero déjame mostrarte, 
+
+833
+00:32:34,500 --> 00:32:36,059
+mantén 
+
+834
+00:32:36,059 --> 00:32:38,460
+todo por defecto, excepto que 
+
+835
+00:32:38,460 --> 00:32:40,500
+hay uno que necesitas seleccionar, 
+
+836
+00:32:40,500 --> 00:32:41,640
+el editor 
+
+837
+00:32:41,640 --> 00:32:44,399
+Visual Studio Code, 
+
+838
+00:32:44,399 --> 00:32:47,539
+déjame ver si puedo intentarlo de nuevo
+
+839
+00:32:48,299 --> 00:32:51,679
+tal vez me estoy 
+
+840
+00:32:53,520 --> 00:32:56,520
+moviendo 
+
+841
+00:33:01,320 --> 00:33:06,059
+demasiado 
+
+842
+00:33:06,059 --> 00:33:09,659
+rápido.
+
+843
+00:33:09,659 --> 00:33:13,159
+
+844
+00:33:13,919 --> 00:33:16,860
+Entonces
+
+845
+00:33:16,860 --> 00:33:18,960
+lo usarás como 
+
+846
+00:33:18,960 --> 00:33:21,059
+editor predeterminado 
+
+847
+00:33:21,059 --> 00:33:24,120
+para Git, 
+
+848
+00:33:24,120 --> 00:33:25,740
+de esa manera está más 
+
+849
+00:33:25,740 --> 00:33:28,320
+integrado. 
+
+850
+00:33:28,320 --> 00:33:29,820
+Después de instalar esto, 
+
+851
+00:33:29,820 --> 00:33:31,799
+no necesitarás usar la interfaz, 
+
+852
+00:33:31,799 --> 00:33:33,360
+solo usaremos un par de 
+
+853
+00:33:33,360 --> 00:33:36,120
+comandos de línea. Git te permite 
+
+854
+00:33:36,120 --> 00:33:39,240
+conectarte a GitHub, es más bien un 
+
+855
+00:33:39,240 --> 00:33:41,700
+sistema de control de versiones, 
+
+856
+00:33:41,700 --> 00:33:43,980
+así que cuando escribas código, hagas cambios, 
+
+857
+00:33:43,980 --> 00:33:46,620
+tomará una instantánea y en 
+
+858
+00:33:46,620 --> 00:33:48,480
+GitHub podrás ver qué cambios hiciste, 
+
+859
+00:33:48,480 --> 00:33:50,340
+es básicamente como 
+
+860
+00:33:50,340 --> 00:33:52,019
+un protocolo o algo así. 
+
+861
+00:33:52,019 --> 00:33:54,960
+Selecciona 
+
+862
+00:33:54,960 --> 00:33:57,659
+Visual Studio Code como editor predeterminado, 
+
+863
+00:33:57,659 --> 00:33:59,940
+aparte de eso, 
+
+864
+00:33:59,940 --> 00:34:01,679
+todo lo demás es por defecto, 
+
+865
+00:34:01,679 --> 00:34:05,120
+por lo que no necesitas hacer cambios.
+
+866
+00:34:12,300 --> 00:34:15,239
+El último será Miniconda, 
+
+867
+00:34:15,239 --> 00:34:17,099
+desde 
+
+868
+00:34:17,099 --> 00:34:20,179
+aquí 
+
+869
+00:34:24,060 --> 00:34:26,399
+puedes usar MiniConda o el 
+
+870
+00:34:26,399 --> 00:34:28,440
+otro que llamo Anaconda, depende de ti 
+
+871
+00:34:28,440 --> 00:34:32,339
+lo que quieras usar. 
+
+872
+00:34:32,339 --> 00:34:36,719
+Solo busca Anaconda o Miniconda en Google. 
+
+873
+00:34:36,719 --> 00:34:39,719
+En la 
+
+874
+00:34:40,080 --> 00:34:42,599
+computadora del laboratorio de computación, 
+
+875
+00:34:42,599 --> 00:34:44,159
+creo que ya lo instalaron, pero 
+
+876
+00:34:44,159 --> 00:34:45,719
+la mayoría de ustedes no lo necesitan, 
+
+877
+00:34:45,719 --> 00:34:48,060
+este es mucho más grande, de varios cientos de 
+
+878
+00:34:48,060 --> 00:34:50,639
+megabytes, por lo que es bastante grande. 
+
+879
+00:34:50,639 --> 00:34:52,379
+La razón por la que tiene esto es porque 
+
+880
+00:34:52,379 --> 00:34:54,060
+ya se preinstalaron todos los 
+
+881
+00:34:54,060 --> 00:34:56,879
+paquetes, cientos de 
+
+882
+00:34:56,879 --> 00:34:58,859
+paquetes, por lo que no necesitas 
+
+883
+00:34:58,859 --> 00:35:00,900
+realmente el modo Miniconda, es como 
+
+884
+00:35:00,900 --> 00:35:03,119
+una columna vertebral, como el núcleo, 
+
+885
+00:35:03,119 --> 00:35:04,980
+es mucho más pequeño y no ocupa 
+
+886
+00:35:04,980 --> 00:35:07,619
+mucho espacio, así que recomiendo usar 
+
+887
+00:35:07,619 --> 00:35:10,680
+Miniconda para que tengas 
+
+888
+00:35:10,680 --> 00:35:12,900
+algo, porque no 
+
+889
+00:35:12,900 --> 00:35:15,000
+usaremos los paquetes de todos modos, 
+
+890
+00:35:15,000 --> 00:35:17,579
+crearemos un nuevo entorno para que 
+
+891
+00:35:17,579 --> 00:35:20,160
+puedas hacer cosas. Diría que esto es 
+
+892
+00:35:20,160 --> 00:35:20,820
+como 
+
+893
+00:35:20,820 --> 00:35:22,980
+ir al 
+
+894
+00:35:22,980 --> 00:35:24,900
+almacén web, 
+
+895
+00:35:24,900 --> 00:35:27,720
+básicamente tengo todas las cosas, 
+
+896
+00:35:27,720 --> 00:35:29,760
+no necesitas todas estas cosas, 
+
+897
+00:35:29,760 --> 00:35:32,520
+prefiero ir a 
+
+898
+00:35:32,520 --> 00:35:35,700
+una nueva área y si necesito 
+
+899
+00:35:35,700 --> 00:35:37,260
+algo, llamaré al almacén para que me 
+
+900
+00:35:37,260 --> 00:35:39,180
+lo dé en lugar de 
+
+901
+00:35:39,180 --> 00:35:41,220
+ocupar todo el espacio. 
+
+902
+00:35:41,220 --> 00:35:44,520
+Así que este es Anaconda, 
+
+903
+00:35:44,520 --> 00:35:46,140
+solo haz clic en el enlace, 
+
+904
+00:35:46,140 --> 00:35:48,540
+ya lo descargué, por lo que, si 
+
+905
+00:35:48,540 --> 00:35:50,040
+quieres, puedes hacer clic en el enlace 
+
+906
+00:35:50,040 --> 00:35:52,380
+y esto te mostrará cómo puedes instalar 
+
+907
+00:35:52,380 --> 00:35:54,540
+diferentes versiones. Para nosotros, 
+
+908
+00:35:54,540 --> 00:35:57,599
+usaremos Windows de 64 bits y una vez 
+
+909
+00:35:57,599 --> 00:36:00,060
+que se descargue, deberías tenerlo 
+
+910
+00:36:00,060 --> 00:36:02,640
+en tu computadora, 
+
+911
+00:36:02,640 --> 00:36:04,560
+Así que este será el indicado, 
+
+912
+00:36:04,560 --> 00:36:06,660
+solo haz doble clic en él. 
+
+913
+00:36:06,660 --> 00:36:08,040
+Creo que solo son las configuraciones predeterminadas.
+
+914
+00:36:08,040 --> 00:36:10,820
+Ya lo 
+
+915
+00:36:11,339 --> 00:36:14,400
+instalé, así que 
+
+916
+00:36:14,400 --> 00:36:16,560
+no quiero intentarlo 
+
+917
+00:36:16,560 --> 00:36:19,320
+de nuevo, 
+
+918
+00:36:19,320 --> 00:36:22,880
+pero recomendaría que lo guardes 
+
+919
+00:36:22,880 --> 00:36:25,740
+en tu 
+
+920
+00:36:25,740 --> 00:36:27,839
+nombre de usuario, entonces se guardará 
+
+921
+00:36:27,839 --> 00:36:30,359
+en una carpeta llamada "Miniconda Suite". 
+
+922
+00:36:30,359 --> 00:36:32,599
+Sí, 
+
+923
+00:36:33,599 --> 00:36:36,060
+no necesitas cambiar nada.
+
+924
+00:36:36,060 --> 00:36:39,240
+Una vez que instales eso, 
+
+925
+00:36:39,240 --> 00:36:40,920
+Miniconda o Conda debería aparecer 
+
+926
+00:36:40,920 --> 00:36:44,280
+en tus aplicaciones y podrás encontrarlo allí. 
+
+927
+00:36:44,280 --> 00:36:45,900
+Mientras lo tengas, 
+
+928
+00:36:45,900 --> 00:36:48,540
+no importa si instalas cualquier otra cosa, 
+
+929
+00:36:48,540 --> 00:36:50,220
+probablemente tendrás una 
+
+930
+00:36:50,220 --> 00:36:51,839
+lista mucho más larga. Si abres 
+
+931
+00:36:51,839 --> 00:36:53,220
+la computadora del laboratorio, 
+
+932
+00:36:53,220 --> 00:36:55,560
+verás un montón de otras cosas que realmente no necesitas. 
+
+933
+00:36:55,560 --> 00:36:57,300
+La mayoría del tiempo solo usamos la 
+
+934
+00:36:57,300 --> 00:37:01,200
+línea de comandos, por cierto, 
+
+935
+00:37:01,200 --> 00:37:03,180
+una rápida introducción 
+
+936
+00:37:03,180 --> 00:37:05,220
+sobre por qué usamos esto. ¿Por qué no descargamos 
+
+937
+00:37:05,220 --> 00:37:07,200
+simplemente Python e instalamos 
+
+938
+00:37:07,200 --> 00:37:10,820
+Python en nuestra computadora? 
+
+939
+00:37:10,820 --> 00:37:14,760
+Anaconda y Miniconda viene con Python
+
+940
+00:37:14,760 --> 00:37:16,619
+por lo que la gente no usa esto. 
+
+941
+00:37:16,619 --> 00:37:18,300
+Puedes buscar Python en 
+
+942
+00:37:18,300 --> 00:37:22,079
+internet, y 
+
+943
+00:37:22,079 --> 00:37:25,140
+luego seguir esta ruta. Aquí, por supuesto, también puedes descargar 
+
+944
+00:37:25,140 --> 00:37:27,240
+e instalar Python 
+
+945
+00:37:27,240 --> 00:37:29,400
+en tu computadora. 
+
+946
+00:37:29,400 --> 00:37:32,220
+Usualmente no lo hacemos 
+
+947
+00:37:32,220 --> 00:37:35,040
+porque Python tiene muchas 
+
+948
+00:37:35,040 --> 00:37:39,000
+versiones, como la 3.7, 3.8, 3.9… 
+
+949
+00:37:39,000 --> 00:37:42,320
+y cambian. 
+
+950
+00:37:42,599 --> 00:37:44,700
+No queremos instalar directamente 
+
+951
+00:37:44,700 --> 00:37:48,839
+una versión porque es como ArcGIS. 
+
+952
+00:37:48,839 --> 00:37:50,760
+¿Cuántos de ustedes usan ArcGIS? 
+
+953
+00:37:50,760 --> 00:37:53,400
+Muy bien. Ahora tienes ArcGIS Pro, 
+
+954
+00:37:53,400 --> 00:37:55,500
+¿puedes instalar múltiples versiones de 
+
+955
+00:37:55,500 --> 00:37:58,280
+ArcGIS en tu computadora, 
+
+956
+00:37:58,320 --> 00:38:01,619
+como 3.0, 2.9 o 
+
+957
+00:38:01,619 --> 00:38:03,720
+tal vez ArcGIS Desktop 10.8, 10.7? ¿Puedes instalarlos 
+
+958
+00:38:03,720 --> 00:38:05,760
+todos al mismo tiempo? No, 
+
+959
+00:38:05,760 --> 00:38:07,920
+son incompatibles porque el directorio se 
+
+960
+00:38:07,920 --> 00:38:09,599
+va a instalar en el mismo lugar, 
+
+961
+00:38:09,599 --> 00:38:12,300
+por lo que necesitarán desinstalar antes 
+
+962
+00:38:12,300 --> 00:38:15,000
+de poder instalar otra versión. Python 
+
+963
+00:38:15,000 --> 00:38:16,680
+es algo similar, se puede tener múltiples 
+
+964
+00:38:16,680 --> 00:38:18,119
+versiones en la computadora, pero 
+
+965
+00:38:18,119 --> 00:38:20,460
+a veces se pueden producir problemas, así que 
+
+966
+00:38:20,460 --> 00:38:22,800
+lo que realmente queremos hacer es crear un 
+
+967
+00:38:22,800 --> 00:38:25,320
+entorno virtual. De esa manera, 
+
+968
+00:38:25,320 --> 00:38:27,060
+pensamos que el entorno virtual no 
+
+969
+00:38:27,060 --> 00:38:29,280
+interferirá con otros. De esta manera, 
+
+970
+00:38:29,280 --> 00:38:31,260
+puedes tener múltiples versiones de Python en 
+
+971
+00:38:31,260 --> 00:38:32,820
+tu computadora, y ese es el punto para probar software. 
+
+972
+00:38:32,820 --> 00:38:35,579
+Las versiones son muy 
+
+973
+00:38:35,579 --> 00:38:36,720
+importantes porque 
+
+974
+00:38:36,720 --> 00:38:38,940
+a veces una 
+
+975
+00:38:38,940 --> 00:38:42,680
+nueva versión puede romper cosas y, 
+
+976
+00:38:42,680 --> 00:38:45,060
+especialmente aquí, a veces 
+
+977
+00:38:45,060 --> 00:38:47,280
+pueden desactivar algunos botones. 
+
+978
+00:38:47,280 --> 00:38:48,599
+La mayoría de las veces, 
+
+979
+00:38:48,599 --> 00:38:52,140
+recomendamos usar la versión 3.9 y 3.10. No 
+
+980
+00:38:52,140 --> 00:38:56,040
+uses Python 2.7, ya 
+
+981
+00:38:56,040 --> 00:38:58,740
+no tiene soporte ni desarrollo, y 
+
+982
+00:38:58,740 --> 00:39:01,220
+podrías tener problemas de seguridad. 
+
+983
+00:39:01,220 --> 00:39:03,839
+el ahorro de barredoras también está aumentando paulatinamente, por lo que
+
+984
+00:39:03,839 --> 00:39:05,119
+al menos 
+
+985
+00:39:05,119 --> 00:39:08,760
+usen 3.8. Creo que 3.8 
+
+986
+00:39:08,760 --> 00:39:11,700
+vez que usamos 3.9 no use el último
+
+987
+00:39:11,700 --> 00:39:13,800
+porque no todos los paquetes la admiten. 
+
+988
+00:39:13,800 --> 00:39:17,220
+Por defecto, ya se ha 
+
+989
+00:39:17,220 --> 00:39:20,040
+lanzado, pero lleva tiempo para 
+
+990
+00:39:20,040 --> 00:39:21,960
+que otras empresas saquen todos los paquetes de la 
+
+991
+00:39:21,960 --> 00:39:24,060
+última versión. 
+
+992
+00:39:24,060 --> 00:39:27,480
+A veces hay un retraso de uno o dos años, 
+
+993
+00:39:27,480 --> 00:39:30,060
+así que para estar seguros, es mejor usar una versión un poco 
+
+994
+00:39:30,060 --> 00:39:33,660
+más avanzada, como 3.10, y luego 3.7. 
+
+995
+00:39:33,660 --> 00:39:35,280
+Aunque hay diferentes versiones, para ustedes, 
+
+996
+00:39:35,280 --> 00:39:36,599
+creo que 
+
+997
+00:39:36,599 --> 00:39:39,300
+las cosas que van a usar son las 
+
+998
+00:39:39,300 --> 00:39:40,980
+mismas para 
+
+999
+00:39:40,980 --> 00:39:42,960
+todas las 
+
+1000
+00:39:42,960 --> 00:39:45,180
+versiones. 
+
+1001
+00:39:45,180 --> 00:39:48,240
+Les 
+
+1002
+00:39:48,240 --> 00:39:49,200
+voy a mostrar cómo instalar esto 
+
+1003
+00:39:49,200 --> 00:39:51,660
+y cómo hacerlo mejor. 
+
+1004
+00:39:51,660 --> 00:39:54,480
+En términos de Anaconda y Miniconda, 
+
+1005
+00:39:54,480 --> 00:39:56,339
+es básicamente solo un paquete virtual que te 
+
+1006
+00:39:56,339 --> 00:39:58,560
+permite crear 
+
+1007
+00:39:58,560 --> 00:40:00,780
+entornos virtuales. ¿Qué quiero decir 
+
+1008
+00:40:00,780 --> 00:40:02,760
+con entorno virtual? Como mencioné anteriormente, 
+
+1009
+00:40:02,760 --> 00:40:04,079
+no quieres instalar las cosas 
+
+1010
+00:40:04,079 --> 00:40:06,300
+directamente en tu computadora. 
+
+1011
+00:40:06,300 --> 00:40:08,760
+Si instalas, 
+
+1012
+00:40:08,760 --> 00:40:11,520
+por ejemplo, ArcGIS, deberías poder 
+
+1013
+00:40:11,520 --> 00:40:15,500
+encontrar, déjame mostrarte el directorio, 
+
+1014
+00:40:16,140 --> 00:40:18,720
+si lo ves aquí en la computadora, puede 
+
+1015
+00:40:18,720 --> 00:40:21,060
+tener algo como Python 2.7 o tal vez 
+
+1016
+00:40:21,060 --> 00:40:23,640
+Python 3. ArcGIS Pro 
+
+1017
+00:40:23,640 --> 00:40:26,880
+ya no instala Python 2.7, 
+
+1018
+00:40:26,880 --> 00:40:30,599
+sino Python 3. 
+
+1019
+00:40:30,599 --> 00:40:32,339
+La razón por la que queremos el 
+
+1020
+00:40:32,339 --> 00:40:34,079
+entorno virtual es que si tienes diferentes.
+
+1021
+00:40:34,079 --> 00:40:36,180
+versiones que deseas instalar en varias 
+
+1022
+00:40:36,180 --> 00:40:37,859
+computadoras, no quieres que se 
+
+1023
+00:40:37,859 --> 00:40:40,079
+interfieran entre sí. Una vez que 
+
+1024
+00:40:40,079 --> 00:40:41,760
+hayas terminado la prueba, puedes eliminarla. 
+
+1025
+00:40:41,760 --> 00:40:44,460
+Es como un 
+
+1026
+00:40:44,460 --> 00:40:45,960
+directorio en 
+
+1027
+00:40:45,960 --> 00:40:46,859
+tu computadora, 
+
+1028
+00:40:46,859 --> 00:40:48,900
+por lo que una vez que termine, solo eliminas el 
+
+1029
+00:40:48,900 --> 00:40:50,820
+directorio y se ha ido. 
+
+1030
+00:40:50,820 --> 00:40:52,740
+No afectará nada fuera de 
+
+1031
+00:40:52,740 --> 00:40:55,740
+tu contenido. De lo contrario, cuando instalas cosas 
+
+1032
+00:40:55,740 --> 00:40:57,480
+en tu computadora, por ejemplo, 
+
+1033
+00:40:57,480 --> 00:41:01,800
+Python 3.6, 3.7, 3.8, eventualmente 
+
+1034
+00:41:01,800 --> 00:41:03,420
+se estropeará porque cuando abres tu 
+
+1035
+00:41:03,420 --> 00:41:06,480
+terminal, te muestro aquí
+
+1036
+00:41:06,480 --> 00:41:07,980
+la terminal de
+
+1037
+00:41:07,980 --> 00:41:10,680
+de Anaconda en Windows.
+
+1038
+00:41:10,680 --> 00:41:12,960
+Cuando escribes algo , al principio 
+
+1039
+00:41:12,960 --> 00:41:14,880
+te mostrará algo como 
+
+1040
+00:41:14,880 --> 00:41:18,619
+esto. Si escribo "python", 
+
+1041
+00:41:18,660 --> 00:41:21,480
+me dirá "python 3.9.5". 
+
+1042
+00:41:21,480 --> 00:41:23,940
+Supongamos que tienes varias 
+
+1043
+00:41:23,940 --> 00:41:26,220
+versiones instaladas, esta podría no ser la que 
+
+1044
+00:41:26,220 --> 00:41:28,260
+quieres. ¿Cómo cambiarla? 
+
+1045
+00:41:28,260 --> 00:41:31,500
+Si tienes 
+
+1046
+00:41:31,500 --> 00:41:33,660
+varias versiones de Python en tu 
+
+1047
+00:41:33,660 --> 00:41:36,119
+computadora, cualquier entorno virtual 
+
+1048
+00:41:36,119 --> 00:41:38,099
+te ayudará a administrarlas, para que 
+
+1049
+00:41:38,099 --> 00:41:39,839
+puedas cambiar entre ellas y saber 
+
+1050
+00:41:39,839 --> 00:41:42,720
+cuál estás usando. Más adelante te mostraré cómo 
+
+1051
+00:41:42,720 --> 00:41:45,780
+se usa. Pero para 
+
+1052
+00:41:45,780 --> 00:41:48,839
+entenderlo, 
+
+1053
+00:41:48,839 --> 00:41:50,640
+piensa en tu casa. 
+
+1054
+00:41:50,640 --> 00:41:53,280
+No quieres 
+
+1055
+00:41:53,280 --> 00:41:55,320
+tener una casa totalmente vacía, 
+
+1056
+00:41:55,320 --> 00:41:56,820
+sino que quieres guardar tus 
+
+1057
+00:41:56,820 --> 00:41:59,460
+cosas en diferentes habitaciones, 
+
+1058
+00:41:59,460 --> 00:42:01,260
+cada una con un 
+
+1059
+00:42:01,260 --> 00:42:04,020
+propósito diferente. Una habitación es un dormitorio, otra 
+
+1060
+00:42:04,020 --> 00:42:06,420
+es un salón, cada una con un 
+
+1061
+00:42:06,420 --> 00:42:08,820
+propósito diferente, y lo que hagas en una habitación 
+
+1062
+00:42:08,820 --> 00:42:11,940
+no afectará a las demás. 
+
+1063
+00:42:11,940 --> 00:42:13,980
+Lo mismo 
+
+1064
+00:42:13,980 --> 00:42:15,900
+ocurre con los 
+
+1065
+00:42:15,900 --> 00:42:18,300
+salones de clases o las oficinas, 
+
+1066
+00:42:18,300 --> 00:42:20,520
+lo que hacemos en uno no afecta a los otros. Podemos reorganizar, 
+
+1067
+00:42:20,520 --> 00:42:22,560
+quitar o agregar más computadoras 
+
+1068
+00:42:22,560 --> 00:42:24,960
+sin afectar a 
+
+1069
+00:42:24,960 --> 00:42:26,880
+los demás. El punto del 
+
+1070
+00:42:26,880 --> 00:42:28,859
+entorno virtual es 
+
+1071
+00:42:28,859 --> 00:42:31,619
+permitirte administrar mejor y aislar 
+
+1072
+00:42:31,619 --> 00:42:35,579
+el entorno de los demás, 
+
+1073
+00:42:35,579 --> 00:42:36,960
+y te voy a 
+
+1074
+00:42:36,960 --> 00:42:39,480
+mostrar cómo puedes crear esos entornos para que 
+
+1075
+00:42:39,480 --> 00:42:43,020
+puedas instalar paquetes muy fácilmente.
+
+1076
+00:42:43,020 --> 00:42:45,839
+Bien, esto fue lo último que hicimos. 
+
+1077
+00:42:45,839 --> 00:42:47,820
+ya hemos instalado 
+
+1078
+00:42:47,820 --> 00:42:53,040
+el último paquete, 
+
+1079
+00:42:53,060 --> 00:42:56,300
+así que hemos 
+
+1080
+00:42:56,700 --> 00:42:59,700
+terminado y el siguiente paso será, 
+
+1081
+00:42:59,700 --> 00:43:01,920
+¿ya han 
+
+1082
+00:43:01,920 --> 00:43:05,339
+creado una cuenta de GitHub? 
+
+1083
+00:43:05,339 --> 00:43:08,880
+Si no tienen una, háganla ahora. 
+
+1084
+00:43:08,880 --> 00:43:11,099
+Probablemente no la necesitemos para esta clase, 
+
+1085
+00:43:11,099 --> 00:43:13,319
+pero eventualmente la necesitaremos después 
+
+1086
+00:43:13,319 --> 00:43:14,940
+porque necesitarás subir 
+
+1087
+00:43:14,940 --> 00:43:15,900
+cosas a 
+
+1088
+00:43:15,900 --> 00:43:17,520
+tu cuenta de GitHub. Así 
+
+1089
+00:43:17,520 --> 00:43:21,960
+que es mejor si 
+
+1090
+00:43:21,960 --> 00:43:24,960
+lo hacen. Además, Git y GitHub como mencioné 
+
+1091
+00:43:24,960 --> 00:43:26,819
+antes, Git es como un sistema de control de versiones, 
+
+1092
+00:43:26,819 --> 00:43:29,400
+GitHub es donde alojas tu 
+
+1093
+00:43:29,400 --> 00:43:32,940
+software y es como si 
+
+1094
+00:43:32,940 --> 00:43:34,560
+tuvieras un archivo que 
+
+1095
+00:43:34,560 --> 00:43:37,079
+puedes alojar en Dropbox, Google Drive 
+
+1096
+00:43:37,079 --> 00:43:40,140
+o cualquier nube, no 
+
+1097
+00:43:40,140 --> 00:43:41,960
+importa realmente. Así que GitHub es solo uno de esos, 
+
+1098
+00:43:41,960 --> 00:43:44,819
+pero está construido sobre Git, por lo que tiene una.
+
+1099
+00:43:44,819 --> 00:43:46,680
+mejor integración y GitHub es el repositorio de 
+
+1100
+00:43:46,680 --> 00:43:50,460
+acceso abierto más popular 
+
+1101
+00:43:50,460 --> 00:43:54,180
+para almacenar código fuente
+
+1102
+00:43:54,180 --> 00:43:56,460
+Voy 
+
+1103
+00:43:56,460 --> 00:43:58,619
+a usar este 
+
+1104
+00:43:58,619 --> 00:44:01,079
+para instalar un paquete, 
+
+1105
+00:44:01,079 --> 00:44:02,040
+por ejemplo, 
+
+1106
+00:44:02,040 --> 00:44:05,359
+Anaconda. 
+
+1107
+00:44:06,140 --> 00:44:09,300
+Así tendrás acceso al 
+
+1108
+00:44:09,300 --> 00:44:11,520
+entorno de programación donde podrás ejecutar el código y 
+
+1109
+00:44:11,520 --> 00:44:13,319
+ver la salida. 
+
+1110
+00:44:13,319 --> 00:44:15,420
+Todo se podrá ejecutar directamente 
+
+1111
+00:44:15,420 --> 00:44:19,260
+dentro de Visual Studio Code. Si tienes 
+
+1112
+00:44:19,260 --> 00:44:21,000
+preguntas, avísame. Si no, 
+
+1113
+00:44:21,000 --> 00:44:23,400
+el siguiente paso 
+
+1114
+00:44:23,400 --> 00:44:25,079
+será instalar 
+
+1115
+00:44:25,079 --> 00:44:26,819
+algunos paquetes. Cuando hablamos de 
+
+1116
+00:44:26,819 --> 00:44:29,280
+Python, en la 
+
+1117
+00:44:29,280 --> 00:44:31,020
+mayoría de los casos puedes usar el núcleo, pero 
+
+1118
+00:44:31,020 --> 00:44:34,260
+necesitas instalar otras extensiones 
+
+1119
+00:44:34,260 --> 00:44:35,880
+para acceder a todos los paquetes y 
+
+1120
+00:44:35,880 --> 00:44:38,700
+construir sobre el trabajo de otras personas. 
+
+1121
+00:44:38,700 --> 00:44:40,859
+Es como cuando 
+
+1122
+00:44:40,859 --> 00:44:42,960
+instalamos Google Chrome y 
+
+1123
+00:44:42,960 --> 00:44:44,700
+luego agregamos algunas extensiones 
+
+1124
+00:44:44,700 --> 00:44:46,380
+para empezar a programar y hacer 
+
+1125
+00:44:46,380 --> 00:44:49,800
+cosas geniales. El siguiente paso es 
+
+1126
+00:44:49,800 --> 00:44:50,819
+abrir 
+
+1127
+00:44:50,819 --> 00:44:54,540
+Visual Studio Code o 
+
+1128
+00:44:54,540 --> 00:44:57,480
+cualquier 
+
+1129
+00:44:57,480 --> 00:44:59,640
+otro editor de 
+
+1130
+00:44:59,640 --> 00:45:04,020
+texto que prefieras. 
+
+1131
+00:45:04,020 --> 00:45:06,839
+Abre Anaconda 
+
+1132
+00:45:06,839 --> 00:45:10,440
+prompt 
+
+1133
+00:45:10,440 --> 00:45:13,680
+y Power shell 
+
+1134
+00:45:13,680 --> 00:45:16,079
+en la computadora del laboratorio
+
+1135
+00:45:16,079 --> 00:45:17,099
+o computadora portátil 
+
+1136
+00:45:17,099 --> 00:45:20,339
+y sigue mis instrucciones. 
+
+1137
+00:45:20,339 --> 00:45:21,900
+Iré despacio para 
+
+1138
+00:45:21,900 --> 00:45:23,579
+que puedas aprender 
+
+1139
+00:45:23,579 --> 00:45:26,819
+a crear y una vez que 
+
+1140
+00:45:26,819 --> 00:45:28,260
+estés familiarizado, 
+
+1141
+00:45:28,260 --> 00:45:29,940
+podrás hacerlo rápidamente en unos pocos segundos.
+
+1142
+00:45:29,940 --> 00:45:31,800
+Para la primera vez, lo mostraremos 
+
+1143
+00:45:31,800 --> 00:45:35,060
+paso a paso. 
+
+1144
+00:45:39,839 --> 00:45:43,099
+¿Puedes abrir esta? 
+
+1145
+00:45:43,500 --> 00:45:45,980
+Sí, 
+
+1146
+00:45:47,160 --> 00:45:50,420
+déjame ver. 
+
+1147
+00:45:51,300 --> 00:45:52,920
+Quiero asegurarme de que 
+
+1148
+00:45:52,920 --> 00:45:56,780
+todos puedan seguirme. 
+
+1149
+00:45:57,960 --> 00:46:00,180
+Ve 
+
+1150
+00:46:00,180 --> 00:46:02,819
+a 
+
+1151
+00:46:02,819 --> 00:46:06,119
+"All Apps" 
+
+1152
+00:46:06,119 --> 00:46:08,040
+"All Apps" 
+
+1153
+00:46:08,040 --> 00:46:09,960
+Si 
+
+1154
+00:46:09,960 --> 00:46:11,520
+no lo has 
+
+1155
+00:46:11,520 --> 00:46:14,180
+instalado aún, 
+
+1156
+00:46:18,720 --> 00:46:20,480
+no aparecerá. Ah, entiendo.
+
+1157
+00:46:20,480 --> 00:46:23,460
+Lo mismo ocurre 
+
+1158
+00:46:23,460 --> 00:46:25,980
+en la esquina. 
+
+1159
+00:46:25,980 --> 00:46:27,839
+Parece que a veces cambian 
+
+1160
+00:46:27,839 --> 00:46:30,720
+la ubicación del menú. 
+
+1161
+00:46:30,720 --> 00:46:33,359
+Debería ser Anaconda o Miniconda. 
+
+1162
+00:46:33,359 --> 00:46:34,980
+Si no 
+
+1163
+00:46:34,980 --> 00:46:38,300
+encuentras 
+
+1164
+00:46:38,300 --> 00:46:41,400
+Anaconda aquí, podría ser M. 
+
+1165
+00:46:41,400 --> 00:46:43,200
+No sé por qué, ya que 
+
+1166
+00:46:43,200 --> 00:46:45,780
+lo instalé hace unos meses. 
+
+1167
+00:46:45,780 --> 00:46:48,359
+Como dije, los paquetes de software 
+
+1168
+00:46:48,359 --> 00:46:50,040
+cambian todo el tiempo. A veces, 
+
+1169
+00:46:50,040 --> 00:46:52,339
+las ubicaciones y los menús son diferentes. 
+
+1170
+00:46:52,339 --> 00:46:55,680
+¿Están todos en esta 
+
+1171
+00:46:55,680 --> 00:46:59,400
+interfaz ahora? 
+
+1172
+00:46:59,400 --> 00:47:01,880
+Sí, 
+
+1173
+00:47:07,260 --> 00:47:08,960
+no 
+
+1174
+00:47:08,960 --> 00:47:12,599
+está en la tuya. 
+
+1175
+00:47:12,599 --> 00:47:15,300
+Si usas una computadora Mac, 
+
+1176
+00:47:15,300 --> 00:47:16,980
+solo abre tu terminal y escribe "conda". 
+
+1177
+00:47:16,980 --> 00:47:20,119
+…
+
+1178
+00:47:21,720 --> 00:47:24,119
+sí, sí, es lo mismo, es lo mismo, así que
+
+1179
+00:47:24,119 --> 00:47:28,579
+abre tu terminal
+
+1180
+00:47:28,579 --> 00:47:30,500
+y luego
+
+1181
+00:47:30,500 --> 00:47:33,680
+escribe “conda”.
+
+1182
+00:47:33,680 --> 00:47:35,700
+Y funcionará
+
+1183
+00:47:35,700 --> 00:47:37,440
+ingresar
+
+1184
+00:47:37,440 --> 00:47:39,420
+"Conda" ya está instalado, 
+
+1185
+00:47:39,420 --> 00:47:40,619
+así que 
+
+1186
+00:47:40,619 --> 00:47:42,540
+no necesitas preocuparte. 
+
+1187
+00:47:42,540 --> 00:47:45,599
+Todo lo que necesitas está en la tienda, 
+
+1188
+00:47:45,599 --> 00:47:49,800
+incluso si usas una computadora Mac. 
+
+1189
+00:47:49,800 --> 00:47:52,380
+Solo abre tu terminal, que puedes encontrar 
+
+1190
+00:47:52,380 --> 00:47:54,660
+buscando "terminal", 
+
+1191
+00:47:54,660 --> 00:47:57,060
+y debería abrirse. 
+
+1192
+00:47:57,060 --> 00:47:58,319
+Será lo mismo, ya que 
+
+1193
+00:47:58,319 --> 00:48:00,420
+todo lo que estamos presentando 
+
+1194
+00:48:00,420 --> 00:48:01,859
+en esta clase es independiente del 
+
+1195
+00:48:01,859 --> 00:48:03,720
+sistema operativo que uses. 
+
+1196
+00:48:03,720 --> 00:48:05,040
+La línea de comando es la misma para todos, 
+
+1197
+00:48:05,040 --> 00:48:07,740
+lo que es compatible con múltiples plataformas, aunque la interfaz 
+
+1198
+00:48:07,740 --> 00:48:09,900
+puede verse diferente. 
+
+1199
+00:48:09,900 --> 00:48:11,940
+Esta se llama Anaconda prompt, 
+
+1200
+00:48:11,940 --> 00:48:14,280
+pero también puedes usar la terminal de usuario de Windows. 
+
+1201
+00:48:14,280 --> 00:48:16,079
+No importa cuál elijas, 
+
+1202
+00:48:16,079 --> 00:48:18,599
+una vez que estés ahí, 
+
+1203
+00:48:18,599 --> 00:48:20,640
+vamos a usar algunos 
+
+1204
+00:48:20,640 --> 00:48:22,740
+comandos. 
+
+1205
+00:48:22,740 --> 00:48:24,960
+Si los olvidas, 
+
+1206
+00:48:24,960 --> 00:48:26,460
+no te 
+
+1207
+00:48:26,460 --> 00:48:29,460
+preocupes, 
+
+1208
+00:48:29,460 --> 00:48:32,240
+yo los 
+
+1209
+00:48:34,920 --> 00:48:38,640
+tengo aquí en 
+
+1210
+00:48:38,640 --> 00:48:41,339
+un archivo de 
+
+1211
+00:48:41,339 --> 00:48:43,319
+recursos. 
+
+1212
+00:48:43,319 --> 00:48:45,540
+Puedes encontrarlos haciendo clic en la pestaña de recursos. 
+
+1213
+00:48:45,540 --> 00:48:47,520
+Además, te guiaré 
+
+1214
+00:48:47,520 --> 00:48:49,440
+paso a paso, así que 
+
+1215
+00:48:49,440 --> 00:48:51,420
+no tienes que preocuparte 
+
+1216
+00:48:51,420 --> 00:48:52,560
+por nada en este momento. 
+
+1217
+00:48:52,560 --> 00:48:54,660
+El primer comando que usaremos es "conda create", 
+
+1218
+00:48:54,660 --> 00:48:57,000
+para crear un entorno. 
+
+1219
+00:48:57,000 --> 00:49:00,060
+Pero antes, vamos a hacer 
+
+1220
+00:49:00,060 --> 00:49:02,839
+una prueba. Abre la terminal 
+
+1221
+00:49:02,839 --> 00:49:08,240
+de Anaconda y escribe "conda" y 
+
+1222
+00:49:08,839 --> 00:49:10,740
+presiona enter. 
+
+1223
+00:49:10,740 --> 00:49:13,380
+Asegúrate de que no aparezca ningún error. 
+
+1224
+00:49:13,380 --> 00:49:14,880
+Si hay algún error, 
+
+1225
+00:49:14,880 --> 00:49:15,800
+algo está mal. 
+
+1226
+00:49:15,800 --> 00:49:19,020
+¿Puedes ver esto?
+
+1227
+00:49:19,020 --> 00:49:20,940
+¿Ningún error?
+
+1228
+00:49:20,940 --> 00:49:22,859
+en caso afirmativo, hágamelo saber 
+
+1229
+00:49:22,859 --> 00:49:26,240
+Mira los comando básicos de Anaconda
+
+1230
+00:49:26,240 --> 00:49:30,000
+puedes pensar en esto como .exe si
+
+1231
+00:49:30,000 --> 00:49:31,079
+quieres saber dónde 
+
+1232
+00:49:31,079 --> 00:49:32,339
+se encuentra instalado
+
+1233
+00:49:32,339 --> 00:49:35,119
+déjame mostrarte rápido
+
+1234
+00:49:35,119 --> 00:49:38,099
+por ejemplo, si lo instalaste en tu unidad
+
+1235
+00:49:38,099 --> 00:49:40,619
+C:/Users/Your_name/miniconda3
+
+1236
+00:49:40,619 --> 00:49:43,680
+C:/Users/Your_name/miniconda3
+
+1237
+00:49:43,680 --> 00:49:46,260
+Aquí es donde 
+
+1238
+00:49:46,260 --> 00:49:48,900
+realmente proviene, así que verás este, como 
+
+1239
+00:49:48,900 --> 00:49:50,880
+debajo del script. De nuevo, 
+
+1240
+00:49:50,880 --> 00:49:52,440
+no tienes que preocuparte por eso ahora mismo, 
+
+1241
+00:49:52,440 --> 00:49:54,839
+solo estoy diciendo que cuando escribes algo en la computadora, es 
+
+1242
+00:49:54,839 --> 00:49:57,540
+donde realmente encuentra el archivo exe. 
+
+1243
+00:49:57,540 --> 00:50:01,020
+Observa un ejemplo donde
+
+1244
+00:50:01,020 --> 00:50:03,260
+no se reconoce el comando de “conda asdasdfsdf”
+
+1245
+00:50:15,300 --> 00:50:17,660
+De nuevo, 
+
+1246
+00:50:17,660 --> 00:50:21,859
+si quieres 
+
+1247
+00:50:21,859 --> 00:50:26,400
+borrar esto, usa el comando 'clear' o 'cls', 
+
+1248
+00:50:26,400 --> 00:50:29,579
+que va a 
+
+1249
+00:50:29,579 --> 00:50:31,800
+limpiar la terminal. 
+
+1250
+00:50:31,800 --> 00:50:34,920
+A veces no hay tal cosa. Si usas 
+
+1251
+00:50:34,920 --> 00:50:37,560
+una pantalla completa, 
+
+1252
+00:50:37,560 --> 00:50:39,540
+el siguiente paso será conda. 
+
+1253
+00:50:39,540 --> 00:50:41,520
+Déjame mostrarte qué entorno 
+
+1254
+00:50:41,520 --> 00:50:43,500
+has creado. Lo primero 
+
+1255
+00:50:43,500 --> 00:50:45,480
+sería ver 
+
+1256
+00:50:45,480 --> 00:50:48,859
+lo que ya hay ahí, así que 
+
+1257
+00:50:48,859 --> 00:50:52,260
+escribe 'conda env list' 
+
+1258
+00:50:52,260 --> 00:50:55,740
+para ver los entornos.
+
+1259
+00:50:55,740 --> 00:50:57,059
+Puedes ver los ambientes que tienes
+
+1260
+00:50:57,059 --> 00:50:58,980
+tengo un montón de cargas 
+
+1261
+00:50:58,980 --> 00:50:59,640
+aquí
+
+1262
+00:50:59,640 --> 00:51:02,040
+pero si eres nuevo si acabas de instalar
+
+1263
+00:51:02,040 --> 00:51:04,619
+deberías ver solo el
+
+1264
+00:51:04,619 --> 00:51:06,480
+entorno que marca
+
+1265
+00:51:06,480 --> 00:51:08,339
+el asterisco (estrella).
+
+1266
+00:51:08,339 --> 00:51:10,200
+Ese es el entorno base 
+
+1267
+00:51:10,200 --> 00:51:11,940
+que viene 
+
+1268
+00:51:11,940 --> 00:51:15,180
+con Conda o cualquier Miniconda 
+
+1269
+00:51:15,180 --> 00:51:17,520
+que ya esté instalado. 
+
+1270
+00:51:17,520 --> 00:51:19,380
+Es posible que no lo tengas, pero está bien. 
+
+1271
+00:51:19,380 --> 00:51:22,020
+Vamos a crear uno. 
+
+1272
+00:51:22,020 --> 00:51:24,960
+Vamos a generar un
+
+1273
+00:51:24,960 --> 00:51:26,640
+espacio
+
+1274
+00:51:26,640 --> 00:51:29,040
+vamos a crear algo 
+
+1275
+00:51:29,040 --> 00:51:31,740
+dentro de este espacio 
+
+1276
+00:51:31,740 --> 00:51:33,300
+para que podamos
+
+1277
+00:51:33,300 --> 00:51:35,099
+almacenar 
+
+1278
+00:51:35,099 --> 00:51:38,339
+paquetes. El siguiente paso es crear algo, 
+
+1279
+00:51:38,339 --> 00:51:40,859
+así que será 'conda créate' 
+
+1280
+00:51:40,859 --> 00:51:42,300
+seguido 
+
+1281
+00:51:42,300 --> 00:51:45,119
+de ‘-n’
+
+1282
+00:51:45,119 --> 00:51:46,200
+significa el nombre, 
+
+1283
+00:51:46,200 --> 00:51:48,420
+así que 
+
+1284
+00:51:48,420 --> 00:51:50,520
+elige uno que no sea demasiado largo.
+
+1285
+00:51:50,520 --> 00:51:52,500
+Tengo algo aquí, como 'geo', 
+
+1286
+00:51:52,500 --> 00:51:55,260
+o tal vez algún otro nombre interesante. 
+
+1287
+00:51:55,260 --> 00:51:56,940
+No lo alargues demasiado, está bien, lo tengo
+
+1288
+00:51:56,940 --> 00:51:59,819
+algo aquí eh creo que ‘geo’
+
+1289
+00:51:59,819 --> 00:52:00,839
+tal vez, aunque
+
+1290
+00:52:00,839 --> 00:52:03,540
+voy a eliminar el existente porque 
+
+1291
+00:52:03,540 --> 00:52:06,000
+quiero usar el mismo nombre 
+
+1292
+00:52:06,000 --> 00:52:08,520
+durante todo el 
+
+1293
+00:52:08,520 --> 00:52:09,839
+semestre. 
+
+1294
+00:52:09,839 --> 00:52:12,780
+Me gusta ‘geo', 
+
+1295
+00:52:12,780 --> 00:52:14,880
+es corto y suficientemente bueno. 
+
+1296
+00:52:14,880 --> 00:52:16,440
+Pero necesito eliminar el existente 
+
+1297
+00:52:16,440 --> 00:52:17,880
+para poder reutilizar el nombre. Esto no 
+
+1298
+00:52:17,880 --> 00:52:19,980
+es necesario que lo sigas, 
+
+1299
+00:52:19,980 --> 00:52:24,960
+solo lo estoy 
+
+1300
+00:52:24,960 --> 00:52:26,760
+haciendo con ‘conda remove -n geo –all -y’
+
+1301
+00:52:26,760 --> 00:52:28,680
+para que podamos 
+
+1302
+00:52:28,680 --> 00:52:31,140
+usar 
+
+1303
+00:52:31,140 --> 00:52:33,359
+el mismo 
+
+1304
+00:52:33,359 --> 00:52:35,400
+nombre 
+
+1305
+00:52:35,400 --> 00:52:39,000
+durante 
+
+1306
+00:52:39,000 --> 00:52:40,559
+todo 
+
+1307
+00:52:40,559 --> 00:52:42,059
+el 
+
+1308
+00:52:42,059 --> 00:52:43,200
+semestre. 
+
+1309
+00:52:43,200 --> 00:52:45,119
+Después 
+
+1310
+00:52:45,119 --> 00:52:46,800
+de crear el 
+
+1311
+00:52:46,800 --> 00:52:49,500
+entorno, puedes 
+
+1312
+00:52:49,500 --> 00:52:50,339
+comenzar a 
+
+1313
+00:52:50,339 --> 00:52:52,680
+instalar 
+
+1314
+00:52:52,680 --> 00:52:54,359
+los paquetes 
+
+1315
+00:52:54,359 --> 00:52:56,579
+paquetes en el medio ambiente y luego
+
+1316
+00:52:56,579 --> 00:52:58,859
+en él y luego podemos construir sobre ellos, 
+
+1317
+00:52:58,859 --> 00:53:00,420
+al igual que instalas Google Chrome y 
+
+1318
+00:53:00,420 --> 00:53:01,819
+luego vas a la 
+
+1319
+00:53:01,819 --> 00:53:04,380
+tienda de extensiones de Chrome para encontrar cosas adicionales. 
+
+1320
+00:53:04,380 --> 00:53:06,900
+Hay toneladas de paquetes disponibles, y 
+
+1321
+00:53:06,900 --> 00:53:08,460
+te mostraré dónde 
+
+1322
+00:53:08,460 --> 00:53:10,500
+encontrarlos, de 
+
+1323
+00:53:10,500 --> 00:53:13,200
+dónde vienen y dónde están ubicados. 
+
+1324
+00:53:13,200 --> 00:53:16,079
+Luego podemos comenzar a instalarlos, 
+
+1325
+00:53:16,079 --> 00:53:18,240
+como en una App Store. Hay toneladas 
+
+1326
+00:53:18,240 --> 00:53:20,040
+de paquetes disponibles. 
+
+1327
+00:53:20,040 --> 00:53:22,319
+Todavía se está eliminando, pero primero déjame 
+
+1328
+00:53:22,319 --> 00:53:24,359
+mostrarte dos lugares donde puedes 
+
+1329
+00:53:24,359 --> 00:53:26,819
+encuentra los paquetes para que el primero
+
+1330
+00:53:26,819 --> 00:53:31,740
+encontrar los paquetes. El primero se llama Pypi.org
+
+1331
+00:53:31,740 --> 00:53:34,460
+puedes buscarlo en Google si quieres. 
+
+1332
+00:53:34,460 --> 00:53:36,740
+Es un repositorio 
+
+1333
+00:53:36,740 --> 00:53:38,940
+de paquetes visuales de Python, 
+
+1334
+00:53:38,940 --> 00:53:42,059
+básicamente como una App Store donde 
+
+1335
+00:53:42,059 --> 00:53:43,740
+puedes obtener paquetes. 
+
+1336
+00:53:43,740 --> 00:53:47,220
+Hay alrededor 
+
+1337
+00:53:47,220 --> 00:53:48,540
+de 
+
+1338
+00:53:48,540 --> 00:53:50,520
+cuatro millones de ellos, 
+
+1339
+00:53:50,520 --> 00:53:54,000
+y muy pronto 
+
+1340
+00:53:54,000 --> 00:53:56,760
+también contribuirás a esto, 
+
+1341
+00:53:56,760 --> 00:53:58,800
+por lo que agregarás un número a esta cantidad. 
+
+1342
+00:53:58,800 --> 00:54:01,260
+Yo tengo como 10 o 20, 
+
+1343
+00:54:01,260 --> 00:54:03,240
+no sé exactamente 
+
+1344
+00:54:03,240 --> 00:54:04,859
+cuántos, pero tú también puedes contribuir 
+
+1345
+00:54:04,859 --> 00:54:07,579
+y es muy fácil. 
+
+1346
+00:54:07,579 --> 00:54:10,559
+No necesitas ser revisado o 
+1347
+00:54:10,559 --> 00:54:13,400
+aprobado, puedes subirlo directamente. 
+
+1348
+00:54:13,400 --> 00:54:17,880
+El siguiente lugar se llama conda-forge.org. 
+
+1349
+00:54:17,880 --> 00:54:19,859
+Esos 
+
+1350
+00:54:19,859 --> 00:54:22,700
+son 
+
+1351
+00:54:23,520 --> 00:54:25,740
+los dos lugares que 
+
+1352
+00:54:25,740 --> 00:54:27,300
+te mostraré más adelante, pero por ahora 
+
+1353
+00:54:27,300 --> 00:54:29,400
+solo te estoy mostrando que puedes encontrarlos 
+
+1354
+00:54:29,400 --> 00:54:31,859
+si quieres. Este se llama 'packages', donde también 
+
+1355
+00:54:31,859 --> 00:54:34,079
+puedes ver todos los paquetes aquí. 
+
+1356
+00:54:34,079 --> 00:54:37,079
+Si quieres, por ejemplo, buscar 
+
+1357
+00:54:37,079 --> 00:54:38,700
+uno en particular, como 
+
+1358
+00:54:38,700 --> 00:54:40,140
+'leafmap', 
+
+1359
+00:54:40,140 --> 00:54:41,940
+puedes escribirlo y encontrarás los 
+
+1360
+00:54:41,940 --> 00:54:43,440
+paquetes disponibles. Por ejemplo, el que yo he
+
+1361
+00:54:43,440 --> 00:54:46,020
+desarrollado y
+
+1362
+00:54:46,020 --> 00:54:49,200
+aquí puedo ver todos los contenidos y
+
+1363
+00:54:49,200 --> 00:54:51,480
+aquí es donde encuentras los paquetes.
+
+1364
+00:54:51,480 --> 00:54:53,099
+Por ahora, probablemente quieras 
+
+1365
+00:54:53,099 --> 00:54:56,339
+pensar en encontrar un nombre para tu paquete. 
+
+1366
+00:54:56,339 --> 00:54:57,839
+Eventualmente, vas a poner 
+
+1367
+00:54:57,839 --> 00:55:00,540
+algo aquí y tu paquete necesita 
+
+1368
+00:55:00,540 --> 00:55:03,780
+tener un 
+
+1369
+00:55:03,780 --> 00:55:04,920
+nombre 
+
+1370
+00:55:04,920 --> 00:55:08,579
+único para poder usarlo. 
+
+1371
+00:55:08,579 --> 00:55:10,500
+Lo que puede 
+
+1372
+00:55:10,500 --> 00:55:12,660
+resultar 
+
+1373
+00:55:12,660 --> 00:55:14,640
+difícil, ya que 
+
+1374
+00:55:14,640 --> 00:55:16,500
+muchos buenos nombres
+
+1375
+00:55:16,500 --> 00:55:18,059
+probablemente ya han sido
+
+1376
+00:55:18,059 --> 00:55:20,220
+tomados, así que necesitas encontrar un nombre 
+
+1377
+00:55:20,220 --> 00:55:22,140
+lo suficientemente único y tardar tanto.
+
+1378
+00:55:22,140 --> 00:55:24,960
+descriptivo para que puedas usar durante el 
+
+1379
+00:55:24,960 --> 00:55:27,720
+semestre. No necesitas evaluar esto 
+
+1380
+00:55:27,720 --> 00:55:29,700
+demasiado en este momento, pero eventualmente 
+
+1381
+00:55:29,700 --> 00:55:31,559
+necesitarás algo como ‘leafmap’. Creo 
+
+1382
+00:55:31,559 --> 00:55:33,000
+que este también es el que 
+
+1383
+00:55:33,000 --> 00:55:35,579
+desarrollé, ‘pygis’, y deja herramientas de mapa como 
+
+1384
+00:55:35,579 --> 00:55:38,420
+un montón de botones, pero ten eso en cuenta. 
+
+1385
+00:55:38,420 --> 00:55:41,400
+Necesitas encontrar un buen nombre más tarde. 
+
+1386
+00:55:41,400 --> 00:55:44,520
+Espero que esté hecho, déjame verificar 
+
+1387
+00:55:44,520 --> 00:55:46,020
+esto de nuevo. 
+
+1388
+00:55:46,020 --> 00:55:47,220
+Oh, 
+
+1389
+00:55:47,220 --> 00:55:50,280
+¿por qué está tardando tanto? 
+
+1390
+00:55:50,280 --> 00:55:53,339
+Probablemente sea porque tengo demasiados 
+
+1391
+00:55:53,339 --> 00:55:55,980
+paquetes ahí, pero 
+
+1392
+00:55:55,980 --> 00:55:57,900
+no debería tardar tanto. Déjame verificarlo 
+
+1393
+00:55:57,900 --> 00:56:00,480
+de nuevo, 
+
+1394
+00:56:00,480 --> 00:56:03,260
+es 
+
+1395
+00:56:06,359 --> 00:56:09,260
+extraño. 
+
+1396
+00:56:16,920 --> 00:56:19,140
+Si es demasiado largo, déjame intentar un nuevo nombre. 
+
+1397
+00:56:19,140 --> 00:56:21,660
+Bien, voy a renovar el nombre llamado 
+
+1398
+00:56:21,660 --> 00:56:25,859
+‘geos’, así que ahora puedes seguir y crear esto. 
+
+
+1399
+00:56:25,859 --> 00:56:30,900
+‘conda créate -n geos python=3.9’
+
+1400
+00:56:30,900 --> 00:56:34,020
+Voy a explicar lo que hace 
+
+1401
+00:56:34,020 --> 00:56:36,000
+este comando completo. 
+
+1402
+00:56:36,000 --> 00:56:38,819
+Básicamente, llamamos 
+
+1403
+00:56:38,819 --> 00:56:40,740
+al programa al intentar 
+
+1404
+00:56:40,740 --> 00:56:42,420
+crear el entorno. ‘geos’ es 
+
+1405
+00:56:42,420 --> 00:56:43,859
+el nombre del entorno en Python. 
+
+1406
+00:56:43,859 --> 00:56:46,260
+Por defecto, si solo 
+
+1407
+00:56:46,260 --> 00:56:48,180
+escribes 
+
+1408
+00:56:48,180 --> 00:56:51,300
+Python y 
+
+1409
+00:56:51,300 --> 00:56:52,980
+presionas enter, se instalará 
+
+1410
+00:56:52,980 --> 00:56:55,079
+en la última 
+
+1411
+00:56:55,079 --> 00:56:56,280
+versión, 
+
+1412
+00:56:56,280 --> 00:56:59,040
+probablemente la 3.10 o algo así. 
+
+1413
+00:56:59,040 --> 00:57:01,260
+Por lo tanto, recomendaría que instalemos la versión 3.9 
+
+1414
+00:57:01,260 --> 00:57:04,380
+porque tiene más soporte.
+
+1415
+00:57:04,380 --> 00:57:06,720
+Lo que necesitas hacer es tener un 
+
+1416
+00:57:06,720 --> 00:57:08,640
+signo igual (=) 
+
+1417
+00:57:08,640 --> 00:57:11,599
+y luego
+
+1418
+00:57:12,079 --> 00:57:15,559
+poner 3.9,
+
+1419
+00:57:15,720 --> 00:57:17,940
+y luego presionar enter. 
+
+1420
+00:57:17,940 --> 00:57:19,440
+Básicamente, cuando estás instalando, 
+
+1421
+00:57:19,440 --> 00:57:22,260
+puedes especificar qué versión de Python necesitas. 
+
+1422
+00:57:22,260 --> 00:57:28,319
+Nuevamente el comando ‘conda create -n geos python=3.9 
+
+1423
+00:57:28,319 --> 00:57:30,900
+y presiona 
+
+1424
+00:57:30,900 --> 00:57:33,440
+enter. 
+
+1425
+00:57:35,700 --> 00:57:37,680
+Esto mostrará 
+
+1426
+00:57:37,680 --> 00:57:40,200
+todos los paquetes 
+
+1427
+00:57:40,200 --> 00:57:41,700
+y te preguntará 
+
+1428
+00:57:41,700 --> 00:57:44,520
+si quieres continuar o no. 
+
+1429
+00:57:44,520 --> 00:57:46,680
+Solo presiona enter 
+
+1430
+00:57:46,680 --> 00:57:49,260
+en este paso 
+
+1431
+00:57:49,260 --> 00:57:51,660
+y luego se 
+
+1432
+00:57:51,660 --> 00:57:53,520
+descargarán automáticamente 
+
+1433
+00:57:53,520 --> 00:57:56,040
+todos los paquetes, lo que verás aquí.
+
+1434
+00:57:56,040 --> 00:57:58,380
+Básicamente, esto es todo lo básico que necesitamos, 
+
+1435
+00:57:58,380 --> 00:58:00,859
+solo incluye un par de paquetes que necesitamos 
+
+1436
+00:58:00,859 --> 00:58:03,300
+para configurar el entorno, 
+
+1437
+00:58:03,300 --> 00:58:04,380
+y luego vamos a 
+
+1438
+00:58:04,380 --> 00:58:06,000
+instalar extensiones. Este paso es 
+
+1439
+00:58:06,000 --> 00:58:08,880
+como instalar Google Chrome, y 
+
+1440
+00:58:08,880 --> 00:58:10,440
+luego vamos a agregar 
+
+1441
+00:58:10,440 --> 00:58:13,079
+extensiones. Asegúrate de llegar 
+
+1442
+00:58:13,079 --> 00:58:15,960
+a este paso e instalarlo 
+
+1443
+00:58:15,960 --> 00:58:18,059
+sin problemas. 
+
+1444
+00:58:18,059 --> 00:58:19,619
+Debería 
+
+1445
+00:58:19,619 --> 00:58:22,980
+terminar bastante rápido. 
+
+1446
+00:58:22,980 --> 00:58:25,859
+Aquí se está descargando, y 
+
+1447
+00:58:25,859 --> 00:58:28,760
+puedes ver la versión de Python que está descargando, 
+
+1448
+00:58:28,760 --> 00:58:32,160
+que es la 3.9.16. Si quieres, más tarde 
+
+1449
+00:58:32,160 --> 00:58:35,099
+podemos actualizar la versión, pero por lo general, para 
+
+1450
+00:58:35,099 --> 00:58:37,260
+cada entorno solo se instala una 
+
+1451
+00:58:37,260 --> 00:58:39,119
+versión de Python. 
+
+1452
+00:58:39,119 --> 00:58:40,799
+No querrás instalar tres versiones distintas, 
+
+1453
+00:58:40,799 --> 00:58:42,720
+en el mismo entorno, 
+
+1454
+00:58:42,720 --> 00:58:44,819
+ya que puede confundir a la computadora. Una vez que 
+
+1455
+00:58:44,819 --> 00:58:48,059
+se complete, en la parte inferior deberías 
+
+1456
+00:58:48,059 --> 00:58:50,220
+ver: "Ok to activate this environment, 
+
+1457
+00:58:50,220 --> 00:58:54,720
+use: conda activate geos and 
+
+1458
+00:58:54,720 --> 00:58:57,480
+conda deactivate." Presta atención 
+
+1459
+00:58:57,480 --> 00:59:00,720
+a esto. Deja que cierre la 
+
+1460
+00:59:00,720 --> 00:59:03,780
+otra ventana 
+
+1461
+00:59:03,780 --> 00:59:05,640
+para no confundirnos. 
+
+1462
+00:59:05,640 --> 00:59:07,619
+Cuando abras tu terminal o algo similar, 
+
+1463
+00:59:07,619 --> 00:59:10,619
+probablemente tengas uno llamado "base"
+
+1464
+00:59:10,619 --> 00:59:12,900
+¿Lo ves? Si solo lo uso para la computadora, 
+
+1465
+00:59:12,900 --> 00:59:14,940
+no tiene ninguna función, solo está ahí. 
+
+1466
+00:59:14,940 --> 00:59:17,339
+Pero por defecto, Anaconda 
+
+1467
+00:59:17,339 --> 00:59:19,799
+está usando la base. No quieres 
+
+1468
+00:59:19,799 --> 00:59:23,040
+instalar cosas en la base, ¿de acuerdo? 
+
+1469
+00:59:23,040 --> 00:59:25,079
+Si algo falla en ella, todo se romperá. 
+
+1470
+00:59:25,079 --> 00:59:28,140
+Así que no hagas nada en la base. 
+
+1471
+00:59:28,140 --> 00:59:29,700
+Vamos a instalar 
+
+1472
+00:59:29,700 --> 00:59:31,260
+cosas en el entorno que 
+
+1473
+00:59:31,260 --> 00:59:33,359
+acabas de crear. De esa manera, estará 
+
+1474
+00:59:33,359 --> 00:59:35,880
+aislado y si algo sale mal, 
+
+1475
+00:59:35,880 --> 00:59:38,339
+la base seguirá intacta. 
+
+1476
+00:59:38,339 --> 00:59:41,880
+Es como si te dieran un espacio. Estás 
+
+1477
+00:59:41,880 --> 00:59:43,980
+tratando de crear una habitación, 
+
+1478
+00:59:43,980 --> 00:59:46,740
+pero si haces algo en el cimiento, 
+
+1479
+00:59:46,740 --> 00:59:49,140
+todo el espacio se rompe. 
+
+1480
+00:59:49,140 --> 00:59:50,460
+Así que no lo hagas. El siguiente 
+
+1481
+00:59:50,460 --> 00:59:52,140
+paso será 
+
+1482
+00:59:52,140 --> 00:59:54,299
+activar el entorno. 
+
+1483
+00:59:54,299 --> 00:59:55,980
+Y este es el nombre, por eso 
+
+1484
+00:59:55,980 --> 00:59:58,140
+te pregunté cuál nombre querías usar. Para mí, 
+
+1485
+00:59:58,140 --> 01:00:02,160
+solo lo llamo "geos". Para activarlo, escribe "conda activate geos" 
+
+1486
+01:00:02,160 --> 01:00:05,880
+y presiona enter. 
+
+1487
+01:00:05,880 --> 01:00:09,119
+Echa un vistazo
+
+1488
+01:00:09,119 --> 01:00:12,000
+Presta atención a la izquierda “(base) -> (geos)”. 
+
+1489
+01:00:12,000 --> 01:00:13,980
+¿Ves esto aquí? 
+
+1490
+01:00:13,980 --> 01:00:17,280
+Ya estamos en el entorno. 
+
+1491
+01:00:17,280 --> 01:00:19,440
+Ya no estamos en la base. 
+
+1492
+01:00:19,440 --> 01:00:21,540
+Aquí puedes hacer lo que quieras 
+
+1493
+01:00:21,540 --> 01:00:24,180
+sin afectar a la base. Más tarde, cuando hayas terminado, 
+
+1494
+01:00:24,180 --> 01:00:25,920
+también podemos eliminar esto. 
+
+1495
+01:00:25,920 --> 01:00:27,359
+No afectará nada. 
+
+1496
+01:00:27,359 --> 01:00:29,400
+Por eso es importante 
+
+1497
+01:00:29,400 --> 01:00:32,280
+crear entornos virtuales. 
+
+1498
+01:00:32,280 --> 01:00:34,619
+Este es solo uno. Puedes crear tantos 
+
+1499
+01:00:34,619 --> 01:00:36,240
+como quieras. Puedes hacer todo tipo de 
+
+1500
+01:00:36,240 --> 01:00:37,260
+pruebas de software. Puedes instalar 
+
+1501
+01:00:37,260 --> 01:00:39,240
+múltiples versiones, así que en realidad no importa. 
+
+1502
+01:00:39,240 --> 01:00:42,420
+Ve y mira esto aquí. 
+
+1503
+01:00:42,420 --> 01:00:45,420
+Ya estamos dentro, ¿puedes ver esto? 
+
+1504
+01:00:45,420 --> 01:00:47,640
+El siguiente paso que puedes ver 
+
+1505
+01:00:47,640 --> 01:00:50,940
+¿qué paquetes se han instalado 
+
+1506
+01:00:50,940 --> 01:00:52,859
+en este entorno? Por defecto, 
+
+1507
+01:00:52,859 --> 01:00:54,780
+ya se ha instalado algo, 
+
+1508
+01:00:54,780 --> 01:00:56,280
+por lo que hay dos comandos que puedes usar para verificar 
+
+1509
+01:00:56,280 --> 01:00:59,220
+lo que ya está. El primero es 
+
+1510
+01:00:59,220 --> 01:01:04,579
+“pip list", que te 
+
+1511
+01:01:05,780 --> 01:01:09,540
+mostrará los paquetes que se 
+
+1512
+01:01:09,540 --> 01:01:10,980
+han instalado. Verás 
+
+1513
+01:01:10,980 --> 01:01:12,839
+algo así aquí. Entonces, 
+
+1514
+01:01:12,839 --> 01:01:15,299
+te mostraremos que Python ni siquiera 
+
+1515
+01:01:15,299 --> 01:01:17,099
+está 
+
+1516
+01:01:17,099 --> 01:01:19,079
+apareciendo aquí, por lo que deberías 
+
+1517
+01:01:19,079 --> 01:01:20,880
+poder 
+
+1518
+01:01:20,880 --> 01:01:22,940
+ver 
+
+1519
+01:01:22,980 --> 01:01:25,079
+solo 
+
+1520
+01:01:25,079 --> 01:01:27,480
+seis paquetes ahí. 
+
+1521
+01:01:27,480 --> 01:01:30,960
+El primero es el nombre 
+
+1522
+01:01:30,960 --> 01:01:35,059
+y el segundo es la versión, por lo que son las dos cosas 
+
+1523
+01:01:36,200 --> 01:01:39,119
+que te mostraré aquí. 
+
+1524
+01:01:39,119 --> 01:01:41,220
+¿Pueden todos ver esto? 
+
+1525
+01:01:41,220 --> 01:01:43,079
+Luego, te mostraré 
+
+1526
+01:01:43,079 --> 01:01:45,059
+cómo instalar un paquete. 
+
+1527
+01:01:45,059 --> 01:01:47,520
+Usaremos "pip install" para 
+
+1528
+01:01:47,520 --> 01:01:50,280
+instalar paquetes adicionales. 
+
+1529
+01:01:50,280 --> 01:01:54,619
+Déjame ver si quiero instalar todo de una vez 
+
+1530
+01:02:00,119 --> 01:02:02,099
+porque usamos algunos otros 
+
+1531
+01:02:02,099 --> 01:02:04,680
+paquetes más adelante, 
+
+1532
+01:02:04,680 --> 01:02:07,980
+así que quizás lo haga más tarde. 
+
+1533
+01:02:07,980 --> 01:02:10,079
+A continuación, te mostraré 
+
+1534
+01:02:10,079 --> 01:02:11,520
+cómo puedes ejecutar Python. 
+
+1535
+01:02:11,520 --> 01:02:13,440
+Básicamente, necesitas 
+
+1536
+01:02:13,440 --> 01:02:15,180
+escribir código 
+
+1537
+01:02:15,180 --> 01:02:16,079
+fuente 
+
+1538
+01:02:16,079 --> 01:02:20,040
+en un script de 
+
+1539
+01:02:20,040 --> 01:02:21,299
+Python, y 
+
+1540
+01:02:21,299 --> 01:02:23,579
+luego ejecutarlo. 
+
+1541
+01:02:23,579 --> 01:02:25,380
+La mayoría de las veces usaremos 
+
+1542
+01:02:25,380 --> 01:02:27,720
+Visual Studio Code para hacer eso, 
+
+1543
+01:02:27,720 --> 01:02:30,660
+pero en realidad no necesitas 
+
+1544
+01:02:30,660 --> 01:02:33,240
+un editor para escribir código, puedes 
+
+1545
+01:02:33,240 --> 01:02:35,220
+usar cualquier editor de texto. Un script de Python 
+
+1546
+01:02:35,220 --> 01:02:37,079
+es básicamente solo un editor de texto plano 
+
+1547
+01:02:37,079 --> 01:02:38,760
+y puedes ejecutarlo sin 
+
+1548
+01:02:38,760 --> 01:02:40,200
+usar ningún software adicional. 
+
+1549
+01:02:40,200 --> 01:02:42,599
+Todo lo que necesitamos es instalar Python o Conda 
+
+1550
+01:02:42,599 --> 01:02:44,520
+y luego podremos ejecutarlo. 
+
+1551
+01:02:44,520 --> 01:02:46,680
+Permíteme mostrarte lo que puedes hacer. 
+
+1552
+01:02:46,680 --> 01:02:48,660
+Esto es la terminal, si escribes "Python" y 
+
+1553
+01:02:48,660 --> 01:02:52,380
+presionas Enter, entrarás al intérprete. 
+
+1554
+01:02:52,380 --> 01:02:56,059
+Escribe "Python" y presiona Enter, 
+
+1555
+01:02:56,400 --> 01:02:58,740
+¿puedes ver esto? Básicamente, 
+
+1556
+01:02:58,740 --> 01:02:59,640
+aquí es donde 
+
+1557
+01:02:59,640 --> 01:03:01,500
+puedes escribir un script de Python. 
+
+1558
+01:03:01,500 --> 01:03:03,660
+Puedes hacerlo, pero 
+
+1559
+01:03:03,660 --> 01:03:05,099
+en realidad, no es muy 
+
+1560
+01:03:05,099 --> 01:03:07,260
+conveniente, 
+
+1561
+01:03:07,260 --> 01:03:08,220
+es 
+
+1562
+01:03:08,220 --> 01:03:10,079
+como escribir 
+
+1563
+01:03:10,079 --> 01:03:12,680
+algo en el bloc de notas 
+
+1564
+01:03:12,680 --> 01:03:15,119
+en lugar de usar 
+
+1565
+01:03:15,119 --> 01:03:17,400
+Google Docs o Microsoft Office, 
+
+1566
+01:03:17,400 --> 01:03:19,380
+que tienen un montón de nuevas 
+
+1567
+01:03:19,380 --> 01:03:21,119
+características que te permiten hacer verificación gramatical 
+
+1568
+01:03:21,119 --> 01:03:24,240
+y otras cosas. 
+
+1569
+01:03:24,240 --> 01:03:25,920
+El bloc de notas no ofrece esta 
+
+1570
+01:03:25,920 --> 01:03:28,559
+funcionalidad simple, pero funciona. 
+
+1571
+01:03:28,559 --> 01:03:29,940
+Si quieres, puedes hacerlo, 
+
+1572
+01:03:29,940 --> 01:03:32,819
+sería como escribir en un bloc de notas. 
+
+1573
+01:03:32,819 --> 01:03:35,520
+Para Python, 
+
+1574
+01:03:35,520 --> 01:03:38,040
+por ejemplo, podemos cubrir lo básico más adelante, 
+
+1575
+01:03:38,040 --> 01:03:40,020
+pero por ahora, por ejemplo, puedes escribir
+
+1576
+01:03:40,020 --> 01:03:42,000
+print("Hello world"). 
+
+1577
+01:03:42,000 --> 01:03:44,160
+Puedes hacerlo escribiendo "print" 
+
+1578
+01:03:44,160 --> 01:03:45,720
+seguido 
+
+1579
+01:03:45,720 --> 01:03:47,760
+de paréntesis y 
+
+1580
+01:03:47,760 --> 01:03:51,180
+comillas dobles, 
+
+1581
+01:03:51,180 --> 01:03:53,940
+luego 
+
+1582
+01:03:53,940 --> 01:03:56,599
+"Hello world". 
+
+1583
+01:03:59,760 --> 01:04:01,380
+¿Puedes ver eso? 
+
+1584
+01:04:01,380 --> 01:04:03,839
+Solo escribe "print" seguido de paréntesis 
+
+1585
+01:04:03,839 --> 01:04:06,000
+y coloca "Hola, mundo" entre 
+
+1586
+01:04:06,000 --> 01:04:07,559
+comillas simples o dobles y 
+
+1587
+01:04:07,559 --> 01:04:08,339
+presiona Enter. 
+
+1588
+01:04:08,339 --> 01:04:11,240
+Puede que la pantalla sea un poco 
+
+1589
+01:04:13,079 --> 01:04:14,819
+pequeña, 
+
+1590
+01:04:14,819 --> 01:04:16,680
+¿puedes ver el resultado? 
+
+1591
+01:04:16,680 --> 01:04:20,119
+Bien, este 
+
+1592
+01:04:20,640 --> 01:04:21,780
+es el 
+
+1593
+01:04:21,780 --> 01:04:23,280
+código correcto. 
+
+1594
+01:04:23,280 --> 01:04:24,780
+Puedes seguir 
+
+1595
+01:04:24,780 --> 01:04:27,000
+escribiendo todo tipo de cosas si quieres, pero 
+
+1596
+01:04:27,000 --> 01:04:29,760
+así es cómo lo ejecutas. También 
+
+1597
+01:04:29,760 --> 01:04:31,020
+puedes ejecutar un script de Python que 
+
+1598
+01:04:31,020 --> 01:04:32,640
+ya tengas en tu computadora. 
+
+1599
+01:04:32,640 --> 01:04:35,040
+Permíteme mostrarte 
+
+1600
+01:04:35,040 --> 01:04:38,460
+otro ejemplo, por ejemplo, puedo escribir 
+
+1601
+01:04:38,460 --> 01:04:39,619
+"x = 1" 
+
+1602
+01:04:39,619 --> 01:04:42,660
+(usualmente en Python quieres dejar 
+
+1603
+01:04:42,660 --> 01:04:44,640
+un espacio), esto es básicamente una asignación.
+
+1604
+01:04:44,640 --> 01:04:48,059
+Asignaré "x" a 1 y luego, 
+
+1605
+01:04:48,059 --> 01:04:51,420
+por ejemplo, "y" será igual a tal vez dos. 
+
+1606
+01:04:51,420 --> 01:04:52,619
+Entonces, 
+
+1607
+01:04:52,619 --> 01:04:56,220
+si escribo "x + y", 
+
+1608
+01:04:56,220 --> 01:04:59,180
+¿cuál es el resultado? 
+
+1609
+01:04:59,579 --> 01:05:01,619
+Tres, ¿verdad? Entonces, 
+
+1610
+01:05:01,619 --> 01:05:03,839
+así es como también puedo hacer que "z" 
+
+1611
+01:05:03,839 --> 01:05:05,760
+sea igual a "x" 
+
+1612
+01:05:05,760 --> 01:05:07,680
+más "y". 
+
+1613
+01:05:07,680 --> 01:05:10,799
+Presiono enter y luego solo escribo "z". 
+
+1614
+01:05:10,799 --> 01:05:12,480
+Mostraré los resultados para que puedas hacer 
+
+1615
+01:05:12,480 --> 01:05:14,640
+todo tipo de cálculos 
+
+1616
+01:05:14,640 --> 01:05:16,079
+matemáticos simples. Esto es 
+
+1617
+01:05:16,079 --> 01:05:18,059
+básicamente lo que estamos haciendo aquí: 
+
+1618
+01:05:18,059 --> 01:05:19,260
+ya estamos programando, 
+
+1619
+01:05:19,260 --> 01:05:21,599
+ya estamos escribiendo código, pero la mayoría del 
+
+1620
+01:05:21,599 --> 01:05:22,799
+tiempo vamos a usar el editor 
+
+1621
+01:05:22,799 --> 01:05:24,839
+porque te ayudará mucho ya que tienes 
+
+1622
+01:05:24,839 --> 01:05:26,280
+muchas herramientas que 
+
+1623
+01:05:26,280 --> 01:05:28,980
+te ayudarán a ejecutarte mucho más rápido. Esta es una forma. 
+
+1624
+01:05:28,980 --> 01:05:31,140
+A continuación, déjame mostrarte rápidamente cómo 
+
+1625
+01:05:31,140 --> 01:05:33,839
+puedes realmente 
+
+1626
+01:05:33,839 --> 01:05:38,700
+ejecutar el script. Ok, así que voy a ir a, 
+
+1627
+01:05:38,700 --> 01:05:40,740
+por ejemplo, en mi computadora o en cualquier lugar 
+
+1628
+01:05:40,740 --> 01:05:42,720
+que desees, 
+
+1629
+01:05:42,720 --> 01:05:46,740
+en descargas voy a hacer clic derecho (en el espacio en blanco) 
+
+1630
+01:05:46,740 --> 01:05:50,660
+clic en New (nuevo). 
+
+1631
+01:05:51,780 --> 01:05:52,920
+Selecciono t
+
+1632
+01:05:52,920 --> 01:05:55,920
+al txt. 
+
+1633
+01:05:55,920 --> 01:05:57,420
+Así que lo que deseas en este momento 
+
+1634
+01:05:57,420 --> 01:05:59,640
+es solo un archivo txt y dentro 
+
+1635
+01:05:59,640 --> 01:06:02,460
+de él podemos hacer lo mismo. Los scripts de Python 
+
+1636
+01:06:02,460 --> 01:06:04,559
+son texto plano, así que no es como 
+
+1637
+01:06:04,559 --> 01:06:07,500
+si estuvieran compilados. 
+
+1638
+01:06:07,500 --> 01:06:09,240
+Entonces, lo que puedo hacer aquí
+
+1639
+01:06:09,240 --> 01:06:11,460
+es escribir, print(“Hola mundo”). 
+
+1640
+01:06:11,460 --> 01:06:13,380
+Podemos 
+
+1641
+01:06:13,380 --> 01:06:14,940
+hacer 
+
+1642
+01:06:14,940 --> 01:06:16,380
+lo 
+
+1643
+01:06:16,380 --> 01:06:18,180
+mismo que hicimos anteriormente. 
+
+1644
+01:06:18,180 --> 01:06:21,900
+Luego puedo hacer lo mismo, por ejemplo, "x" es igual a uno, 
+
+1645
+01:06:21,900 --> 01:06:22,920
+"y" es igual a dos y 
+
+1646
+01:06:22,920 --> 01:06:24,599
+luego "z" es igual a "x" más "y". 
+
+1647
+01:06:24,599 --> 01:06:26,940
+No necesitas 
+
+1648
+01:06:26,940 --> 01:06:29,880
+algo complicado, solo 
+
+1649
+01:06:29,880 --> 01:06:32,099
+puedo intentar algo simple. 
+
+1650
+01:06:32,099 --> 01:06:34,260
+Puedes entender este, ¿verdad? 
+
+1651
+01:06:34,260 --> 01:06:35,640
+Este es realmente el código que acabamos de escribir 
+
+1652
+01:06:35,640 --> 01:06:37,559
+anteriormente en la terminal, así que 
+
+1653
+01:06:37,559 --> 01:06:39,420
+voy a imprimir esto y lo que 
+
+1654
+01:06:39,420 --> 01:06:42,599
+necesitas hacer es solo Ctrl + S. 
+
+1655
+01:06:42,599 --> 01:06:45,960
+Y lo que necesitamos hacer aquí es 
+
+1656
+01:06:45,960 --> 01:06:47,520
+cambiar el 
+
+1657
+01:06:47,520 --> 01:06:48,839
+nombre del archivo, así que puedo 
+
+1658
+01:06:48,839 --> 01:06:53,400
+cambiarlo a cualquier nombre que desees, 
+
+1659
+01:06:53,400 --> 01:06:56,760
+por ejemplo, puedo decir "testing.py", así que todos 
+
+1660
+01:06:56,760 --> 01:06:58,799
+los scripts de Python tienen la extensión de archivo .py, 
+
+1661
+01:06:58,799 --> 01:07:00,660
+así que si presionas enter, te preguntará si deseas cambiar la extensión, 
+
+1662
+01:07:00,660 --> 01:07:02,700
+debes decir que sí. 
+
+1663
+01:07:02,700 --> 01:07:05,220
+Ahora es Python, así que este ya es 
+
+1664
+01:07:05,220 --> 01:07:07,319
+básicamente el 
+
+1665
+01:07:07,319 --> 01:07:09,960
+script de Python. Puedes 
+
+1666
+01:07:09,960 --> 01:07:13,339
+hacer doble clic en él, probablemente no verás nada, 
+
+1667
+01:07:14,700 --> 01:07:17,520
+verás que se ha ido, 
+
+1668
+01:07:17,520 --> 01:07:19,559
+pero ya se ha ejecutado. 
+
+1669
+01:07:19,559 --> 01:07:21,900
+La razón de eso es que no hay nada que lo detenga 
+
+1670
+01:07:21,900 --> 01:07:24,539
+porque, una vez que se completa, 
+
+1671
+01:07:24,539 --> 01:07:28,559
+el símbolo del sistema desaparece. 
+
+1672
+01:07:28,559 --> 01:07:30,180
+Si realmente quieres saber 
+
+1673
+01:07:30,180 --> 01:07:31,079
+cómo 
+
+1674
+01:07:31,079 --> 01:07:33,240
+ejecutar este script y también ver los resultados 
+
+1675
+01:07:33,240 --> 01:07:36,119
+para que puedas ver la salida, 
+
+1676
+01:07:36,119 --> 01:07:38,760
+puedes hacerlo así. De nuevo, 
+
+1677
+01:07:38,760 --> 01:07:40,680
+si aún estás en 
+
+1678
+01:07:40,680 --> 01:07:43,140
+la terminal de Windows
+
+1679
+01:07:43,140 --> 01:07:45,059
+o en cualquier lugar, déjame 
+
+1680
+01:07:45,059 --> 01:07:47,039
+mostrarte cómo podemos hacerlo. 
+
+1681
+01:07:47,039 --> 01:07:49,500
+Este ya está 
+
+1682
+01:07:49,500 --> 01:07:52,079
+hecho, así que hagámoslo de nuevo, 
+
+1683
+01:07:52,079 --> 01:07:53,700
+asumiendo que ya tienes un script de Python 
+
+1684
+01:07:53,700 --> 01:07:56,160
+en tu computadora. 
+
+1685
+01:07:56,160 --> 01:07:57,059
+¿Cómo 
+
+1686
+01:07:57,059 --> 01:07:59,039
+lo ejecutamos? 
+
+1687
+01:07:59,039 --> 01:08:00,839
+Esto es como pedirle 
+
+1688
+01:08:00,839 --> 01:08:03,000
+a Notepad 
+
+1689
+01:08:03,000 --> 01:08:05,460
+que lo abra. La idea es 
+
+1690
+01:08:05,460 --> 01:08:08,400
+la misma, así que ahora tenemos el archivo. 
+
+1691
+01:08:08,400 --> 01:08:10,079
+El siguiente paso será ir 
+
+1692
+01:08:10,079 --> 01:08:15,299
+a Abrir Anaconda prompt nuevamente. 
+
+1693
+01:08:18,060 --> 01:08:20,580
+Una vez que se abre, 
+
+1694
+01:08:20,580 --> 01:08:22,859
+verás el directorio donde se encuentra 
+
+1695
+01:08:22,859 --> 01:08:26,160
+“C:\Users\Qiush”, pero 
+
+1696
+01:08:26,160 --> 01:08:28,140
+esto está bajo el directorio de descargas, 
+
+1697
+01:08:28,140 --> 01:08:30,420
+por lo que es mejor ingresar al directorio de usuario, 
+
+1698
+01:08:30,420 --> 01:08:34,259
+así que en el comando simplemente escribe “cd” espacio
+
+1699
+01:08:34,259 --> 01:08:38,520
+”Downloads”, 
+
+1700
+01:08:38,520 --> 01:08:41,219
+y luego presiona enter, 
+
+1701
+01:08:41,219 --> 01:08:43,500
+verás que estamos ingresando a este directorio 
+
+1702
+01:08:43,500 --> 01:08:47,279
+y luego puedes escribir “ls”
+
+1703
+01:08:47,279 --> 01:08:50,100
+Oh, no, 
+
+1704
+01:08:50,100 --> 01:08:51,960
+no está siendo reconocido, así que 
+
+1705
+01:08:51,960 --> 01:08:54,299
+probablemente solo sea para hacer, 
+
+1706
+01:08:54,299 --> 01:08:58,279
+creo que está listado o algo, 
+
+1707
+01:08:58,620 --> 01:09:02,339
+olvidé lo que está usando Windows. 
+
+1708
+01:09:02,339 --> 01:09:06,660
+Oh sí, sí, es diferente, así que en 
+
+1709
+01:09:06,660 --> 01:09:08,819
+Linux se usa “ls”, 
+
+1710
+01:09:08,819 --> 01:09:10,799
+así que “dir” te lo mostrará, el archivo
+
+1711
+01:09:10,799 --> 01:09:13,500
+que realmente está aquí, así que luego podemos ejecutarlo, 
+
+1712
+01:09:13,500 --> 01:09:15,899
+así que puedes usar el entorno básico, 
+
+1713
+01:09:15,899 --> 01:09:17,339
+porque no estamos haciendo nada 
+
+1714
+01:09:17,339 --> 01:09:19,799
+elegante en el script de índice, así que funciona también, 
+
+1715
+01:09:19,799 --> 01:09:23,640
+todo lo que necesitamos es escribir python y 
+
+1716
+01:09:23,640 --> 01:09:26,698
+luego escribir el nombre del archivo que creamos, 
+
+1717
+01:09:26,698 --> 01:09:28,040
+testing.py, (python testing.py) 
+
+1718
+01:09:28,040 --> 01:09:30,779
+presionamos enter, 
+
+1719
+01:09:30,779 --> 01:09:32,580
+verás 
+
+1720
+01:09:32,580 --> 01:09:33,839
+“Hello World!” y 
+
+1721
+01:09:33,839 --> 01:09:36,060
+3, exactamente 
+
+1722
+01:09:36,060 --> 01:09:38,339
+lo mismo que hicimos antes, así es 
+
+1723
+01:09:38,339 --> 01:09:41,120
+cómo se ejecuta, nuevamente, es un 
+
+1724
+01:09:41,120 --> 01:09:43,799
+script de Python que es solo texto plano, 
+
+1725
+01:09:43,799 --> 01:09:47,219
+puedes abrirlo con el bloc de notas para ver el contenido, 
+
+1726
+01:09:47,219 --> 01:09:49,679
+no lo abras haciendo 
+
+1727
+01:09:49,679 --> 01:09:51,060
+doble clic, porque se va a 
+
+1728
+01:09:51,060 --> 01:09:53,160
+ejecutar. Lo que usualmente debes hacer 
+
+1729
+01:09:53,160 --> 01:09:56,640
+es abrir el Bloc de notas 
+
+1730
+01:09:56,640 --> 01:09:59,040
+y luego arrastrar esto aquí. 
+
+1731
+01:09:59,040 --> 01:10:00,960
+Puedes abrirlo 
+
+1732
+01:10:00,960 --> 01:10:03,060
+usando Visual Studio Code, 
+
+1733
+01:10:03,060 --> 01:10:06,540
+lo cual ya hicimos. 
+
+1734
+01:10:06,540 --> 01:10:08,160
+Es posible que necesites ajustar la aplicación, 
+
+1735
+01:10:08,160 --> 01:10:10,260
+pero déjame mostrarte más tarde. Pero esto 
+
+1736
+01:10:10,260 --> 01:10:13,140
+es lo más simple, 
+
+1737
+01:10:13,140 --> 01:10:15,060
+cómo escribir un script de Python y cómo ejecutarlo. 
+
+1738
+01:10:15,060 --> 01:10:17,280
+No es nada complicado.
+
+1739
+01:10:17,280 --> 01:10:19,980
+Como lo hicimos antes, 
+
+1740
+01:10:19,980 --> 01:10:21,480
+en terminal,
+
+1741
+01:10:21,480 --> 01:10:24,300
+simplemente escribimos "Python" seguido 
+
+1742
+01:10:24,300 --> 01:10:26,880
+del archivo de Python y 
+
+1743
+01:10:26,880 --> 01:10:28,880
+luego ejecutamos. 
+
+1744
+01:10:28,880 --> 01:10:31,199
+Dependiendo de qué tan completo o 
+
+1745
+01:10:31,199 --> 01:10:32,400
+complicado sea tu código fuente, 
+
+1746
+01:10:32,400 --> 01:10:33,900
+a veces puede tomar un tiempo. 
+
+1747
+01:10:33,900 --> 01:10:36,480
+A continuación, te mostraré 
+
+1748
+01:10:36,480 --> 01:10:38,699
+cómo podemos 
+
+1749
+01:10:38,699 --> 01:10:40,320
+activar el entorno que acabamos de 
+
+1750
+01:10:40,320 --> 01:10:41,280
+crear. 
+
+1751
+01:10:41,280 --> 01:10:44,340
+Como dije, este es el entorno básico. 
+
+1752
+01:10:44,340 --> 01:10:46,500
+Si tu script contiene 
+
+1753
+01:10:46,500 --> 01:10:49,260
+cosas más complejas, algunos paquetes que 
+
+1754
+01:10:49,260 --> 01:10:51,780
+no se instalan aquí, entonces necesitas usar 
+
+1755
+01:10:51,780 --> 01:10:54,000
+el entorno que creamos. Es 
+
+1756
+01:10:54,000 --> 01:10:57,659
+mejor usar esto con Conda, 
+
+1757
+01:10:57,659 --> 01:11:01,159
+‘conda activate geos’
+
+1758
+01:11:01,159 --> 01:11:03,540
+Recuerda que 
+
+1759
+01:11:03,540 --> 01:11:05,340
+antes creamos el 
+
+1760
+01:11:05,340 --> 01:11:07,020
+entorno y ahora lo activamos. 
+
+1761
+01:11:07,020 --> 01:11:09,360
+Cada vez que 
+
+1762
+01:11:09,360 --> 01:11:11,640
+abras una ventana de comando, necesitas hacer esto. 
+
+1763
+01:11:11,640 --> 01:11:13,560
+Probablemente haya algunas 
+
+1764
+01:11:13,560 --> 01:11:15,780
+configuraciones en línea que puedas encontrar sobre cómo 
+
+1765
+01:11:15,780 --> 01:11:17,640
+abrirlo y activarlo automáticamente, 
+
+1766
+01:11:17,640 --> 01:11:20,520
+puedes hacerlo también, pero para 
+
+1767
+01:11:20,520 --> 01:11:22,620
+simplificar, cada vez que lo abro, 
+
+1768
+01:11:22,620 --> 01:11:24,719
+simplemente escribo "contact activate" 
+
+1769
+01:11:24,719 --> 01:11:26,940
+seguido del nombre del 
+
+1770
+01:11:26,940 --> 01:11:30,120
+entorno, y ya estamos aquí. 
+
+1771
+01:11:30,120 --> 01:11:32,100
+Puedes hacer lo mismo. Puedo 
+
+1772
+01:11:32,100 --> 01:11:36,800
+ejecutar el mismo comando "python testing.py" 
+
+1773
+01:11:36,800 --> 01:11:39,960
+y obtener el 
+
+1774
+01:11:39,960 --> 01:11:41,880
+mismo resultado, porque el script no 
+
+1775
+01:11:41,880 --> 01:11:43,500
+utiliza nada 
+
+1776
+01:11:43,500 --> 01:11:44,219
+complicado. 
+
+1777
+01:11:44,219 --> 01:11:46,560
+Es lo mismo 
+
+1778
+01:11:46,560 --> 01:11:48,360
+que si escribo directamente "python" .
+
+1779
+01:11:48,360 --> 01:11:51,719
+y luego hago lo que quiera, 
+
+1780
+01:11:51,719 --> 01:11:54,360
+como imprimir algo 
+
+1781
+01:11:54,360 --> 01:11:55,320
+con la 
+
+1782
+01:11:55,320 --> 01:11:59,900
+función "print". 
+
+1783
+01:12:02,400 --> 01:12:05,699
+La 
+
+1784
+01:12:05,699 --> 01:12:07,500
+próxima semana te mostraremos 
+
+1785
+01:12:07,500 --> 01:12:10,679
+cómo utilizar el equator para hacer 
+
+1786
+01:12:10,679 --> 01:12:13,100
+la codificación y ejecución de una manera más moderna. 
+
+1787
+01:12:13,100 --> 01:12:16,140
+La mayoría de las veces no necesitaremos esto, 
+
+1788
+01:12:16,140 --> 01:12:20,040
+ya que los paquetes ya están instalados en Anaconda interesantes. ¿Alguna pregunta? Bien, si te quedas atascado o tienes algún problema en diferentes sistemas operativos, avísame por correo electrónico al grupo y te ayudaré. Si no hay más preguntas, nos vemos el próximo martes, ¿ok?
+
+1789
+01:12:20,040 --> 01:12:22,380
+y en Visual Studio 
+
+1790
+01:12:22,380 --> 01:12:24,140
+Code simplemente lo usaremos. 
+
+1791
+01:12:24,140 --> 01:12:26,880
+Sin embargo, de vez en cuando 
+
+1792
+01:12:26,880 --> 01:12:29,100
+aún te 
+
+1793
+01:12:29,100 --> 01:12:31,020
+pediremos que uses "conda 
+
+1794
+01:12:31,020 --> 01:12:32,780
+create" “conda activate" 
+
+1795
+01:12:32,780 --> 01:12:34,620
+cuando intentes instalar 
+
+1796
+01:12:34,620 --> 01:12:37,440
+paquetes adicionales. 
+
+1797
+01:12:37,440 --> 01:12:39,960
+Si por ejemplo quieres, 
+
+1798
+01:12:39,960 --> 01:12:42,920
+puedo 
+
+1799
+01:12:43,020 --> 01:12:44,940
+mostrártelo la próxima vez, 
+
+1800
+01:12:44,940 --> 01:12:47,520
+pero por ahora solo estamos 
+
+1801
+01:12:47,520 --> 01:12:49,620
+configurando el software y 
+
+1802
+01:12:49,620 --> 01:12:51,719
+escribiendo un 
+
+1803
+01:12:51,719 --> 01:12:55,560
+script sencillo. 
+
+1804
+01:12:55,560 --> 01:12:56,159
+La próxima 
+
+1805
+01:12:56,159 --> 01:12:58,199
+semana comenzaremos 
+
+1806
+01:12:58,199 --> 01:13:00,900
+a hacer cosas más interesantes. ¿Alguna pregunta?
+
+1807
+01:13:00,900 --> 01:13:02,699
+Bien, esto fue bastante lento, 
+
+1808
+01:13:02,699 --> 01:13:04,380
+pero me aseguraré de que
+
+1809
+01:13:04,380 --> 01:13:06,900
+todos tengan configurado el software
+
+1810
+01:13:06,900 --> 01:13:10,320
+para que todos puedan comenzar a programar. 
+
+1811
+01:13:10,320 --> 01:13:12,540
+Si te quedas atascado o si estás en diferentes
+
+1812
+01:13:12,540 --> 01:13:14,699
+sistemas operativos, avísame por
+
+1813
+01:13:14,699 --> 01:13:16,199
+correo electrónico al grupo y podré
+
+1814
+01:13:16,199 --> 01:13:18,840
+ayudarte. Si no hay preguntas, 
+
+1815
+01:13:18,840 --> 01:13:22,020
+nos vemos el próximo martes, 
+
+1816
+01:13:22,020 --> 01:13:24,620
+¿de acuerdo?...
+
+
