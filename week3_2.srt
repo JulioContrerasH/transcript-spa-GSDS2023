@@ -1,0 +1,7138 @@
+1
+00:00:00,000 --> 00:00:02,659
+Antes 
+
+2
+00:00:02,659 --> 00:00:06,120
+de presentar las cosas nuevas hoy, 
+
+3
+00:00:06,120 --> 00:00:09,300
+solo para recapitular lo que 
+
+4
+00:00:09,300 --> 00:00:12,420
+hablamos el martes, ¿qué hicimos el 
+
+5
+00:00:12,420 --> 00:00:14,780
+martes? 
+
+6
+00:00:15,859 --> 00:00:18,600
+Sí, creamos nuestro propio sitio web y usamos una 
+
+7
+00:00:18,600 --> 00:00:22,439
+plantilla. También hablamos sobre algunas 
+
+8
+00:00:22,439 --> 00:00:24,900
+cosas que puedes hacer con Markdown, 
+
+9
+00:00:24,900 --> 00:00:28,140
+como agregar imágenes, hipervínculos y texto. 
+
+10
+00:00:28,140 --> 00:00:29,279
+Hoy haremos algo 
+
+11
+00:00:29,279 --> 00:00:31,740
+similar, 
+
+12
+00:00:31,740 --> 00:00:33,360
+será otra forma de 
+
+13
+00:00:33,360 --> 00:00:35,820
+crear un perfil para tu cuenta de GitHub, 
+
+14
+00:00:35,820 --> 00:00:37,620
+así que 
+
+15
+00:00:37,620 --> 00:00:40,140
+asegúrate de practicar. 
+
+16
+00:00:40,140 --> 00:00:42,960
+El martes ya cubrimos 
+
+17
+00:00:42,960 --> 00:00:44,520
+la primera mitad, así que hoy 
+
+18
+00:00:44,520 --> 00:00:46,620
+cubriremos la segunda mitad y nuevamente 
+
+19
+00:00:46,620 --> 00:00:48,840
+asegúrate de practicar. 
+
+20
+00:00:48,840 --> 00:00:51,780
+También hoy 
+
+21
+00:00:51,780 --> 00:00:54,480
+tendremos algunos ejemplos de cómo podemos contribuir 
+
+22
+00:00:54,480 --> 00:00:57,360
+en GitHub y básicamente el mismo 
+
+23
+00:00:57,360 --> 00:00:58,500
+procedimiento que utilizarás para 
+
+24
+00:00:58,500 --> 00:01:01,020
+contribuir a proyectos de código abierto en 
+
+25
+00:01:01,020 --> 00:01:04,080
+GitHub. Después de hoy, deberías sentirte 
+
+26
+00:01:04,080 --> 00:01:08,000
+cómodo haciendo preguntas en GitHub 
+
+27
+00:01:09,200 --> 00:01:12,479
+y solicitando contribuciones, aunque tomará tiempo 
+
+28
+00:01:12,479 --> 00:01:16,020
+contribuir con 
+
+29
+00:01:16,020 --> 00:01:19,380
+algo de calidad. Pero al menos sabrás los 
+
+30
+00:01:19,380 --> 00:01:21,240
+pasos que debes seguir si quieres 
+
+31
+00:01:21,240 --> 00:01:22,680
+contribuir con algo. 
+
+32
+00:01:22,680 --> 00:01:26,040
+Primero, cubramos la 
+
+33
+00:01:26,040 --> 00:01:27,960
+segunda mitad de la lección uno: cómo crear un 
+
+34
+00:01:27,960 --> 00:01:31,500
+perfil de GitHub. Si abres tu cuenta de 
+
+35
+00:01:31,500 --> 00:01:32,520
+GitHub 
+
+36
+00:01:32,520 --> 00:01:33,659
+y 
+
+37
+00:01:33,659 --> 00:01:36,960
+cargas 
+
+38
+00:01:36,960 --> 00:01:38,700
+tu 
+
+39
+00:01:38,700 --> 00:01:42,119
+llamado perfil de GitHub 
+
+40
+00:01:42,119 --> 00:01:44,520
+es posible que no tengas mucho contenido allí 
+
+41
+00:01:44,520 --> 00:01:47,159
+en este momento, pero al menos 
+
+42
+00:01:47,159 --> 00:01:48,960
+ya puedes crear algunos proyectos y 
+
+43
+00:01:48,960 --> 00:01:50,759
+mostrar algunas actividades, como 
+
+44
+00:01:50,759 --> 00:01:53,880
+la cantidad de “commits” (confirmaciones) que hiciste cada día, 
+
+45
+00:01:53,880 --> 00:01:56,040
+por ejemplo. Entonces, lo que vamos a 
+
+46
+00:01:56,040 --> 00:01:58,320
+hacer es mostrarte cómo crear 
+
+47
+00:01:58,320 --> 00:02:00,899
+algo como esto. 
+
+48
+00:02:00,899 --> 00:02:03,960
+Si miras el perfil, 
+
+49
+00:02:03,960 --> 00:02:06,360
+puedes ir a "mi perfil" 
+
+50
+00:02:06,360 --> 00:02:08,340
+o puedes abrir tu propio perfil, 
+
+51
+00:02:08,340 --> 00:02:10,619
+que puede estar vacío. Este que estás 
+
+52
+00:02:10,619 --> 00:02:13,500
+viendo aquí es mi repositorio de GitHub, 
+
+53
+00:02:13,500 --> 00:02:16,080
+por lo que, si haces clic en mi nombre, verás 
+
+54
+00:02:16,080 --> 00:02:18,020
+que la dirección es 
+
+55
+00:02:18,020 --> 00:02:21,120
+github.com/usuario y 
+
+56
+00:02:21,120 --> 00:02:22,800
+el mismo nombre de usuario. Esto es similar a 
+
+57
+00:02:22,800 --> 00:02:23,879
+lo que hicimos 
+
+58
+00:02:23,879 --> 00:02:25,920
+en la última lección con tu 
+
+59
+00:02:25,920 --> 00:02:29,280
+nombre de usuario punto (.) github.io, 
+
+60
+00:02:29,280 --> 00:02:31,260
+que es tu sitio web donde puedes alojar 
+
+61
+00:02:31,260 --> 00:02:34,200
+muchas cosas, pero también tienes un 
+
+62
+00:02:34,200 --> 00:02:37,020
+repositorio especial con el mismo nombre de usuario. 
+
+63
+00:02:37,020 --> 00:02:39,599
+Aquí solo alojas un archivo markdown 
+
+64
+00:02:39,599 --> 00:02:42,360
+llamado "README.md" y 
+
+sesenta y cinco
+00:02:42,360 --> 00:02:44,400
+lo que pongas aquí 
+
+66
+00:02:44,400 --> 00:02:46,080
+aparecerá en tu página de inicio. Este es 
+
+67
+00:02:46,080 --> 00:02:48,500
+básicamente un repositorio especial 
+
+68
+00:02:48,500 --> 00:02:51,239
+dedicado a mostrar contenido en tu 
+
+69
+00:02:51,239 --> 00:02:52,980
+perfil. Entonces, te voy a mostrar paso a paso 
+
+70
+00:02:52,980 --> 00:02:56,160
+cómo puedes crear uno y luego 
+
+71
+00:02:56,160 --> 00:02:58,440
+en términos de contenido es lo mismo que 
+
+72
+00:02:58,440 --> 00:03:00,060
+lo que cubrimos la última vez, es 
+
+73
+00:03:00,060 --> 00:03:02,459
+solo markdown para que puedas hacer lo que quieras, 
+
+74
+00:03:02,459 --> 00:03:04,440
+puedes tener algunas páginas, 
+
+75
+00:03:04,440 --> 00:03:07,680
+cosas de imágenes o incluso videos y ponerlos 
+
+76
+00:03:07,680 --> 00:03:11,819
+en la parte superior. Primero, 
+
+77
+00:03:11,819 --> 00:03:14,459
+déjame hacerlo de esta manera, cambia el nombre porque 
+
+78
+00:03:14,459 --> 00:03:17,040
+solo puedes tener un repositorio 
+
+79
+00:03:17,040 --> 00:03:19,080
+usando un nombre de usuario, así que lo voy a cambiar 
+
+80
+00:03:19,080 --> 00:03:21,659
+por algo más. Ahora, si 
+
+81
+00:03:21,659 --> 00:03:23,879
+hago cambios y vuelvo a mi cuenta, 
+
+82
+00:03:23,879 --> 00:03:26,819
+probablemente desaparecerá. 
+
+83
+00:03:26,819 --> 00:03:29,519
+Tu cuenta debería 
+
+84
+00:03:29,519 --> 00:03:32,280
+verse como la mía, se dice que 
+
+85
+00:03:32,280 --> 00:03:34,440
+puedes fijar tus proyectos, si 
+
+86
+00:03:34,440 --> 00:03:36,120
+no tienes nada, estará 
+
+87
+00:03:36,120 --> 00:03:38,700
+vacío en este momento. Lo que vamos a 
+
+88
+00:03:38,700 --> 00:03:40,860
+hacer a continuación es crear un nuevo repositorio, así que 
+
+89
+00:03:40,860 --> 00:03:43,200
+voy a hacer clic en 
+
+90
+00:03:43,200 --> 00:03:45,000
+"New Repository", 
+
+91
+00:03:45,000 --> 00:03:49,739
+y desde aquí puedes poner 
+
+92
+00:03:49,739 --> 00:03:53,760
+"Selecta an owner", tengo mucho material de AWS 
+
+93
+00:03:53,760 --> 00:03:56,819
+aquí, así que será mi 
+
+94
+00:03:56,819 --> 00:03:59,700
+nombre de usuario (giswq) 
+
+95
+00:03:59,700 --> 00:04:02,280
+escribe de nuevo tu nombre 
+
+96
+00:04:02,280 --> 00:04:03,900
+de usuario, no diferente. Esta sería la cosa especial 
+
+97
+00:04:03,900 --> 00:04:05,879
+que necesitamos crear, si quieres 
+
+98
+00:04:05,879 --> 00:04:09,659
+poner una descripción, puedes hacerlo, 
+
+99
+00:04:09,659 --> 00:04:13,739
+diré "Perfil de GitHub" 
+
+100
+00:04:13,980 --> 00:04:18,180
+y asegúrate de agregar este 
+
+101
+00:04:18,180 --> 00:04:21,019
+archivo de README, 
+
+102
+00:04:21,019 --> 00:04:24,060
+y para la licencia, si quieres, 
+
+103
+00:04:24,060 --> 00:04:27,000
+puedes usar MIT, lo que quieras. No es necesario 
+
+104
+00:04:27,000 --> 00:04:28,800
+tener una licencia, esto es 
+
+105
+00:04:28,800 --> 00:04:31,139
+solo contenido de texto 
+
+106
+00:04:31,139 --> 00:04:35,300
+y luego crear el repositorio. 
+
+107
+00:04:39,660 --> 00:04:42,300
+Ahora, verás que por defecto 
+
+108
+00:04:42,300 --> 00:04:44,460
+se mostrará aquí. Una vez que tengas 
+
+109
+00:04:44,460 --> 00:04:46,440
+esto, 
+
+110
+00:04:46,440 --> 00:04:47,340
+deberías 
+
+111
+00:04:47,340 --> 00:04:49,860
+poder ver esta pestaña a la derecha, 
+
+112
+00:04:49,860 --> 00:04:52,259
+y este es un repositorio especial, su archivo 
+
+113
+00:04:52,259 --> 00:04:54,060
+README aparecerá en tu 
+
+114
+00:04:54,060 --> 00:04:56,400
+perfil público, y luego puedes hacer clic en el 
+
+115
+00:04:56,400 --> 00:04:59,660
+botón "Visit profile" 
+
+116
+00:05:00,199 --> 00:05:03,620
+en tu página de inicio, 
+
+117
+00:05:04,440 --> 00:05:08,040
+y eso es todo. Lo mismo, 
+
+118
+00:05:08,040 --> 00:05:09,840
+clona el repositorio a tu computadora, 
+
+119
+00:05:09,840 --> 00:05:12,660
+haz algunos cambios y empuja (Push), 
+
+120
+00:05:12,660 --> 00:05:14,280
+y me verás aquí. 
+
+121
+00:05:14,280 --> 00:05:16,440
+También puedes a hacer clic en el ícono de edición en la 
+
+122
+00:05:16,440 --> 00:05:18,660
+esquina superior derecha, también puedes hacer cambios 
+
+123
+00:05:18,660 --> 00:05:22,800
+aquí. El markdown es muy flexible, 
+
+124
+00:05:22,800 --> 00:05:26,400
+como cubrimos previamente, los enlaces de texto y 
+
+125
+00:05:26,400 --> 00:05:28,860
+algunos encabezados de texto, lo que quieras. 
+
+126
+00:05:28,860 --> 00:05:31,440
+También puedes tener muchos 
+
+127
+00:05:31,440 --> 00:05:34,080
+emojis, así que, si te gustan, deberían ser los buenos, 
+
+128
+00:05:34,080 --> 00:05:36,780
+tal vez no los soporte el bloc de notas de Windows, 
+
+129
+00:05:36,780 --> 00:05:38,820
+pero el markdown 
+
+130
+00:05:38,820 --> 00:05:41,280
+te permite hacer 
+
+131
+00:05:41,280 --> 00:05:43,800
+algunas cosas. Si haces clic en el 
+
+132
+00:05:43,800 --> 00:05:46,259
+botón “Edit”, 
+
+133
+00:05:46,259 --> 00:05:48,240
+recomendaría que lo clones en tu computadora local,
+
+134
+00:05:48,240 --> 00:05:50,100
+si quieres, si no quieres, no tienes 
+
+
+135
+00:05:50,100 --> 00:05:52,919
+que hacerlo, aquí 
+
+136
+00:05:52,919 --> 00:05:56,280
+verás esto, 
+
+137
+00:05:56,280 --> 00:05:59,100
+el signo de lista y luego el signo de exclamación y 
+
+138
+00:05:59,100 --> 00:06:02,039
+luego dos guiones, también hay otro 
+
+139
+00:06:02,039 --> 00:06:03,840
+al final, esto es básicamente un 
+
+140
+00:06:03,840 --> 00:06:06,900
+comentario, es como HTML, 
+
+141
+00:06:06,900 --> 00:06:10,020
+como la etiqueta común, 
+
+142
+00:06:10,020 --> 00:06:13,080
+así que si quitas estos dos y luego 
+
+143
+00:06:13,080 --> 00:06:15,020
+si haces esto, aparecerá, 
+
+144
+00:06:15,020 --> 00:06:17,520
+por ejemplo, saltemos esto, 
+
+145
+00:06:17,520 --> 00:06:19,080
+quita esto, 
+
+146
+00:06:19,080 --> 00:06:22,919
+quita esto, puedes hacer una vista previa 
+
+147
+00:06:22,919 --> 00:06:24,600
+antes de confirmar los cambios, así que 
+
+148
+00:06:24,600 --> 00:06:28,340
+voy a hacer una vista previa, verás 
+
+149
+00:06:28,620 --> 00:06:30,539
+que, si eliminas eso, y luego vista previa, 
+
+150
+00:06:30,539 --> 00:06:33,419
+y si haces “commit”, aquí es donde 
+
+151
+00:06:33,419 --> 00:06:34,740
+puedes seguir trabajando, es 
+
+152
+00:06:34,740 --> 00:06:36,780
+como markdown, bastante simple, en la 
+
+153
+00:06:36,780 --> 00:06:39,900
+esquina superior derecha aquí, “Commit changes”, 
+
+154
+00:06:39,900 --> 00:06:42,780
+y luego puedes escribir un mensaje, esto es 
+
+155
+00:06:42,780 --> 00:06:44,759
+exactamente lo mismo que en Visual Studio, 
+
+156
+00:06:44,759 --> 00:06:47,460
+donde escribimos un 
+
+157
+00:06:47,460 --> 00:06:49,860
+mensaje de confirmación, 
+
+158
+00:06:49,860 --> 00:06:51,600
+así que aquí debería estar si quiero tener 
+
+159
+00:06:51,600 --> 00:06:53,160
+una descripción más detallada, 
+
+160
+00:06:53,160 --> 00:06:55,440
+pero la mayoría de las veces simplemente hago clic 
+
+161
+00:06:55,440 --> 00:06:57,300
+en “Commit changes”, 
+
+162
+00:06:57,300 --> 00:06:59,160
+también puedes crear una nueva rama 
+
+163
+00:06:59,160 --> 00:07:01,139
+para blah blah blah, porque esto es 
+
+164
+00:07:01,139 --> 00:07:02,819
+bastante simple, no necesitamos hacerlo hoy, 
+
+165
+00:07:02,819 --> 00:07:04,020
+pero más tarde te mostraré cómo puedes 
+
+166
+00:07:04,020 --> 00:07:06,660
+crear una rama, esto es muy 
+
+167
+00:07:06,660 --> 00:07:08,280
+simple, muy importante si quieres 
+
+168
+00:07:08,280 --> 00:07:10,500
+contribuir a proyectos de código abierto, 
+
+169
+00:07:10,500 --> 00:07:11,759
+necesitas crear una llamada rama, 
+
+170
+00:07:11,759 --> 00:07:16,520
+básicamente la rama principal es 
+
+171
+00:07:16,860 --> 00:07:18,300
+la que no quieres 
+
+172
+00:07:18,300 --> 00:07:19,979
+romper, así que vamos a crear una 
+
+173
+00:07:19,979 --> 00:07:21,599
+copia en otro lugar y hacer algunos 
+
+174
+00:07:21,599 --> 00:07:23,759
+cambios, y luego cuando lo fusione con la rama principal, 
+
+175
+00:07:23,759 --> 00:07:25,139
+debes verificar 
+
+176
+00:07:25,139 --> 00:07:26,880
+que no rompas nada 
+
+177
+00:07:26,880 --> 00:07:29,699
+o que no haya conflictos, porque 
+
+178
+00:07:29,699 --> 00:07:31,139
+10,000 personas pueden contribuir al mismo 
+
+179
+00:07:31,139 --> 00:07:33,780
+proyecto y todos están 
+
+180
+00:07:33,780 --> 00:07:35,819
+trabajando en una rama, lo entenderás 
+
+181
+00:07:35,819 --> 00:07:38,639
+mejor más adelante.
+
+182
+00:07:38,639 --> 00:07:40,860
+Confirmamos los cambios, 
+
+183
+00:07:40,860 --> 00:07:43,139
+luego simplemente regresa a tu 
+
+184
+00:07:43,139 --> 00:07:44,880
+repositorio de GitHub, 
+
+185
+00:07:44,880 --> 00:07:47,400
+tu página de inicio, 
+
+186
+00:07:47,400 --> 00:07:49,860
+solo para ver algo más bonito 
+
+187
+00:07:49,860 --> 00:07:51,960
+aquí, si quieres buscar 
+
+188
+00:07:51,960 --> 00:07:54,000
+más emojis, deberías ir 
+
+189
+00:07:54,000 --> 00:07:56,039
+en línea.  Bueno, debería 
+
+190
+00:07:56,039 --> 00:07:58,259
+haber algunos sitios web como 
+191
+00:07:58,259 --> 00:08:00,479
+"emoji 
+
+192
+00:08:00,479 --> 00:08:02,699
+copy and paste", por ejemplo. 
+
+193
+00:08:02,699 --> 00:08:05,039
+A veces, estos sitios web te permiten 
+
+194
+00:08:05,039 --> 00:08:07,080
+copiar los emojis y luego pegarlos en 
+
+195
+00:08:07,080 --> 00:08:09,900
+GitHub. Por ejemplo, me gusta.
+
+196
+00:08:09,900 --> 00:08:11,280
+este 
+
+197
+00:08:11,280 --> 00:08:14,240
+y funciona.
+
+198
+00:08:15,900 --> 00:08:19,220
+Déjame ver aquí. 
+
+199
+00:08:19,860 --> 00:08:23,360
+Bien, 
+
+200
+00:08:23,580 --> 00:08:26,220
+la sonrisa, tal vez sea el primero. 
+
+201
+00:08:26,220 --> 00:08:28,080
+Aquí hay un botón para copiar, ¿ves? 
+
+202
+00:08:28,080 --> 00:08:31,139
+Es tan sencillo como copiar 
+
+203
+00:08:31,139 --> 00:08:34,919
+y volver aquí para editar. 
+
+204
+00:08:34,919 --> 00:08:36,839
+Ya hay una sonrisa aquí, 
+
+205
+00:08:36,839 --> 00:08:38,880
+por eso la estoy mostrando 
+
+206
+00:08:38,880 --> 00:08:41,219
+como agregar una nueva. 
+
+207
+00:08:41,219 --> 00:08:42,599
+Aquí puedo poner 
+
+208
+00:08:42,599 --> 00:08:46,680
+esta y luego simplemente usar Ctrl+V, Ctrl+V. 
+
+209
+00:08:46,680 --> 00:08:49,260
+Ya ves, se ha pegado. 
+
+210
+00:08:49,260 --> 00:08:52,080
+Puedes agregar tantos como quieras 
+
+211
+00:08:52,080 --> 00:08:56,720
+y luego confirmar los cambios. 
+
+212
+00:08:57,300 --> 00:08:58,560
+Bien.
+
+213
+00:08:58,560 --> 00:09:01,860
+Así puedes crear un perfil de 
+
+214
+00:09:01,860 --> 00:09:04,019
+GitHub bastante divertido si quieres. 
+
+215
+00:09:04,019 --> 00:09:06,480
+Es tan fácil como eso. Dentro de eso, 
+
+216
+00:09:06,480 --> 00:09:09,000
+también puedes crear múltiples secciones. 
+
+217
+00:09:09,000 --> 00:09:10,920
+Por 
+
+218
+00:09:10,920 --> 00:09:13,260
+ejemplo, 
+
+219
+00:09:13,260 --> 00:09:14,760
+para 
+
+220
+00:09:14,760 --> 00:09:16,980
+Markdown, 
+
+221
+00:09:16,980 --> 00:09:19,620
+usualmente querrás tener diferentes encabezados. 
+
+222
+00:09:19,620 --> 00:09:21,839
+El encabezado de nivel 2 se indica con dos signos de almohadilla (#). 
+
+223
+00:09:21,839 --> 00:09:24,360
+Por lo general, no querrás usar solo uno, 
+
+224
+00:09:24,360 --> 00:09:26,519
+ya que está reservado para otros propósitos especiales. 
+
+225
+00:09:26,519 --> 00:09:28,740
+Generalmente quieres comenzar con el nivel dos. 
+
+226
+00:09:28,740 --> 00:09:30,540
+El nivel uno es cuando tienes algo que 
+
+227
+00:09:30,540 --> 00:09:31,920
+quieres construir, como un libro o algo así, 
+
+228
+00:09:31,920 --> 00:09:34,940
+a veces automáticamente ya tienes un 
+
+229
+00:09:34,940 --> 00:09:37,920
+encabezado, así que comienza con el nivel dos, 
+
+230
+00:09:37,920 --> 00:09:40,500
+confía en mí. Entonces, 
+
+231
+00:09:40,500 --> 00:09:43,680
+“Mi proyecto", "Educación" o
+
+232
+00:09:43,680 --> 00:09:48,300
+"Empleo", desde aquí 
+
+233
+00:09:48,300 --> 00:09:51,120
+escribe. 
+
+234
+00:09:51,120 --> 00:09:54,540
+Este guión o signo de menos, 
+
+235
+00:09:54,540 --> 00:09:56,279
+básicamente, en 
+
+236
+00:09:56,279 --> 00:09:58,860
+una lista ordenada, Puedes tener uno con un punto 
+
+237
+00:09:58,860 --> 00:10:00,540
+y algo, dos con un punto y algo, si quieres. 
+
+238
+00:10:00,540 --> 00:10:03,720
+Aquí puedo 
+
+239
+00:10:03,720 --> 00:10:05,279
+decir, por ejemplo, 
+
+240
+00:10:05,279 --> 00:10:09,420
+"Universidad de Tennessee 
+
+241
+00:10:09,420 --> 00:10:11,760
+Knoxville" 
+
+242
+00:10:11,760 --> 00:10:13,620
+y el segundo podría ser 
+
+243
+00:10:13,620 --> 00:10:15,000
+"Binghamton 
+
+244
+00:10:15,000 --> 00:10:17,540
+University”, 
+
+245
+00:10:18,860 --> 00:10:21,779
+donde trabajé antes. Luego, 
+
+246
+00:10:21,779 --> 00:10:24,180
+de nuevo, puedes previsualizar. 
+
+247
+00:10:24,180 --> 00:10:27,060
+Luego puedes agregar 
+
+248
+00:10:27,060 --> 00:10:29,040
+algo. Por ejemplo, aquí 
+
+249
+00:10:29,040 --> 00:10:32,640
+agrega otra sección, como un proyecto, 
+
+250
+00:10:32,640 --> 00:10:34,560
+algo así. Luego puedes continuar 
+
+251
+00:10:34,560 --> 00:10:37,019
+agregando, por ejemplo, si quieres tener 
+
+252
+00:10:37,019 --> 00:10:39,959
+toda la lista: uno, blah blah blah, dos, 
+
+253
+00:10:39,959 --> 00:10:41,700
+blah blah blah, algo así. Entonces aquí 
+
+254
+00:10:41,700 --> 00:10:45,839
+decimos, por ejemplo, geemap, leafmap, 
+
+255
+00:10:45,839 --> 00:10:48,140
+white box. 
+
+256
+00:10:48,300 --> 00:10:52,640
+Si quieres agregar un hipervínculo, 
+
+257
+00:10:52,940 --> 00:10:56,579
+será más fácil si clonas todo en tu 
+
+258
+00:10:56,579 --> 00:10:58,560
+computadora local con Visual Studio Code 
+
+259
+00:10:58,560 --> 00:11:01,019
+y luego usas Ctrl+L. 
+
+260
+00:11:01,019 --> 00:11:02,700
+Es un poco más fácil hacerlo así que aquí, 
+
+261
+00:11:02,700 --> 00:11:05,459
+pero si eres un poco perezoso, 
+
+262
+00:11:05,459 --> 00:11:07,260
+puedes 
+
+263
+00:11:07,260 --> 00:11:10,320
+usar corchetes 
+
+264
+00:11:10,320 --> 00:11:12,480
+cuadrados 
+
+265
+00:11:12,480 --> 00:11:15,560
+y 
+
+266
+00:11:16,320 --> 00:11:18,680
+luego paréntesis. 
+
+267
+00:11:18,720 --> 00:11:20,940
+Recuerda, 
+
+268
+00:11:20,940 --> 00:11:23,160
+corchetes primero, 
+
+269
+00:11:23,160 --> 00:11:26,760
+luego paréntesis. 
+
+270
+00:11:26,760 --> 00:11:31,640
+Entre paréntesis, colocamos el link 
+
+271
+00:11:32,579 --> 00:11:35,399
+de la página de la Universidad
+
+272
+00:11:35,399 --> 00:11:37,560
+puedes simplemente 
+
+273
+00:11:37,560 --> 00:11:39,120
+escribirlo, si no, puedes ir en línea 
+
+274
+00:11:39,120 --> 00:11:40,980
+y luego regresar aquí 
+
+275
+00:11:40,980 --> 00:11:42,899
+y pegarlo. Aquí es donde vamos 
+
+276
+00:11:42,899 --> 00:11:44,700
+a hacer un hipervínculo. 
+
+277
+00:11:44,700 --> 00:11:46,860
+Hacemos lo mismo con corchetes cuadrados, súper registros y luego 
+
+278
+00:11:46,860 --> 00:11:50,899
+paréntesis otro link, 
+
+279
+00:11:51,620 --> 00:11:54,360
+por ejemplo, puedo hacer lo mismo para 
+
+280
+00:11:54,360 --> 00:11:56,579
+otros proyectos, y así sucesivamente. 
+
+281
+00:11:56,579 --> 00:11:59,700
+Depende de ti lo que quieras agregar. 
+
+282
+00:11:59,700 --> 00:12:01,620
+Luego, haz los cambios 
+
+283
+00:12:01,620 --> 00:12:04,760
+y regresa para previsualizar. 
+
+284
+00:12:05,040 --> 00:12:07,380
+Bueno.
+
+285
+00:12:07,380 --> 00:12:10,019
+Para la segunda mitad fue bastante simple, 
+
+286
+00:12:10,019 --> 00:12:12,180
+esto te puede llevar tal vez de 
+
+287
+00:12:12,180 --> 00:12:14,880
+cinco a diez minutos, o incluso dos minutos, 
+
+288
+00:12:14,880 --> 00:12:17,160
+para crear el repositorio y luego tomar 
+
+289
+00:12:17,160 --> 00:12:18,959
+un par de minutos para 
+
+290
+00:12:18,959 --> 00:12:21,660
+pegar tus cosas de tu CV y luego intentar
+
+291
+00:12:21,660 --> 00:12:24,600
+organizar y hacerlo 
+
+292
+00:12:24,600 --> 00:12:25,740
+ver bien. 
+
+293
+00:12:25,740 --> 00:12:28,320
+Trata de hacerlo 
+
+294
+00:12:28,320 --> 00:12:29,940
+ver profesional, 
+
+295
+00:12:29,940 --> 00:12:32,459
+similar a tu sitio web, 
+
+296
+00:12:32,459 --> 00:12:35,820
+no sólo como copiar y 
+
+297
+00:12:35,820 --> 00:12:37,920
+pegar una plantilla y ya. 
+
+298
+00:12:37,920 --> 00:12:40,140
+Quieres que parezca algo tuyo. 
+
+299
+00:12:40,140 --> 00:12:42,000
+No te pido que tengas 
+
+300
+00:12:42,000 --> 00:12:44,399
+uno completo, pero puedes poner 
+
+301
+00:12:44,399 --> 00:12:45,720
+el nombre y alguna 
+
+302
+00:12:45,720 --> 00:12:47,639
+información de tus proyectos para 
+
+303
+00:12:47,639 --> 00:12:49,380
+demostrarlo, y luego a lo largo del 
+
+304
+00:12:49,380 --> 00:12:50,399
+semestre 
+
+305
+00:12:50,399 --> 00:12:52,860
+puedes agregar más cosas.
+
+306
+00:12:52,860 --> 00:12:55,560
+Con suerte, al final, 
+
+307
+00:12:55,560 --> 00:12:56,519
+si 
+
+308
+00:12:56,519 --> 00:12:57,839
+contribuimos 
+
+309
+00:12:57,839 --> 00:12:59,279
+a algo, podrás mostrarlo en tu 
+
+310
+00:12:59,279 --> 00:13:01,740
+currículum. Puedes agregar texto, 
+
+311
+00:13:01,740 --> 00:13:03,920
+imágenes, videos, 
+
+312
+00:13:03,920 --> 00:13:07,320
+emojis, lo que quieras, y 
+
+313
+00:13:07,320 --> 00:13:09,180
+al final tendrás algo como esto. 
+
+314
+00:13:09,180 --> 00:13:11,279
+La gente podrá ir a tu página de inicio y ver 
+
+315
+00:13:11,279 --> 00:13:13,019
+en qué proyecto estás trabajando 
+
+316
+00:13:13,019 --> 00:13:14,940
+y cuál 
+
+317
+00:13:14,940 --> 00:13:15,839
+es tu experiencia. 
+
+318
+00:13:15,839 --> 00:13:18,060
+Es otra forma de mostrar 
+
+319
+00:13:18,060 --> 00:13:20,279
+tu currículum, y será mucho 
+
+320
+00:13:20,279 --> 00:13:22,459
+más
+
+321
+00:13:23,279 --> 00:13:25,860
+competitivo, como un currículum estético, 
+
+322
+00:13:25,860 --> 00:13:28,139
+si estás tratando de entrar en la 
+
+323
+00:13:28,139 --> 00:13:31,620
+industria tecnológica o en algunos 
+
+324
+00:13:31,620 --> 00:13:32,760
+trabajos de analista.
+
+325
+00:13:32,760 --> 00:13:35,180
+¿Preguntas? 
+
+326
+00:13:36,300 --> 00:13:39,420
+Es bastante fácil, inténtalo, 
+
+327
+00:13:39,420 --> 00:13:41,760
+y una vez que termines, 
+
+328
+00:13:41,760 --> 00:13:44,700
+puedes perfeccionarlo. Por ahora, 
+
+329
+00:13:44,700 --> 00:13:45,860
+voy a 
+
+330
+00:13:45,860 --> 00:13:51,000
+volver a mi anterior trabajo. 
+
+331
+00:13:51,000 --> 00:13:53,399
+Así que voy a hacer aquí algo 
+
+332
+00:13:53,399 --> 00:13:57,240
+extraño, tal vez renombrar dos veces 
+
+333
+00:13:57,240 --> 00:14:00,600
+y luego voy a 
+
+334
+00:14:00,600 --> 00:14:04,160
+cambiar a mi anterior nombre 
+
+335
+00:14:06,180 --> 00:14:08,899
+a aquí, 
+
+336
+00:14:09,360 --> 00:14:10,980
+“Rename”
+
+337
+00:14:10,980 --> 00:14:12,779
+y luego debería tener el anterior 
+
+338
+00:14:12,779 --> 00:14:15,060
+de vuelta. Oh, por cierto, si quieres agregar 
+
+339
+00:14:15,060 --> 00:14:18,240
+algo como esto (Páginas), también puedes hacerlo, 
+
+340
+00:14:18,240 --> 00:14:20,339
+es bastante simple. 
+
+341
+00:14:20,339 --> 00:14:22,860
+Déjame mostrarte cómo se ve. 
+
+342
+00:14:22,860 --> 00:14:24,000
+Si quieres, puedes ir a mi 
+
+343
+00:14:24,000 --> 00:14:26,579
+página de inicio y simplemente ver 
+
+344
+00:14:26,579 --> 00:14:29,519
+de dónde viene esto. En realidad, 
+
+345
+00:14:29,519 --> 00:14:31,860
+puedes hacer lo mismo con la idea de 
+
+346
+00:14:31,860 --> 00:14:34,620
+corchetes cuadrados, puedes poner una 
+
+347
+00:14:34,620 --> 00:14:37,620
+imagen. Entonces, 
+
+348
+00:14:37,620 --> 00:14:40,199
+donde están 
+
+349
+00:14:40,199 --> 00:14:42,240
+los corchetes cuadrados, 
+
+350
+00:14:42,240 --> 00:14:44,459
+puede estar texto o también puede tener una imagen. 
+
+351
+00:14:44,459 --> 00:14:47,040
+Aquí te muestro 
+
+352
+00:14:47,040 --> 00:14:48,959
+de dónde viene esto. 
+
+353
+00:14:48,959 --> 00:14:53,000
+Si vas, por ejemplo, a la imagen, 
+
+354
+00:14:54,560 --> 00:14:57,600
+déjame mostrarte aquí esta, 
+
+355
+00:14:57,600 --> 00:15:01,440
+solo escribe en Google, "shields.io". 
+
+356
+00:15:01,440 --> 00:15:05,279
+Deja que vaya al 
+
+357
+00:15:05,279 --> 00:15:07,519
+sitio web. 
+
+358
+00:15:07,519 --> 00:15:10,320
+Esto 
+
+359
+00:15:10,320 --> 00:15:12,180
+te permite construir todo tipo de 
+
+360
+00:15:12,180 --> 00:15:14,519
+presupuestos que puedes poner en tu página de inicio. 
+
+361
+00:15:14,519 --> 00:15:18,000
+Así que tal vez vaya 
+
+362
+00:15:18,000 --> 00:15:19,199
+con este 
+
+363
+00:15:19,199 --> 00:15:21,300
+(icono) social. 
+
+364
+00:15:21,300 --> 00:15:23,279
+Esto te permite poner estos íconos 
+
+365
+00:15:23,279 --> 00:15:26,040
+en tu página de inicio, por ejemplo, 
+
+366
+00:15:26,040 --> 00:15:28,980
+seguidores de GitHub o tal vez un enlace a tu 
+
+367
+00:15:28,980 --> 00:15:30,420
+Twitter, por 
+
+368
+00:15:30,420 --> 00:15:32,760
+ejemplo, tu 
+
+369
+00:15:32,760 --> 00:15:33,899
+cuenta de Twitter. 
+
+370
+00:15:33,899 --> 00:15:36,600
+Así que mira este aquí. Si haces clic aquí, 
+
+371
+00:15:36,600 --> 00:15:38,459
+por ejemplo, es posible 
+
+372
+00:15:38,459 --> 00:15:40,260
+que solo tengas que escribir tu nombre de usuario o tu GitHub. 
+
+373
+00:15:40,260 --> 00:15:42,300
+Voy a escribir mi nombre aquí 
+
+374
+00:15:42,300 --> 00:15:44,760
+y luego 
+
+375
+00:15:44,760 --> 00:15:48,380
+aparecerá aquí. Oops, 
+
+376
+00:15:48,779 --> 00:15:53,060
+ahí está, 
+
+377
+00:15:55,079 --> 00:15:58,279
+¿dónde está? Un segundo, ¿qué pasó? ¿O es que está en otro lugar? 
+
+378
+00:16:01,920 --> 00:16:04,519
+Ahí está, estilo. 
+
+379
+00:16:06,019 --> 00:16:09,420
+Un segundo, ¿qué pasó? 
+
+380
+00:16:09,420 --> 00:16:12,420
+¿O es que está en otro lugar?
+
+381
+00:16:13,350 --> 00:16:16,409
+…
+
+382
+00:16:21,420 --> 00:16:24,540
+O simplemente puedes 
+
+383
+00:16:24,540 --> 00:16:27,380
+copiar, déjame copiar este aquí. 
+
+384
+00:16:27,839 --> 00:16:31,639
+Este es el ID de GitHub 
+
+385
+00:16:34,920 --> 00:16:37,880
+Social aquí. 
+
+386
+00:16:38,339 --> 00:16:40,920
+Sí, tal vez este está roto. 
+
+387
+00:16:40,920 --> 00:16:42,779
+Vamos a intentar otro. Entonces, 
+
+388
+00:16:42,779 --> 00:16:45,120
+por ejemplo, en GitHub, te muestra 
+
+389
+00:16:45,120 --> 00:16:47,100
+cuántos seguidores tienes. ¿De acuerdo? 
+
+390
+00:16:47,100 --> 00:16:49,620
+Entonces, 
+
+391
+00:16:49,620 --> 00:16:52,380
+quieres crear un enlace que diga, por ejemplo, "síguenos" con 50 seguidores. 
+
+392
+00:16:52,380 --> 00:16:54,240
+Y aquí puedo escribir mi nombre de usuario 
+
+393
+00:16:54,240 --> 00:16:56,399
+"giswqs" 
+
+394
+00:16:56,399 --> 00:16:58,860
+y si ves aquí en la parte inferior, tengo 
+
+395
+00:16:58,860 --> 00:17:00,660
+4100 seguidores 
+
+396
+00:17:00,660 --> 00:17:04,380
+en GitHub. Así que voy a copiar esta 
+
+397
+00:17:04,380 --> 00:17:07,160
+URL insignia, 
+
+398
+00:17:07,439 --> 00:17:09,299
+por defecto se copia fácil 
+
+399
+00:17:09,299 --> 00:17:12,599
+markdown y luego si regreso aquí, 
+
+400
+00:17:12,599 --> 00:17:15,678
+echa un vistazo a esto, 
+
+401
+00:17:18,900 --> 00:17:22,100
+revisando
+
+402
+00:17:23,240 --> 00:17:26,419
+el enlace
+
+403
+00:17:26,459 --> 00:17:30,439
+completo.
+
+404
+00:17:32,160 --> 00:17:35,540
+Creo que lo
+
+405
+00:17:40,640 --> 00:17:44,419
+Que se pegó…
+
+406
+00:17:49,220 --> 00:17:52,500
+oh, está bien, este es solo el ícono, así que 
+
+407
+00:17:52,500 --> 00:17:54,840
+cuando las personas hagan clic en el ícono, 
+
+408
+00:17:54,840 --> 00:17:57,960
+si deseas que, por ejemplo, en este momento, 
+
+409
+00:17:57,960 --> 00:18:00,720
+si hago clic en mi ícono, no 
+
+410
+00:18:00,720 --> 00:18:03,539
+te lleva realmente 
+
+411
+00:18:03,539 --> 00:18:05,880
+al sitio web. Si quieres hacerlo, aquí es donde 
+
+412
+00:18:05,880 --> 00:18:07,980
+podemos hacerlo. Déjame volver aquí. 
+
+413
+00:18:07,980 --> 00:18:10,980
+Bien, este es el enlace, 
+
+414
+00:18:10,980 --> 00:18:12,720
+básicamente solo es el ícono, así que recuerda 
+
+415
+00:18:12,720 --> 00:18:16,740
+lo que 
+
+416
+00:18:16,740 --> 00:18:18,120
+hicimos 
+
+417
+00:18:18,120 --> 00:18:19,919
+anteriormente, 
+
+418
+00:18:19,919 --> 00:18:21,539
+el cómo agregar un hipervínculo, ¿verdad? Entonces serían 
+
+419
+00:18:21,539 --> 00:18:23,760
+corchetes y luego paréntesis, 
+
+420
+00:18:23,760 --> 00:18:25,260
+recuerda. 
+
+421
+00:18:25,260 --> 00:18:29,179
+Ahora mismo, esto es lo que 
+
+422
+00:18:29,520 --> 00:18:31,620
+queremos poner aquí dentro, así que 
+
+423
+00:18:31,620 --> 00:18:33,720
+básicamente, igual que el texto. Entonces, lo que 
+
+424
+00:18:33,720 --> 00:18:36,419
+vamos a poner aquí, 
+
+425
+00:18:36,419 --> 00:18:39,780
+déjame hacerlo de esta manera, signo de exclamación, 
+
+426
+00:18:39,780 --> 00:18:43,320
+y si recuerdas, si 
+
+427
+00:18:43,320 --> 00:18:45,539
+queremos insertar una imagen, se construye con signos de 
+
+428
+00:18:45,539 --> 00:18:47,220
+exclamación, corchetes y paréntesis. Entonces, 
+
+429
+00:18:47,220 --> 00:18:49,440
+esto en realidad sería 
+
+430
+00:18:49,440 --> 00:18:50,760
+algo así. 
+
+431
+00:18:50,760 --> 00:18:52,200
+Voy a copiar y pegar  
+
+432
+00:18:52,200 --> 00:18:53,700
+dentro de “()”
+
+433
+00:18:53,700 --> 00:18:56,100
+adentro y luego hacer una vista previa.
+
+434
+00:18:56,100 --> 00:18:59,179
+Puede que no funcione, déjame ver aquí. 
+
+435
+00:19:03,960 --> 00:19:07,200
+¿Puedes ver esto ahora aquí? 
+
+436
+00:19:07,200 --> 00:19:10,860
+Así que puedes hacerlo de esta 
+
+437
+00:19:10,860 --> 00:19:12,120
+manera, 
+
+438
+00:19:12,120 --> 00:19:14,520
+pero es tan lento. 
+
+439
+00:19:14,520 --> 00:19:16,740
+Bien, ahora aparece aquí, pero 
+
+440
+00:19:16,740 --> 00:19:18,120
+si haces clic en él, en realidad 
+
+441
+00:19:18,120 --> 00:19:21,660
+no te lleva a la página de 
+
+442
+00:19:21,660 --> 00:19:23,580
+inicio de GitHub. 
+
+443
+00:19:23,580 --> 00:19:25,799
+Solo te lleva al ícono. Lo que realmente 
+
+444
+00:19:25,799 --> 00:19:29,640
+quieres hacer 
+
+445
+00:19:29,640 --> 00:19:33,320
+es poner la imagen, el 
+
+446
+00:19:33,320 --> 00:19:35,820
+hipervínculo y el texto. Voy a 
+
+447
+00:19:35,820 --> 00:19:38,039
+crear otro aquí. Este 
+
+448
+00:19:38,039 --> 00:19:40,500
+será esto 
+
+449
+00:19:40,500 --> 00:19:42,059
+y esto “[]()” 
+
+450
+00:19:42,059 --> 00:19:44,400
+y luego lo 
+
+451
+00:19:44,400 --> 00:19:46,679
+pondremos 
+
+452
+00:19:46,679 --> 00:19:49,020
+dentro de los corchetes. 
+
+453
+00:19:49,020 --> 00:19:51,179
+Desde aquí 
+
+454
+00:19:51,179 --> 00:19:52,919
+puedes llevar a las personas 
+
+455
+00:19:52,919 --> 00:19:54,660
+a donde quieras, decir lo que quieras. 
+
+456
+00:19:54,660 --> 00:19:56,760
+Por ejemplo, puedo decir 
+
+457
+00:19:56,760 --> 00:19:59,039
+https://udk.edu. Porque si hay personas que 
+
+458
+00:19:59,039 --> 00:20:01,020
+no tienen una cuenta de GitHub, aquí es 
+
+459
+00:20:01,020 --> 00:20:04,620
+donde aparece el ícono y el 
+
+460
+00:20:04,620 --> 00:20:07,320
+hipervínculo detrás. Así que ahora, 
+
+461
+00:20:07,320 --> 00:20:09,539
+si hago una vista previa.
+
+462
+00:20:09,539 --> 00:20:12,840
+Ahora, si miras aquí, si hago clic derecho se abre una nueva pestaña para 
+
+463
+00:20:12,840 --> 00:20:14,340
+llevarte a UTK
+
+464
+00:20:14,340 --> 00:20:17,760
+para que tengas 
+
+465
+00:20:17,760 --> 00:20:19,500
+una base y luego detrás de esa base puedes establecer un hipervínculo para llevar 
+
+466
+00:20:19,500 --> 00:20:22,080
+a la gente a tu enlace, a tu Facebook, 
+
+467
+00:20:22,080 --> 00:20:24,600
+lo que quieras. Así es como puedes 
+
+468
+00:20:24,600 --> 00:20:27,660
+crear una base. Si quieres, solo ve 
+
+469
+00:20:27,660 --> 00:20:29,820
+a mi repositorio y mira el 
+
+470
+00:20:29,820 --> 00:20:32,640
+archivo markdown. Cambia las cosas 
+
+471
+00:20:32,640 --> 00:20:35,220
+a tu gusto, ¿ok? Así que 
+
+472
+00:20:35,220 --> 00:20:37,559
+puedo tener muchos de estos, 
+
+473
+00:20:37,559 --> 00:20:40,320
+puedo vincular a mi página de inicio de Utk, mi CV, 
+
+474
+00:20:40,320 --> 00:20:41,880
+mis enlaces, 
+
+475
+00:20:41,880 --> 00:20:43,980
+o incluso puedes ver cuántas personas 
+
+476
+00:20:43,980 --> 00:20:47,100
+visitan tu página de inicio. 
+
+477
+00:20:47,100 --> 00:20:49,220
+Mira aquí, serías el último 
+
+478
+00:20:49,220 --> 00:20:52,440
+visitante, ¿cierto? Así que todo lo que necesitas hacer 
+
+479
+00:20:52,440 --> 00:20:56,039
+es copiar esta línea en tu computadora, en tu 
+
+480
+00:20:56,039 --> 00:20:58,380
+perfil de GitHub, 
+
+481
+00:20:58,380 --> 00:21:00,360
+y luego 
+
+482
+00:21:00,360 --> 00:21:02,220
+cambiar esto por tu 
+
+483
+00:21:02,220 --> 00:21:05,280
+nombre de usuario de GitHub y el repositorio.
+
+484
+00:21:05,280 --> 00:21:08,160
+Entonces, ¿qué puedo hacer aquí?
+
+485
+00:21:08,160 --> 00:21:10,980
+Si copio este enlace 
+
+486
+00:21:10,980 --> 00:21:13,679
+y lo pego en GitHub, 
+
+487
+00:21:13,679 --> 00:21:18,780
+lo pego en la URL “advance”, tal vez proceda, 
+
+488
+00:21:18,780 --> 00:21:20,220
+oh, 
+
+489
+00:21:20,220 --> 00:21:21,960
+¿qué es esto? 
+
+490
+00:21:21,960 --> 00:21:24,299
+“GitHub no es seguro”, sí, no me permite hacerlo, 
+
+491
+00:21:24,299 --> 00:21:26,520
+así que déjame mostrarte. Por ejemplo, 
+
+492
+00:21:26,520 --> 00:21:28,440
+esto sería el nombre de usuario y el segundo 
+
+493
+00:21:28,440 --> 00:21:30,140
+sería el 
+
+494
+00:21:30,140 --> 00:21:32,340
+nombre de tu repositorio. Por ejemplo, 
+
+495
+00:21:32,340 --> 00:21:35,640
+cambia a “geemap” y si 
+
+496
+00:21:35,640 --> 00:21:37,880
+previsualizas, 
+
+497
+00:21:38,220 --> 00:21:41,960
+hay tres visitantes. 
+
+498
+00:21:43,500 --> 00:21:46,020
+Tal vez el total, no estoy seguro, pero de todas maneras 
+
+499
+00:21:46,020 --> 00:21:48,360
+así es como puedes personalizar tu 
+
+500
+00:21:48,360 --> 00:21:49,679
+perfil 
+
+501
+00:21:49,679 --> 00:21:51,860
+para tener todo tipo de enlaces, imágenes, 
+
+502
+00:21:51,860 --> 00:21:55,440
+texto, lo que quieras. 
+
+503
+00:21:55,440 --> 00:21:58,140
+Así que tómate tu tiempo 
+
+504
+00:21:58,140 --> 00:22:00,600
+para crear uno y una vez que lo tengas, 
+
+505
+00:22:00,600 --> 00:22:02,940
+deberías tener 
+
+506
+00:22:02,940 --> 00:22:04,580
+suficiente para 
+
+507
+00:22:04,580 --> 00:22:07,919
+enviarlo. Te dejaré enviar uno, ¿está bien?.
+
+508
+00:22:07,919 --> 00:22:10,860
+Descarto mis cambios.
+
+509
+00:22:10,860 --> 00:22:13,460
+Si no tienes preguntas sobre esto, continuemos. 
+
+510
+00:22:14,240 --> 00:22:16,980
+Lo siguiente que voy a 
+
+511
+00:22:16,980 --> 00:22:19,620
+mostrarte es cómo puedes 
+
+512
+00:22:19,620 --> 00:22:21,720
+crear una rama para contribuir a GitHub. 
+
+513
+00:22:21,720 --> 00:22:23,220
+Asegúrense de contribuir 
+
+514
+00:22:23,220 --> 00:22:24,900
+primero y 
+
+515
+00:22:24,900 --> 00:22:27,960
+luego les mostraré cómo 
+
+516
+00:22:27,960 --> 00:22:30,780
+crear una rama para que puedan contribuir 
+
+517
+00:22:30,780 --> 00:22:33,600
+en GitHub. Voy a continuar con el siguiente paso 
+
+518
+00:22:33,600 --> 00:22:35,400
+y necesitan seguirlo, 
+
+519
+00:22:35,400 --> 00:22:37,940
+porque quiero ver que cada uno de ustedes 
+
+520
+00:22:37,940 --> 00:22:41,880
+contribuya a mi repositorio. 
+
+521
+00:22:41,880 --> 00:22:43,260
+Voy a usar el ejemplo que 
+
+522
+00:22:43,260 --> 00:22:45,840
+creamos, está en recursos, 
+
+523
+00:22:45,840 --> 00:22:49,620
+si te desplazas hacia abajo, ¡ups! no está 
+
+524
+00:22:49,620 --> 00:22:53,100
+ahí todavía, déjame editar la página. 
+
+525
+00:22:53,100 --> 00:22:55,320
+Creo que ya lo agregué, pero no está 
+
+526
+00:22:55,320 --> 00:22:57,559
+aquí. 
+
+527
+00:22:58,919 --> 00:23:01,140
+Ah, aquí ya está, así que déjame 
+
+528
+00:23:01,140 --> 00:23:04,500
+publicarlo. 
+
+529
+00:23:04,500 --> 00:23:06,539
+Si te desplazas hacia abajo en la página, 
+
+530
+00:23:06,539 --> 00:23:09,840
+busca los repositorio de Git, 
+
+531
+00:23:09,840 --> 00:23:11,280
+haz clic en este, 
+
+532
+00:23:11,280 --> 00:23:13,260
+GEOG-510, 
+
+533
+00:23:13,260 --> 00:23:16,820
+y si lo abres en GitHub, 
+
+534
+00:23:20,460 --> 00:23:22,740
+voy a cubrir este y mostrarte 
+
+535
+00:23:22,740 --> 00:23:25,500
+algunas de las pestañas útiles que 
+
+536
+00:23:25,500 --> 00:23:27,900
+podrías usar cuando intentes hacer 
+
+537
+00:23:27,900 --> 00:23:30,600
+preguntas o contribuir. 
+
+538
+00:23:30,600 --> 00:23:34,320
+Este es el repositorio principal y en la 
+
+539
+00:23:34,320 --> 00:23:36,179
+esquina superior derecha, 
+
+540
+00:23:36,179 --> 00:23:38,159
+si... 
+
+541
+00:23:38,159 --> 00:23:40,159
+espera, 
+
+542
+00:23:40,200 --> 00:23:41,940
+déjame volver al anterior. 
+
+543
+00:23:41,940 --> 00:23:44,220
+Olvidé mencionarlo la última vez, 
+
+544
+00:23:44,220 --> 00:23:48,419
+giswqs.github.io
+
+545
+00:23:48,419 --> 00:23:50,960
+giswqs.github.io
+
+546
+00:23:51,720 --> 00:23:53,640
+Entonces, una vez que creas un 
+
+547
+00:23:53,640 --> 00:23:56,100
+sitio web, este será el enlace 
+
+548
+00:23:56,100 --> 00:23:58,260
+a tu sitio web.  Por lo tanto, es posible que desees
+
+549
+00:23:58,260 --> 00:24:00,780
+editar tu página de inicio para pegar la URL de tu sitio web 
+
+550
+00:24:00,780 --> 00:24:03,360
+en la esquina superior derecha. Siempre es bueno 
+
+551
+00:24:03,360 --> 00:24:06,659
+hacerlo así: 
+
+552
+00:24:06,659 --> 00:24:08,820
+https://tu-nombre-de-usuario.github.io. 
+
+553
+00:24:08,820 --> 00:24:11,280
+Guarda los 
+
+554
+00:24:11,280 --> 00:24:13,799
+cambios de esta manera, cuando las personas visiten 
+
+555
+00:24:13,799 --> 00:24:16,679
+tu repositorio de GitHub, tendrás el 
+
+556
+00:24:16,679 --> 00:24:18,720
+hipervínculo, de modo que las personas puedan hacer clic en 
+
+557
+00:24:18,720 --> 00:24:20,700
+el hipervínculo y llevarlas a tu 
+
+558
+00:24:20,700 --> 00:24:24,240
+sitio web. No todos los repositorios tienen un 
+
+559
+00:24:24,240 --> 00:24:26,159
+sitio web, pero si tienes algunas cosas a las 
+
+560
+00:24:26,159 --> 00:24:28,260
+que quieres dirigir a las personas, aquí 
+
+561
+00:24:28,260 --> 00:24:30,299
+es donde puedes escribirlo. Voy a 
+
+562
+00:24:30,299 --> 00:24:33,240
+poner mi sitio web, tu URL y también 
+
+563
+00:24:33,240 --> 00:24:35,400
+tu tema (topic). El tema es útil 
+
+564
+00:24:35,400 --> 00:24:37,679
+cuando intentas 
+
+565
+00:24:37,679 --> 00:24:39,960
+hacerlo más fácil para que las personas te encuentren. 
+
+566
+00:24:39,960 --> 00:24:42,720
+Si tienes algunos proyectos 
+
+567
+00:24:42,720 --> 00:24:45,240
+específicos esperando un tema específico, 
+
+568
+00:24:45,240 --> 00:24:47,820
+por ejemplo, Python o Jupyter, 
+
+569
+00:24:47,820 --> 00:24:49,500
+lo puedes escribir aquí. Así que puedo 
+
+570
+00:24:49,500 --> 00:24:50,340
+decir, 
+
+571
+00:24:50,340 --> 00:24:52,440
+por ejemplo, solo escribir Python 
+
+572
+00:24:52,440 --> 00:24:53,220
+y 
+
+573
+00:24:53,220 --> 00:24:56,940
+luego decir ciencia de datos, lo que sea. 
+
+574
+00:24:56,940 --> 00:24:58,980
+Una vez que empieces una palabra clave, quieres que 
+
+575
+00:24:58,980 --> 00:25:00,480
+aparezcan todo tipo de etiquetas aquí, así que 
+
+576
+00:25:00,480 --> 00:25:02,400
+guardaré los cambios 
+
+577
+00:25:02,400 --> 00:25:05,220
+y verás esto. Cuando haces clic en esto, 
+
+578
+00:25:05,220 --> 00:25:08,400
+te llevará a todos 
+
+579
+00:25:08,400 --> 00:25:11,039
+los repositorios que contengan palabras clave de 
+
+580
+00:25:11,039 --> 00:25:13,919
+Python en GitHub. Entonces esto es similar a
+
+581
+00:25:13,919 --> 00:25:16,980
+Twitter o Facebook 
+
+582
+00:25:16,980 --> 00:25:19,260
+Básicamente se organizan cosas de esta manera y 
+
+583
+00:25:19,260 --> 00:25:20,820
+si tu proyecto se vuelve realmente popular, 
+
+584
+00:25:20,820 --> 00:25:23,400
+aparecerá en la primera página.
+
+585
+00:25:23,400 --> 00:25:25,620
+Así que esto está obteniendo aún más exposición 
+
+586
+00:25:25,620 --> 00:25:27,779
+y un ejemplo que puedo mostrarte es geemap.
+
+587
+00:25:27,779 --> 00:25:29,880
+Buscando
+
+588
+00:25:29,880 --> 00:25:34,140
+ubicación del
+
+589
+00:25:34,140 --> 00:25:36,000
+proyecto.
+
+590
+00:25:36,000 --> 00:25:38,940
+De manera similar, 
+
+591
+00:25:38,940 --> 00:25:42,240
+si miras a la derecha, verás que he puesto un 
+
+592
+00:25:42,240 --> 00:25:44,700
+montón de texto aquí. Así que, si alguien está 
+
+593
+00:25:44,700 --> 00:25:46,799
+interesado en explorar todo tipo de 
+
+594
+00:25:46,799 --> 00:25:51,059
+proyectos relacionados con, por ejemplo, 
+
+595
+00:25:51,059 --> 00:25:53,100
+Google Earth Engine,
+
+596
+00:25:53,100 --> 00:25:56,520
+si haces clic en el texto, 
+
+597
+00:25:56,520 --> 00:25:58,919
+aparecerá en los 
+
+598
+00:25:58,919 --> 00:26:01,860
+resultados de origen. Aquí puedes ver 
+
+599
+00:26:01,860 --> 00:26:04,020
+algunos de los proyectos, por ejemplo, geemap, 
+
+600
+00:26:04,020 --> 00:26:07,980
+earthengine-py-notebooks.
+
+601
+00:26:07,980 --> 00:26:10,200
+Así que básicamente, 
+
+602
+00:26:10,200 --> 00:26:12,240
+tengo al menos cuatro o cinco 
+
+603
+00:26:12,240 --> 00:26:14,100
+proyectos 
+
+604
+00:26:14,100 --> 00:26:15,960
+en la primera página. 
+
+605
+00:26:15,960 --> 00:26:17,400
+Básicamente como resultado de búsqueda de Google
+
+606
+00:26:17,400 --> 00:26:20,520
+Si realmente quieres que sea 
+
+607
+00:26:20,520 --> 00:26:23,220
+impactante, asegúrate de que tu 
+
+608
+00:26:23,220 --> 00:26:24,779
+proyecto aparezca en el primer 
+
+609
+00:26:24,779 --> 00:26:25,679
+espacio de búsqueda. 
+
+610
+00:26:25,679 --> 00:26:28,140
+Si tienes que hacer que diez personas hagan scroll en 
+
+611
+00:26:28,140 --> 00:26:29,159
+diez páginas, 
+
+612
+00:26:29,159 --> 00:26:31,260
+es probable que no encuentren 
+
+613
+00:26:31,260 --> 00:26:33,299
+tu proyecto. Así que esta es una forma en que puedes 
+
+614
+00:26:33,299 --> 00:26:37,620
+agregar texto relevante a 
+
+615
+00:26:37,620 --> 00:26:39,840
+tu proyecto para que sea fácilmente 
+
+616
+00:26:39,840 --> 00:26:43,500
+descubrible. Esto es uno, 
+
+617
+00:26:43,500 --> 00:26:46,080
+y la mayoría de las otras cosas aquí son Releases (versiones). 
+
+618
+00:26:46,080 --> 00:26:47,640
+Entonces, esto es de lo que vamos a hablar en 
+
+619
+00:26:47,640 --> 00:26:49,799
+el último semestre, cómo puedes crear 
+
+620
+00:26:49,799 --> 00:26:52,440
+una nueva versión y luego 
+
+621
+00:26:52,440 --> 00:26:54,840
+publicarla en GitHud o PyPI y 
+
+622
+00:26:54,840 --> 00:26:57,299
+también en Conda, pero por ahora solo 
+
+623
+00:26:57,299 --> 00:26:59,039
+te mostraremos algunos de los proyectos. 
+
+624
+00:26:59,039 --> 00:27:01,799
+Cuando vas a GitHub, puedes averiguar si 
+
+625
+00:27:01,799 --> 00:27:04,440
+este proyecto es útil 
+
+626
+00:27:04,440 --> 00:27:06,179
+o interesante y 
+
+627
+00:27:06,179 --> 00:27:07,980
+también puedes ver cuántas personas 
+
+628
+00:27:07,980 --> 00:27:10,140
+están usando tu proyecto. Las personas 
+
+629
+00:27:10,140 --> 00:27:11,940
+desarrollan proyectos, pero se basan en 
+
+630
+00:27:11,940 --> 00:27:13,860
+otros proyectos. En la esquina superior 
+
+631
+00:27:13,860 --> 00:27:17,120
+derecha o aquí a la derecha, se utiliza por 
+
+632
+00:27:17,120 --> 00:27:20,400
+791 personas. Este es solo un proyecto 
+
+633
+00:27:20,400 --> 00:27:21,960
+alojado en GitHub como una 
+
+634
+00:27:21,960 --> 00:27:24,900
+dependencia o importación de una 
+
+635
+00:27:24,900 --> 00:27:27,000
+biblioteca de usuario.
+
+636
+00:27:27,000 --> 00:27:28,799
+va a aparecer aquí
+
+637
+00:27:28,799 --> 00:27:31,260
+Si quieres averiguar cómo las personas 
+
+638
+00:27:31,260 --> 00:27:32,940
+lo están usando, si haces clic, te 
+
+639
+00:27:32,940 --> 00:27:35,760
+mostrará la forma en que puedes 
+
+640
+00:27:35,760 --> 00:27:37,679
+crear un repositorio. Si es público, 
+
+641
+00:27:37,679 --> 00:27:39,179
+aparecerá aquí. Si es privado, 
+
+642
+00:27:39,179 --> 00:27:42,360
+no aparecerá. Si quieres ver cómo 
+
+643
+00:27:42,360 --> 00:27:44,880
+las personas están usando tus proyectos, 
+
+644
+00:27:44,880 --> 00:27:46,799
+puedes mirar de esta manera cualquier 
+
+645
+00:27:46,799 --> 00:27:49,860
+proyecto que te guste solo para saber 
+
+646
+00:27:49,860 --> 00:27:52,020
+el tipo de casos de uso de los usuarios. 
+
+647
+00:27:52,020 --> 00:27:54,360
+También puedes ver cuántos contribuyentes hay. 
+
+648
+00:27:54,360 --> 00:27:56,400
+Más tarde, voy a crear una Repositorio (Repo) y 
+
+649
+00:27:56,400 --> 00:27:58,440
+luego pediré a cada uno de ustedes que 
+
+650
+00:27:58,440 --> 00:28:01,080
+contribuya para que se conviertan en un contribuyente en 
+
+651
+00:28:01,080 --> 00:28:02,700
+el proyecto. Si haces clic en el 
+
+652
+00:28:02,700 --> 00:28:06,240
+contribuyente, te mostrará 
+
+653
+00:28:06,240 --> 00:28:08,400
+cada contribuyente individual y 
+
+654
+00:28:08,400 --> 00:28:10,020
+cuántas confirmaciones han 
+
+655
+00:28:10,020 --> 00:28:12,360
+contribuido a este proyecto. Por eso, 
+
+656
+00:28:12,360 --> 00:28:14,340
+la comunidad de código abierto es tan poderosa, 
+
+657
+00:28:14,340 --> 00:28:15,720
+porque todos pueden contribuir 
+
+658
+00:28:15,720 --> 00:28:16,919
+con algo, no tiene que ser 
+
+659
+00:28:16,919 --> 00:28:18,720
+algo técnicamente avanzado, 
+
+660
+00:28:18,720 --> 00:28:20,880
+puedes corregir errores tipográficos, hacer algunas 
+
+661
+00:28:20,880 --> 00:28:23,100
+mejoras, crear algo, 
+
+662
+00:28:23,100 --> 00:28:25,320
+puede ser muy pequeño. Así que cada pequeña cosa 
+
+663
+00:28:25,320 --> 00:28:28,260
+ayuda, una vez que estás allí y ves la 
+
+664
+00:28:28,260 --> 00:28:29,580
+página principal, te va a mostrar 
+
+665
+00:28:29,580 --> 00:28:31,980
+la frecuencia con la que has hecho commits (confirmaciones) 
+
+666
+00:28:31,980 --> 00:28:35,940
+en GitHub desde que el 
+
+667
+00:28:35,940 --> 00:28:38,779
+proyecto comenzó en 
+
+668
+00:28:38,779 --> 00:28:42,840
+abril de 2020, hace 2.5 años. 
+
+669
+00:28:42,840 --> 00:28:44,820
+A veces tengo más tiempo y contribuyo 
+
+670
+00:28:44,820 --> 00:28:46,860
+más, pero si no, como puedes ver, es 
+
+671
+00:28:46,860 --> 00:28:48,600
+lo que hace la mayoría de las personas, solo contribuye
+
+672
+00:28:48,600 --> 00:28:51,659
+una vez, pero te conviertes en un 
+
+673
+00:28:51,659 --> 00:28:53,940
+contribuidor oficial. 
+
+674
+00:28:53,940 --> 00:28:56,760
+Esto es lo que puedes hacer cuando tengas tiempo, 
+
+675
+00:28:56,760 --> 00:28:58,260
+intenta explorar en qué proyectos estás 
+
+676
+00:28:58,260 --> 00:29:00,120
+interesado y contribuir con 
+
+677
+00:29:00,120 --> 00:29:02,039
+algo muy pequeño, luego puedes decir 
+
+678
+00:29:02,039 --> 00:29:04,140
+"contribuí a 50 proyectos el año pasado", 
+
+679
+00:29:04,140 --> 00:29:06,120
+ese es un número grande, o 10 
+
+680
+00:29:06,120 --> 00:29:08,279
+proyectos. Siempre hay algo que 
+
+681
+00:29:08,279 --> 00:29:09,900
+puedes mejorar, no asumas que cada 
+
+682
+00:29:09,900 --> 00:29:13,380
+proyecto es perfecto, no lo es, 
+
+683
+00:29:13,380 --> 00:29:15,840
+siempre encontrarás algo que necesita 
+
+684
+00:29:15,840 --> 00:29:19,799
+mejorar, así que sigue adelante 
+
+685
+00:29:19,799 --> 00:29:24,179
+y aprovéchalo. 
+
+686
+00:29:24,179 --> 00:29:27,059
+Dentro de tu cuenta de GitHub, por ejemplo, hay una pestaña llamada “Insights” 
+
+687
+00:29:27,059 --> 00:29:29,520
+tipo burbuja, que solo aparece después de 
+
+688
+00:29:29,520 --> 00:29:30,899
+iniciar sesión en la cuenta. Si no 
+
+689
+00:29:30,899 --> 00:29:32,460
+inicias sesión, probablemente no lo verás. 
+
+690
+00:29:32,460 --> 00:29:34,799
+Esto es solo para el propietario, 
+
+691
+00:29:34,799 --> 00:29:36,899
+podrás ver cuántas personas 
+
+692
+00:29:36,899 --> 00:29:39,600
+visitaron tu repositorio de GitHub y 
+
+693
+00:29:39,600 --> 00:29:41,279
+cuántas personas lo clonaron. 
+
+694
+00:29:41,279 --> 00:29:44,700
+Por ejemplo, puedes ver que 216 personas lo han clonado, 
+
+695
+00:29:44,700 --> 00:29:47,520
+así que todos los días obtienes quizás 
+
+696
+00:29:47,520 --> 00:29:53,360
+20 o 30 clonaciones.
+
+697
+00:29:54,779 --> 00:30:00,179
+GitHub está un poco lento hoy. 
+
+698
+00:30:03,360 --> 00:30:08,279
+Además del tráfico, la mayoría de 
+
+699
+00:30:08,279 --> 00:30:10,740
+las veces usaremos los "Issues" (problemas)  y las 
+
+700
+00:30:10,740 --> 00:30:12,720
+"Pull requests" (solicitudes de extracción), y también hay 
+
+701
+00:30:12,720 --> 00:30:15,000
+otra llamada "Discussions" (Discusiones). La discusión 
+
+702
+00:30:15,000 --> 00:30:16,559
+básicamente te permite hacer preguntas. 
+
+703
+00:30:16,559 --> 00:30:20,100
+Issues es más para 
+
+704
+00:30:20,100 --> 00:30:22,500
+reportar errores o 
+
+705
+00:30:22,500 --> 00:30:24,539
+vulnerabilidades, algo así. 
+
+706
+00:30:24,539 --> 00:30:27,600
+No todos los repositorios tienen esto 
+
+707
+00:30:27,600 --> 00:30:29,220
+habilitado, te mostraré cómo 
+
+708
+00:30:29,220 --> 00:30:31,140
+puedes habilitarlo, pero de nuevo, te muestro, por 
+
+709
+00:30:31,140 --> 00:30:33,600
+ejemplo, cuántos visitantes, 200, 
+
+710
+00:30:33,600 --> 00:30:36,360
+400 personas visitan el repositorio todos los 
+
+711
+00:30:36,360 --> 00:30:38,880
+días y también puedes ver de dónde proviene 
+
+712
+00:30:38,880 --> 00:30:41,399
+ese tráfico. Entonces, si estás tratando de 
+
+713
+00:30:41,399 --> 00:30:43,140
+promocionar tu proyecto, puedes promocionarlo en 
+
+714
+00:30:43,140 --> 00:30:45,899
+Twitter, Facebook, redes sociales, 
+
+715
+00:30:45,899 --> 00:30:47,580
+sabrás que, la mayoría de las personas 
+
+716
+00:30:47,580 --> 00:30:51,299
+encuentran este repositorio en Google o en 
+
+717
+00:30:51,299 --> 00:30:55,140
+YouTube o GitHub o Geemap, así que 
+
+718
+00:30:55,140 --> 00:30:56,820
+esto proporcionará información si 
+
+719
+00:30:56,820 --> 00:30:59,580
+quieres maximizar la exposición de tu 
+
+720
+00:30:59,580 --> 00:31:01,860
+proyecto, esto será útil. También puedes 
+
+721
+00:31:01,860 --> 00:31:04,140
+ver algunas de las páginas, así que quieres 
+
+722
+00:31:04,140 --> 00:31:09,059
+hacer las páginas que la mayoría de las 
+
+723
+00:31:09,059 --> 00:31:12,360
+personas están utilizando. Algunas otras páginas 
+
+724
+00:31:12,360 --> 00:31:15,600
+pueden no ser vistas con tanta frecuencia como 
+
+725
+00:31:15,600 --> 00:31:18,720
+otras. Este es un ejemplo, así que 
+
+726
+00:31:18,720 --> 00:31:21,899
+a continuación, voy a volver al ejemplo del repositorio 
+
+727
+00:31:21,899 --> 00:31:25,440
+GEOG-510. 
+
+728
+00:31:25,440 --> 00:31:27,960
+Como dije, no hay discusiones 
+
+729
+00:31:27,960 --> 00:31:30,960
+aquí, así que la discusión fue algo nuevo 
+
+730
+00:31:30,960 --> 00:31:34,020
+hace quizás un año o más. 
+
+731
+00:31:34,020 --> 00:31:36,360
+Solía ser solo problemas simples, 
+
+732
+00:31:36,360 --> 00:31:38,820
+pero un problema significa que algo está mal 
+
+733
+00:31:38,820 --> 00:31:40,799
+o hay un error. Si solo está 
+
+734
+00:31:40,799 --> 00:31:42,600
+haciendo una pregunta, como 
+
+735
+00:31:42,600 --> 00:31:44,940
+"¿Puedo hacer esto o aquello?", es mejor habilitar 
+
+736
+00:31:44,940 --> 00:31:46,620
+la opción de discusión. Voy a hacer clic en "Settings" 
+
+737
+00:31:46,620 --> 00:31:48,000
+(Configuración) aquí 
+738
+00:31:48,000 --> 00:31:49,919
+y luego 
+
+739
+00:31:49,919 --> 00:31:52,620
+aquí abajo está “Discussions”, todo lo que necesitamos 
+
+740
+00:31:52,620 --> 00:31:54,779
+es marcar esta opción. 
+
+741
+00:31:54,779 --> 00:31:57,840
+Puedes hacerlo en tu propio repositorio. 
+
+742
+00:31:57,840 --> 00:31:59,880
+Si solo estás viendo mi repositorio GEOG-510, 
+
+743
+00:31:59,880 --> 00:32:02,039
+no podrás hacerlo. Así que estoy haciendo clic 
+
+744
+00:32:02,039 --> 00:32:02,940
+aquí y luego “Set up” 
+
+745
+00:32:02,940 --> 00:32:06,480
+voy a establecer las discusiones 
+
+746
+00:32:06,480 --> 00:32:09,659
+y simplemente hago clic en "Start discusion" (Iniciar discusiones). 
+
+747
+00:32:09,659 --> 00:32:11,960
+Una vez que habilitas esto, 
+
+748
+00:32:11,960 --> 00:32:14,640
+¡felicidades! Ahora tienes 
+
+749
+00:32:14,640 --> 00:32:17,340
+esta pestaña de discusión habilitada 
+
+750
+00:32:17,340 --> 00:32:18,960
+y desde aquí, si haces clic en la pestaña de discusión, 
+
+751
+00:32:18,960 --> 00:32:22,140
+puedes tener anuncios, ideas generales, 
+
+752
+00:32:22,140 --> 00:32:26,760
+preguntas y encuestas, y así sucesivamente. 
+
+753
+00:32:26,760 --> 00:32:30,299
+Así que ahora quiero que cada uno de ustedes vaya a la 
+
+754
+00:32:30,299 --> 00:32:32,720
+discusión
+
+755
+00:32:32,880 --> 00:32:34,860
+y luego solo
+
+756
+00:32:34,860 --> 00:32:37,980
+publique algo allí, haga una pregunta, 
+
+757
+00:32:37,980 --> 00:32:40,679
+muestre lo que quiera, solo una 
+
+758
+00:32:40,679 --> 00:32:43,740
+oración o lo que sea, asegúrese de que 
+
+759
+00:32:43,740 --> 00:32:47,220
+puedan contribuir 
+
+760
+00:32:47,220 --> 00:32:49,380
+a la política haciendo una pregunta. 
+
+761
+00:32:49,380 --> 00:32:51,840
+Entonces, lo que quieras hacer, solo ve allí 
+
+762
+00:32:51,840 --> 00:32:54,200
+y yo 
+
+763
+00:32:54,200 --> 00:32:56,520
+te mostraré, por ejemplo, cómo 
+
+764
+00:32:56,520 --> 00:32:59,520
+puedo responder. Entonces, aquí hay un 
+
+765
+00:32:59,520 --> 00:33:02,460
+ejemplo: si voy, por ejemplo, a discusiones en 
+
+766
+00:33:02,460 --> 00:33:05,340
+geemap, veré cómo la gente 
+
+767
+00:33:05,340 --> 00:33:07,740
+hace preguntas todos los días. También puedo 
+
+768
+00:33:07,740 --> 00:33:09,720
+ver a la derecha si esa 
+
+769
+00:33:09,720 --> 00:33:12,720
+pregunta ha sido respondida o abordada. 
+
+770
+00:33:12,720 --> 00:33:15,120
+Entonces, si veo aquí y hago clic 
+
+771
+00:33:15,120 --> 00:33:17,460
+la gente pregunta, hay algo mal con mi 
+
+772
+00:33:17,460 --> 00:33:19,799
+llamada, puedo responder, 
+
+773
+00:33:19,799 --> 00:33:22,140
+“¿qué necesitas hacer?" y luego marcarlo como 
+
+774
+00:33:22,140 --> 00:33:25,320
+respuesta. Así es como la gente puede hacer 
+
+775
+00:33:25,320 --> 00:33:26,580
+preguntas 
+
+776
+00:33:26,580 --> 00:33:29,399
+y cómo otros pueden ayudar. 
+
+
+777
+00:33:29,399 --> 00:33:32,519
+No solo yo puedo responder preguntas, cualquier persona que conozca 
+
+778
+00:33:32,519 --> 00:33:34,320
+la respuesta puede hacerlo. Así es como 
+
+779
+00:33:34,320 --> 00:33:36,240
+se utiliza 
+
+780
+00:33:36,240 --> 00:33:39,600
+el conocimiento de todos. 
+
+781
+00:33:39,600 --> 00:33:42,299
+Cualquiera puede 
+
+782
+00:33:42,299 --> 00:33:44,640
+ir al repositorio y hacer clic en "New discussion" 
+
+783
+00:33:44,640 --> 00:33:46,559
+(nuevas discusiones). Pueden seleccionar “Q&A" (preguntas 
+
+784
+00:33:46,559 --> 00:33:49,799
+y respuestas) 
+
+785
+00:33:49,799 --> 00:33:51,179
+y 
+
+786
+00:33:51,179 --> 00:33:52,980
+publicar 
+
+787
+00:33:52,980 --> 00:33:56,700
+cualquier 
+
+788
+00:33:57,539 --> 00:34:00,380
+cosa. 
+
+789
+00:34:00,779 --> 00:34:02,880
+Este es 
+
+790
+00:34:02,880 --> 00:34:04,440
+solo un repositorio de prueba, 
+
+791
+00:34:04,440 --> 00:34:09,320
+no importa realmente. Entonces, Título “¿Puedo hacer esto? 
+
+792
+00:34:09,320 --> 00:34:11,000
+Contenido: ¿Cómo puedo instalar 
+
+793
+00:34:11,000 --> 00:34:14,339
+geemap?, por ejemplo. 
+
+794
+00:34:14,339 --> 00:34:17,040
+Comienza una discusión. 
+
+795
+00:34:17,040 --> 00:34:19,199
+Es mejor tener un 
+
+796
+00:34:19,199 --> 00:34:21,540
+título un poco más descriptivo. 
+
+797
+00:34:21,540 --> 00:34:23,940
+También es importante buscar preguntas 
+
+798
+00:34:23,940 --> 00:34:26,580
+ya existentes antes de hacer 
+
+799
+00:34:26,580 --> 00:34:28,619
+una nueva. 
+
+800
+00:34:28,619 --> 00:34:32,480
+Ya tenemos algunas aquí. 
+
+801
+00:34:33,179 --> 00:34:36,659
+Si alguien 
+
+802
+00:34:36,659 --> 00:34:38,760
+sabe la 
+
+803
+00:34:38,760 --> 00:34:41,159
+respuesta o 
+
+804
+00:34:41,159 --> 00:34:44,699
+encuentra una 
+
+805
+00:34:44,699 --> 00:34:46,020
+buena respuesta, puede responder.
+
+806
+00:34:46,020 --> 00:34:48,300
+¡Me gusta!, reaccionar a la
+
+807
+00:34:48,300 --> 00:34:53,639
+respuesta con emojis, tambien
+
+808
+00:34:53,639 --> 00:34:54,480
+responder
+
+809
+00:34:54,480 --> 00:34:57,080
+por supuesto o lo que quieras.
+
+810
+00:34:57,240 --> 00:34:59,820
+¡Gracias por responder!
+
+811
+00:34:59,820 --> 00:35:01,920
+Así es como podemos hacer las cosas interactivas y convertirnos 
+
+812
+00:35:01,920 --> 00:35:05,099
+en una comunidad. Tal como se hace Google o cuando 
+
+813
+00:35:05,099 --> 00:35:08,099
+encuentras respuestas en Stack Exchange. Cuando 
+
+814
+00:35:08,099 --> 00:35:10,800
+sabes una respuesta o es la respuesta correcta, 
+
+815
+00:35:10,800 --> 00:35:11,900
+siempre puedes 
+
+816
+00:35:11,900 --> 00:35:15,300
+responder, lo cual es genial. Entonces, 
+
+817
+00:35:15,300 --> 00:35:17,520
+esto es como un tablero de discusión en 
+
+818
+00:35:17,520 --> 00:35:20,700
+en lienzo, pero es un foro público y 
+
+819
+00:35:20,700 --> 00:35:23,040
+aquí es donde trabajas junto con
+
+820
+00:35:23,040 --> 00:35:24,960
+con otras personas. Por ahora, 
+
+821
+00:35:24,960 --> 00:35:28,380
+simplemente se están haciendo preguntas, 
+
+822
+00:35:28,380 --> 00:35:30,300
+¿cuántas tenemos ahora? Solo 
+
+823
+00:35:30,300 --> 00:35:34,859
+una, dos, tres, cuatro, solo cinco. 
+
+824
+00:35:34,859 --> 00:35:37,740
+Tenemos más, el doble o triple aquí. Cada uno
+
+825
+00:35:37,740 --> 00:35:39,599
+de ustedes no pueden solo hacer una pregunta. 
+
+826
+00:35:39,599 --> 00:35:41,040
+Cualquier cosa 
+
+827
+00:35:41,040 --> 00:35:43,560
+solo para tener una idea.
+
+828
+00:35:43,560 --> 00:35:47,220
+Entonces, 
+
+829
+00:35:47,220 --> 00:35:49,200
+a la derecha, hay como una
+
+830
+00:35:49,200 --> 00:35:50,579
+discusión general, se mostrará 
+
+831
+00:35:50,579 --> 00:35:52,920
+cuántas personas están involucradas, como tres. 
+
+832
+00:35:52,920 --> 00:35:55,859
+Y luego está esta pregunta, ¿Tienes 
+
+833
+00:35:55,859 --> 00:35:59,900
+un cantante favorito? 
+
+834
+00:35:59,900 --> 00:36:01,619
+Yo 
+
+835
+00:36:01,619 --> 00:36:04,040
+no lo tengo. 
+
+836
+00:36:04,040 --> 00:36:07,859
+¿Puedes sugerir 
+
+837
+00:36:07,859 --> 00:36:10,460
+uno?. [Risas]. 
+
+838
+00:36:10,560 --> 00:36:13,079
+Si es una respuesta realmente buena, 
+
+839
+00:36:13,079 --> 00:36:15,240
+puedo marcarla como respuesta y ustedes también pueden 
+
+840
+00:36:15,240 --> 00:36:18,300
+darle un pulgar hacia arriba 
+
+841
+00:36:18,300 --> 00:36:20,280
+para que suba al principio. 
+
+842
+00:36:20,280 --> 00:36:21,839
+Ahora si vuelvo aquí, 
+
+843
+00:36:21,839 --> 00:36:24,240
+puedes ver que esta pregunta 
+
+844
+00:36:24,240 --> 00:36:25,440
+tiene 
+
+845
+00:36:25,440 --> 00:36:27,420
+una marca de verificación verde, 
+
+846
+00:36:27,420 --> 00:36:29,700
+eso significa que es buena. 
+
+847
+00:36:29,700 --> 00:36:31,500
+Cuando intentes hacer preguntas, también 
+
+848
+00:36:31,500 --> 00:36:33,599
+busca si ya existe una 
+
+849
+00:36:33,599 --> 00:36:35,760
+pregunta similar, 
+
+850
+00:36:35,760 --> 00:36:37,619
+ya que alguien más puede haberla 
+
+851
+00:36:37,619 --> 00:36:39,660
+preguntado antes. 
+
+852
+00:36:39,660 --> 00:36:43,800
+Solo mira las respuestas 
+
+853
+00:36:43,920 --> 00:36:46,500
+y ¿qué más? Puedes tener 
+
+854
+00:36:46,500 --> 00:36:48,599
+videos y 
+
+855
+00:36:48,599 --> 00:36:49,859
+subirlos, lo que 
+
+856
+00:36:49,859 --> 00:36:53,220
+será muy útil 
+
+857
+00:36:53,220 --> 00:36:54,660
+si 
+
+858
+00:36:54,660 --> 00:36:57,240
+estás tratando de 
+
+859
+00:36:57,240 --> 00:36:58,800
+solucionar algo. También 
+
+860
+00:36:58,800 --> 00:37:01,619
+podemos proporcionar código fuente. 
+
+861
+00:37:01,619 --> 00:37:03,720
+Lo bueno de GitHub es que, si proporcionas el 
+
+862
+00:37:03,720 --> 00:37:05,280
+código fuente, 
+
+863
+00:37:05,280 --> 00:37:07,800
+la gente puede copiarlo y 
+
+864
+00:37:07,800 --> 00:37:09,119
+depurarlo. Te lo muestro aquí. 
+
+865
+00:37:09,119 --> 00:37:12,180
+Entonces, supongamos que el mapa 
+
+866
+00:37:12,180 --> 00:37:15,900
+no aparece, 
+
+867
+00:37:15,900 --> 00:37:18,839
+Voy a hacer estas preguntas. Aquí 
+
+868
+00:37:18,839 --> 00:37:21,540
+puedes hacer clic en "añadir código" (<>)
+
+869
+00:37:21,540 --> 00:37:23,579
+para agregar código en Python, 
+
+870
+00:37:23,579 --> 00:37:25,859
+JavaScript o cualquier otro lenguaje. 
+
+871
+00:37:25,859 --> 00:37:27,960
+Si haces clic en esto, se verá así. 
+
+872
+00:37:27,960 --> 00:37:30,839
+Esto se llama código en línea. 
+
+873
+00:37:30,839 --> 00:37:32,640
+Básicamente, dentro de la línea, 
+
+874
+00:37:32,640 --> 00:37:34,740
+puedes poner 
+
+875
+00:37:34,740 --> 00:37:36,119
+código. 
+
+876
+00:37:36,119 --> 00:37:39,480
+Coloco “This is geemap” y 
+
+877
+00:37:39,480 --> 00:37:43,079
+Selecciono “geemap” y hago clic 
+
+878
+00:37:43,079 --> 00:37:44,480
+en (<>), luego le doy en 
+
+879
+00:37:44,480 --> 00:37:48,359
+"previsualización”, verás que se está 
+
+880
+00:37:48,359 --> 00:37:51,180
+codificando como código. La gente puede copiarlo, 
+
+881
+00:37:51,180 --> 00:37:53,640
+pero generalmente es mejor tener un 
+
+882
+00:37:53,640 --> 00:37:55,200
+bloque de código, así que te mostraré 
+
+883
+00:37:55,200 --> 00:37:57,020
+cómo hacer eso. Será ‘’’ arriba y luego ‘’’ 
+
+884
+00:37:57,020 --> 00:38:00,420
+abajo y en medio 
+
+885
+00:38:00,420 --> 00:38:02,760
+puedes especificar qué tipo de lenguaje es, 
+
+886
+00:38:02,760 --> 00:38:04,859
+‘’’python (se trata 
+
+887
+00:38:04,859 --> 00:38:08,040
+de python). Redacta el 
+
+888
+00:38:08,040 --> 00:38:11,099
+código que ves. 
+
+889
+00:38:11,099 --> 00:38:13,320
+Y le das a 
+
+890
+00:38:13,320 --> 00:38:17,099
+previsualizar
+
+891
+00:38:17,099 --> 00:38:18,839
+También 
+
+892
+00:38:18,839 --> 00:38:20,280
+puedes 
+
+893
+00:38:20,280 --> 00:38:22,079
+copiar este código. 
+
+894
+00:38:22,079 --> 00:38:24,300
+Es especialmente útil si tienes un 
+
+895
+00:38:24,300 --> 00:38:27,480
+script muy largo. Además de usar 
+
+896
+00:38:27,480 --> 00:38:29,339
+Python, también puedes usar otros 
+
+00:38:29,339 --> 00:38:33,060
+lenguajes. Por ejemplo, con el Bash, 
+
+897
+898
+00:38:33,060 --> 00:38:34,980
+que generalmente significa que es
+
+899
+00:38:34,980 --> 00:38:36,660
+un programa de línea de comando. Por 
+
+900
+00:38:36,660 --> 00:38:40,079
+ejemplo, "pip install leafmap". Solo para 
+
+901
+00:38:40,079 --> 00:38:43,020
+mostrar a las personas cómo es en realidad este paso. 
+
+902
+00:38:43,020 --> 00:38:44,400
+Estos se utilizan para diferentes fines 
+
+903
+00:38:44,400 --> 00:38:46,079
+cuando los arruinas realmente no 
+
+904
+00:38:46,079 --> 00:38:47,520
+importa porque las personas simplemente van a 
+
+905
+00:38:47,520 --> 00:38:52,320
+copiar, pero puedes decirle a markdown que 
+
+906
+00:38:52,320 --> 00:38:55,020
+muestre si es correcto. Además, 
+
+907
+00:38:55,020 --> 00:38:56,640
+puedo tener un video, puedo tener 
+
+908
+00:38:56,640 --> 00:38:58,740
+imágenes incrustadas 
+
+909
+00:38:58,740 --> 00:39:01,680
+Aquí. Si quiero, puedo ir 
+
+910
+00:39:01,680 --> 00:39:04,260
+a mi lugar. 
+
+911
+00:39:04,260 --> 00:39:05,760
+En 
+
+912
+00:39:05,760 --> 00:39:08,640
+realidad, puedo descargar 
+
+913
+00:39:08,640 --> 00:39:11,400
+cualquier video corto o 
+
+914
+00:39:11,400 --> 00:39:15,240
+usar cualquier animación GIF. 
+
+915
+00:39:15,240 --> 00:39:18,359
+Así como lo hicimos anteriormente, 
+
+916
+00:39:18,359 --> 00:39:21,500
+volvamos aquí. Entonces, 
+
+917
+00:39:21,660 --> 00:39:25,500
+nuevamente, voy a ir a mi GEOG-510, 
+
+918
+00:39:25,500 --> 00:39:31,160
+o mejor a mi github.io. 
+
+919
+00:39:31,980 --> 00:39:33,900
+Voy a
+
+920
+00:39:33,900 --> 00:39:37,320
+copiar 
+
+921
+00:39:37,320 --> 00:39:39,300
+una animación GIF para mostrártela. 
+
+922
+00:39:39,300 --> 00:39:41,940
+Aquí la tengo, y luego 
+
+923
+00:39:41,940 --> 00:39:43,980
+vuelvo aquí.
+
+924
+00:39:43,980 --> 00:39:46,200
+Todo lo que cubrimos 
+
+925
+00:39:46,200 --> 00:39:49,320
+la última vez se puede usar 
+
+926
+00:39:49,320 --> 00:39:52,619
+directamente en cualquiera de estos. 
+
+927
+00:39:52,619 --> 00:39:55,980
+Le damos en “Raw”. Este es el 
+
+928
+00:39:55,980 --> 00:39:57,599
+markdown. Puedo simplemente copiar esto 
+
+929
+00:39:57,599 --> 00:40:00,060
+y luego volver a 
+
+930
+00:40:00,060 --> 00:40:02,220
+la discusión. 
+
+931
+00:40:02,220 --> 00:40:06,119
+Si recuerdas, nuestras pantallas 
+
+932
+00:40:06,119 --> 00:40:09,960
+te mostraron el error. Puedes 
+
+933
+00:40:09,960 --> 00:40:15,140
+subir esto a imgur.com 
+
+934
+00:40:16,820 --> 00:40:18,839
+y luego pegar la URL o venir 
+
+935
+00:40:18,839 --> 00:40:20,640
+directamente aquí. Entonces, 
+
+936
+00:40:20,640 --> 00:40:22,680
+esto es mejor para que la gente pueda 
+
+937
+00:40:22,680 --> 00:40:24,180
+depurar. Ahora volvemos aquí. Genial, 
+
+938
+00:40:24,180 --> 00:40:26,280
+vista previa ¡Cool!
+
+939
+00:40:26,280 --> 00:40:28,020
+Esto puede ser cualquier cosa, puede ser 
+
+940
+00:40:28,020 --> 00:40:29,940
+imágenes, capturas de pantalla, 
+
+941
+00:40:29,940 --> 00:40:32,280
+prácticamente cualquier cosa. 
+
+942
+00:40:32,280 --> 00:40:35,400
+Así que voy a usar la herramienta 
+
+943
+00:40:35,400 --> 00:40:38,820
+de recorte de Windows. “Snipping Tool” 
+
+944
+00:40:38,820 --> 00:40:41,099
+Siguiendo estos 
+
+945
+00:40:41,099 --> 00:40:42,119
+pasos 
+
+946
+00:40:42,119 --> 00:40:46,440
+puedo simplemente 
+
+947
+00:40:46,440 --> 00:40:48,839
+tomar una captura de pantalla. 
+
+948
+00:40:48,839 --> 00:40:51,320
+Una 
+
+949
+00:40:51,480 --> 00:40:54,480
+vez que tenga esto, solo necesito 
+
+950
+00:40:54,480 --> 00:40:56,460
+hacer clic en el botón de copiar. 
+
+951
+00:40:56,460 --> 00:40:59,220
+Cualquier cosa en su portapapeles puede 
+
+952
+00:40:59,220 --> 00:41:01,500
+pegarse en GitHub y se convierte en 
+
+953
+00:41:01,500 --> 00:41:04,140
+una imagen. Ahora echa un vistazo, acabo de copiar 
+
+954
+00:41:04,140 --> 00:41:07,800
+una imagen y luego la pegué aquí. 
+
+955
+00:41:07,800 --> 00:41:11,160
+En el modo escritura coloca el cursor en 
+
+956
+00:41:11,160 --> 00:41:13,440
+algún lugar y luego 
+
+957
+00:41:13,440 --> 00:41:15,839
+Ctrl + V. Observa, 
+
+958
+00:41:15,839 --> 00:41:18,359
+va a decir subiendo imágenes y 
+
+959
+00:41:18,359 --> 00:41:20,280
+Luego, verás un extensión .png. 
+
+960
+00:41:20,280 --> 00:41:21,780
+Vas a vista previa.
+
+961
+00:41:21,780 --> 00:41:24,599
+Mira, bastante bueno. Entonces, puede ser video, 
+
+962
+00:41:24,599 --> 00:41:27,240
+imágenes, cualquier cosa, como 
+
+963
+00:41:27,240 --> 00:41:30,420
+.mp4, pero no pasarse de un 
+
+964
+00:41:30,420 --> 00:41:32,040
+gigabyte, sino que, si solo tiene unos pocos 
+
+965
+00:41:32,040 --> 00:41:34,380
+megabytes, puedes hacerlo 
+
+966
+00:41:34,380 --> 00:41:36,780
+fácilmente. Una vez que tengas esto, simplemente 
+
+967
+00:41:36,780 --> 00:41:39,420
+envía la discusión y 
+
+968
+00:41:39,420 --> 00:41:41,820
+¡boom!, ahora puedes tener una llamada y 
+
+969
+00:41:41,820 --> 00:41:43,380
+todo tipo de cosas. Aquí es donde 
+
+970
+00:41:43,380 --> 00:41:45,660
+haces preguntas 
+
+971
+00:41:45,660 --> 00:41:49,500
+si necesitas ayuda. 
+
+972
+00:41:49,500 --> 00:41:53,099
+Las discusiones son geniales. 
+
+973
+00:41:53,099 --> 00:41:55,320
+Puedes habilitarlas para 
+
+974
+00:41:55,320 --> 00:41:57,420
+tu repositorio.
+
+975
+00:41:57,420 --> 00:41:58,920
+Lo siguiente que te voy a mostrar 
+
+976
+00:41:58,920 --> 00:42:01,440
+son los problemas. Es prácticamente lo 
+
+977
+00:42:01,440 --> 00:42:03,359
+mismo, excepto que el usuario lo utiliza para 
+
+978
+00:42:03,359 --> 00:42:06,000
+informar sobre errores o hacer una solicitud visual o algo así.
+
+979
+00:42:06,000 --> 00:42:09,359
+Así que puedo hacer “New issue” desde aquí 
+
+980
+00:42:09,359 --> 00:42:11,339
+y luego hacer una pregunta.
+
+981
+00:42:11,339 --> 00:42:14,579
+Por ejemplo, si el 
+
+982
+00:42:14,579 --> 00:42:15,720
+mapa 
+
+983
+00:42:15,720 --> 00:42:19,380
+no aparece, 
+
+984
+00:42:19,380 --> 00:42:24,420
+es un error y cómo 
+
+985
+00:42:24,420 --> 00:42:26,760
+reproducirlo. 
+
+986
+00:42:26,760 --> 00:42:28,320
+Cuando 
+
+987
+00:42:28,320 --> 00:42:30,780
+intentas hacer preguntas en un 
+
+988
+00:42:30,780 --> 00:42:32,880
+proyecto de código abierto, siempre debes 
+
+989
+00:42:32,880 --> 00:42:34,920
+asegurarte de que lo que estás 
+
+990
+00:42:34,920 --> 00:42:37,500
+experimentando no ocurre necesariamente en 
+
+991
+00:42:37,500 --> 00:42:38,820
+otra computadora o 
+
+992
+00:42:38,820 --> 00:42:41,520
+en otro sistema operativo. Por lo tanto, debes proporcionar 
+
+993
+00:42:41,520 --> 00:42:44,640
+detalles mínimos que las personas puedan 
+
+994
+00:42:44,640 --> 00:42:47,400
+reproducir en su entorno. De lo contrario, 
+
+995
+00:42:47,400 --> 00:42:48,599
+no podré ayudarte porque a mí no 
+
+996
+00:42:48,599 --> 00:42:51,540
+me sucede. Para que la gente entienda cuál es el problema, 
+
+997
+00:42:51,540 --> 00:42:54,240
+puedes proporcionar el código fuente, tomar una 
+
+998
+00:42:54,240 --> 00:42:56,700
+captura de pantalla o hacer una 
+
+999
+00:42:56,700 --> 00:42:59,040
+breve animación en video. 
+
+1000
+00:42:59,040 --> 00:43:01,619
+Entonces, 
+
+1001
+00:43:01,619 --> 00:43:03,720
+simplemente haces una pregunta vacía, 
+
+1002
+00:43:03,720 --> 00:43:04,800
+¿sí? 
+
+1003
+00:43:04,800 --> 00:43:06,800
+[Pregunta]
+
+1004
+00:43:11,819 --> 00:43:14,579
+Por lo general, yo depuro por mí 
+
+1005
+00:43:14,579 --> 00:43:17,160
+mismo primero, hago una búsqueda sencilla en Google 
+
+1006
+00:43:17,160 --> 00:43:20,339
+o chat GPT y si me ayudan, 
+
+1007
+00:43:20,339 --> 00:43:22,079
+no necesito hacer preguntas. Pero si estoy 
+
+1008
+00:43:22,079 --> 00:43:23,520
+haciendo esto y paso mucho tiempo 
+
+1009
+00:43:23,520 --> 00:43:24,900
+sin poder resolverlo, es mejor 
+
+1010
+00:43:24,900 --> 00:43:28,079
+saber que, al abrir el problema, 
+
+1011
+00:43:28,079 --> 00:43:30,240
+primero hagas una búsqueda rápida antes de hacer 
+
+1012
+00:43:30,240 --> 00:43:31,980
+preguntas, ya que podría haber 
+
+1013
+00:43:31,980 --> 00:43:34,500
+duplicados. Por ejemplo, 
+
+1014
+00:43:34,500 --> 00:43:37,380
+si vengo al problema y 
+
+1015
+00:43:37,380 --> 00:43:39,960
+veo que hay 17 abiertos y 
+
+1016
+00:43:39,960 --> 00:43:41,400
+cerrados significa que ya está 
+
+1017
+00:43:41,400 --> 00:43:44,339
+completa o no se va a 
+
+1018
+00:43:44,339 --> 00:43:46,260
+Implementar. Así que puedo hacer clic en este 
+
+1019
+00:43:46,260 --> 00:43:48,359
+y puedes echar un vistazo, 
+
+1020
+00:43:48,359 --> 00:43:49,740
+puedes desplazarte hacia abajo o simplemente 
+
+1021
+00:43:49,740 --> 00:43:52,859
+buscar en el filtro. Por ejemplo, puedo 
+
+1022
+00:43:52,859 --> 00:43:56,700
+buscar "Autenticación". 
+
+1023
+00:44:00,060 --> 00:44:02,160
+No intentes escribir una oración larga 
+
+1024
+00:44:02,160 --> 00:44:03,660
+porque esto no es como Google, pero al 
+
+1025
+00:44:03,660 --> 00:44:05,339
+menos puedes encontrar algunos 
+
+1026
+00:44:05,339 --> 00:44:07,680
+valores innovadores o relacionados con la 
+
+1027
+00:44:07,680 --> 00:44:09,660
+autenticación de Google. 
+
+1028
+00:44:09,660 --> 00:44:11,700
+Entonces puedes averiguar si es 
+
+1029
+00:44:11,700 --> 00:44:13,980
+una solicitud de características, un error 
+
+1030
+00:44:13,980 --> 00:44:15,740
+o algo más, o si ya está 
+
+1031
+00:44:15,740 --> 00:44:18,599
+implementado. Básicamente, 
+
+1032
+00:44:18,599 --> 00:44:20,520
+la mejor práctica para hacer 
+
+1033
+00:44:20,520 --> 00:44:23,460
+preguntas es ver si alguien ha 
+
+1034
+00:44:23,460 --> 00:44:25,200
+hecho preguntas similares y si se ha resuelto 
+
+1035
+00:44:25,200 --> 00:44:27,119
+el problema o si aún está 
+
+1036
+00:44:27,119 --> 00:44:29,280
+pendiente. Si hay un problema abierto, 
+
+1037
+00:44:29,280 --> 00:44:31,800
+significa que aún se está trabajando en él y 
+
+1038
+00:44:31,800 --> 00:44:35,220
+de esa manera sabes cuál es el estado. 
+
+1039
+00:44:35,220 --> 00:44:37,020
+Permíteme volver a este punto, supongamos que 
+
+1040
+00:44:37,020 --> 00:44:38,880
+el problema es este y te estás enfrentando 
+
+1041
+00:44:38,880 --> 00:44:41,760
+al mismo problema, alguien ya lo ha preguntado 
+
+1042
+00:44:41,760 --> 00:44:44,400
+y puedes decir: "Acabo de enfrentar el 
+
+1043
+00:44:44,400 --> 00:44:48,480
+mismo problema". 
+
+1044
+00:44:48,480 --> 00:44:51,599
+Una vez que hagas esto, 
+
+1045
+00:44:51,599 --> 00:44:54,180
+te suscribirás a este hilo, por lo que 
+
+1046
+00:44:54,180 --> 00:44:56,160
+cuando la gente responda, también obtendrás 
+
+1047
+00:44:56,160 --> 00:44:59,760
+una respuesta. Pero si no quieres recibir demasiados 
+
+1048
+00:44:59,760 --> 00:45:01,859
+correos electrónicos, puedes hacer clic en el 
+
+1049
+00:45:01,859 --> 00:45:03,720
+botón de cancelar suscripción. 
+
+1050
+00:45:03,720 --> 00:45:05,160
+Así es como puedes 
+
+1051
+00:45:05,160 --> 00:45:09,240
+hacer preguntas sobre cualquier problema, 
+
+1052
+00:45:09,240 --> 00:45:11,760
+como lo hice anteriormente cuando quise 
+
+1053
+00:45:11,760 --> 00:45:13,800
+proporcionar un código de python 
+
+1054
+00:45:13,800 --> 00:45:18,480
+Mira el código redactado,
+
+1055
+00:45:18,480 --> 00:45:21,300
+lo que sea que 
+
+1056
+00:45:21,300 --> 00:45:24,720
+proporciones, y
+
+1057
+00:45:24,720 --> 00:45:26,579
+también es bueno proporcionar tu entorno. Entonces, 
+
+1058
+00:45:26,579 --> 00:45:28,740
+si estás instalando tus paquetes, quieres 
+
+1059
+00:45:28,740 --> 00:45:31,500
+decir si estás en Windows, Mac, Linux, cuál es 
+
+1060
+00:45:31,500 --> 00:45:33,300
+tu versión de Python, esas cosas 
+
+1061
+00:45:33,300 --> 00:45:35,880
+serán útiles para que las personas puedan reproducir 
+
+1062
+00:45:35,880 --> 00:45:38,400
+si ya hay un error que muchas 
+
+1063
+00:45:38,400 --> 00:45:40,140
+personas están enfrentando, es bueno 
+
+1064
+00:45:40,140 --> 00:45:42,540
+informarlo, pero si solo eres tú, podría 
+
+1065
+00:45:42,540 --> 00:45:44,520
+ser una configuración de la computadora 
+
+1066
+00:45:44,520 --> 00:45:46,619
+o algo más, quién sabe. Entonces de esa manera 
+
+1067
+00:45:46,619 --> 00:45:48,480
+necesitas proporcionar suficiente detalle 
+
+1068
+00:45:48,480 --> 00:45:49,740
+para que 
+
+1069
+00:45:49,740 --> 00:45:51,119
+otras personas puedan 
+
+1070
+00:45:51,119 --> 00:45:53,160
+reproducirlo. 
+
+1071
+00:45:53,160 --> 00:45:55,319
+Puedo mostrarte algunos ejemplos, buscamos folium GitHub, 
+
+1072
+00:45:55,319 --> 00:45:57,180
+hice muchas preguntas en
+
+1073
+00:45:57,180 --> 00:46:00,720
+GitHub porque, yo mismo, cuanto más 
+
+1074
+00:46:00,720 --> 00:46:02,640
+uso esos proyectos, más probabilidades 
+
+1075
+00:46:02,640 --> 00:46:04,560
+hay de que me encuentre con problemas. Entonces, 
+
+1076
+00:46:04,560 --> 00:46:06,060
+cuando intentas hacer preguntas, puedes ir 
+
+1077
+00:46:06,060 --> 00:46:08,880
+aquí, como problemas de folium, y también 
+
+1078
+00:46:08,880 --> 00:46:12,420
+puedes ordenar esto 
+
+1079
+00:46:12,420 --> 00:46:14,099
+para ver, por ejemplo, cuántas 
+
+1080
+00:46:14,099 --> 00:46:16,020
+preguntas has hecho, pero puedes mirar las 
+
+1081
+00:46:16,020 --> 00:46:18,180
+de otros. Luego, voy a hacer clic en 
+
+1082
+00:46:18,180 --> 00:46:19,800
+este 
+
+1083
+00:46:19,800 --> 00:46:21,420
+y mirar 
+
+1084
+00:46:21,420 --> 00:46:25,440
+cómo hice preguntas. De esta manera, 
+
+1085
+00:46:25,440 --> 00:46:27,660
+me aseguro al 100%, antes de 
+
+1086
+00:46:27,660 --> 00:46:29,160
+hacer preguntas, lo probaría en mi 
+
+1087
+00:46:29,160 --> 00:46:31,079
+entorno y en otra computadora para 
+
+1088
+00:46:31,079 --> 00:46:32,880
+asegurarme de que realmente sé 
+
+1089
+00:46:32,880 --> 00:46:34,680
+de qué se trata, porque sucede en todas 
+
+1090
+00:46:34,680 --> 00:46:35,940
+las plataformas. 
+
+1091
+00:46:35,940 --> 00:46:38,460
+Te voy a mostrar, por ejemplo, cómo describir 
+
+1092
+00:46:38,460 --> 00:46:40,140
+el respaldo. El respaldo no se renderiza cuando el 
+
+1093
+00:46:40,140 --> 00:46:42,000
+nivel de zoom, crea un problema, 
+
+1094
+00:46:42,000 --> 00:46:44,460
+hace dos semanas, y sé quién lo 
+
+1095
+00:46:44,460 --> 00:46:46,200
+desarrolló, conozco a los chicos que trabajan 
+
+1096
+00:46:46,200 --> 00:46:48,420
+en él. Para que, al igual que en Twitter, 
+
+1097
+00:46:48,420 --> 00:46:50,880
+preguntas a alguien y ellos lo sabrán, y luego yo 
+
+1098
+00:46:50,880 --> 00:46:52,380
+proporcionaré el código, pero te mostraré cómo 
+
+1099
+00:46:52,380 --> 00:46:54,839
+puedes reproducirlo y también vi una 
+
+1100
+00:46:54,839 --> 00:46:56,940
+animación que te muestra cómo se ve, 
+
+1101
+00:46:56,940 --> 00:46:59,160
+así que la etiqueta de zoom 
+
+1102
+00:46:59,160 --> 00:47:00,780
+no se renderiza cuando el nivel de zoom es 
+
+1103
+00:47:00,780 --> 00:47:03,000
+mayor que 14, entonces 
+
+1104
+00:47:03,000 --> 00:47:05,760
+claramente hay algo mal con el 
+
+1105
+00:47:05,760 --> 00:47:08,520
+proyecto o el complemento, y luego puedes 
+
+1106
+00:47:08,520 --> 00:47:10,380
+describir el comportamiento, cuál es 
+
+1107
+00:47:10,380 --> 00:47:12,540
+tu entorno y proporcionar una 
+
+1108
+00:47:12,540 --> 00:47:14,099
+solución potencial y también una muestra de llamada y 
+
+1109
+00:47:14,099 --> 00:47:16,200
+actitud de recursos, lo cual 
+
+1110
+00:47:16,200 --> 00:47:17,640
+sería especialmente útil para que el 
+
+1111
+00:47:17,640 --> 00:47:21,359
+desarrollador pueda averiguar qué 
+
+1112
+00:47:21,359 --> 00:47:23,280
+atacar y qué tipo de solución potencial 
+
+1113
+00:47:23,280 --> 00:47:26,099
+sería correcta, y luego 
+
+1114
+00:47:26,099 --> 00:47:27,300
+otras personas 
+
+1115
+00:47:27,300 --> 00:47:29,579
+pueden unirse y 
+
+1116
+00:47:29,579 --> 00:47:31,140
+proporcionar más contexto. Conocen el problema, así que este es un tipo 
+
+1117
+00:47:31,140 --> 00:47:33,300
+de Microsoft jugando con la computadora 
+
+1118
+00:47:33,300 --> 00:47:35,160
+tratando de desarrollar algo que 
+
+1119
+00:47:35,160 --> 00:47:37,859
+pueda ayudar a visualizar datos. Él sabe en qué 
+
+1120
+00:47:37,859 --> 00:47:39,599
+estoy trabajando, por lo que puede proporcionar más 
+
+1121
+00:47:39,599 --> 00:47:42,359
+contexto. Puedo hacer seguimiento y luego otras 
+
+1122
+00:47:42,359 --> 00:47:44,579
+personas pueden comentar. Puedes ver cómo 
+
+1123
+00:47:44,579 --> 00:47:46,680
+se convierte en una larga discusión y luego vuelve el 
+
+1124
+00:47:46,680 --> 00:47:49,140
+desarrollo y los comentarios. 
+
+1125
+00:47:49,140 --> 00:47:51,960
+Como él sabe mejor, yo no soy 
+
+1126
+00:47:51,960 --> 00:47:54,119
+un maestro que lo sabe todo. 
+
+1127
+00:47:54,119 --> 00:47:58,319
+JavaScript no es mi especialidad y 
+
+1128
+00:47:58,319 --> 00:47:59,640
+luego ella mostrará cuál es el 
+
+1129
+00:47:59,640 --> 00:48:01,619
+problema y yo proporcionaré algunos detalles adicionales, 
+
+1130
+00:48:01,619 --> 00:48:04,140
+imágenes de pantalla, capturas de pantalla, 
+
+1131
+00:48:04,140 --> 00:48:05,640
+código fuente, 
+
+1132
+00:48:05,640 --> 00:48:09,839
+y ahora tenemos una solución. 
+
+1133
+00:48:09,839 --> 00:48:12,900
+El desarrollador 
+
+1134
+00:48:12,900 --> 00:48:14,819
+arregló y mejoró el complemento, yo probé la nueva 
+
+1135
+00:48:14,819 --> 00:48:17,760
+solución y luego la implementamos, y 
+
+1136
+00:48:17,760 --> 00:48:19,380
+así podemos obtener más 
+
+1137
+00:48:19,380 --> 00:48:21,599
+contexto y así pudimos solucionar el 
+
+1138
+00:48:21,599 --> 00:48:23,760
+problema. Así es 
+
+1139
+00:48:23,760 --> 00:48:26,099
+como resolvemos problemas en la comunidad de código abierto, 
+
+1140
+00:48:26,099 --> 00:48:28,560
+asegúrate de entender las mejores 
+
+1141
+00:48:28,560 --> 00:48:31,500
+prácticas para hacer 
+
+1142
+00:48:31,500 --> 00:48:35,040
+preguntas y cómo involucrarte con 
+
+1143
+00:48:35,040 --> 00:48:39,079
+el desarrollador. Hay muchos desarrolladores 
+
+1144
+00:48:39,180 --> 00:48:41,400
+excelentes dispuestos a 
+
+1145
+00:48:41,400 --> 00:48:44,160
+ayudar si sabes cómo hacer 
+
+1146
+00:48:44,160 --> 00:48:46,260
+preguntas y 
+
+1147
+00:48:46,260 --> 00:48:48,660
+llamar su atención al 
+
+1148
+00:48:48,660 --> 00:48:49,980
+proporcionar algo útil, 
+
+1149
+00:48:49,980 --> 00:48:51,599
+reportar un problema o solicitar una nueva 
+
+1150
+00:48:51,599 --> 00:48:53,099
+función. No todo se 
+
+1151
+00:48:53,099 --> 00:48:55,619
+resolverá como quieres, pero la mayoría de las 
+
+1152
+00:48:55,619 --> 00:48:57,540
+veces, si es algo importante, 
+
+1153
+00:48:57,540 --> 00:49:00,599
+los encargados 
+
+1154
+00:49:00,599 --> 00:49:02,520
+del proyecto 
+
+1155
+00:49:02,520 --> 00:49:04,740
+podrán ayudarte. Así que simplemente trata de 
+
+1156
+00:49:04,740 --> 00:49:07,619
+aprender algunas de las mejores prácticas 
+
+1157
+00:49:07,619 --> 00:49:10,800
+y esto sería el 
+
+1158
+00:49:10,800 --> 00:49:12,900
+punto de partida de tu viaje para 
+
+1159
+00:49:12,900 --> 00:49:15,780
+contribuir en algo. Contribuir 
+
+1160
+00:49:15,780 --> 00:49:17,940
+no significa que tengas que contribuir con el 
+
+1161
+00:49:17,940 --> 00:49:20,040
+código fuente. Si informas sobre algo también es una 
+
+1162
+00:49:20,040 --> 00:49:21,900
+contribución, puedes 
+
+1163
+00:49:21,900 --> 00:49:23,940
+hacer preguntas, 
+
+1164
+00:49:23,940 --> 00:49:25,560
+proporcionar soluciones sociales o ayudar a otros, 
+
+1165
+00:49:25,560 --> 00:49:28,260
+incluso si no tienes una solución perfecta. 
+
+1166
+00:49:28,260 --> 00:49:31,319
+Esta es una forma de abrir un problema y 
+
+1167
+00:49:31,319 --> 00:49:32,940
+después de un tiempo, si no recibes ninguna 
+
+1168
+00:49:32,940 --> 00:49:35,940
+respuesta, tal vez sea demasiado difícil o 
+
+1169
+00:49:35,940 --> 00:49:38,180
+las personas no tienen idea, pero 
+
+1170
+00:49:38,180 --> 00:49:41,400
+puedes hacer un seguimiento si lo deseas. 
+
+1171
+00:49:41,400 --> 00:49:44,700
+Por ejemplo, aquí hago clic 
+
+1172
+00:49:44,700 --> 00:49:47,400
+en este y otro problema. No 
+
+1173
+00:49:47,400 --> 00:49:49,680
+siempre hay que controlar todas las preguntas. 
+
+1174
+00:49:49,680 --> 00:49:52,260
+Divido las preguntas y proporciono el 
+
+1175
+00:49:52,260 --> 00:49:54,420
+código fuente 
+
+1176
+00:49:54,420 --> 00:49:57,079
+y la animación. 
+
+1177
+00:49:57,300 --> 00:49:59,040
+El problema 
+
+1178
+00:49:59,040 --> 00:50:01,880
+con este es que 
+
+1179
+00:50:02,040 --> 00:50:03,960
+realmente viene de la solución que intentaba implementar en
+
+1180
+00:50:03,960 --> 00:50:06,960
+leafmap y alguien puede proporcionar el código fuente
+
+1181
+00:50:06,960 --> 00:50:08,339
+para muchas características, pero para los 
+
+1182
+00:50:08,339 --> 00:50:09,720
+principiantes no es necesario saber 
+
+1183
+00:50:09,720 --> 00:50:12,420
+tantas, pero es útil saber cómo 
+
+1184
+00:50:12,420 --> 00:50:15,660
+informar un problema. Una vez que se 
+
+1185
+00:50:15,660 --> 00:50:17,339
+implementa, puedo cambiar el código fuente 
+
+1186
+00:50:17,339 --> 00:50:21,119
+y vincularlo a mi 
+
+1187
+00:50:21,119 --> 00:50:23,400
+proyecto nuevamente. 
+
+1188
+00:50:23,400 --> 00:50:24,839
+También puedes tener todo tipo de 
+
+1189
+00:50:24,839 --> 00:50:28,200
+categorías para mostrar 
+
+1190
+00:50:28,200 --> 00:50:29,579
+algunas de las características de apertura, algunas de las 
+
+1191
+00:50:29,579 --> 00:50:32,460
+solicitudes oficiales personalmente que 
+
+1192
+00:50:32,460 --> 00:50:34,440
+quiero implementar o solicitudes oficiales 
+
+1193
+00:50:34,440 --> 00:50:36,839
+de otros usuarios, o pueden ser 
+
+1194
+00:50:36,839 --> 00:50:39,480
+algunos errores. Entonces, es bueno 
+
+1195
+00:50:39,480 --> 00:50:41,760
+tener esto registrado, así cuando tenga tiempo 
+
+1196
+00:50:41,760 --> 00:50:43,380
+siempre puedo volver y tratar de implementar 
+
+1197
+00:50:43,380 --> 00:50:45,480
+algo, pero si solo está en tu mente, 
+
+1198
+00:50:45,480 --> 00:50:48,480
+a veces se olvidará 
+
+1199
+00:50:48,480 --> 00:50:50,220
+si tienes demasiadas cosas en marcha.
+
+1200
+00:50:50,220 --> 00:50:53,280
+Así que esta es también una buena manera de mantener las 
+
+1201
+00:50:53,280 --> 00:50:55,680
+cosas registradas y también otras personas 
+
+1202
+00:50:55,680 --> 00:50:58,680
+pueden ayudar. Puedes poner otra 
+
+1203
+00:50:58,680 --> 00:51:01,619
+categoría que diga "necesito ayuda", para que quien tenga 
+
+1204
+00:51:01,619 --> 00:51:03,780
+tiempo pueda contribuir. Esto 
+
+1205
+00:51:03,780 --> 00:51:06,780
+se llama abrir un problema y 
+
+1206
+00:51:06,780 --> 00:51:08,400
+el último que quiero mostrarte 
+
+1207
+00:51:08,400 --> 00:51:10,619
+se llama solicitud de extracción. 
+
+1208
+00:51:10,619 --> 00:51:12,240
+Aquí es donde entra la verdadera contribución, 
+
+1209
+00:51:12,240 --> 00:51:15,000
+ya que puedes contribuir con 
+
+1210
+00:51:15,000 --> 00:51:17,579
+código fuente, arreglar algo y así otras 
+
+1211
+00:51:17,579 --> 00:51:20,460
+personas pueden fusionar tus cosas y luego te 
+
+1212
+00:51:20,460 --> 00:51:22,920
+conviertes en un colaborador oficial. 
+
+1213
+00:51:22,920 --> 00:51:25,500
+Lo que podemos hacer aquí a continuación es 
+
+1214
+00:51:25,500 --> 00:51:27,180
+mostrarte cómo puedes contribuir. Voy a 
+
+1215
+00:51:27,180 --> 00:51:28,940
+usar el mismo proyecto, 
+
+1216
+00:51:28,940 --> 00:51:32,220
+GEOG-510. 
+
+1217
+00:51:32,220 --> 00:51:35,339
+Lo que puedes hacer aquí ahora es 
+
+1218
+00:51:35,339 --> 00:51:39,000
+bifurcar con un “Fork” el repositorio, 
+
+1219
+00:51:39,000 --> 00:51:40,859
+en la esquina superior derecha aquí verás estos 
+
+1220
+00:51:40,859 --> 00:51:42,839
+iconos, así que la estrella significa simplemente 
+
+1221
+00:51:42,839 --> 00:51:45,359
+seleccionar y marcar esta, cuanto más estrellas 
+
+1222
+00:51:45,359 --> 00:51:47,160
+obtengas, significa que es más popular. 
+
+1223
+00:51:47,160 --> 00:51:50,400
+Y 
+
+1224
+00:51:50,400 --> 00:51:53,280
+"fork" significa que alguien está aún más 
+
+1225
+00:51:53,280 --> 00:51:55,200
+interesado en este proyecto, están 
+
+1226
+00:51:55,200 --> 00:51:58,260
+interesados en contribuir o poner esto, 
+
+1227
+00:51:58,260 --> 00:52:00,420
+básicamente es clonar esto en 
+
+1228
+00:52:00,420 --> 00:52:02,819
+su cuenta, así que "fork" significa que estás 
+
+1229
+00:52:02,819 --> 00:52:05,760
+copiando una copia del proyecto en tu 
+
+1230
+00:52:05,760 --> 00:52:08,160
+cuenta para que puedas hacer cambios, 
+
+1231
+00:52:08,160 --> 00:52:10,260
+no necesariamente tienes que 
+
+1232
+00:52:10,260 --> 00:52:12,480
+contribuir de vuelta al proyecto, puedes hacer
+
+1233
+00:52:12,480 --> 00:52:14,940
+"fork" algo y luego convertirlo en tu propio 
+
+1234
+00:52:14,940 --> 00:52:16,680
+proyecto, básicamente construido sobre 
+
+1235
+00:52:16,680 --> 00:52:19,500
+proyectos de otras personas. Bueno, para ti 
+
+1236
+00:52:19,500 --> 00:52:21,000
+en este momento quiero que sigas adelante 
+
+1237
+00:52:21,000 --> 00:52:23,099
+porque quiero algo similar a la discusión, 
+
+1238
+00:52:23,099 --> 00:52:25,619
+quiero que contribuyas algo 
+
+1239
+00:52:25,619 --> 00:52:28,260
+a esta para que puedas 
+
+1240
+00:52:28,260 --> 00:52:30,119
+ver cómo se ve. 
+
+1241
+00:52:30,119 --> 00:52:31,260
+Lo que puedes hacer 
+
+1242
+00:52:31,260 --> 00:52:35,520
+es hacer clic en este icono de Fork y luego, si 
+
+1243
+00:52:35,520 --> 00:52:38,040
+quieres hacer cambios, puedes hacerlo. 
+
+1244
+00:52:38,040 --> 00:52:40,680
+Porque en este momento, esto ya está en 
+
+1245
+00:52:40,680 --> 00:52:42,720
+mi cuenta, así que no puedo hacer Fork, pero tú 
+
+1246
+00:52:42,720 --> 00:52:44,760
+deberías poder hacerlo, ¿verdad? 
+
+1247
+00:52:44,760 --> 00:52:47,400
+Luego, solo selecciona cualquier 
+
+1248
+00:52:47,400 --> 00:52:50,460
+cuenta y crea Fork, y esto 
+
+1249
+00:52:50,460 --> 00:52:53,599
+debería aparecer en tu 
+
+1250
+00:52:53,599 --> 00:52:56,700
+cuenta de GitHub. 
+
+1251
+00:52:56,700 --> 00:52:58,200
+¿Puedes hacer eso? 
+
+1252
+00:52:58,200 --> 00:53:03,000
+Y una vez que hayas hecho Fork del proyecto, 
+
+1253
+00:53:03,000 --> 00:53:04,280
+deberías 
+
+1254
+00:53:04,280 --> 00:53:07,160
+cambiar tu nombre de usuario a 
+
+1255
+00:53:07,160 --> 00:53:09,720
+GEOG-510 y debería aparecer otro 
+
+1256
+00:53:09,720 --> 00:53:12,359
+nombre que indique su origen.
+
+1257
+00:53:12,359 --> 00:53:14,520
+Sí
+
+1258
+00:53:14,520 --> 00:53:16,559
+déjame ver si puedo mostrarte algunos 
+
+1259
+00:53:16,559 --> 00:53:18,960
+ejemplos. Tal vez 
+
+1260
+00:53:18,960 --> 00:53:22,760
+así, con repositorios, 
+
+1261
+00:53:23,059 --> 00:53:27,680
+y tal vez así, 
+
+1262
+00:53:28,020 --> 00:53:31,500
+con Fork desde 
+
+1263
+00:53:31,500 --> 00:53:35,040
+el original. Aquí es donde puedes 
+
+1264
+00:53:35,040 --> 00:53:36,839
+empezar a trabajar. Una vez que hayas hecho 
+
+1265
+00:53:36,839 --> 00:53:39,900
+Fork del repositorio, puedes clonarlo 
+
+1266
+00:53:39,900 --> 00:53:41,460
+en la computadora y 
+
+1267
+00:53:41,460 --> 00:53:43,200
+comenzar a hacer algunos cambios. A continuación, 
+
+1268
+00:53:43,200 --> 00:53:44,579
+te mostraré cómo crear una nueva 
+
+1269
+00:53:44,579 --> 00:53:46,440
+rama. Esto es un concepto muy 
+
+1270
+00:53:46,440 --> 00:53:48,480
+importante en Git. 
+
+1271
+00:53:48,480 --> 00:53:49,380
+Así,
+
+1272
+00:53:49,380 --> 00:53:52,500
+Vuelve a este punto aquí. Para mí, 
+
+1273
+00:53:52,500 --> 00:53:55,260
+simplemente voy a llamar a mi propio 
+
+1274
+00:53:55,260 --> 00:53:57,480
+repositorio, pero para ti, no 
+
+1275
+00:53:57,480 --> 00:53:59,819
+clones desde mi cuenta. 
+
+1276
+00:53:59,819 --> 00:54:03,059
+Debería ser desde tu Fork, Fork del 
+
+1277
+00:54:03,059 --> 00:54:05,400
+repositorio, luego ve a tu 
+
+1278
+00:54:05,400 --> 00:54:08,400
+cuenta y copia esta 
+
+1279
+00:54:08,400 --> 00:54:09,480
+URL.
+
+1280
+00:54:09,480 --> 00:54:11,880
+Debería ser tu github.com y luego 
+
+1281
+00:54:11,880 --> 00:54:14,400
+tu nombre de usuario, y luego ir a GEOG-510.
+
+1282
+00:54:14,400 --> 00:54:17,220
+Una vez que tengas eso, vuelve a 
+
+1283
+00:54:17,220 --> 00:54:18,140
+tu 
+
+1284
+00:54:18,140 --> 00:54:21,660
+repositorio. Lo voy a hacer en mi 
+
+1285
+00:54:21,660 --> 00:54:23,400
+directorio de descargas. Ya tengo uno, 
+
+1286
+00:54:23,400 --> 00:54:26,520
+déjame borrarlo. 
+
+1287
+00:54:26,520 --> 00:54:28,680
+Solo clona el repositorio en tu 
+
+1288
+00:54:28,680 --> 00:54:30,859
+computadora. 
+
+1289
+00:54:31,200 --> 00:54:34,260
+Haz clic derecho 
+
+1290
+00:54:34,260 --> 00:54:37,579
+y abre tu terminal. 
+
+1291
+00:54:38,099 --> 00:54:40,579
+Luego escribe 
+
+1292
+00:54:40,740 --> 00:54:46,440
+git clone Ctrl + V (URL) y 
+
+1293
+00:54:46,440 --> 00:54:48,599
+presiona enter. Listo. 
+
+1294
+00:54:48,599 --> 00:54:51,440
+Luego haz clic derecho y 
+
+1295
+00:54:51,440 --> 00:54:54,480
+ábrelo en Visual Studio Code o en 
+
+1296
+00:54:54,480 --> 00:54:56,819
+lo que sea que prefieras. 
+
+1297
+00:54:56,819 --> 00:54:58,200
+Una vez que lo abras, 
+
+1298
+00:54:58,200 --> 00:55:00,720
+este proyecto 
+
+1299
+00:55:00,720 --> 00:55:02,880
+estará bajo tu control. 
+
+1300
+00:55:02,880 --> 00:55:04,920
+Podemos hacer algunos cambios y luego 
+
+1301
+00:55:04,920 --> 00:55:08,040
+enviarlos de vuelta a tu cuenta. Luego, 
+
+1302
+00:55:08,040 --> 00:55:10,680
+puedes crear una solicitud de extracción para 
+
+1303
+00:55:10,680 --> 00:55:13,559
+enviar los cambios o mejoras que hayas 
+
+1304
+00:55:13,559 --> 00:55:16,260
+hecho al repositorio principal. En este 
+
+1305
+00:55:16,260 --> 00:55:17,640
+momento estás trabajando en la marca, en realidad 
+
+1306
+00:55:17,640 --> 00:55:20,640
+es solo tu cuenta principal, así que 
+
+1307
+00:55:20,640 --> 00:55:22,380
+nuevamente aquí en 
+
+1308
+00:55:22,380 --> 00:55:24,119
+Control de fuente, 
+
+1309
+00:55:24,119 --> 00:55:26,099
+y luego en el lado izquierdo 
+
+1310
+00:55:26,099 --> 00:55:29,400
+deberías ver este apartado de "ramas". 
+
+1311
+00:55:29,400 --> 00:55:30,900
+Ahora 
+
+1312
+00:55:30,900 --> 00:55:32,880
+mismo deberías 
+
+1313
+00:55:32,880 --> 00:55:34,619
+ver la rama principal, ¿puedes verla aquí? 
+
+1314
+00:55:34,619 --> 00:55:36,420
+La rama principal básicamente 
+
+1315
+00:55:36,420 --> 00:55:38,400
+no quieres hacer cambios, 
+
+1316
+00:55:38,400 --> 00:55:39,900
+generalmente quieres mantener la 
+
+1317
+00:55:39,900 --> 00:55:41,400
+rama 
+
+1318
+00:55:41,400 --> 00:55:42,900
+principal 
+
+1319
+00:55:42,900 --> 00:55:46,920
+como está. 
+
+1320
+00:55:46,920 --> 00:55:49,619
+La razón por la que se llama 
+
+1321
+00:55:49,619 --> 00:55:52,380
+así es porque más adelante puedes 
+
+1322
+00:55:52,380 --> 00:55:53,760
+hacer una copia, hacer algunos 
+
+1323
+00:55:53,760 --> 00:55:56,460
+cambios y fusionarla aquí. Una vez 
+
+1324
+00:55:56,460 --> 00:55:58,200
+que esta última se actualiza, quieres fusionar 
+
+1325
+00:55:58,200 --> 00:56:00,780
+los cambios para mantener todo 
+
+1326
+00:56:00,780 --> 00:56:03,119
+sincronizado, para poder sincronizar con el repositorio principal. 
+
+1327
+00:56:03,119 --> 00:56:05,880
+Normalmente lo que queremos hacer aquí es agregar algunos cambios.
+
+1328
+00:56:05,880 --> 00:56:07,079
+Permíteme mostrarte cómo podemos agregar algunos 
+
+1329
+00:56:07,079 --> 00:56:09,300
+cambios. Aquí, por ejemplo, 
+
+1330
+00:56:09,300 --> 00:56:13,020
+puedes crear 
+
+1331
+00:56:13,020 --> 00:56:15,660
+un nuevo archivo, 
+
+1332
+00:56:15,660 --> 00:56:18,119
+aunque puedes hacer cambios en el 
+
+1333
+00:56:18,119 --> 00:56:20,520
+mismo archivo, pero como somos 
+
+1334
+00:56:20,520 --> 00:56:22,619
+muchos en Stony Brook, es probable que surjan 
+
+1335
+00:56:22,619 --> 00:56:24,420
+conflictos si agregas una nueva línea 
+
+1336
+00:56:24,420 --> 00:56:26,880
+y alguien más la elimina, 
+
+1337
+00:56:26,880 --> 00:56:28,500
+se convertirá en un desastre, 
+
+1338
+00:56:28,500 --> 00:56:31,020
+así que es mejor crear un nuevo archivo. 
+
+1339
+00:56:31,020 --> 00:56:33,540
+Aquí puedo 
+
+1340
+00:56:33,540 --> 00:56:35,099
+mostrarte cómo crear 
+
+1341
+00:56:35,099 --> 00:56:36,720
+un archivo nuevo. Podemos 
+
+1342
+00:56:36,720 --> 00:56:38,700
+hacer lo mismo que antes y 
+
+1343
+00:56:38,700 --> 00:56:40,500
+mostrarte cómo agregar un 
+
+1344
+00:56:40,500 --> 00:56:42,420
+nuevo archivo. Entonces aquí puedo escribir 
+
+1345
+00:56:42,420 --> 00:56:45,859
+tu nombre o 
+
+1346
+00:56:45,859 --> 00:56:48,359
+cualquier cosa que desees. 
+
+1347
+00:56:48,359 --> 00:56:52,140
+Puedo escribir 
+
+1348
+00:56:52,140 --> 00:56:55,920
+"genial" o "cualquier cosa". 
+
+1349
+00:56:55,920 --> 00:56:58,680
+Luego puedo hacer algo, como presionar Ctrl + S 
+
+1350
+00:56:58,680 --> 00:57:00,480
+para crear un archivo. Crea el archivo que quieras 
+
+1351
+00:57:00,480 --> 00:57:02,220
+en la esquina 
+
+1352
+00:57:02,220 --> 00:57:05,220
+inferior izquierda. 
+
+1353
+00:57:05,220 --> 00:57:07,380
+Haz clic en los 
+
+1354
+00:57:07,380 --> 00:57:10,140
+tres iconos 
+
+1355
+00:57:10,140 --> 00:57:14,420
+y luego ve a la terminal. 
+
+1356
+00:57:15,720 --> 00:57:18,000
+Aquí puedes crear 
+
+1357
+00:57:18,000 --> 00:57:19,920
+una nueva rama 
+
+1358
+00:57:19,920 --> 00:57:21,839
+si lo deseas, aunque 
+
+1359
+00:57:21,839 --> 00:57:24,240
+personalmente 
+
+1360
+00:57:24,240 --> 00:57:26,460
+no me gusta la interfaz. Entonces, 
+
+1361
+00:57:26,460 --> 00:57:27,540
+simplemente 
+
+1362
+00:57:27,540 --> 00:57:30,240
+aquí escribiré "git branch -b bug" 
+
+1363
+00:57:30,240 --> 00:57:32,400
+y 
+
+1364
+00:57:32,400 --> 00:57:35,819
+ese será el nombre 
+
+1365
+00:57:35,819 --> 00:57:38,880
+de la nueva rama. Entonces puedo decir, 
+
+1366
+00:57:38,880 --> 00:57:41,579
+El nombre 
+
+1367
+00:57:41,579 --> 00:57:43,140
+de la 
+
+1368
+00:57:43,140 --> 00:57:44,819
+rama se puede hacer 
+
+1369
+00:57:44,819 --> 00:57:46,440
+de la misma manera, 
+
+1370
+00:57:46,440 --> 00:57:49,079
+pero no interferirá con la mía. 
+
+1371
+00:57:49,079 --> 00:57:51,599
+Por ejemplo, solo escriba 
+
+1372
+00:57:51,599 --> 00:57:55,140
+"git Branch -b bug". Básicamente, esto es cuando vas a 
+
+1373
+00:57:55,140 --> 00:57:56,640
+crear una nueva rama. 
+
+1374
+00:57:56,640 --> 00:57:59,339
+La rama principal, básicamente, 
+
+1375
+00:57:59,339 --> 00:58:01,800
+hicimos algunos cambios, pero queremos 
+
+1376
+00:58:01,800 --> 00:58:04,079
+mantener la rama maestra intacta porque más tarde 
+
+1377
+00:58:04,079 --> 00:58:06,540
+queremos sincronizar la rama maestra. Ahora, si escribo 
+
+1378
+00:58:06,540 --> 00:58:10,520
+esto y presiono enter, 
+
+1379
+00:58:10,980 --> 00:58:13,380
+¡oh! 
+
+1380
+00:58:13,380 --> 00:58:16,079
+Lo siento, escribí mal, es 
+
+1381
+00:58:16,079 --> 00:58:18,240
+“git checkout -b bug”, 
+
+1382
+00:58:18,240 --> 00:58:19,920
+básicamente, 
+
+1383
+00:58:19,920 --> 00:58:23,579
+ahora estamos 
+
+1384
+00:58:23,579 --> 00:58:25,140
+haciendo una 
+
+1385
+00:58:25,140 --> 00:58:27,240
+copia y luego 
+
+1386
+00:58:27,240 --> 00:58:29,520
+usaremos el nombre de la nueva rama llamada “bug” 
+
+1387
+00:58:29,520 --> 00:58:32,579
+y luego presionaremos enter. 
+
+1388
+00:58:32,579 --> 00:58:35,280
+Esta vez verás "switched to a new branch bug" (cambiado a una nueva rama “bug”) 
+
+1389
+00:58:35,280 --> 00:58:37,859
+y luego, si en el lado izquierdo 
+
+1390
+00:58:37,859 --> 00:58:41,599
+haces clic en las ramas, 
+
+1391
+00:58:42,000 --> 00:58:43,319
+verás 
+
+1392
+00:58:43,319 --> 00:58:46,020
+que el color cambia. 
+
+1393
+00:58:46,020 --> 00:58:47,760
+Sí, 
+
+1394
+00:58:47,760 --> 00:58:51,059
+ahora todo lo demás 
+
+1395
+00:58:51,059 --> 00:58:53,460
+serán igual que lo que hicimos anteriormente, 
+
+1396
+00:58:53,460 --> 00:58:56,339
+confirmar los cambios, publicar en GitHub y 
+
+1397
+00:58:56,339 --> 00:58:59,280
+luego tendrás la nueva rama. 
+
+1398
+00:58:59,280 --> 00:59:00,720
+Déjame mostrarte, 
+
+1399
+00:59:00,720 --> 00:59:06,180
+Colocaré 
+
+1400
+00:59:06,180 --> 00:59:08,760
+“Add a 
+
+1401
+00:59:08,760 --> 00:59:11,599
+new feature” y le doy a 
+
+1402
+00:59:11,720 --> 00:59:15,740
+Confirmar (Ctrl + enter) y 
+
+1403
+00:59:16,859 --> 00:59:20,900
+publicar rama, listo. 
+
+1404
+00:59:21,420 --> 00:59:23,339
+Aquí 
+
+1405
+00:59:23,339 --> 00:59:26,819
+puedes 
+
+1406
+00:59:26,819 --> 00:59:29,640
+entrar en este lugar, solo tienes que hacer clic en el 
+
+1407
+00:59:29,640 --> 00:59:34,040
+icono del mundo para abrirlo. 
+
+1408
+00:59:34,559 --> 00:59:37,380
+Fíjate en la diferencia, 
+
+1409
+00:59:37,380 --> 00:59:39,720
+este es el Branch principal, 
+
+1410
+00:59:39,720 --> 00:59:43,200
+la copia original, y luego yo 
+
+1411
+00:59:43,200 --> 00:59:46,140
+hago una copia, hago algunos cambios y esto 
+
+1412
+00:59:46,140 --> 00:59:50,220
+se llama Branch. Si haces clic 
+
+1413
+00:59:50,220 --> 00:59:52,500
+aquí, el Branch básicamente 
+
+1414
+00:59:52,500 --> 00:59:56,780
+significa, 
+
+1415
+00:59:56,780 --> 01:00:01,819
+déjame ver si 
+
+1416
+01:00:01,980 --> 01:00:03,960
+tengo un algo publicado, creo que tengo algo más aquí, 
+
+1417
+01:00:03,960 --> 01:00:06,900
+tal vez el software, puede que tenga una foto 
+
+1418
+01:00:06,900 --> 01:00:08,760
+en algún lugar como este. 
+
+1419
+01:00:08,760 --> 01:00:10,980
+Git es como un 
+
+1420
+01:00:10,980 --> 01:00:13,260
+sistema de control de versiones, por ejemplo, 
+
+1421
+01:00:13,260 --> 01:00:15,299
+comienzo desde aquí y luego creo 
+
+1422
+01:00:15,299 --> 01:00:17,640
+una nueva rama (branch), la mejoro, por etapas, 
+
+1423
+01:00:17,640 --> 01:00:19,380
+y al final lo fusionas de 
+
+1424
+01:00:19,380 --> 01:00:21,299
+vuelta a la rama maestra o a la 
+
+1425
+01:00:21,299 --> 01:00:23,700
+branch principal. Entonces, ya sea que sea Master o principal, 
+
+1426
+01:00:23,700 --> 01:00:26,280
+es el que todos usan, 
+
+1427
+01:00:26,280 --> 01:00:27,660
+puedes hacer una copia, puedes hacer algo más, 
+
+1428
+01:00:27,660 --> 01:00:29,400
+puedo crear otra, puedo crear 
+
+1429
+01:00:29,400 --> 01:00:31,579
+otra. Básicamente, 
+
+1430
+01:00:31,579 --> 01:00:34,859
+si tu proyecto está 
+
+1431
+01:00:34,859 --> 01:00:37,500
+siendo desarrollado por cientos de personas, 
+
+1432
+01:00:37,500 --> 01:00:38,940
+sería muy difícil que todos trabajen en 
+
+1433
+01:00:38,940 --> 01:00:42,000
+el mismo, como si fuera un 
+
+1434
+01:00:42,000 --> 01:00:45,420
+documento de Google o 
+
+1435
+01:00:45,420 --> 01:00:48,119
+Microsoft Office en línea, 
+
+1436
+01:00:48,119 --> 01:00:50,160
+porque no es lo mismo, 
+
+1437
+01:00:50,160 --> 01:00:52,920
+estás haciendo una copia, así que querrás 
+
+1438
+01:00:52,920 --> 01:00:54,480
+asegurarte de que creaste uno y eventualmente 
+
+1439
+01:00:54,480 --> 01:00:56,040
+querrás volver a él, pero a veces 
+
+1440
+01:00:56,040 --> 01:00:57,900
+las cosas pueden ser muy complicadas. 
+
+1441
+01:00:57,900 --> 01:00:59,099
+Así que, por ejemplo, estás trabajando en este 
+
+1442
+01:00:59,099 --> 01:01:01,140
+archivo y agregas algunas líneas. La otra persona 
+
+1443
+01:01:01,140 --> 01:01:03,540
+también copia estas lineas, por lo que cuando intentas 
+
+1444
+01:01:03,540 --> 01:01:06,720
+subirlo a la computadora o a GitHub, 
+
+1445
+01:01:06,720 --> 01:01:08,880
+GitHub necesita averiguar cuál 
+
+1446
+01:01:08,880 --> 01:01:11,339
+Verificar. Si hay algún conflicto. 
+
+1447
+01:01:11,339 --> 01:01:12,780
+Por ahora debería ser bastante sencillo, 
+
+1448
+01:01:12,780 --> 01:01:15,180
+porque solo estás agregando un nuevo archivo y no hay 
+
+1449
+01:01:15,180 --> 01:01:19,920
+nada complicado aquí. 
+
+1450
+01:01:19,920 --> 01:01:21,420
+Bien, 
+
+1451
+01:01:21,420 --> 01:01:24,000
+debajo de tu cuenta, ¿también 
+
+1452
+01:01:24,000 --> 01:01:25,619
+ves algo así? 
+
+1453
+01:01:25,619 --> 01:01:28,140
+¿sí? Entonces aquí es donde básicamente puedes 
+
+1454
+01:01:28,140 --> 01:01:30,960
+comparar y enviar una solicitud de extracción. Entonces, 
+
+1455
+01:01:30,960 --> 01:01:34,619
+puedo enviar incluso para mi propio informe, 
+
+1456
+01:01:34,619 --> 01:01:38,760
+puedo crear tantas ramas como quiera 
+
+1457
+01:01:38,760 --> 01:01:40,260
+porque cuando intento agregar una nueva 
+
+1458
+01:01:40,260 --> 01:01:42,599
+función, no quiero modificar directamente 
+
+1459
+01:01:42,599 --> 01:01:44,460
+el master porque podría romper cosas. 
+
+1460
+01:01:44,460 --> 01:01:46,859
+No quieres 
+
+1461
+01:01:46,859 --> 01:01:48,660
+hacer eso porque especialmente si 
+
+1462
+01:01:48,660 --> 01:01:50,579
+un paquete es utilizado por muchas 
+
+1463
+01:01:50,579 --> 01:01:51,359
+personas, 
+
+1464
+01:01:51,359 --> 01:01:52,740
+quieres asegurarte de que estás 
+
+1465
+01:01:52,740 --> 01:01:55,740
+probando bien antes de 
+
+1466
+01:01:55,740 --> 01:01:57,839
+mover las cosas al master. De esta 
+
+1467
+01:01:57,839 --> 01:02:00,240
+manera, siempre intenta trabajar en una rama 
+
+1468
+01:02:00,240 --> 01:02:02,520
+y luego, una vez que hice la 
+
+1469
+01:02:02,520 --> 01:02:05,520
+prueba y todo funciona bien, puedo 
+
+1470
+01:02:05,520 --> 01:02:07,680
+crear un repositorio. Entonces hacemos 
+
+1471
+01:02:07,680 --> 01:02:09,839
+lo mismo, quiero que 
+
+1472
+01:02:09,839 --> 01:02:12,059
+contribuyas a mi repositorio. Si haces clic en 
+
+1473
+01:02:12,059 --> 01:02:15,240
+"Create pull request” (enviar solicitud aprobada) ahora, 
+
+1474
+01:02:15,240 --> 01:02:17,059
+te mostrará la base y el 
+
+1475
+01:02:17,059 --> 01:02:19,500
+comparador principal. 
+
+1476
+01:02:19,500 --> 01:02:21,660
+Deberías ver, por ejemplo, mi nombre de usuario. Ahora vas a 
+
+1477
+01:02:21,660 --> 01:02:22,920
+contribuir a 
+
+1478
+01:02:22,920 --> 01:02:26,240
+mi ecuación. Estoy 
+
+1479
+01:02:26,240 --> 01:02:30,359
+agregando una nueva función y todo lo que necesitas está aquí, 
+
+1480
+01:02:30,359 --> 01:02:32,280
+tal como te mostré anteriormente en la 
+
+1481
+01:02:32,280 --> 01:02:34,260
+discusión. Puedes agregar una descripción, 
+
+1482
+01:02:34,260 --> 01:02:36,240
+llamadas de ejemplo, 
+
+1483
+01:02:36,240 --> 01:02:38,299
+animación, lo que quieras para mostrar, 
+
+1484
+01:02:38,299 --> 01:02:41,460
+especialmente si contribuyes a un 
+
+1485
+01:02:41,460 --> 01:02:43,619
+proyecto popular. No todas 
+
+1486
+01:02:43,619 --> 01:02:45,420
+las solicitudes de extracción 
+
+1487
+01:02:45,420 --> 01:02:47,760
+serán aceptadas, así que asume que la aceptarán, pero 
+
+1488
+01:02:47,760 --> 01:02:49,619
+puedes decir, por ejemplo, "agregar una nueva característica 
+
+1489
+01:02:49,619 --> 01:02:53,220
+blah blah". Esta solicitud 
+
+1490
+01:02:53,220 --> 01:02:56,220
+de extracción (PR) es 
+
+1491
+01:02:56,220 --> 01:03:00,180
+para un nuevo 
+
+1492
+01:03:00,180 --> 01:03:06,299
+archivo llamado cool.md, 
+
+1493
+01:03:06,299 --> 01:03:09,180
+asegúrate de que tu código fuente tenga un 
+
+1494
+01:03:09,180 --> 01:03:10,859
+nombre de archivo 
+
+1495
+01:03:10,859 --> 01:03:13,440
+similar a este. 
+
+1496
+01:03:13,440 --> 01:03:14,760
+Puedes agregar código de ejemplo 
+
+1497
+01:03:14,760 --> 01:03:17,160
+si quieres. Una vez que hayas hecho eso, 
+
+1498
+01:03:17,160 --> 01:03:20,400
+desplázate hacia abajo y verás que se ha 
+
+1499
+01:03:20,400 --> 01:03:23,460
+cambiado un archivo y cuántos han 
+
+1500
+01:03:23,460 --> 01:03:25,920
+contribuido, por lo que claramente mostrará 
+
+1501
+01:03:25,920 --> 01:03:27,780
+lo que se está haciendo y luego solo 
+
+1502
+01:03:27,780 --> 01:03:31,200
+sigue creando solicitudes de extracción. Quiero 
+
+1503
+01:03:31,200 --> 01:03:33,059
+que envíes el progreso a mi repositorio 
+
+1504
+01:03:33,059 --> 01:03:36,059
+y luego me lo mostrarás aquí. 
+
+1505
+01:03:36,059 --> 01:03:38,819
+Y una cosa buena de esto es que una vez 
+
+1506
+01:03:38,819 --> 01:03:40,920
+que envíes la solicitud de extracción, puedo 
+
+1507
+01:03:40,920 --> 01:03:42,660
+seguir haciendo cambios y luego simplemente hacer 
+
+1508
+01:03:42,660 --> 01:03:44,579
+push y se mostrará automáticamente 
+
+1509
+01:03:44,579 --> 01:03:48,059
+aquí. Digamos, agregas un archivo nuevo y 
+
+1510
+01:03:48,059 --> 01:03:52,200
+requieres aprobación antes de fusionar, 
+
+1511
+01:03:52,200 --> 01:03:53,940
+se mostrará aquí que esta 
+
+1512
+01:03:53,940 --> 01:03:55,920
+rama no tiene conflictos con las ramas base, 
+
+1513
+01:03:55,920 --> 01:03:59,520
+porque si alguien 
+
+1514
+01:03:59,520 --> 01:04:00,540
+intenta 
+
+1515
+01:04:00,540 --> 01:04:03,180
+eliminar el archivo o agregar uno nuevo, 
+
+1516
+01:04:03,180 --> 01:04:05,160
+no será siempre malo, ya que se 
+
+1517
+01:04:05,160 --> 01:04:07,079
+mostrará como un conflicto. 
+
+1518
+01:04:07,079 --> 01:04:08,579
+Por ejemplo, si 
+
+1519
+01:04:08,579 --> 01:04:12,780
+quieres agregar esto, puedo decir 
+
+1520
+01:04:12,780 --> 01:04:19,380
+"Esto no está bien, por favor revisa" y 
+
+1521
+01:04:19,380 --> 01:04:22,140
+hacer un comentario para 
+
+1522
+01:04:22,140 --> 01:04:24,660
+el mantenedor. Después de que 
+
+1523
+01:04:24,660 --> 01:04:27,000
+revises, puedes ver si 
+
+1524
+01:04:27,000 --> 01:04:29,700
+es lo suficientemente bueno. 
+
+1525
+01:04:29,700 --> 01:04:34,400
+¿Qué tal este?
+
+1526
+01:04:34,500 --> 01:04:36,980
+Suficientemente 
+
+1527
+01:04:37,260 --> 01:04:40,319
+Bueno
+
+1528
+01:04:40,319 --> 01:04:42,359
+¿Qué más 
+
+1529
+01:04:42,359 --> 01:04:45,200
+quieres? Presiona 
+
+1530
+01:04:45,420 --> 01:04:47,220
+"Control + S" 
+
+1531
+01:04:47,220 --> 01:04:51,000
+y luego puedo decir "Revisado" y 
+
+1532
+01:04:51,000 --> 01:04:53,280
+sincronizar 
+
+1533
+01:04:53,280 --> 01:04:57,420
+los cambios. 
+
+1534
+01:04:57,420 --> 01:04:59,280
+Regresa aquí y 
+
+1535
+01:04:59,280 --> 01:05:02,000
+actualiza. 
+
+1536
+01:05:02,940 --> 01:05:04,460
+ups
+
+1537
+01:05:04,460 --> 01:05:08,280
+¿Estás de acuerdo? Ahora echa un vistazo 
+
+1538
+01:05:08,280 --> 01:05:10,920
+a los cambios que realicé 
+
+1539
+01:05:10,920 --> 01:05:13,559
+en Visual Studio Code. 
+
+1540
+01:05:13,559 --> 01:05:17,220
+Puedes ver el cambio en el archivo. 
+
+1541
+01:05:17,220 --> 01:05:19,700
+Veo 
+
+1542
+01:05:21,299 --> 01:05:23,520
+un par de solicitudes de extracción 
+
+1543
+01:05:23,520 --> 01:05:25,920
+buenos, porque así es como 
+
+1544
+01:05:25,920 --> 01:05:28,200
+realmente contribuyes y agregas una nueva 
+
+1545
+01:05:28,200 --> 01:05:29,160
+característica. 
+
+1546
+01:05:29,160 --> 01:05:31,200
+Genial, 
+
+1547
+01:05:31,200 --> 01:05:35,059
+hay 
+
+1548
+01:05:41,579 --> 01:05:44,700
+un error tipográfico aquí. 
+
+1549
+01:05:44,700 --> 01:05:48,059
+Gracias por tu 
+
+1550
+01:05:48,059 --> 01:05:50,900
+contribución 
+
+1551
+01:05:56,280 --> 01:05:58,859
+y por comentar. Mira este ejemplo, 
+
+1552
+01:05:58,859 --> 01:06:01,020
+es común. Una vez que todo esté 
+
+1553
+01:06:01,020 --> 01:06:02,819
+listo, estás listo para moverlo 
+
+1554
+01:06:02,819 --> 01:06:04,920
+al principal y este es el botón de clic. 
+
+1555
+01:06:04,920 --> 01:06:07,619
+Si hay algún conflicto, 
+
+1556
+01:06:07,619 --> 01:06:09,720
+deberás resolverlo. 
+
+1557
+01:06:09,720 --> 01:06:12,660
+Pero para los principiantes, 
+
+1558
+01:06:12,660 --> 01:06:15,240
+lo más probable es que utilicen 
+
+1559
+01:06:15,240 --> 01:06:16,920
+la mayoría de las solicitudes de extracción. Echa un vistazo a 
+
+1560
+01:06:16,920 --> 01:06:21,119
+este ejemplo: una vez que 
+
+1561
+01:06:21,119 --> 01:06:22,980
+tenga la aprobación, puedes agregar 
+
+1562
+01:06:22,980 --> 01:06:24,780
+una descripción y 
+
+1563
+01:06:24,780 --> 01:06:28,319
+confirmar que todo está listo. 
+
+1564
+01:06:28,319 --> 01:06:29,780
+La solicitud de extracción 
+
+1565
+01:06:29,780 --> 01:06:33,900
+se cerrará y luego puedes deshabilitarla 
+
+1566
+01:06:33,900 --> 01:06:37,079
+y eliminar 
+
+1567
+01:06:37,079 --> 01:06:38,760
+la rama. 
+
+1568
+01:06:38,760 --> 01:06:42,000
+Ahora, vuelve al repositorio principal y 
+
+1569
+01:06:42,000 --> 01:06:44,220
+verás que 
+
+1570
+01:06:44,220 --> 01:06:46,920
+se ha vuelto oficial en 
+
+1571
+01:06:46,920 --> 01:06:48,839
+la rama 
+
+1572
+01:06:48,839 --> 01:06:51,900
+principal. 
+
+1573
+01:06:51,900 --> 01:06:52,920
+A continuación, te mostraré 
+
+1574
+01:06:52,920 --> 01:06:55,380
+cómo puedes cambiar las ramas de 
+
+1575
+01:06:55,380 --> 01:06:58,799
+vuelta a la principal. Aunque,
+
+1576
+01:06:58,799 --> 01:07:01,200
+todavía no tengo múltiples solicitudes de extracción, 
+
+1577
+01:07:01,200 --> 01:07:03,180
+solo te lo estoy mostrando. Déjame 
+
+1578
+01:07:03,180 --> 01:07:05,160
+presentar una solicitud de extracción, quizás quien 
+
+1579
+01:07:05,160 --> 01:07:07,260
+ya lo hizo atrás, 
+
+1580
+01:07:07,260 --> 01:07:11,520
+y luego puedo verificar 
+
+1581
+01:07:11,520 --> 01:07:14,039
+qué archivos 
+
+1582
+01:07:14,039 --> 01:07:16,319
+cambiaste y asegurarme de que todo 
+
+1583
+01:07:16,319 --> 01:07:20,480
+esté correcto. 
+
+1584
+01:07:20,579 --> 01:07:22,680
+Puedo hacer una coma si quiero, 
+
+1585
+01:07:22,680 --> 01:07:24,900
+o simplemente fusionar la solicitud de 
+
+1586
+01:07:24,900 --> 01:07:27,260
+extracción si no hay nada que modificar. 
+
+1587
+01:07:29,400 --> 01:07:31,140
+Puedo hacer lo mismo con otra solicitud de extracción 
+
+1588
+01:07:31,140 --> 01:07:33,660
+que cada uno de ustedes envíe. 
+
+1589
+01:07:33,660 --> 01:07:35,940
+Quiero asegurarme de que sepan que 
+
+1590
+01:07:35,940 --> 01:07:37,980
+pueden hacer un compromiso, pero 
+
+1591
+01:07:37,980 --> 01:07:40,799
+si les pido que lo revisen, entonces deben 
+
+1592
+01:07:40,799 --> 01:07:42,420
+solucionarlo en su Visual Studio Code y 
+
+1593
+01:07:42,420 --> 01:07:45,240
+enviarlo nuevamente para que se 
+
+1594
+01:07:45,240 --> 01:07:47,220
+refleje aquí. Voy y le doy
+
+1595
+01:07:47,220 --> 01:07:49,200
+“commit”. Son bastante simples, 
+
+1596
+01:07:49,200 --> 01:07:51,119
+Si creas un archivo nuevo, no hay 
+
+1597
+01:07:51,119 --> 01:07:53,400
+conflictos. Esta es una lista de buenos 
+
+1598
+01:07:53,400 --> 01:07:56,000
+restaurantes, 
+
+1599
+01:07:56,000 --> 01:07:59,039
+¡me encanta!. 
+
+1600
+01:07:59,039 --> 01:08:01,440
+comentas
+
+1601
+01:08:01,440 --> 01:08:04,619
+o piensas que no es de buena calidad, puedo 
+
+1602
+01:08:04,619 --> 01:08:07,319
+hacer clic en "Close pull request” (cerrar solicitud de extracción), 
+
+1603
+01:08:07,319 --> 01:08:09,539
+lo que significa que no la aceptas,
+
+1604
+01:08:09,539 --> 01:08:11,339
+no es de buena calidad. 
+
+1605
+01:08:11,339 --> 01:08:13,140
+No es necesario si la mayoría de las solicitudes de extracción son 
+
+1606
+01:08:13,140 --> 01:08:15,679
+compromisos. 
+
+1607
+01:08:15,679 --> 01:08:19,198
+Ahora parece que todo está listo, 
+
+1608
+01:08:19,198 --> 01:08:21,299
+volvamos aquí y revisemos todos los archivos. 
+
+1609
+01:08:21,299 --> 01:08:24,359
+Esto te mostrará básicamente 
+
+1610
+01:08:24,359 --> 01:08:26,399
+toda la historia de los 
+
+1611
+01:08:26,399 --> 01:08:29,520
+compromisos y de dónde vienen. 
+
+1612
+01:08:29,520 --> 01:08:30,899
+Una 
+
+1613
+01:08:30,899 --> 01:08:34,439
+vez que lo tengas, ve a tu página principal de repositorio. 
+
+1614
+01:08:34,439 --> 01:08:37,560
+Deberías ver el botón 
+
+1615
+01:08:37,560 --> 01:08:40,319
+en algún lugar, como este botón aquí. 
+
+1616
+01:08:40,319 --> 01:08:43,799
+Puedes ver los cambios. Déjame ver si 
+
+1617
+01:08:43,799 --> 01:08:45,899
+puedo encontrar otro informe que te muestre. 
+
+1618
+01:08:45,899 --> 01:08:48,140
+Nota
+
+1619
+01:08:48,140 --> 01:08:50,520
+que este
+
+1620
+01:08:50,520 --> 01:08:53,819
+no es un informe de bifurcación (fork). 
+
+1621
+01:08:53,819 --> 01:08:55,319
+Solo 
+
+1622
+01:08:55,319 --> 01:08:58,080
+quiero mostrarte 
+
+1623
+01:08:58,080 --> 01:09:01,500
+cómo se ve. 
+
+1624
+01:09:01,500 --> 01:09:03,359
+Básicamente, puedes sincronizar los cambios 
+
+1625
+01:09:03,359 --> 01:09:05,580
+con tu repositorio de GitHub. Por 
+
+1626
+01:09:05,580 --> 01:09:08,759
+ejemplo, este es uno 
+
+1627
+01:09:08,759 --> 01:09:10,799
+que 
+
+1628
+01:09:10,799 --> 01:09:14,279
+bifurqué de otro lugar. Ahora, en el 
+
+1629
+01:09:14,279 --> 01:09:17,339
+repositorio GEOG-510, puedes ver este 
+
+1630
+01:09:17,339 --> 01:09:19,259
+botón aquí que dice 
+
+1631
+01:09:19,259 --> 01:09:21,719
+"Sync Fork". 
+
+1632
+01:09:21,719 --> 01:09:23,698
+Anteriormente contribuiste a mi 
+
+1633
+01:09:23,698 --> 01:09:26,279
+repositorio y yo ya lo sé, así que ahora 
+
+1634
+01:09:26,279 --> 01:09:28,319
+mi rama principal está actualizada. 
+
+1635
+01:09:28,319 --> 01:09:31,380
+También quieres sincronizar básicamente para traer los 
+
+1636
+01:09:31,380 --> 01:09:33,960
+cambios de mi rama principal a la tuya, por lo que 
+
+1637
+01:09:33,960 --> 01:09:35,279
+todo lo que necesitas hacer es hacer clic en este botón de 
+
+1638
+01:09:35,279 --> 01:09:38,339
+“Sync fork” (sincronizar bifurcación) 
+
+1639
+01:09:38,339 --> 01:09:40,198
+y luego debería haber un botón 
+
+1640
+01:09:40,198 --> 01:09:42,660
+en algún lugar allí, ¿lo ves? 
+
+1641
+01:09:42,660 --> 01:09:45,238
+y luego solo tienes que hacer clic en ese botón y debería extraer 
+
+1642
+01:09:45,238 --> 01:09:47,880
+todos los últimos cambios 
+
+1643
+01:09:47,880 --> 01:09:49,319
+de aquí
+
+1644
+01:09:49,319 --> 01:09:51,479
+a tu cuenta, 
+
+1645
+01:09:51,479 --> 01:09:53,100
+sí, 
+
+1646
+01:09:53,100 --> 01:09:55,380
+y eso es todo, has contribuido 
+
+1647
+01:09:55,380 --> 01:09:57,900
+algo, has enviado una solicitud de extracción, has 
+
+1648
+01:09:57,900 --> 01:10:00,239
+contribuido al repositorio y luego puedes 
+
+1649
+01:10:00,239 --> 01:10:03,179
+recuperar los cambios de vuelta a tu cuenta, 
+
+1650
+01:10:03,179 --> 01:10:05,100
+y es por eso que te pedí que crees una 
+
+1651
+01:10:05,100 --> 01:10:06,120
+nueva rama 
+
+1652
+01:10:06,120 --> 01:10:08,460
+en lugar de hacer cambios en el maestro, 
+
+1653
+01:10:08,460 --> 01:10:10,080
+porque una vez que cambies el maestro, 
+
+1654
+01:10:10,080 --> 01:10:12,660
+querrás tener algo más para comprometerse 
+
+1655
+01:10:12,660 --> 01:10:15,660
+con mi rama principal, por lo que siempre querrás 
+
+1656
+01:10:15,660 --> 01:10:18,960
+crear una segunda rama una vez que haya hecho eso. 
+
+1657
+01:10:18,960 --> 01:10:20,820
+Ahora 
+
+1658
+01:10:20,820 --> 01:10:23,580
+verás aquí que ya está actualizado, si 
+
+1659
+01:10:23,580 --> 01:10:25,380
+abres Visual Studio Code, 
+
+1660
+01:10:25,380 --> 01:10:27,120
+te mostrará aquí en algún tipo de color rosa 
+
+1661
+01:10:27,120 --> 01:10:29,940
+"Master, blah blah", eso significa que ahora 
+
+1662
+01:10:29,940 --> 01:10:31,980
+este está desactualizado, por lo que tu 
+
+1663
+01:10:31,980 --> 01:10:35,040
+rama principal es mayormente, pero 
+
+1664
+01:10:35,040 --> 01:10:37,500
+no es cierto para mi computadora local aquí, 
+
+1665
+01:10:37,500 --> 01:10:39,239
+como si estuvieras extrayendo los cambios y sincronizando los 
+
+1666
+01:10:39,239 --> 01:10:41,580
+cambios en tu cuenta, pero no está en 
+
+1667
+01:10:41,580 --> 01:10:43,620
+una computadora local. Entonces, lo que podemos hacer 
+
+1668
+01:10:43,620 --> 01:10:45,719
+ahora es cambiar la rama de vuelta a la 
+
+1669
+01:10:45,719 --> 01:10:48,780
+principal y lo que puedes hacer aquí es 
+
+1670
+01:10:48,780 --> 01:10:51,179
+simplemente escribir, por ejemplo, 
+
+1671
+01:10:51,179 --> 01:10:52,380
+"git branch" 
+
+1672
+01:10:52,380 --> 01:10:54,300
+solo para mostrarte 
+
+1673
+01:10:54,300 --> 01:10:56,460
+cuántas ramas hay en tu 
+
+1674
+01:10:56,460 --> 01:10:58,320
+computadora local. El bug, el verde, 
+
+1675
+01:10:58,320 --> 01:11:00,360
+significa que esta es la rama actual. 
+
+1676
+01:11:00,360 --> 01:11:01,679
+Si quieres cambiar a la principal, 
+
+1677
+01:11:01,679 --> 01:11:04,560
+debes escribir 
+
+1678
+01:11:04,560 --> 01:11:07,500
+"git checkout master". 
+
+1679
+01:11:07,500 --> 01:11:10,440
+significa "está bien, voy a cambiar a la rama principal". 
+
+1680
+01:11:10,440 --> 01:11:12,900
+Si cambias a la rama principal, 
+
+1681
+01:11:12,900 --> 01:11:15,780
+mira esto, no veo los archivos 
+
+1682
+01:11:15,780 --> 01:11:16,980
+aquí
+
+1683
+01:11:16,980 --> 01:11:20,640
+porque una vez que cambias, te mostrará:
+
+1684
+01:11:20,640 --> 01:11:23,520
+"Tu rama está atrasada 
+
+1685
+01:11:23,520 --> 01:11:26,159
+10 commits 
+
+1686
+01:11:26,159 --> 01:11:28,080
+detrás de la rama principal 
+
+1687
+01:11:28,080 --> 01:11:32,600
+en GitHub", lo que puedes hacer es escribir 
+
+1688
+01:11:32,820 --> 01:11:35,699
+"git pull" y luego mirar hacia el lado 
+
+1689
+01:11:35,699 --> 01:11:37,820
+izquierdo. 
+
+1690
+01:11:38,400 --> 01:11:40,679
+Todos los archivos ahora están aquí. 
+
+1691
+01:11:40,679 --> 01:11:42,719
+Entonces, este es el poder de Git y GitHub, 
+
+1692
+01:11:42,719 --> 01:11:44,880
+ya que no tienes que copiar y pegar 
+
+1693
+01:11:44,880 --> 01:11:47,400
+y luego intentar descargar todo. Todo puede 
+
+1694
+01:11:47,400 --> 01:11:49,980
+hacerse con un par de comandos, y 
+
+1695
+01:11:49,980 --> 01:11:52,380
+esta es la primera iteración. Ahora puedo 
+
+1696
+01:11:52,380 --> 01:11:54,300
+crear una nueva rama, puedo contribuir con 
+
+1697
+01:11:54,300 --> 01:11:56,100
+algo más, luego enviar múltiples 
+
+1698
+01:11:56,100 --> 01:11:58,620
+solicitudes de 
+
+1699
+01:11:58,620 --> 01:11:59,820
+extracción y 
+
+1700
+01:11:59,820 --> 01:12:02,820
+luego cambiar a la rama principal para 
+
+1701
+01:12:02,820 --> 01:12:05,100
+extraer los cambios. Eso es todo, esta es 
+
+1702
+01:12:05,100 --> 01:12:07,380
+toda la iteración de contribuir 
+
+1703
+01:12:07,380 --> 01:12:09,360
+algo al código abierto. Y si hay 
+
+1704
+01:12:09,360 --> 01:12:11,280
+algo mal, GitHub te lo mostrará y 
+
+1705
+01:12:11,280 --> 01:12:13,320
+tendrás que solucionarlo. Puede haber un 
+
+1706
+01:12:13,320 --> 01:12:15,480
+conflicto de archivos o algo así, pero 
+
+1707
+01:12:15,480 --> 01:12:18,420
+aparecerá en pantalla. De nuevo, puedo 
+
+1708
+01:12:18,420 --> 01:12:20,219
+simplemente escribir 
+
+1709
+01:12:20,219 --> 01:12:22,500
+"git checkout". Si quieres revisar 
+
+1710
+01:12:22,500 --> 01:12:25,020
+una nueva rama, puedes hacerlo con 
+
+1711
+01:12:25,020 --> 01:12:28,020
+"git checkout -b new feature" y luego, por 
+
+1712
+01:12:28,020 --> 01:12:30,060
+ejemplo, esto sería como una 
+
+1713
+01:12:30,060 --> 01:12:32,699
+nueva característica y 
+
+1714
+01:12:32,699 --> 01:12:35,340
+ahora puedo editarla 
+
+1715
+01:12:35,340 --> 01:12:37,020
+y cambiarla. Por lo tanto, por ejemplo, puedo volver aquí, 
+
+1716
+01:12:37,020 --> 01:12:39,420
+agregar la nueva línea, puedo eliminar esto, 
+
+1717
+01:12:39,420 --> 01:12:42,840
+presionar Ctrl+S y luego hacer lo mismo, 
+
+1718
+01:12:42,840 --> 01:12:46,380
+actualizado el archivo README, presionar 
+
+1719
+01:12:46,380 --> 01:12:48,719
+Ctrl+Enter 
+
+1720
+01:12:48,719 --> 01:12:51,960
+y luego publicar la rama 
+
+1721
+01:12:51,960 --> 01:12:54,540
+en el lado izquierdo aquí, simplemente haciendo clic en 
+
+1722
+01:12:54,540 --> 01:12:56,880
+este botón e 
+
+1723
+01:12:56,880 --> 01:13:00,060
+ir aquí, 
+
+1724
+01:13:00,060 --> 01:13:01,500
+luego 
+
+1725
+01:13:01,500 --> 01:13:04,140
+puedo contribuir de nuevo, enviar una 
+
+1726
+01:13:04,140 --> 01:13:05,940
+solicitud de extracción completa, 
+
+1727
+01:13:05,940 --> 01:13:08,100
+actualizar con mi mensaje, 
+
+1728
+01:13:08,100 --> 01:13:09,480
+bla, bla, bla
+
+1729
+01:13:09,480 --> 01:13:12,239
+y crear una solicitud de extracción. 
+
+1730
+01:13:12,239 --> 01:13:15,239
+Bien, todo está listo. Puedo mover la solicitud de extracción 
+
+1731
+01:13:15,239 --> 01:13:18,420
+y confirmar los cambios. 
+
+1732
+01:13:18,420 --> 01:13:20,640
+Todo está hecho. Puedo eliminar la 
+
+1733
+01:13:20,640 --> 01:13:22,739
+rama. Entonces, la rama aquí básicamente significa la que se 
+
+1734
+01:13:22,739 --> 01:13:23,880
+va a mostrar 
+
+1735
+01:13:23,880 --> 01:13:26,580
+debajo de 
+
+1736
+01:13:26,580 --> 01:13:28,020
+aquí
+
+1737
+01:13:28,020 --> 01:13:29,520
+por ejemplo, esta 
+
+1738
+01:13:29,520 --> 01:13:31,260
+nueva característica. Una vez que se haya terminado, ya no la 
+
+1739
+01:13:31,260 --> 01:13:32,760
+necesitas. Puedo ir a 
+
+1740
+01:13:32,760 --> 01:13:34,140
+Configuración 
+
+1741
+01:13:34,140 --> 01:13:37,219
+y luego a 
+
+1742
+01:13:37,699 --> 01:13:39,600
+Ramas, 
+
+1743
+01:13:39,600 --> 01:13:42,780
+así que aquí, 
+
+1744
+01:13:42,780 --> 01:13:44,219
+no aparece 
+
+1745
+01:13:44,219 --> 01:13:47,340
+de todos modos. De manera similar, una vez que termino aquí, 
+
+1746
+01:13:47,340 --> 01:13:49,500
+hago 
+
+1747
+01:13:49,500 --> 01:13:51,600
+"git checkout master" 
+
+1748
+01:13:51,600 --> 01:13:53,159
+y luego 
+
+1749
+01:13:53,159 --> 01:13:55,620
+"git pull". Así que 
+
+1750
+01:13:55,620 --> 01:13:57,780
+cada vez que hago cambios, 
+
+1751
+01:13:57,780 --> 01:14:00,300
+vuelvo a la rama principal y luego 
+
+1752
+01:14:00,300 --> 01:14:02,699
+vuelvo a la rama de mi proyecto. Esta es toda la 
+
+1753
+01:14:02,699 --> 01:14:04,380
+iteración. Si estás 
+
+1754
+01:14:04,380 --> 01:14:05,880
+comenzando con un proyecto simple, no tienes que crear 
+
+1755
+01:14:05,880 --> 01:14:08,940
+realmente una rama, pero es 
+
+1756
+01:14:08,940 --> 01:14:10,199
+mejor 
+
+1757
+01:14:10,199 --> 01:14:12,179
+si estás intentando contribuir a 
+
+1758
+01:14:12,179 --> 01:14:14,159
+otros proyectos. No querrás 
+
+1759
+01:14:14,159 --> 01:14:16,380
+modificar tu rama principal porque más tarde 
+
+1760
+01:14:16,380 --> 01:14:18,420
+querrás extraer los últimos cambios 
+
+1761
+01:14:18,420 --> 01:14:20,340
+a tu cuenta. Si tu rama 
+
+1762
+01:14:20,340 --> 01:14:22,800
+principal está por delante de la otra, 
+
+1763
+01:14:22,800 --> 01:14:24,719
+se vuelve cada vez más difícil, 
+
+1764
+01:14:24,719 --> 01:14:26,940
+así 
+
+1765
+01:14:26,940 --> 01:14:28,800
+que está bien crear una nueva rama. 
+
+1766
+01:14:28,800 --> 01:14:31,739
+Quiero mostrarles cómo podemos contribuir de nuevo,
+
+1767
+01:14:31,739 --> 01:14:33,900
+así que inténtalo tú mismo. Quiero que cada uno de ustedes 
+
+1768
+01:14:33,900 --> 01:14:36,060
+finalmente envíe una solicitud de extracción 
+
+1769
+01:14:36,060 --> 01:14:37,800
+aquí, cualquier cosa que quieras enviar. 
+
+1770
+01:14:37,800 --> 01:14:40,380
+Quiero ver a cada uno de ustedes comenzar 
+
+1771
+01:14:40,380 --> 01:14:42,840
+a hacer algunas solicitudes aprobadas 
+
+1772
+01:14:42,840 --> 01:14:43,980
+y luego también puedes hacer pruebas en tus 
+
+1773
+01:14:43,980 --> 01:14:47,580
+informes locales, 
+
+1774
+01:14:47,580 --> 01:14:49,219
+pero al menos 
+
+1775
+01:14:49,219 --> 01:14:53,699
+envía una a este lugar, ¿de acuerdo? Así que 
+
+1776
+01:14:53,699 --> 01:14:55,920
+esta será nuestra práctica, selecciona una, 
+
+1777
+01:14:55,920 --> 01:14:57,840
+hemos cubierto todo lo que necesitas 
+
+1778
+01:14:57,840 --> 01:15:00,480
+hacer, pero intenta pulir tu 
+
+1779
+01:15:00,480 --> 01:15:02,940
+perfil, tu sitio web, tener algún 
+
+1780
+01:15:02,940 --> 01:15:04,800
+contenido real. No tiene que estar 
+1781
+01:15:04,800 --> 01:15:06,540
+completo, pero al menos cuando las personas lo abran, 
+
+1782
+01:15:06,540 --> 01:15:09,060
+debería parecer algo 
+
+1783
+01:15:09,060 --> 01:15:11,520
+decente. 
+
+1784
+01:15:11,520 --> 01:15:13,500
+¿Alguna pregunta? 
+
+1785
+01:15:13,500 --> 01:15:17,900
+Si no hay preguntas, nos vemos la próxima semana, ¿vale?.
