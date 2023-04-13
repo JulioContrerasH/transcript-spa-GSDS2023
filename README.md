@@ -27,3 +27,7 @@ Check out the [course website](https://sites.google.com/utk.edu/geog-510) for mo
 - Become a more competitive candidate for technical positions in GIS, data science, and software development
 - Opportunity to contribute to the open-source community
 - Let's learn and create together! 🤝🌟
+
+## Subtitles
+Week1: [GEOG-510 Week 1 - Installing Visual Studio Code, Git, and Miniconda](https://youtu.be/aS5nDNLbO2w)
+Week3_2: [GEOG-510 Week 3 - Introduction to GitHub](https://youtu.be/ndmJLOqs0lU)
