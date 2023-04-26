@@ -1,0 +1,7155 @@
+1
+00:00:00,000 --> 00:00:02,220
+Bueno, comencemos,
+
+2
+00:00:02,220 --> 00:00:04,560
+así que,
+
+3
+00:00:04,560 --> 00:00:07,379
+hoy vamos a 
+
+4
+00:00:07,379 --> 00:00:11,219
+repasar Git y GitHub y 
+
+5
+00:00:11,219 --> 00:00:13,080
+para resumir 
+
+6
+00:00:13,080 --> 00:00:16,500
+lo que hablamos el martes, 
+
+7
+00:00:16,500 --> 00:00:19,760
+¿de qué hablamos el martes? 
+
+8
+00:00:23,520 --> 00:00:26,400
+¿Qué hicimos el martes? 
+
+9
+00:00:26,400 --> 00:00:30,060
+Instalamos paquetes, exactamente. 
+
+10
+00:00:30,060 --> 00:00:33,360
+Instalamos paquetes usando 
+
+11
+00:00:33,360 --> 00:00:37,320
+diferentes formas, ¿cómo instalas paquetes? 
+
+12
+00:00:37,320 --> 00:00:40,140
+¿Usando qué? 
+
+13
+00:00:40,140 --> 00:00:42,899
+Conda y ¿cuál es el otro? 
+
+14
+00:00:42,899 --> 00:00:45,239
+Mamba, ¿y el otro? pip. 
+
+15
+00:00:45,239 --> 00:00:46,920
+Entonces, ¿deberíamos 
+
+16
+00:00:46,920 --> 00:00:51,239
+simplificar esto ahora? Con eso, podrás 
+
+17
+00:00:51,239 --> 00:00:53,879
+buscar en línea 
+
+18
+00:00:53,879 --> 00:00:55,440
+paquetes interesantes y 
+
+19
+00:00:55,440 --> 00:00:57,960
+sabrás cómo instalarlos, pero ten en cuenta que no todos
+
+20
+00:00:57,960 --> 00:01:00,719
+los paquetes son compatibles con todas las plataformas, 
+
+21
+00:01:00,719 --> 00:01:02,160
+algunos solo funcionarán en Linux, 
+
+22
+00:01:02,160 --> 00:01:04,080
+algunos en Windows y algunos en Mac, así que debes prestar 
+
+23
+00:01:04,080 --> 00:01:05,939
+atención al instalar los paquetes. 
+
+24
+00:01:05,939 --> 00:01:07,560
+Si no funciona, entonces tendrás que hacer la 
+
+25
+00:01:07,560 --> 00:01:09,780
+depuración por ti mismo, pero la mayoría de las veces, 
+
+26
+00:01:09,780 --> 00:01:12,060
+la mayoría de los paquetes funcionan 
+
+27
+00:01:12,060 --> 00:01:15,479
+en nuestra plataforma. Cuando hablamos 
+
+28
+00:01:15,479 --> 00:01:16,979
+sobre cómo desarrollar tus propios paquetes, 
+
+29
+00:01:16,979 --> 00:01:18,420
+te mostramos cómo puedes desarrollar 
+
+30
+00:01:18,420 --> 00:01:20,460
+algo que pueda funcionar en todas las plataformas, 
+
+31
+00:01:20,460 --> 00:01:23,580
+pero hoy te voy a mostrar 
+
+32
+00:01:23,580 --> 00:01:25,320
+las herramientas que necesitas para incluir en el 
+
+33
+00:01:25,320 --> 00:01:28,560
+desarrollo de software, así que vayamos a obtener un 
+
+34
+00:01:28,560 --> 00:01:31,380
+sistema de control de versiones y también 
+
+35
+00:01:31,380 --> 00:01:33,659
+GitHub, como mencioné al 
+
+36
+00:01:33,659 --> 00:01:37,340
+principio del semestre. Entonces, 
+
+37
+00:01:37,340 --> 00:01:40,880
+¿cuáles son las diferencias? 
+
+38
+00:01:41,159 --> 00:01:42,600
+¿Recuerdas? 
+
+39
+00:01:42,600 --> 00:01:46,380
+¿Puedes explicarle a 
+
+40
+00:01:46,380 --> 00:01:47,700
+alguien que no sabe nada sobre 
+
+41
+00:01:47,700 --> 00:01:49,380
+tecnología, como qué es un git, qué es 
+
+42
+00:01:49,380 --> 00:01:51,740
+GitHub?. 
+
+43
+00:01:57,840 --> 00:02:00,119
+¿Qué es Git?
+
+44
+00:02:00,119 --> 00:02:02,579
+¿Puedes dar una analogía para mostrar a la gente cuál es la 
+
+45
+00:02:02,579 --> 00:02:05,399
+diferencia entre Git y GitHub?: Podría 
+
+46
+00:02:05,399 --> 00:02:07,500
+ser como si GitHub fuera una tienda
+
+47
+00:02:07,500 --> 00:02:09,660
+Git fuera como una
+
+48
+00:02:09,660 --> 00:02:11,580
+sección más específica
+
+49
+00:02:11,580 --> 00:02:13,760
+dentro de esa tienda. 
+
+50
+00:02:14,000 --> 00:02:16,379
+La primera parte está bien.
+
+51
+00:02:16,379 --> 00:02:17,599
+La segunda parte no. 
+
+52
+00:02:17,599 --> 00:02:20,580
+¿Alguien más?, 
+
+53
+00:02:20,580 --> 00:02:22,140
+creo que mencionaron eso, 
+
+54
+00:02:22,140 --> 00:02:23,580
+pero tendrías que ser muy claro 
+
+55
+00:02:23,580 --> 00:02:27,140
+sobre qué es exactamente.
+
+56
+00:02:27,720 --> 00:02:30,560
+Sí,
+
+57
+00:02:31,980 --> 00:02:34,800
+eso te llevaría a la tienda, pero 
+
+58
+00:02:34,800 --> 00:02:37,379
+no exactamente 
+
+59
+00:02:37,379 --> 00:02:39,300
+como un lenguaje, sino más bien como un 
+
+60
+00:02:39,300 --> 00:02:42,900
+protocolo. Sí, tienes razón, git es como un 
+
+61
+00:02:42,900 --> 00:02:44,459
+lenguaje. Puedes pensar en GitHub como un 
+
+62
+00:02:44,459 --> 00:02:46,680
+lugar 
+
+63
+00:02:46,680 --> 00:02:49,140
+en la nube donde 
+
+64
+00:02:49,140 --> 00:02:52,680
+puedes almacenar todo lo que tienes escrito, al igual que escribir 
+
+65
+00:02:52,680 --> 00:02:56,180
+en Google Docs, Microsoft Office 
+
+66
+00:02:56,180 --> 00:03:00,959
+o el bloc de notas, entre otros. Tan grande es que 
+
+67
+00:03:00,959 --> 00:03:03,420
+no importa lo que sea, es como un 
+
+68
+00:03:03,420 --> 00:03:05,220
+lenguaje que todos pueden usar. Todas las 
+
+69
+00:03:05,220 --> 00:03:07,260
+empresas pueden usarlo. GitHub es solo uno de esos sitios que 
+
+70
+00:03:07,260 --> 00:03:08,840
+alojan el código fuente y 
+
+71
+00:03:08,840 --> 00:03:11,459
+proporcionan algunas herramientas que facilitan 
+
+72
+00:03:11,459 --> 00:03:14,280
+su gestión, pero 
+
+73
+00:03:14,280 --> 00:03:16,980
+no necesariamente tienes que usar GitHub. 
+
+74
+00:03:16,980 --> 00:03:19,379
+Puedes tener todo localmente, por ejemplo, 
+
+75
+00:03:19,379 --> 00:03:20,760
+puedes tener un documento de Microsoft Word y no 
+
+76
+00:03:20,760 --> 00:03:22,140
+tienes que alojarlo en la 
+
+77
+00:03:22,140 --> 00:03:22,980
+nube
+
+78
+00:03:22,980 --> 00:03:25,500
+Ahora puedes escribir algo en 
+
+79
+00:03:25,500 --> 00:03:27,720
+cualquier lugar y hay 
+
+80
+00:03:27,720 --> 00:03:28,980
+muchas herramientas que pueden ayudarte. Entonces, 
+
+81
+00:03:28,980 --> 00:03:31,019
+GitHub es solo uno de esos que pueden 
+
+82
+00:03:31,019 --> 00:03:32,400
+ayudar hoy en día, por lo que es más como un 
+
+83
+00:03:32,400 --> 00:03:34,680
+espacio de almacenamiento en GitHub. 
+
+84
+00:03:34,680 --> 00:03:36,060
+Hay otro llamado GitLab, 
+
+85
+00:03:36,060 --> 00:03:38,879
+todos estos son tipos de nube interna utilizados 
+
+86
+00:03:38,879 --> 00:03:41,459
+por grandes empresas, pero muchos de 
+
+87
+00:03:41,459 --> 00:03:43,680
+ellos utilizan el mismo 
+
+88
+00:03:43,680 --> 00:03:44,900
+Llamado
+
+89
+00:03:44,900 --> 00:03:47,280
+Git o podrían ser otros, pero es 
+
+90
+00:03:47,280 --> 00:03:50,220
+básicamente un sistema de control de versiones. Ahora 
+
+91
+00:03:50,220 --> 00:03:51,959
+está muy claro, ¿verdad? La próxima vez que 
+
+92
+00:03:51,959 --> 00:03:53,519
+tenga que explicarle a alguien algo así, como 
+
+93
+00:03:53,519 --> 00:03:55,500
+escribir un lenguaje y luego algo utilizado para escribir un lenguaje,
+
+94
+00:03:55,500 --> 00:03:57,540
+estará preparado. Porque en términos de 
+
+95
+00:03:57,540 --> 00:03:59,099
+lenguaje, el lenguaje correcto tiene sintaxis, 
+
+96
+00:03:59,099 --> 00:04:01,019
+puedes ordenar cosas, sabes que el lenguaje 
+
+97
+00:04:01,019 --> 00:04:03,060
+sigue algo específico, ¿verdad?. 
+
+98
+00:04:03,060 --> 00:04:05,580
+No vas a tener algo en un 
+
+99
+00:04:05,580 --> 00:04:08,879
+idioma alienígena, el inglés sigue 
+
+100
+00:04:08,879 --> 00:04:10,260
+algo y tienes que seguir 
+
+101
+00:04:10,260 --> 00:04:12,239
+las reglas para que funcione. Lo mismo ocurre 
+
+102
+00:04:12,239 --> 00:04:13,500
+con los comandos que vamos a 
+
+103
+00:04:13,500 --> 00:04:15,540
+repasar hoy, que usarás con 
+
+104
+00:04:15,540 --> 00:04:16,738
+mucha frecuencia, pero 
+
+105
+00:04:16,738 --> 00:04:18,298
+también vamos a usar Visual Studio 
+
+106
+00:04:18,298 --> 00:04:20,040
+Code para ayudarte a administrar eso, por lo que 
+
+107
+00:04:20,040 --> 00:04:21,478
+no tienes que recordar 
+
+108
+00:04:21,478 --> 00:04:23,820
+mucho, pero es bueno saber un par de 
+
+109
+00:04:23,820 --> 00:04:26,520
+comandos, como "pip install conda” 
+
+110
+00:04:26,520 --> 00:04:28,199
+en el almacén
+
+111
+00:04:28,199 --> 00:04:30,000
+…
+
+112
+00:04:30,000 --> 00:04:31,800
+…
+
+113
+00:04:31,800 --> 00:04:34,199
+que necesitarás recordar si quieres 
+
+114
+00:04:34,199 --> 00:04:36,360
+hacer algo usando la línea de comandos. Sin embargo, 
+
+115
+00:04:36,360 --> 00:04:37,560
+tengo todas las líneas de comando en el 
+
+116
+00:04:37,560 --> 00:04:40,800
+sitio web, así que esto va a los recursos y desde 
+
+117
+00:04:40,800 --> 00:04:43,860
+aquí tengo algo aquí.
+
+118
+00:04:43,860 --> 00:04:44,880
+Entonces vamos a seguir 
+
+119
+00:04:44,880 --> 00:04:47,040
+esos pasos para asegurarnos de que sepas cómo 
+
+120
+00:04:47,040 --> 00:04:48,300
+configurarlo, 
+
+121
+00:04:48,300 --> 00:04:50,100
+pero esto es todo para la configuración del 
+
+122
+00:04:50,100 --> 00:04:52,500
+usuario, la configuración inicial solo se realiza una vez. 
+
+123
+00:04:52,500 --> 00:04:54,720
+Entonces, no tienes que hacer eso 
+
+124
+00:04:54,720 --> 00:04:56,340
+cada vez y
+
+125
+00:04:56,340 --> 00:04:59,220
+también te mostraremos cómo 
+
+126
+00:04:59,220 --> 00:05:02,460
+descargar algunos paquetes, así que 
+
+127
+00:05:02,460 --> 00:05:04,139
+en el pasado si estabas tratando de descargar 
+
+128
+00:05:04,139 --> 00:05:06,419
+algún software ibas en línea y descargabas el archivo exe, 
+
+129
+00:05:06,419 --> 00:05:08,160
+pero en cuanto a Git no tienes que hacer todo, 
+
+130
+00:05:08,160 --> 00:05:10,259
+todo será automático, por lo que no 
+
+131
+00:05:10,259 --> 00:05:11,520
+tienes que ir en línea para descargar el archivo 
+
+132
+00:05:11,520 --> 00:05:13,380
+zip todo el tiempo y te mostraremos cómo 
+
+133
+00:05:13,380 --> 00:05:15,360
+hacerlo. Así que primero vamos a ir a este sitio 
+
+134
+00:05:15,360 --> 00:05:16,740
+para configurar tu computadora, 
+
+135
+00:05:16,740 --> 00:05:20,580
+tu configuración de git y 
+
+136
+00:05:20,580 --> 00:05:22,919
+¿todos se han registrado en una cuenta de GitHub? 
+
+137
+00:05:22,919 --> 00:05:27,240
+¿Sí?. Así que dijimos: vamos a seguir 
+
+138
+00:05:27,240 --> 00:05:29,280
+estos pasos. Si ya lo has hecho 
+
+139
+00:05:29,280 --> 00:05:31,860
+antes, no es necesario hacerlo de nuevo. Pero estos 
+
+140
+00:05:31,860 --> 00:05:33,479
+son los dos pasos que necesitas 
+
+141
+00:05:33,479 --> 00:05:35,699
+cada vez que instales git en una
+.
+142
+00:05:35,699 --> 00:05:36,539
+computadora nueva, 
+
+143
+00:05:36,539 --> 00:05:38,639
+porque debes configurar tu 
+
+144
+00:05:38,639 --> 00:05:41,639
+nombre de usuario y también tu correo electrónico. De esta manera, 
+
+145
+00:05:41,639 --> 00:05:44,100
+cuando publiques algo en GitHub, 
+
+146
+00:05:44,100 --> 00:05:46,440
+sabrá de dónde viene. 
+
+147
+00:05:46,440 --> 00:05:48,960
+Básicamente, esto es un identificador que muestra que estás publicando 
+
+148
+00:05:48,960 --> 00:05:51,300
+cosas en tu cuenta. 
+
+149
+00:05:51,300 --> 00:05:53,039
+Lo más 
+
+150
+00:05:53,039 --> 00:05:55,020
+común es que solo tengas una 
+
+151
+00:05:55,020 --> 00:05:56,520
+cuenta de GitHub, pero 
+
+152
+00:05:56,520 --> 00:05:58,680
+puedes tener varias. Por ejemplo, una 
+
+153
+00:05:58,680 --> 00:05:59,880
+cuenta de trabajo y una 
+
+154
+00:05:59,880 --> 00:06:02,460
+cuenta de correo electrónico personal. Entonces está bien, pero 
+
+155
+00:06:02,460 --> 00:06:03,660
+necesitamos pasar por este paso, así que primero 
+
+156
+00:06:03,660 --> 00:06:05,759
+te mostraré cómo podemos llegar aquí. 
+
+157
+00:06:05,759 --> 00:06:08,220
+así que todo lo que necesitamos abre tu terminal
+
+158
+00:06:08,220 --> 00:06:11,100
+o tu eh
+
+159
+00:06:11,100 --> 00:06:13,199
+Todo lo que necesitamos es abrir tu terminal o abrir tu propia ventana 
+
+160
+00:06:13,199 --> 00:06:16,520
+y luego escribir "git", 
+
+161
+00:06:16,979 --> 00:06:20,400
+y presionar enter. 
+
+162
+00:06:20,400 --> 00:06:23,100
+Mira si puedes obtener esto, si 
+
+163
+00:06:23,100 --> 00:06:24,720
+no funciona, probablemente "git" no está en tu 
+
+164
+00:06:24,720 --> 00:06:26,580
+entorno del sistema, entonces 
+
+165
+00:06:26,580 --> 00:06:29,280
+también puedes ir al menú de inicio, 
+
+166
+00:06:29,280 --> 00:06:31,020
+todas las aplicaciones, y 
+
+167
+00:06:31,020 --> 00:06:33,000
+si estás en una computadora Mac, solo escribe "git", 
+
+168
+00:06:33,000 --> 00:06:35,100
+debería pedirte que lo instales si aún 
+
+169
+00:06:35,100 --> 00:06:37,620
+no lo has instalado. Entonces, también 
+
+170
+00:06:37,620 --> 00:06:38,639
+puedes venir aquí, 
+
+171
+00:06:38,639 --> 00:06:40,340
+debería ser bueno 
+
+172
+00:06:40,340 --> 00:06:42,780
+después de instalar git, deberías encontrar esto 
+
+173
+00:06:42,780 --> 00:06:45,840
+en las computadoras del laboratorio. También tienen esto, así que 
+
+174
+00:06:45,840 --> 00:06:47,580
+hay uno que llaman Git bash y luego 
+
+175
+00:06:47,580 --> 00:06:50,699
+Git GUI, podemos abrir simplemente el Git 
+
+176
+00:06:50,699 --> 00:06:53,220
+bash, así que estos dos deberían ser 
+
+177
+00:06:53,220 --> 00:06:55,020
+iguales. Personalmente, prefiero el 
+
+178
+00:06:55,020 --> 00:06:58,259
+terminal de Windows, es mejor que este, 
+
+179
+00:06:58,259 --> 00:06:59,819
+pero si no funciona, puedes intentar con este, así que 
+
+180
+00:06:59,819 --> 00:07:01,440
+debería ser lo mismo. Entonces, también puedo escribir 
+
+181
+00:07:01,440 --> 00:07:04,560
+git + enter 
+
+182
+00:07:04,560 --> 00:07:06,240
+deberías obtener lo mismo, 
+
+183
+00:07:06,240 --> 00:07:09,479
+así que prueba primero con el terminal de Windows. 
+
+184
+00:07:09,479 --> 00:07:12,780
+Me gusta el
+
+185
+00:07:12,780 --> 00:07:14,940
+tamaño de letra un poco más grande que 
+
+186
+00:07:14,940 --> 00:07:16,380
+este,
+
+187
+00:07:16,380 --> 00:07:20,120
+si no levanta 
+
+188
+00:07:20,400 --> 00:07:23,220
+la mano. 
+
+189
+00:07:23,220 --> 00:07:26,539
+¿Estás seguro? Oh, 
+
+190
+00:07:27,300 --> 00:07:29,639
+solo escribe git enter. Solo quiero
+
+191
+00:07:29,639 --> 00:07:31,440
+asegurarme de que puedas ver esto si 
+
+192
+00:07:31,440 --> 00:07:33,120
+escribes git y luego presionas enter. Si 
+
+193
+00:07:33,120 --> 00:07:34,860
+muestra un error, 
+
+194
+00:07:34,860 --> 00:07:37,099
+significa que algo está mal. Nadie, 
+
+195
+00:07:38,099 --> 00:07:41,520
+¿hay algún error?
+
+196
+00:07:41,520 --> 00:07:44,160
+Ok, eso es bueno, entonces si no hay errores, podemos 
+
+197
+00:07:44,160 --> 00:07:46,020
+continuar. Primero me gustaría mostrarte 
+
+198
+00:07:46,020 --> 00:07:48,780
+esta configuración de trabajo y luego hacer una 
+
+199
+00:07:48,780 --> 00:07:51,479
+prueba, una prueba global de una lista, es algo 
+
+200
+00:07:51,479 --> 00:07:53,699
+similar a lo que se hace con el contacto, 
+
+201
+00:07:53,699 --> 00:07:56,520
+solo para mostrarte lo que hay allí. Si 
+
+202
+00:07:56,520 --> 00:07:58,080
+es la primera vez que lo usas, es posible que 
+
+203
+00:07:58,080 --> 00:08:00,120
+esté vacío, pero si ya lo configuraste 
+
+204
+00:08:00,120 --> 00:08:01,460
+antes,.
+
+205
+00:08:01,460 --> 00:08:04,440
+entonces deberías ver algo. 
+
+206
+00:08:04,440 --> 00:08:07,380
+Déjame borrar la salida aquí...
+
+207
+00:08:07,380 --> 00:08:09,979
+ups,
+
+208
+00:08:10,080 --> 00:08:12,539
+aquí 
+
+209
+00:08:12,539 --> 00:08:14,280
+es extraño. “cls”
+
+210
+00:08:14,280 --> 00:08:18,180
+Necesitas obtener la 
+
+211
+00:08:18,180 --> 00:08:20,699
+configuración 
+
+212
+00:08:20,699 --> 00:08:22,440
+y luego “git config”
+
+213
+00:08:22,440 --> 00:08:24,900
+hay esta lista global 
+
+214
+00:08:24,900 --> 00:08:28,819
+“—global –list”
+
+215
+00:08:30,000 --> 00:08:31,800
+Solo escribe esto 
+
+216
+00:08:31,800 --> 00:08:33,839
+y mira si puedes ver algo aquí. 
+
+217
+00:08:33,839 --> 00:08:36,240
+Si es la primera vez 
+
+218
+00:08:36,240 --> 00:08:37,740
+que lo usas, probablemente estará vacío 
+
+219
+00:08:37,740 --> 00:08:40,020
+porque yo ya lo he hecho antes. 
+
+220
+00:08:40,020 --> 00:08:42,120
+¿Puedes ver mi nombre y también mi 
+
+221
+00:08:42,120 --> 00:08:46,279
+correo electrónico aquí?.
+
+222
+00:08:47,580 --> 00:08:50,100
+Si no puedes verlo en la pantalla, ve al sitio web de 
+
+223
+00:08:50,100 --> 00:08:52,200
+recursos y desplázate hacia abajo 
+
+224
+00:08:52,200 --> 00:08:54,360
+hasta la sección de Git, solo copia esta 
+
+225
+00:08:54,360 --> 00:08:56,160
+linea y luego pégala, presiona enter 
+
+226
+00:08:56,160 --> 00:08:59,700
+y mira el 
+
+227
+00:08:59,700 --> 00:09:02,120
+resultado. 
+
+228
+00:09:02,120 --> 00:09:04,140
+[Pregunta de estudiante] “¿No se muestra name y email?”
+
+229
+00:09:04,140 --> 00:09:06,680
+[Respuesta] “No hay una configuración previa”
+
+230
+00:09:10,320 --> 00:09:14,540
+Básicamente 
+
+231
+00:09:18,480 --> 00:09:20,459
+no hay configuración 
+
+232
+00:09:20,459 --> 00:09:22,680
+previa
+
+233
+00:09:22,680 --> 00:09:24,420
+por eso dije que, si es la primera vez, 
+
+234
+00:09:24,420 --> 00:09:27,420
+no te mostrará nada. Como mencioné anteriormente, 
+
+235
+00:09:27,420 --> 00:09:30,000
+está vacío, el 
+
+236
+00:09:30,000 --> 00:09:31,380
+archivo que no se puede encontrar, por lo 
+
+237
+00:09:31,380 --> 00:09:33,720
+que estará vacío. Así que está bien, es perfectamente normal. 
+
+238
+00:09:33,720 --> 00:09:35,040
+Solo estoy diciendo que 
+
+239
+00:09:35,040 --> 00:09:37,260
+antes de querer reiniciar eso, debes 
+
+240
+00:09:37,260 --> 00:09:38,760
+asegurarte de no arruinar el que ya tienes. Si ya tienes 
+
+241
+00:09:38,760 --> 00:09:40,440
+uno que está bien, entonces 
+
+242
+00:09:40,440 --> 00:09:43,500
+lo siguiente que 
+
+243
+00:09:43,500 --> 00:09:45,240
+necesitas es seguir esto. Puedo 
+
+244
+00:09:45,240 --> 00:09:48,360
+simplemente copiar git config --global user “Your Name" 
+
+245
+00:09:48,360 --> 00:09:51,120
+Asegúrate de 
+
+246
+00:09:51,120 --> 00:09:52,860
+tener 
+
+247
+00:09:52,860 --> 00:09:53,940
+comillas dobles, a veces lo 
+
+248
+00:09:53,940 --> 00:09:56,399
+interpretará como dos nombres. Entonces, 
+
+249
+00:09:56,399 --> 00:09:59,880
+lo que necesitas es copiar esto con clic derecho,
+
+250
+00:09:59,880 --> 00:10:02,100
+si puedes escribir realmente rápido está bien 
+
+251
+00:10:02,100 --> 00:10:04,080
+también, simplemente hagamos clic derecho en la 
+
+252
+00:10:04,080 --> 00:10:07,019
+terminal para pegarlo y luego 
+
+253
+00:10:07,019 --> 00:10:09,779
+usa tu cursor para cambiar este 
+
+254
+00:10:09,779 --> 00:10:11,000
+dentro de las comillas dobles a algo como 
+
+255
+00:10:11,000 --> 00:10:13,740
+tu nombre, 
+
+256
+00:10:13,740 --> 00:10:14,820
+asegúrate 
+
+257
+00:10:14,820 --> 00:10:16,560
+de usar el nombre que 
+
+258
+00:10:16,560 --> 00:10:18,120
+aparecerá en GitHub 
+
+259
+00:10:18,120 --> 00:10:20,220
+porque esto se vinculará a tu 
+
+260
+00:10:20,220 --> 00:10:22,560
+GitHub, así que más tarde cuando pongamos cosas, 
+
+261
+00:10:22,560 --> 00:10:23,940
+va a reemplazar tu nombre, así que no tengas 
+
+262
+00:10:23,940 --> 00:10:26,100
+errores tipográficos. También puedes corregirlo 
+
+263
+00:10:26,100 --> 00:10:27,959
+si quieres 
+
+264
+00:10:27,959 --> 00:10:30,480
+obtener esto y luego simplemente presionar enter. 
+
+265
+00:10:30,480 --> 00:10:33,180
+Entonces es el mismo comando que muestro 
+
+266
+00:10:33,180 --> 00:10:34,680
+aquí, así que el primero es establecer su 
+
+267
+00:10:34,680 --> 00:10:38,760
+nombre de usuario y presionar Enter, 
+
+268
+00:10:38,760 --> 00:10:40,440
+¿Preguntas? 
+
+269
+00:10:40,440 --> 00:10:42,920
+[Pregunta sobre usar 3 nombres] 
+
+270
+00:10:45,720 --> 00:10:47,880
+No es necesario usar tres, pero es 
+
+271
+00:10:47,880 --> 00:10:50,399
+mejor usar el mismo nombre. El correo electrónico 
+
+272
+00:10:50,399 --> 00:10:52,140
+es lo más importante, el nombre no importa 
+
+273
+00:10:52,140 --> 00:10:53,760
+realmente, el correo electrónico es el 
+
+274
+00:10:53,760 --> 00:10:56,160
+identificador único, por lo que el nombre puede ser diferente, 
+
+275
+00:10:56,160 --> 00:10:58,620
+pero el correo electrónico lo hace usar el mismo 
+
+276
+00:10:58,620 --> 00:11:00,060
+que usó para registrarse en GitHub, 
+
+277
+00:11:00,060 --> 00:11:03,120
+de lo contrario no funcionará, ¿de acuerdo? Así que 
+
+278
+00:11:03,120 --> 00:11:04,740
+el segundo es lo mismo, solo cambie 
+
+279
+00:11:04,740 --> 00:11:06,300
+su correo electrónico, 
+
+280
+00:11:06,300 --> 00:11:08,339
+copie esta línea 
+
+281
+00:11:08,339 --> 00:11:10,920
+y luego venga aquí, haga clic derecho y cambie eso por 
+
+282
+00:11:10,920 --> 00:11:14,600
+cualquier correo electrónico que desee usar. 
+
+283
+00:11:17,940 --> 00:11:19,620
+Voy a usar mi Gmail o cualquier 
+
+284
+00:11:19,620 --> 00:11:21,240
+correo electrónico de UTK 
+
+285
+00:11:21,240 --> 00:11:23,940
+y luego simplemente presiono enter,
+
+286
+00:11:23,940 --> 00:11:27,300
+Así que esto está configurado correctamente, 
+
+287
+00:11:27,300 --> 00:11:28,980
+va a configurar tu git para que luego 
+
+288
+00:11:28,980 --> 00:11:30,660
+podamos poner cosas 
+
+289
+00:11:30,660 --> 00:11:33,959
+y luego puedes verificar de nuevo para 
+
+290
+00:11:33,959 --> 00:11:35,399
+asegurarte de que ahora esté completado 
+
+291
+00:11:35,399 --> 00:11:37,440
+correctamente. Puedes copiar esta línea o 
+
+292
+00:11:37,440 --> 00:11:39,480
+simplemente usar la tecla de flecha (arriba) de tu aplicación porque 
+
+293
+00:11:39,480 --> 00:11:42,000
+ya lo hemos hecho antes y luego darle configuración a esto. 
+
+294
+00:11:42,000 --> 00:11:44,519
+Ahora deberías poder ver estas 
+
+295
+00:11:44,519 --> 00:11:46,440
+dos líneas, si no es así, 
+
+296
+00:11:46,440 --> 00:11:49,880
+algo está mal y necesitamos arreglarlo. 
+
+297
+00:11:50,220 --> 00:11:51,540
+¿Quién 
+
+298
+00:11:51,540 --> 00:11:53,519
+ha terminado este paso? Por favor, escribe 
+
+299
+00:11:53,519 --> 00:11:55,680
+tu nombre de usuario y correo electrónico. 
+
+300
+00:11:55,680 --> 00:11:58,140
+Si alguien no 
+
+301
+00:11:58,140 --> 00:11:59,760
+puede hacerlo, levante la mano. 
+
+302
+00:11:59,760 --> 00:12:01,440
+Está bien hacer preguntas, podemos ir más despacio y 
+
+303
+00:12:01,440 --> 00:12:03,720
+asegurarnos de que configuren esto correctamente, 
+
+304
+00:12:03,720 --> 00:12:05,220
+de lo contrario
+
+305
+00:12:05,220 --> 00:12:06,959
+no podrán hacer nada más después
+
+306
+00:12:06,959 --> 00:12:08,339
+porque no podrán avanzar.
+
+307
+00:12:08,339 --> 00:12:10,200
+Quiero asegurarme de que todos puedan 
+
+308
+00:12:10,200 --> 00:12:11,760
+pasar por este paso para configurarlo. 
+
+309
+00:12:11,760 --> 00:12:14,820
+Es un poco molesto, pero es 
+
+310
+00:12:14,820 --> 00:12:17,459
+solo una vez. No es como si tuvieran que 
+
+311
+00:12:17,459 --> 00:12:20,220
+hacerlo cada vez. 
+
+312
+00:12:20,220 --> 00:12:22,740
+Deben saber cómo hacerlo. Espero que ese 
+
+313
+00:12:22,740 --> 00:12:24,660
+software pueda ser 
+
+314
+00:12:24,660 --> 00:12:26,760
+más fácil de usar, pero 
+
+315
+00:12:26,760 --> 00:12:29,519
+está bien, es algo que 
+
+316
+00:12:29,519 --> 00:12:32,279
+definitivamente podemos hacer. 
+
+317
+00:12:32,279 --> 00:12:33,660
+¿Todos han 
+
+318
+00:12:33,660 --> 00:12:36,200
+terminado?.
+
+319
+00:12:36,600 --> 00:12:38,640
+Si no, 
+
+320
+00:12:38,640 --> 00:12:40,740
+levanten la mano
+
+321
+00:12:40,740 --> 00:12:42,899
+[Ayuda al alumno]
+
+322
+00:12:42,899 --> 00:12:45,500
+[Respuesta] Solo estoy tratando de copiar aquí. 
+
+323
+00:12:45,500 --> 00:12:48,600
+Déjame saber si puedo ayudarte a arreglar 
+
+324
+00:12:48,600 --> 00:12:50,220
+eso para que sea una tarea fácil. 
+
+325
+00:12:50,220 --> 00:12:52,139
+No espero que sea 
+
+326
+00:12:52,139 --> 00:12:54,800
+muy difícil, 
+
+327
+00:12:55,380 --> 00:12:57,600
+¿estamos listos para continuar? 
+
+328
+00:12:57,600 --> 00:13:00,800
+¿Tienen preguntas?... 
+
+329
+00:13:03,200 --> 00:13:05,579
+[Respuesta] no repitas este paso. 
+
+330
+00:13:05,579 --> 00:13:07,560
+En la segunda línea, si el correo 
+
+331
+00:13:07,560 --> 00:13:10,440
+electrónico no se muestra correctamente,
+
+332
+00:13:10,440 --> 00:13:12,480
+cópialo y pégalo, luego cambia tu 
+
+333
+00:13:12,480 --> 00:13:14,100
+correo electrónico y presiona enter. Esto debería funcionar, 
+
+334
+00:13:14,100 --> 00:13:16,019
+ya que estas son las tres líneas de código 
+
+335
+00:13:16,019 --> 00:13:17,940
+que necesitamos para ejecutar el 
+
+336
+00:13:17,940 --> 00:13:19,380
+comando que necesitamos. 
+
+337
+00:13:19,380 --> 00:13:21,480
+Asegúrate de que puedas ver tu nombre y también 
+
+338
+00:13:21,480 --> 00:13:24,500
+tu correo electrónico rápidamente, ¿de acuerdo? 
+
+339
+00:13:26,880 --> 00:13:29,519
+No seas tímido, no podrás 
+
+340
+00:13:29,519 --> 00:13:31,019
+seguir adelante si no tienes esta 
+
+341
+00:13:31,019 --> 00:13:32,639
+configuración correctamente. 
+
+342
+00:13:32,639 --> 00:13:35,639
+Si todavía estas obteniendo el
+
+343
+00:13:35,639 --> 00:13:37,500
+error fatal. 
+
+344
+00:13:37,500 --> 00:13:41,600
+¿Cuántos de ustedes están obteniendo este error? 
+
+345
+00:13:48,500 --> 00:13:52,139
+Déjenme ver si hay 
+
+346
+00:13:52,139 --> 00:13:55,200
+un conflicto en el 
+
+347
+00:13:55,200 --> 00:13:57,420
+espacio de configuración. Asegúrate de abrir el 
+
+348
+00:13:57,420 --> 00:13:59,579
+sitio web, copiar y pegar, hay 
+
+349
+00:13:59,579 --> 00:14:02,060
+un error tipográfico con un 
+
+350
+00:14:03,139 --> 00:14:06,720
+espacio entre las dos bases. 
+
+351
+00:14:06,720 --> 00:14:11,660
+Necesito que muevas tu área de 
+
+352
+00:14:11,760 --> 00:14:14,760
+entrada 
+
+353
+00:14:18,720 --> 00:14:21,120
+si no aparece nada. Vuelve a nuestro 
+
+354
+00:14:21,120 --> 00:14:24,060
+sitio web, solo copia la 
+
+355
+00:14:24,060 --> 00:14:26,700
+primera línea, luego sal de 
+
+356
+00:14:26,700 --> 00:14:28,339
+allí, 
+
+357
+00:14:28,339 --> 00:14:32,220
+sí, copia esta línea y luego pégala en 
+
+358
+00:14:32,220 --> 00:14:37,339
+la terminal nuevamente. Creo que 
+
+359
+00:14:37,920 --> 00:14:40,040
+Es
+
+360
+00:14:46,100 --> 00:14:49,810
+tu nombre, pero no tu nombre de usuario. 
+
+361
+00:14:49,810 --> 00:14:52,850
+[Interacción con alumnos]
+
+362
+00:14:53,459 --> 00:14:55,199
+[Indicando los paso a copiar]
+
+363
+00:14:55,199 --> 00:14:59,060
+Copia la segunda línea 
+
+364
+00:15:00,920 --> 00:15:04,090
+[Solución de conflictos con el correo]
+
+365
+00:15:10,120 --> 00:15:10,199
+[Solución de conflictos con el correo]
+
+366
+00:15:10,199 --> 00:15:12,199
+[Solución de conflictos con el correo]
+
+367
+00:15:15,320 --> 00:15:17,639
+Necesitas enviarlo a tu 
+
+368
+00:15:17,639 --> 00:15:20,060
+cuenta de correo 
+
+369
+00:15:26,880 --> 00:15:29,880
+electrónico. 
+
+370
+00:15:35,820 --> 00:15:39,620
+[Solución de conflictos con el correo]
+
+371
+00:15:46,880 --> 00:15:50,060
+[Solución de conflictos con el correo]
+
+372
+00:15:56,220 --> 00:15:58,579
+[Solución de conflictos con el correo]
+
+373
+00:15:58,860 --> 00:16:00,959
+Cualquier correo electrónico que hayas usado para registrarte. 
+
+374
+00:16:00,959 --> 00:16:03,320
+Sí, 
+
+375
+00:16:07,040 --> 00:16:09,899
+la tercera línea es git config –global –list, 
+
+376
+00:16:09,899 --> 00:16:12,480
+cópiala. 
+
+377
+00:16:12,480 --> 00:16:15,360
+Y luego quiero ver si 
+
+378
+00:16:15,360 --> 00:16:17,830
+puedes verlo.
+
+379
+00:16:17,830 --> 00:16:20,979
+[Confirmación de 
+
+380
+00:16:27,720 --> 00:16:30,120
+que lo han hecho bien].
+
+381
+00:16:30,120 --> 00:16:33,199
+¿Alguien más? 
+
+382
+00:16:33,440 --> 00:16:36,420
+Como dije, pregunta, no seas tímido, 
+
+383
+00:16:36,420 --> 00:16:38,220
+de lo contrario, podrías tener problemas 
+
+384
+00:16:38,220 --> 00:16:40,560
+más adelante. Una vez que tengas esto
+
+385
+00:16:40,560 --> 00:16:42,060
+podemos hacer todo lo demás 
+
+386
+00:16:42,060 --> 00:16:44,339
+de nuevo. Si te cambias a una nueva computadora, 
+
+387
+00:16:44,339 --> 00:16:46,320
+necesitas hacer esto. No necesitas 
+
+388
+00:16:46,320 --> 00:16:47,880
+salir, siempre puedes volver al 
+
+389
+00:16:47,880 --> 00:16:50,339
+sitio web o 
+
+390
+00:16:50,339 --> 00:16:52,139
+simplemente ir en línea a "git config" para que puedas 
+
+391
+00:16:52,139 --> 00:16:54,120
+ver el resultado. Una vez que tengas 
+
+392
+00:16:54,120 --> 00:16:57,180
+esto, podemos empezar a hacer algo. 
+
+393
+00:16:57,180 --> 00:17:00,060
+Aquí hay un par de formas en las que 
+
+394
+00:17:00,060 --> 00:17:02,220
+puedes hacerlo. Básicamente, Git es un 
+
+395
+00:17:02,220 --> 00:17:05,220
+sistema de control de versiones. Puedes inicializar y crear un 
+
+396
+00:17:05,220 --> 00:17:07,859
+nuevo repositorio de Git, o puedes hacer "pull" (extraer) algo 
+
+397
+00:17:07,859 --> 00:17:10,559
+de GitHub. En el mundo de la programación 
+
+398
+00:17:10,559 --> 00:17:11,760
+de software, necesitas 
+
+399
+00:17:11,760 --> 00:17:14,280
+tener control de versiones. No estamos haciendo una 
+
+400
+00:17:14,280 --> 00:17:16,919
+copia de seguridad del código simplemente copiando el archivo y 
+
+401
+00:17:16,919 --> 00:17:18,419
+pegándolo en otro lugar. 
+
+402
+00:17:18,419 --> 00:17:20,459
+Todo seguirá estando en la misma carpeta, 
+
+403
+00:17:20,459 --> 00:17:22,319
+pero podrás revisar diferentes versiones. 
+
+404
+00:17:22,319 --> 00:17:24,480
+Te lo mostraré más adelante. 
+
+405
+00:17:24,480 --> 00:17:26,579
+Es muy útil y te 
+
+406
+00:17:26,579 --> 00:17:28,380
+facilitará mucho la vida. 
+
+407
+00:17:28,380 --> 00:17:30,960
+Primero, intentemos crear un nuevo 
+
+408
+00:17:30,960 --> 00:17:35,000
+repositorio de Git. 
+
+409
+00:17:35,340 --> 00:17:37,260
+Un repositorio es básicamente una carpeta 
+
+410
+00:17:37,260 --> 00:17:39,120
+con un montón de archivos, pero es como el script que 
+
+411
+00:17:39,120 --> 00:17:41,220
+están utilizando Python. 
+
+412
+00:17:41,220 --> 00:17:44,160
+Si escribo en código, git sería 
+
+413
+00:17:44,160 --> 00:17:45,660
+muy útil para ti, no importa qué 
+
+414
+00:17:45,660 --> 00:17:47,780
+lenguaje, porque git es 
+
+415
+00:17:47,780 --> 00:17:49,460
+básicamente 
+
+416
+00:17:49,460 --> 00:17:53,820
+adecuado para hacer copias de seguridad de 
+
+417
+00:17:53,820 --> 00:17:56,400
+archivos de texto plano, principalmente de código fuente. Pero no 
+
+418
+00:17:56,400 --> 00:17:59,460
+debes usar git para hacer una copia de seguridad de una película, 
+
+419
+00:17:59,460 --> 00:18:01,740
+no funcionará. Básicamente, 
+
+420
+00:18:01,740 --> 00:18:04,440
+duplica el contenido, pero no es 100% una copia, 
+
+421
+00:18:04,440 --> 00:18:07,980
+solo mira las 
+
+422
+00:18:07,980 --> 00:18:10,200
+diferencias. Entonces, si hago algo nuevo, 
+
+423
+00:18:10,200 --> 00:18:12,480
+agrego algo nuevo o elimino algunas líneas, git 
+
+424
+00:18:12,480 --> 00:18:14,220
+será capaz de verificar eso, y 
+
+425
+00:18:14,220 --> 00:18:15,059
+te mostraré cómo puedes 
+
+426
+00:18:15,059 --> 00:18:18,059
+visualizar las diferencias. Es bueno 
+
+427
+00:18:18,059 --> 00:18:22,500
+para archivos de texto, pero no para archivos de video. 
+
+428
+00:18:22,500 --> 00:18:25,679
+Quiero dejar eso muy claro. 
+
+429
+00:18:25,679 --> 00:18:28,320
+Una vez que tengas esto, déjame mostrarte 
+
+430
+00:18:28,320 --> 00:18:34,100
+cómo cerrarlo. Abre tu 
+
+431
+00:18:34,260 --> 00:18:36,419
+computadora y luego ve a cualquier 
+
+432
+00:18:36,419 --> 00:18:37,799
+carpeta que desees donde quieras guardar el 
+
+433
+00:18:37,799 --> 00:18:39,059
+repositorio, 
+
+434
+00:18:39,059 --> 00:18:40,679
+así que vamos a crear un nuevo 
+
+435
+00:18:40,679 --> 00:18:44,059
+repositorio. Puedo ir a tal vez mi 
+
+436
+00:18:44,059 --> 00:18:46,080
+directorio de descargas, 
+
+437
+00:18:46,080 --> 00:18:47,880
+donde sea que te guste, no importa 
+
+438
+00:18:47,880 --> 00:18:50,580
+realmente, así que voy a 
+
+439
+00:18:50,580 --> 00:18:52,380
+mi directorio de descargas. 
+
+440
+00:18:52,380 --> 00:18:55,200
+Aquí, permíteme eliminar todas mis 
+
+441
+00:18:55,200 --> 00:18:58,140
+cosas existentes. 
+
+442
+00:18:58,140 --> 00:19:02,039
+Intenta ser organizado y 
+
+443
+00:19:05,900 --> 00:19:08,760
+tener algo más fácil de navegar 
+
+444
+00:19:08,760 --> 00:19:10,320
+porque a veces necesitas usar la 
+
+445
+00:19:10,320 --> 00:19:12,660
+línea de comando para ingresar a la carpeta, así que 
+
+446
+00:19:12,660 --> 00:19:15,660
+asumamos, que aquí es donde quiero guardar 
+
+447
+00:19:15,660 --> 00:19:18,240
+mi repositorio, mi directorio 
+
+448
+00:19:18,240 --> 00:19:20,220
+del repositorio, nada más, 
+
+449
+00:19:20,220 --> 00:19:22,679
+también puedes eliminar eso. Entonces, 
+
+450
+00:19:22,679 --> 00:19:24,240
+lo que quiero hacer, por ejemplo, hago clic derecho, 
+
+451
+00:19:24,240 --> 00:19:26,160
+creo una nueva carpeta. Puedes hacer 
+
+452
+00:19:26,160 --> 00:19:27,720
+lo mismo en una computadora Mac, no 
+
+453
+00:19:27,720 --> 00:19:30,299
+importa, puedo decir 
+
+454
+00:19:30,299 --> 00:19:32,299
+em
+
+455
+00:19:34,080 --> 00:19:36,299
+“cool”, cualquier nombre que vayas a usar. 
+
+456
+00:19:36,299 --> 00:19:38,700
+Dentro no hay nada por ahora. 
+
+457
+00:19:38,700 --> 00:19:41,340
+Entonces aquí es donde puedes 
+
+458
+00:19:41,340 --> 00:19:44,640
+crear un repositorio git, en Windows 
+
+459
+00:19:44,640 --> 00:19:46,380
+puedes hacer clic derecho en "abrir en terminal". 
+
+460
+00:19:46,380 --> 00:19:48,840
+Esta es una forma que suelo recomendar 
+
+461
+00:19:48,840 --> 00:19:50,100
+porque no tienes que 
+
+462
+00:19:50,100 --> 00:19:52,740
+navegar por el directorio, pero 
+
+463
+00:19:52,740 --> 00:19:55,860
+para aquellos de ustedes que usan mi computadora, 
+
+464
+00:19:55,860 --> 00:19:57,360
+también pueden simplemente navegar por el directorio. 
+
+465
+00:19:57,360 --> 00:19:59,460
+De cualquier manera, está bien. Así que, 
+
+466
+00:19:59,460 --> 00:20:01,020
+si estás usando esta opción en este momento, 
+
+467
+00:20:01,020 --> 00:20:03,120
+verás que ya está en el directorio.
+
+468
+00:20:03,120 --> 00:20:06,480
+Si no lo está, puedes 
+
+469
+00:20:06,480 --> 00:20:08,880
+simplemente abrir "Git 
+
+470
+00:20:08,880 --> 00:20:10,400
+Bash".
+
+471
+00:20:10,400 --> 00:20:13,500
+Nos dirigimos a inicio
+
+472
+00:20:13,500 --> 00:20:15,360
+Y buscamos 
+
+473
+00:20:15,360 --> 00:20:16,559
+Solo quiero mostrarte diferentes 
+
+474
+00:20:16,559 --> 00:20:18,240
+formas de acceder al directorio. Entonces, 
+
+475
+00:20:18,240 --> 00:20:20,400
+si abro “Git Bash”, la mayoría de las veces 
+
+476
+00:20:20,400 --> 00:20:21,780
+verás que por defecto ingresará a 
+
+477
+00:20:21,780 --> 00:20:24,660
+tu directorio de usuario, pero en este momento 
+
+478
+00:20:24,660 --> 00:20:26,520
+quiero entrar en este directorio. 
+
+479
+00:20:26,520 --> 00:20:29,820
+Realmente odio el color, pero puedes simplemente 
+
+480
+00:20:29,820 --> 00:20:32,460
+escribir “dir” y 
+
+481
+00:20:32,460 --> 00:20:33,960
+te mostrará todas tus 
+
+482
+00:20:33,960 --> 00:20:36,500
+direcciones. Así que escribe "cd 
+
+483
+00:20:36,500 --> 00:20:38,820
+Downloads/" para llegar 
+
+484
+00:20:38,820 --> 00:20:40,919
+al directorio principal. 
+
+485
+00:20:40,919 --> 00:20:43,080
+Estamos entrando en esta carpeta y 
+
+486
+00:20:43,080 --> 00:20:46,140
+desde aquí también puedes usar "dir". 
+
+487
+00:20:46,140 --> 00:20:47,160
+Si abres 
+
+488
+00:20:47,160 --> 00:20:50,640
+una terminal 
+
+489
+00:20:50,640 --> 00:20:55,140
+desde los 
+
+490
+00:20:55,140 --> 00:20:58,080
+programas, siempre 
+
+491
+00:20:58,080 --> 00:20:59,039
+será 
+
+492
+00:20:59,039 --> 00:21:00,780
+tu directorio de usuario, por lo que se 
+
+493
+00:21:00,780 --> 00:21:02,940
+debe usar directamente 
+
+494
+00:21:02,940 --> 00:21:05,580
+el directorio por defecto. Pero si abres el directorio desde adentro
+
+495
+00:21:05,580 --> 00:21:07,860
+automáticamente 
+
+496
+00:21:07,860 --> 00:21:10,080
+entrarás directamente. 
+
+497
+00:21:10,080 --> 00:21:12,539
+Entonces, 
+
+498
+00:21:12,539 --> 00:21:14,820
+una vez que estamos aquí, 
+
+499
+00:21:14,820 --> 00:21:16,500
+podemos crear un nuevo 
+
+500
+00:21:16,500 --> 00:21:17,400
+repositorio 
+
+501
+00:21:17,400 --> 00:21:19,260
+Git, es 
+
+502
+00:21:19,260 --> 00:21:22,559
+realmente 
+
+503
+00:21:22,559 --> 00:21:26,220
+muy simple 
+
+504
+00:21:26,220 --> 00:21:28,740
+"git init", 
+
+505
+00:21:28,740 --> 00:21:30,780
+básicamente 
+
+506
+00:21:30,780 --> 00:21:33,780
+estamos 
+
+507
+00:21:33,780 --> 00:21:36,980
+Inicializando. 
+
+508
+00:21:37,520 --> 00:21:41,340
+Déjame empezar 
+
+509
+00:21:41,340 --> 00:21:43,140
+desde el principio, asume que 
+
+510
+00:21:43,140 --> 00:21:44,520
+ya pudiste crear un 
+
+511
+00:21:44,520 --> 00:21:46,140
+nuevo directorio aquí. Quiero 
+
+512
+00:21:46,140 --> 00:21:48,600
+entrar en mi directorio de descargas para poder abrirlo. 
+
+513
+00:21:48,600 --> 00:21:51,320
+Si haces clic derecho, puedes abrir una terminal en Windows. 
+
+514
+00:21:51,320 --> 00:21:54,000
+No estoy diciendo que esto sea por defecto, 
+
+515
+00:21:54,000 --> 00:21:56,400
+quizás tengas que instalarlo. 
+
+516
+00:21:56,400 --> 00:21:58,620
+Si no está ahí, te recomendaría 
+
+517
+00:21:58,620 --> 00:22:01,679
+ir a la tienda de aplicaciones de Microsoft y 
+
+518
+00:22:01,679 --> 00:22:03,480
+simplemente escribir "terminal" y deberías 
+
+519
+00:22:03,480 --> 00:22:06,720
+instalarlo. Pero 
+
+520
+00:22:06,720 --> 00:22:09,659
+solo abre este y luego está aquí, 
+
+521
+00:22:09,659 --> 00:22:11,400
+abre esta carpeta 
+
+522
+00:22:11,400 --> 00:22:15,659
+y luego solo escribe "git init” y 
+
+523
+00:22:15,659 --> 00:22:18,000
+presiona enter. Así que presta atención
+
+524
+00:22:18,000 --> 00:22:20,100
+aquí, estaba vacía 
+
+525
+00:22:20,100 --> 00:22:23,100
+antes, después de ejecutar 
+
+526
+00:22:23,100 --> 00:22:25,740
+todavía está vacía ¿qué pasó? 
+
+527
+00:22:25,740 --> 00:22:28,559
+Pero verás que dice "Initialize empty Git 
+
+528
+00:22:28,559 --> 00:22:30,539
+directory", blah blah blah. 
+
+529
+00:22:30,539 --> 00:22:33,600
+La razón para eso es que, por defecto, 
+
+530
+00:22:33,600 --> 00:22:36,480
+cualquier directorio que comience con un punto 
+
+531
+00:22:36,480 --> 00:22:39,539
+está oculto. Así que tienes que venderlo, pero 
+
+532
+00:22:39,539 --> 00:22:40,919
+puedes abrir otro software en realidad para verlo, 
+
+533
+00:22:40,919 --> 00:22:43,140
+pero si realmente quieres, también puedo 
+
+534
+00:22:43,140 --> 00:22:45,419
+escribirlo aquí. Solo escribo "dir", 
+
+535
+00:22:45,419 --> 00:22:47,520
+creo 
+
+536
+00:22:47,520 --> 00:22:50,940
+que sí, no recuerdo la 
+
+537
+00:22:50,940 --> 00:22:52,919
+computadora Mac, 
+
+538
+00:22:52,919 --> 00:22:54,840
+de todos modos, 
+
+539
+00:22:54,840 --> 00:22:57,840
+intento mostrarlo aquí. Entonces ve a 
+
+540
+00:22:57,840 --> 00:23:00,200
+"View" (ver), creo 
+
+541
+00:23:00,240 --> 00:23:00,919
+que es
+
+542
+00:23:00,919 --> 00:23:03,539
+opción 
+
+543
+00:23:03,539 --> 00:23:04,799
+"options", 
+
+544
+00:23:04,799 --> 00:23:08,280
+y luego necesitas verlo, así que ve a "View" (ver), a 
+
+545
+00:23:08,280 --> 00:23:11,400
+"Show hidden files, folders and drivers" (Mostrar archivos, carpetas y controladores ocultos), 
+
+546
+00:23:11,400 --> 00:23:12,900
+no necesitas hacer esto cada vez, 
+
+547
+00:23:12,900 --> 00:23:14,280
+solo te lo estoy mostrando si realmente quieres 
+
+548
+00:23:14,280 --> 00:23:16,260
+ver lo que hay allí puedes hacerlo, pero 
+
+549
+00:23:16,260 --> 00:23:17,880
+más tarde voy a usar el software para 
+
+550
+00:23:17,880 --> 00:23:19,799
+ver el directorio de verdad, pero por ahora 
+
+551
+00:23:19,799 --> 00:23:22,320
+te lo voy a mostrar aquí. 
+
+552
+00:23:22,320 --> 00:23:24,500
+Nuevamente, 
+
+553
+00:23:24,500 --> 00:23:28,140
+ve a los tres puntos (puntos suspensivos), opciones 
+
+554
+00:23:28,140 --> 00:23:30,480
+para la computadora Mac, 
+
+555
+00:23:30,480 --> 00:23:33,780
+es diferente, 
+
+556
+00:23:33,780 --> 00:23:37,799
+mostrará todos los archivos, y luego ve a "View" (ver), 
+
+557
+00:23:37,799 --> 00:23:39,780
+a "Show hidden files, folders and drivers" (Mostrar archivos, carpetas y controladores ocultos), 
+
+558
+00:23:39,780 --> 00:23:42,120
+puede que ya esté activado, pero ¿ves la 
+
+559
+00:23:42,120 --> 00:23:44,340
+carpeta vacía "git"? Ahora 
+
+560
+00:23:44,340 --> 00:23:46,380
+está oculta, pero aquí es donde se encuentra 
+
+561
+00:23:46,380 --> 00:23:49,020
+esencialmente 
+
+562
+00:23:49,020 --> 00:23:50,880
+y más tarde podremos 
+
+563
+00:23:50,880 --> 00:23:53,659
+revisar todo.
+
+564
+00:23:54,360 --> 00:23:56,880
+¿Pueden ver la carpeta ahora? 
+
+565
+00:23:56,880 --> 00:23:59,760
+Si no, puedo hacer clic derecho y abrir esto. 
+
+566
+00:23:59,760 --> 00:24:02,820
+Luego viene Visual Studio. Entonces este 
+
+567
+00:24:02,820 --> 00:24:04,860
+es el camino dificil, pero la manera fácil es simplemente 
+
+568
+00:24:04,860 --> 00:24:06,179
+usando Visual Studio Code para ver 
+
+569
+00:24:06,179 --> 00:24:08,640
+todo. Además, está integrado, 
+
+570
+00:24:08,640 --> 00:24:11,700
+así que en realidad no tenemos que usar 
+
+571
+00:24:11,700 --> 00:24:13,440
+la línea de comando, todo está en la 
+
+572
+00:24:13,440 --> 00:24:15,600
+interfaz, lo que lo hace mucho más fácil. 
+
+573
+00:24:15,600 --> 00:24:18,840
+Solo te estoy mostrando cómo era antes de la 
+
+574
+00:24:18,840 --> 00:24:20,400
+interfaz, imagina la línea de comando. Así es 
+
+575
+00:24:20,400 --> 00:24:22,380
+cómo se accede a ella. Ahora, 
+
+576
+00:24:22,380 --> 00:24:24,120
+abramos Visual Studio Code 
+
+577
+00:24:24,120 --> 00:24:27,600
+y veamos cómo podemos acceder al 
+
+578
+00:24:27,600 --> 00:24:29,280
+archivo. Una vez que esté abierto, 
+
+579
+00:24:29,280 --> 00:24:31,020
+ve a Archivo, 
+
+580
+00:24:31,020 --> 00:24:33,240
+abre carpeta, 
+
+581
+00:24:33,240 --> 00:24:35,580
+luego ve al directorio 
+
+582
+00:24:35,580 --> 00:24:37,860
+de descargas directamente, o 
+
+583
+00:24:37,860 --> 00:24:41,100
+al directorio que hayas creado, 
+
+584
+00:24:41,100 --> 00:24:44,100
+y selecciona la carpeta. 
+
+585
+00:24:44,100 --> 00:24:46,320
+Lo mismo aquí, ahora puedes ver 
+
+586
+00:24:46,320 --> 00:24:50,039
+que no hay nada aquí, 
+
+587
+00:24:50,039 --> 00:24:52,140
+así que no tienes que tocar nada, 
+
+588
+00:24:52,140 --> 00:24:54,539
+no intentes cambiar nada en esta carpeta, 
+
+589
+00:24:54,539 --> 00:24:56,700
+es automática. 
+
+590
+00:24:56,700 --> 00:24:59,400
+Si lo haces, lo que hay en ella desaparecerá. 
+
+591
+00:24:59,400 --> 00:25:01,380
+Por supuesto, puedes crear nuevos 
+
+592
+00:25:01,380 --> 00:25:03,360
+archivos, pero no toques este. 
+
+593
+00:25:03,360 --> 00:25:04,919
+Solo quería mostrarte lo que 
+
+594
+00:25:04,919 --> 00:25:07,799
+hay detrás de escena, por qué Git 
+
+595
+00:25:07,799 --> 00:25:09,440
+fue capaz de revisar todo, porque 
+
+596
+00:25:09,440 --> 00:25:11,700
+cada vez que haces cambios en tu archivo, 
+
+597
+00:25:11,700 --> 00:25:13,500
+al final se hace una 
+
+598
+00:25:13,500 --> 00:25:15,840
+copia de seguridad en algún lugar de aquí, 
+
+599
+00:25:15,840 --> 00:25:18,600
+pero no tienes que saber sobre eso. Git 
+
+600
+00:25:18,600 --> 00:25:21,240
+se encarga de eso automáticamente.
+
+601
+00:25:21,240 --> 00:25:23,520
+Una vez que tengas 
+
+602
+00:25:23,520 --> 00:25:25,140
+eso,
+
+603
+00:25:25,140 --> 00:25:27,419
+aquí puedes abrir Visual Studio Code 
+
+604
+00:25:27,419 --> 00:25:30,179
+y abrir tu directorio. Este directorio de Navigator 
+
+605
+00:25:30,179 --> 00:25:32,580
+está vacío por 
+
+606
+00:25:32,580 --> 00:25:35,039
+ahora, pero está 
+
+607
+00:25:35,039 --> 00:25:37,159
+bien.
+
+608
+00:25:37,440 --> 00:25:39,059
+Una vez allí, podemos comenzar a 
+
+609
+00:25:39,059 --> 00:25:42,299
+crear algunos archivos. Podemos crear cualquier 
+
+610
+00:25:42,299 --> 00:25:44,100
+archivo con cualquier extensión que desees. 
+
+611
+00:25:44,100 --> 00:25:46,320
+Todo lo que necesitas hacer es hacer clic derecho en la 
+
+612
+00:25:46,320 --> 00:25:47,640
+barra lateral izquierda 
+
+613
+00:25:47,640 --> 00:25:51,120
+y seleccionar "Nuevo archivo". 
+
+614
+00:25:51,120 --> 00:25:52,620
+Solo voy a crear uno nuevo y aquí 
+
+615
+00:25:52,620 --> 00:25:54,120
+es donde puedes escribir el nombre del 
+
+616
+00:25:54,120 --> 00:25:57,600
+archivo. Puedo escribir "README.md". 
+
+617
+00:25:57,600 --> 00:25:59,820
+Puedes 
+
+618
+00:25:59,820 --> 00:26:01,500
+crear cualquier archivo, pero por lo 
+
+619
+00:26:01,500 --> 00:26:04,799
+general, cada repositorio de GitHub 
+
+620
+00:26:04,799 --> 00:26:06,299
+tendrá un archivo como este “README.md". 
+
+621
+00:26:06,299 --> 00:26:08,279
+Hablaremos más sobre .md 
+
+622
+00:26:08,279 --> 00:26:10,080
+la próxima semana. Básicamente, es un 
+
+623
+00:26:10,080 --> 00:26:12,480
+lenguaje de marcado utilizado para escribir cosas, y 
+
+624
+00:26:12,480 --> 00:26:14,100
+también puedes crear un sitio web usando Markdown. 
+
+625
+00:26:14,100 --> 00:26:16,440
+No te preocupes demasiado por ahora, es 
+
+626
+00:26:16,440 --> 00:26:18,120
+solo un texto simple. Entonces puedes escribir 
+
+627
+00:26:18,120 --> 00:26:20,039
+cualquier cosa, pero tiene un formato especial 
+
+628
+00:26:20,039 --> 00:26:22,620
+que te permite agregar todo tipo de cosas: 
+
+629
+00:26:22,620 --> 00:26:26,159
+hipervínculos, negritas, cursivas, y todo tipo 
+
+630
+00:26:26,159 --> 00:26:29,179
+de cosas que puedas hacer. Aquí 
+
+631
+00:26:29,279 --> 00:26:32,940
+ya has creado el archivo. 
+
+632
+00:26:32,940 --> 00:26:35,419
+¿Preguntas?.
+
+633
+00:26:35,600 --> 00:26:37,440
+Desde aquí puedes 
+
+634
+00:26:37,440 --> 00:26:38,940
+escribir cualquier cosa, bien, 
+
+635
+00:26:38,940 --> 00:26:41,100
+“¡Hola esto
+
+636
+00:26:41,100 --> 00:26:42,840
+está 
+
+637
+00:26:42,840 --> 00:26:44,100
+genial!. 
+
+638
+00:26:44,100 --> 00:26:46,260
+Sabes, 
+
+639
+00:26:46,260 --> 00:26:47,880
+cualquier texto, no importa, 
+
+640
+00:26:47,880 --> 00:26:50,720
+y luego solo controlas y guardas, 
+
+641
+00:26:51,299 --> 00:26:53,400
+nada complicado, pero puedes crear 
+
+642
+00:26:53,400 --> 00:26:56,039
+cosas elegantes si quieres. Puedes volver 
+
+643
+00:26:56,039 --> 00:26:56,820
+aquí y 
+
+644
+00:26:56,820 --> 00:26:59,100
+decir, como 
+
+645
+00:26:59,100 --> 00:27:01,559
+el signo de poder o el hashtag, 
+
+646
+00:27:01,559 --> 00:27:04,559
+esto es básicamente en Microsoft el nivel de encabezado, 
+
+647
+00:27:04,559 --> 00:27:07,260
+así que esto es en realidad un 
+
+648
+00:27:07,260 --> 00:27:09,600
+encabezado dos o un encabezado tres.
+
+649
+00:27:09,600 --> 00:27:12,600
+Entonces, tenemos dos encabezados de tamaño dos libras, 
+
+650
+00:27:12,600 --> 00:27:13,679
+así que aquí puedo decir, por ejemplo, 
+
+651
+00:27:13,679 --> 00:27:16,140
+"Introducción". Verás que el color es 
+
+652
+00:27:16,140 --> 00:27:18,179
+un poco diferente. Cubriremos esto 
+
+653
+00:27:18,179 --> 00:27:20,220
+más adelante, pero por ahora solo te mostraré cómo 
+
+654
+00:27:20,220 --> 00:27:23,880
+hacer algunos cambios simples. 
+
+655
+00:27:23,880 --> 00:27:25,440
+Por ejemplo, puedo usar este otro encabezado
+
+656
+00:27:25,440 --> 00:27:29,820
+para "Ejemplos", 
+
+657
+00:27:29,820 --> 00:27:31,500
+o
+
+658
+00:27:31,500 --> 00:27:34,320
+cualquier cosa que quieras escribir. 
+
+659
+00:27:34,320 --> 00:27:36,000
+En el lado izquierdo, 
+
+660
+00:27:36,000 --> 00:27:39,179
+¿ves este ícono? 
+
+661
+00:27:39,179 --> 00:27:42,200
+¿Puedes ver este ícono? 
+
+662
+00:27:42,299 --> 00:27:44,760
+Esto es Git. Si tienes el 
+
+663
+00:27:44,760 --> 00:27:48,299
+mouse aquí, verás que 
+
+664
+00:27:48,299 --> 00:27:51,539
+se llama "Control de origen".
+
+665
+00:27:51,539 --> 00:27:53,159
+Aquí es donde básicamente 
+
+666
+00:27:53,159 --> 00:27:55,500
+haremos la programación a lo largo del semestre para 
+
+667
+00:27:55,500 --> 00:27:57,000
+averiguar qué cosas han cambiado y 
+
+668
+00:27:57,000 --> 00:27:58,559
+qué tipo de cosas queremos enviar a 
+
+669
+00:27:58,559 --> 00:28:01,260
+GitHub. Git es muy simple: 
+
+670
+00:28:01,260 --> 00:28:03,120
+asumen que tienes un montón de archivos en 
+
+671
+00:28:03,120 --> 00:28:05,039
+tu computadora, haces algunos cambios 
+
+672
+00:28:05,039 --> 00:28:08,640
+y esos cambios no son 
+
+673
+00:28:08,640 --> 00:28:11,220
+mayores. Básicamente, cuando estás listo, 
+
+674
+00:28:11,220 --> 00:28:12,419
+por ejemplo, cuando estás 
+
+675
+00:28:12,419 --> 00:28:15,000
+escribiendo, escribes un párrafo 
+
+676
+00:28:15,000 --> 00:28:17,039
+y luego dices "creo que está bien", luego 
+
+677
+00:28:17,039 --> 00:28:19,080
+haces una copia, tomas una 
+
+678
+00:28:19,080 --> 00:28:20,220
+captura de pantalla y la guardas en el archivo. 
+
+679
+00:28:20,220 --> 00:28:22,500
+Continúas escribiendo y 
+
+680
+00:28:22,500 --> 00:28:24,539
+tomas otra captura de pantalla, pero no quieres hacer una 
+
+681
+00:28:24,539 --> 00:28:26,100
+captura de pantalla cada vez que lo desees 
+
+682
+00:28:26,100 --> 00:28:28,320
+hasta que esté listo, por lo que decides 
+
+683
+00:28:28,320 --> 00:28:30,000
+"voy a tomar una captura de pantalla cuando esté listo", esto se llama 
+
+684
+00:28:30,000 --> 00:28:33,480
+“Staging area” (área de preparación). El área de preparación 
+
+685
+00:28:33,480 --> 00:28:36,659
+es donde estoy viendo los archivos, y 
+
+686
+00:28:36,659 --> 00:28:38,220
+quiero hacer una copia de seguridad, pero hay 
+
+687
+00:28:38,220 --> 00:28:39,900
+algo que no me importa, entonces 
+
+688
+00:28:39,900 --> 00:28:42,960
+no es necesario hacer una copia de seguridad. 
+
+689
+00:28:42,960 --> 00:28:44,700
+Aquí verás el signo más, el signo más 
+
+690
+00:28:44,700 --> 00:28:46,980
+significa que estoy haciendo un seguimiento de este 
+
+691
+00:28:46,980 --> 00:28:48,900
+archivo. Para aquellos archivos que no te importan, 
+
+692
+00:28:48,900 --> 00:28:50,940
+no tienes que hacer un seguimiento, Git no 
+
+693
+00:28:50,940 --> 00:28:54,360
+necesita saber eso. Por ahora, esto es como 
+
+694
+00:28:54,360 --> 00:28:57,299
+una mitad de lo que significa el área de preparación. 
+
+695
+00:28:57,299 --> 00:28:58,440
+Si 
+
+696
+00:28:58,440 --> 00:29:01,760
+haces doble clic en este archivo,
+
+697
+00:29:01,980 --> 00:29:03,600
+la interfaz
+
+698
+00:29:03,600 --> 00:29:06,720
+de usuario se divide en dos 
+
+699
+00:29:06,720 --> 00:29:09,659
+ventanas: el lado izquierdo está vacío y el segundo 
+
+700
+00:29:09,659 --> 00:29:12,900
+es de otro color. Ahora conoces 
+
+701
+00:29:12,900 --> 00:29:15,179
+las diferencias. Git sabe que 
+
+702
+00:29:15,179 --> 00:29:18,059
+creaste un nuevo archivo y agregaste nuevas líneas 
+
+703
+00:29:18,059 --> 00:29:21,299
+también. Entonces, este intercambio mantendrá 
+
+704
+00:29:21,299 --> 00:29:24,059
+un registro de eso, pero en este momento, el respaldo 
+
+705
+00:29:24,059 --> 00:29:26,159
+uno no está en la zona de preparación. 
+
+706
+00:29:26,159 --> 00:29:27,840
+La zona de preparación significa que colocas el archivo en este espacio 
+
+707
+00:29:27,840 --> 00:29:30,600
+y luego tomas una instantánea. Todavía no hemos 
+
+708
+00:29:30,600 --> 00:29:32,760
+puesto eso ahí. Si quieres ponerlo 
+
+709
+00:29:32,760 --> 00:29:34,260
+ahí, simplemente tienes que hacer clic en el 
+
+710
+00:29:34,260 --> 00:29:36,600
+signo más para agregar el respaldo uno a la 
+
+711
+00:29:36,600 --> 00:29:38,399
+llamada zona de preparación. La zona de preparación es 
+
+712
+00:29:38,399 --> 00:29:41,399
+básicamente un espacio donde rastreas el archivo 
+
+713
+00:29:41,399 --> 00:29:43,380
+que estás guardando y cuando
+
+714
+00:29:43,380 --> 00:29:45,360
+estás listo, tomas una instantánea y 
+
+715
+00:29:45,360 --> 00:29:48,120
+luego mueves el archivo al archivo. 
+
+716
+00:29:48,120 --> 00:29:50,159
+No te mostrará los cambios más, así que 
+
+717
+00:29:50,159 --> 00:29:52,380
+lo que queremos hacer 
+
+718
+00:29:52,380 --> 00:29:55,020
+aquí es hacer clic en esto
+
+719
+00:29:55,020 --> 00:29:56,940
+y habrá un atajo de un paso, 
+
+720
+00:29:56,940 --> 00:29:58,559
+pero por ahora te lo estoy mostrando paso a paso. 
+
+721
+00:29:58,559 --> 00:30:00,000
+Más adelante, no tendremos que hacerlo 
+
+722
+00:30:00,000 --> 00:30:02,520
+cada vez, así que, por ahora, simplemente haz clic 
+
+723
+00:30:02,520 --> 00:30:05,240
+en el signo más 
+
+724
+00:30:06,299 --> 00:30:07,620
+aquí en la zona de 
+
+725
+00:30:07,620 --> 00:30:09,960
+preparación. Básicamente, ya
+
+726
+00:30:09,960 --> 00:30:11,640
+tomamos una instantánea de la zona de preparación 
+
+727
+00:30:11,640 --> 00:30:13,440
+y eso está hecho, y luego podemos empujar eso. 
+
+728
+00:30:13,440 --> 00:30:17,279
+Lo que quieres hacer aquí es hacer una 
+
+729
+00:30:17,279 --> 00:30:20,580
+descripción corta de lo que has cambiado,
+
+730
+00:30:20,580 --> 00:30:22,919
+algo así como 
+
+731
+00:30:22,919 --> 00:30:24,539
+"increíblemente desordenado". Entonces, 
+
+732
+00:30:24,539 --> 00:30:26,700
+este intercambio que se retrasó en 
+
+733
+00:30:26,700 --> 00:30:29,159
+GitHub va a mostrar, déjame mostrarte 
+
+734
+00:30:29,159 --> 00:30:32,960
+el sitio web aquí 
+
+735
+00:30:33,179 --> 00:30:35,399
+para que tengas una impresión visual 
+
+736
+00:30:35,399 --> 00:30:38,460
+sobre qué tipo de cosas se 
+
+737
+00:30:38,460 --> 00:30:40,679
+escriben ahí en GitHub. Si voy a mi 
+
+738
+00:30:40,679 --> 00:30:43,620
+repositorio de GitHub, verás aquí que 
+
+739
+00:30:43,620 --> 00:30:46,140
+se llama “commit”, que básicamente significa 
+
+740
+00:30:46,140 --> 00:30:48,480
+tomar las cosas en el área de preparación 
+
+741
+00:30:48,480 --> 00:30:50,399
+y luego comprometerlas, básicamente tomar una captura 
+
+742
+00:30:50,399 --> 00:30:52,860
+y luego enviarla. 
+
+743
+00:30:52,860 --> 00:30:56,760
+Aquí es donde se ve qué mensaje 
+
+744
+00:30:56,760 --> 00:30:58,799
+escribiste para ese commit, por lo que todo 
+
+745
+00:30:58,799 --> 00:31:00,539
+se va a mostrar aquí. Si aumentaste 
+
+746
+00:31:00,539 --> 00:31:02,279
+la versión, preguntaste algo, hiciste 
+
+747
+00:31:02,279 --> 00:31:04,380
+algo, es solo una descripción para mostrar 
+
+748
+00:31:04,380 --> 00:31:07,020
+a la gente qué cosas cambiaste. Pero 
+
+749
+00:31:07,020 --> 00:31:09,000
+si, por ejemplo, hago clic aquí, 
+
+750
+00:31:09,000 --> 00:31:11,539
+en 
+
+751
+00:31:11,539 --> 00:31:14,640
+GitHub te mostrará algo 
+
+752
+00:31:14,640 --> 00:31:17,100
+similar a lo que se ve 
+
+753
+00:31:17,100 --> 00:31:19,140
+en visual studio. En la izquierda puedes ver lo anterior
+
+754
+00:31:19,140 --> 00:31:21,600
+y en la derecha son 
+
+755
+00:31:21,600 --> 00:31:23,159
+cosas hice o cambié.
+
+756
+00:31:23,159 --> 00:31:25,860
+El rojo significa que han sido eliminados (las líneas) y 
+
+757
+00:31:25,860 --> 00:31:28,320
+el verde significa que agregué algo, 
+
+758
+00:31:28,320 --> 00:31:30,720
+es lo mismo visualmente, 
+
+759
+00:31:30,720 --> 00:31:34,320
+solo te ayuda a manejar eso, pero nuevamente 
+
+760
+00:31:34,320 --> 00:31:36,299
+no tienes que usar GitHub para hacer eso, 
+
+761
+00:31:36,299 --> 00:31:39,120
+todo puede permanecer local. Entonces, 
+
+762
+00:31:39,120 --> 00:31:41,520
+por ahora haremos más después, pero por ahora 
+
+763
+00:31:41,520 --> 00:31:43,260
+solo estamos haciendo una impresión visual de 
+
+764
+00:31:43,260 --> 00:31:45,779
+las diferencias entre esto y 
+
+765
+00:31:45,779 --> 00:31:49,200
+volvamos a aquí. La llamada es
+
+766
+00:31:49,200 --> 00:31:50,580
+realmente mala, pero no lo muestra realmente, 
+
+767
+00:31:50,580 --> 00:31:52,380
+pero puedes buscarlo una vez que 
+
+768
+00:31:52,380 --> 00:31:54,299
+llegues al área de staging. Podemos 
+
+769
+00:31:54,299 --> 00:31:56,880
+comprometernos en este momento, así que en la 
+
+770
+00:31:56,880 --> 00:31:59,100
+Caja de mensaje, darás un mensaje y  
+
+771
+00:31:59,100 --> 00:32:01,679
+control enter para confirmar (comprometer). Entonces, el compromiso. 
+
+772
+00:32:01,679 --> 00:32:04,679
+básicamente empaca una instantánea y la prepara para el almacenamiento, 
+
+773
+00:32:04,679 --> 00:32:07,799
+lo que significa que está bien por ahora. Pero 
+
+774
+00:32:07,799 --> 00:32:09,419
+puedes jugar 
+
+775
+00:32:09,419 --> 00:32:11,220
+con él, hacer más cambios que puedes 
+
+776
+00:32:11,220 --> 00:32:14,220
+agregar, pero el área de preparación sigue siendo 
+
+777
+00:32:14,220 --> 00:32:16,140
+extraña. Esto significa que está bien, este es un estado de libro 
+
+778
+00:32:16,140 --> 00:32:18,840
+y estoy bien con este. Puedes 
+
+779
+00:32:18,840 --> 00:32:20,159
+continuar haciendo otros cinco cambios y agregarlos, 
+
+780
+00:32:20,159 --> 00:32:22,020
+pero puedes tomar una instantánea de 
+
+781
+00:32:22,020 --> 00:32:25,020
+todos los archivos juntos. Luego, 
+
+782
+00:32:25,020 --> 00:32:27,179
+veamos cómo comprometernos a cambiarlo. 
+
+783
+00:32:27,179 --> 00:32:29,880
+“Commit” básicamente es empujar los cambios y, 
+
+784
+00:32:29,880 --> 00:32:32,100
+básicamente, es como "Space by the 
+
+785
+00:32:32,100 --> 00:32:34,020
+Frozen" (mensaje) o algo así, pero es solo un 
+
+786
+00:32:34,020 --> 00:32:35,700
+mensaje que te muestra qué cosas has 
+
+787
+00:32:35,700 --> 00:32:37,860
+cambiado. Por lo general, no hacemos 
+
+788
+00:32:37,860 --> 00:32:40,020
+mensajes muy largos, 
+
+789
+00:32:40,020 --> 00:32:42,299
+creo que no estoy seguro de cuántos, pero 
+
+790
+00:32:42,299 --> 00:32:45,659
+son muy descriptivos. Si es 
+
+791
+00:32:45,659 --> 00:32:47,220
+demasiado largo, solo 
+
+792
+00:32:47,220 --> 00:32:49,380
+te lo dirá. 
+
+793
+00:32:49,380 --> 00:32:52,200
+Lo que podemos hacer aquí es simplemente decir 
+
+794
+00:32:52,200 --> 00:32:54,539
+"README
+
+795
+00:32:54,539 --> 00:32:57,240
+añadido" o lo que 
+
+796
+00:32:57,240 --> 00:32:58,679
+sea que quieras escribir. 
+
+797
+00:32:58,679 --> 00:33:01,679
+Edítalo conmigo, depende de ti. A veces 
+
+798
+00:33:01,679 --> 00:33:03,419
+uso el tiempo pasado, a veces uso 
+
+799
+00:33:03,419 --> 00:33:04,980
+la cuenta. No importa, es tu 
+
+800
+00:33:04,980 --> 00:33:07,440
+equivalente personal. Entonces, le diría a 
+
+801
+00:33:07,440 --> 00:33:09,720
+alguien que agregué un archivo README este 
+
+802
+00:33:09,720 --> 00:33:13,740
+mes. Luego, presiona 
+
+803
+00:33:13,740 --> 00:33:15,480
+control + enter para empujar estos 
+
+804
+00:33:15,480 --> 00:33:16,919
+cambios. 
+
+805
+00:33:16,919 --> 00:33:18,960
+Pero antes de hacer eso, déjame mostrarte 
+
+806
+00:33:18,960 --> 00:33:20,519
+que el 
+
+807
+00:33:20,519 --> 00:33:22,260
+compromiso está vacío 
+
+808
+00:33:22,260 --> 00:33:25,080
+en este momento. Entonces, 
+
+809
+00:33:25,080 --> 00:33:26,940
+una vez que te comprometes, quieres ver todo 
+
+810
+00:33:26,940 --> 00:33:28,500
+el montón de comunicación para que puedas 
+
+811
+00:33:28,500 --> 00:33:31,320
+comprometerte tantas veces como quieras. 
+
+812
+00:33:31,320 --> 00:33:33,059
+Una vez que esté listo para usar, si deseas guardar 
+
+813
+00:33:33,059 --> 00:33:37,820
+algo, puedes hacerlo con control + enter. 
+
+814
+00:33:39,360 --> 00:33:41,460
+¿Ves que desapareció? 
+
+815
+00:33:41,460 --> 00:33:43,919
+Ya no está allí. 
+
+816
+00:33:43,919 --> 00:33:46,279
+Ahora, si ves 
+
+817
+00:33:46,279 --> 00:33:49,260
+la pestaña de "commit" 
+
+818
+00:33:49,260 --> 00:33:51,000
+aquí, básicamente esto ya es 
+
+819
+00:33:51,000 --> 00:33:53,279
+una copia de seguridad. Anteriormente creamos un 
+
+820
+00:33:53,279 --> 00:33:55,260
+archivo nuevo, agregamos algo, realizamos 
+
+821
+00:33:55,260 --> 00:33:57,480
+cambios y luego desapareció, pero el 
+
+822
+00:33:57,480 --> 00:33:59,640
+archivo ahora 
+
+823
+00:33:59,640 --> 00:34:01,679
+está aquí. Si 
+
+824
+00:34:01,679 --> 00:34:03,419
+lo abres directamente, ¿puedes ver este 
+
+825
+00:34:03,419 --> 00:34:07,279
+archivo? Sí. 
+
+826
+00:34:11,219 --> 00:34:14,219
+Así que, cada vez que 
+
+827
+00:34:14,219 --> 00:34:16,440
+intentes comprometerte, asegúrate de que no haya 
+
+828
+00:34:16,440 --> 00:34:19,500
+un documento en blanco para guarda le das 
+
+829
+00:34:19,500 --> 00:34:21,060
+control + s 
+
+830
+00:34:21,060 --> 00:34:22,980
+antes para hacer el compromiso. 
+
+831
+00:34:22,980 --> 00:34:25,320
+De lo contrario, la computadora no 
+
+832
+00:34:25,320 --> 00:34:26,879
+sabrá si quieres comprometer el que 
+
+833
+00:34:26,879 --> 00:34:28,859
+ya está guardado o el que estás 
+
+834
+00:34:28,859 --> 00:34:31,379
+editando en ese momento. Antes de 
+
+835
+00:34:31,379 --> 00:34:32,280
+hacer todo esto, guarda el archivo 
+
+836
+00:34:32,280 --> 00:34:34,560
+con "control+s" o puedes usar 
+
+837
+00:34:34,560 --> 00:34:36,359
+"guardar archivo". 
+
+838
+00:34:36,359 --> 00:34:38,339
+Si el archivo en el que hago cambios quiere 
+
+839
+00:34:38,339 --> 00:34:40,379
+mostrar todos los puntos azules y blancos en algún lugar, 
+
+840
+00:34:40,379 --> 00:34:42,719
+así que déjame mostrártelo aquí mismo. Si presiono 
+
+841
+00:34:42,719 --> 00:34:44,898
+enter, 
+
+842
+00:34:45,659 --> 00:34:47,219
+lo verás. Así que asegúrate 
+
+843
+00:34:47,219 --> 00:34:49,800
+de guardar los cambios presionando "control + s" antes 
+
+844
+00:34:49,800 --> 00:34:52,260
+de hacer “commit”. De esa manera es más 
+
+845
+00:34:52,260 --> 00:34:54,119
+claro si deseas establecer los 
+
+846
+00:34:54,119 --> 00:34:56,280
+cambios en este archivo o en el existente, 
+
+847
+00:34:56,280 --> 00:34:58,800
+porque no sale nada, es como si estuvieras 
+
+848
+00:34:58,800 --> 00:35:01,619
+editando un documento de Microsoft Word antes 
+
+849
+00:35:01,619 --> 00:35:04,260
+de cerrarlo. Si tienes algunos 
+
+850
+00:35:04,260 --> 00:35:06,000
+cambios sin guardar, la computadora te preguntará 
+
+851
+00:35:06,000 --> 00:35:07,440
+si deseas guardarlos o deseas 
+
+852
+00:35:07,440 --> 00:35:10,859
+descartarlos. Es la misma idea aquí. 
+
+853
+00:35:10,859 --> 00:35:12,359
+¿Alguna otra pregunta? .
+
+854
+00:35:12,359 --> 00:35:14,940
+Sí, [Pregunta] ¿todo eso debería aparecer en la parte 
+
+855
+00:35:14,940 --> 00:35:16,579
+inferior porque no tengo nada de eso aquí? 
+
+856
+00:35:16,579 --> 00:35:20,060
+Sí, 
+
+857
+00:35:20,060 --> 00:35:23,520
+¿no tienes nada de eso en este archivo?
+
+858
+00:35:23,520 --> 00:35:27,240
+¿haces clic en este? haz clic en este, sí.
+
+859
+00:35:27,240 --> 00:35:29,900
+Eso es raro. Entonces, si 
+
+860
+00:35:30,060 --> 00:35:32,040
+tenía todas las opciones, solo 
+
+861
+00:35:32,040 --> 00:35:34,260
+se podrían evitar una vez que 
+
+862
+00:35:34,260 --> 00:35:36,980
+dijeras [Pregunta del alumno]
+
+863
+00:35:38,820 --> 00:35:41,180
+"Creo que necesitas hacer clic…", 
+
+864
+00:35:42,420 --> 00:35:45,440
+[Asesoría del profesor]
+
+865
+00:35:55,200 --> 00:35:57,859
+pero no 
+
+866
+00:35:58,980 --> 00:35:59,960
+tienes 
+
+867
+00:35:59,960 --> 00:36:02,579
+ninguna, déjame ver. 
+
+868
+00:36:02,579 --> 00:36:03,900
+Podría 
+
+869
+00:36:03,900 --> 00:36:08,700
+estar aquí arriba, pero 
+
+870
+00:36:08,700 --> 00:36:11,220
+¿cuántos de ustedes no ven las opciones 
+
+871
+00:36:11,220 --> 00:36:14,220
+aquí? 
+
+872
+00:36:16,260 --> 00:36:18,359
+Déjame ver si hay algún tipo de complemento 
+
+873
+00:36:18,359 --> 00:36:20,700
+o algo así. 
+
+874
+00:36:20,700 --> 00:36:22,740
+Puede ser
+
+875
+00:36:22,740 --> 00:36:24,920
+un complemento
+
+876
+00:36:24,960 --> 00:36:26,940
+no recuerdo 
+
+877
+00:36:26,940 --> 00:36:29,220
+exactamente, 
+
+878
+00:36:29,220 --> 00:36:31,500
+así que, si no funciona, hagamos esto, 
+
+879
+00:36:31,500 --> 00:36:34,680
+creo que este es el predeterminado, 
+
+880
+00:36:34,680 --> 00:36:36,720
+déjame verificar. Si no, vaya 
+
+881
+00:36:36,720 --> 00:36:39,420
+al lado izquierdo aquí, a "extensiones", 
+
+882
+00:36:39,420 --> 00:36:42,359
+el icono de la aplicación. Así que 
+
+883
+00:36:42,359 --> 00:36:44,760
+podemos agregar muchas 
+
+884
+00:36:44,760 --> 00:36:46,560
+extensiones. Visual Studio Code es solo un 
+
+885
+00:36:46,560 --> 00:36:48,359
+editor de texto, pero se le pueden añadir muchas 
+
+886
+00:36:48,359 --> 00:36:51,060
+cosas. Por eso, recomiendo que instales, 
+
+887
+00:36:51,060 --> 00:36:53,520
+quizás 
+
+888
+00:36:53,520 --> 00:36:55,680
+no recuerdo exactamente cuál, pero 
+
+889
+00:36:55,680 --> 00:36:57,540
+uno que recomendaría se llama 
+
+890
+00:36:57,540 --> 00:36:58,980
+GitLens. 
+
+891
+00:36:58,980 --> 00:37:01,200
+Escribe en el buscador 
+
+892
+00:37:01,200 --> 00:37:05,280
+GitLens para buscarlo. 
+
+893
+00:37:05,280 --> 00:37:07,560
+Puedes instalarlo desde 
+
+894
+00:37:07,560 --> 00:37:10,619
+aquí en la interfaz, solo 
+
+895
+00:37:10,619 --> 00:37:13,220
+haz clic en "install" (instalar). 
+
+896
+00:37:13,619 --> 00:37:16,680
+Es muy popular, con alrededor 
+
+897
+00:37:16,680 --> 00:37:20,700
+de 20 000 000descargas, y es 
+
+898
+00:37:20,700 --> 00:37:25,040
+bueno. El otro es el Git History, 
+
+899
+00:37:25,040 --> 00:37:26,940
+creo 
+
+900
+00:37:26,940 --> 00:37:28,619
+que es este, pero no recuerdo 
+
+901
+00:37:28,619 --> 00:37:30,000
+exactamente cuál. Puedes instalarlos 
+
+902
+00:37:30,000 --> 00:37:31,800
+todos y funcionará perfectamente. 
+
+903
+00:37:31,800 --> 00:37:33,660
+Entonces, 
+
+904
+00:37:33,660 --> 00:37:34,400
+busca 
+
+905
+00:37:34,400 --> 00:37:37,380
+Git History o GitLens, 
+
+906
+00:37:37,380 --> 00:37:40,440
+e instálalos. Si la opción no aparece 
+
+907
+00:37:40,440 --> 00:37:43,099
+en el lado izquierdo 
+
+908
+00:37:45,180 --> 00:37:47,400
+está bien, pero es 
+
+909
+00:37:47,400 --> 00:37:50,820
+más conveniente tenerlo. 
+
+910
+00:37:50,820 --> 00:37:54,960
+Yo lo tengo instalado aquí. 
+
+911
+00:37:54,960 --> 00:37:57,480
+¿Puedes ver las opciones después de la instalación? .
+
+912
+00:37:57,480 --> 00:37:58,980
+¿Sí?.
+
+913
+00:37:58,980 --> 00:38:00,780
+No sé exactamente cuál es el 
+
+914
+00:38:00,780 --> 00:38:04,200
+efecto que gusta, pero con esto 
+
+915
+00:38:04,200 --> 00:38:05,880
+puedes navegar para ver el historial, así que lo 
+
+916
+00:38:05,880 --> 00:38:08,099
+que voy a hacer aquí 
+
+917
+00:38:08,099 --> 00:38:11,099
+Las ramas (branches)
+
+918
+00:38:11,099 --> 00:38:12,480
+Las ramas son otro concepto muy importante. 
+
+919
+00:38:12,480 --> 00:38:13,380
+Voy a mostrarte cómo puedes
+
+920
+00:38:13,380 --> 00:38:15,780
+crear una nueva rama.
+
+921
+00:38:15,780 --> 00:38:18,000
+Tienes que pensar que, si 
+
+922
+00:38:18,000 --> 00:38:19,800
+trabajas en una empresa de tecnología, 
+
+923
+00:38:19,800 --> 00:38:21,780
+no eres el único trabajando en un gran
+
+924
+00:38:21,780 --> 00:38:23,099
+proyecto.
+
+925
+00:38:23,099 --> 00:38:25,260
+Puede haber cientos o miles de personas 
+
+926
+00:38:25,260 --> 00:38:26,280
+trabajando en el mismo producto, como 
+
+927
+00:38:26,280 --> 00:38:28,320
+Microsoft Windows, que es un 
+
+928
+00:38:28,320 --> 00:38:30,540
+sistema operativo. No es hecho por un solo equipo, es 
+
+929
+00:38:30,540 --> 00:38:32,700
+como un gran aeropuerto. ¿Cómo nos aseguramos de 
+
+930
+00:38:32,700 --> 00:38:34,680
+que todos trabajen en lo mismo? 
+
+931
+00:38:34,680 --> 00:38:37,260
+¿Cómo hacemos para integrar el trabajo? Por eso, 
+
+932
+00:38:37,260 --> 00:38:38,820
+cuando trabajas aquí, puedes crear 
+
+933
+00:38:38,820 --> 00:38:40,980
+una nueva rama y luego hacer algunos cambios. 
+
+934
+00:38:40,980 --> 00:38:44,220
+Luego, puedes fusionar las ramas en el master. 
+
+935
+00:38:44,220 --> 00:38:46,020
+Solía ser llamado "master", por lo que 
+
+936
+00:38:46,020 --> 00:38:48,780
+por defecto se denominaba "rama master", pero 
+
+937
+00:38:48,780 --> 00:38:50,880
+ahora a veces también se le llama
+
+938
+00:38:50,880 --> 00:38:53,640
+"main". 
+
+939
+00:38:53,640 --> 00:38:57,240
+Es el "master" o 
+
+940
+00:38:57,240 --> 00:38:59,099
+principal y luego tienes 
+
+941
+00:38:59,099 --> 00:39:01,320
+tantas ramas que todos pueden ver 
+
+942
+00:39:01,320 --> 00:39:03,420
+y eventualmente contribuir a 
+
+943
+00:39:03,420 --> 00:39:06,720
+esta rama "master" o a las principales, lo que sea. 
+
+944
+00:39:06,720 --> 00:39:09,480
+Luego, en cuanto a
+
+945
+00:39:09,480 --> 00:39:12,480
+qué tipo de cosas queremos hacer, 
+
+946
+00:39:12,480 --> 00:39:14,820
+podría haber otra rama. Puedo decir 
+
+947
+00:39:14,820 --> 00:39:17,940
+aquí que este es un ejemplo y puedo proporcionar 
+
+948
+00:39:17,940 --> 00:39:19,880
+más detalles. Podemos 
+
+949
+00:39:19,880 --> 00:39:22,200
+agregar llamadas, 
+
+950
+00:39:22,200 --> 00:39:24,300
+agregar tipos de cosas, y todo 
+
+951
+00:39:24,300 --> 00:39:25,619
+ese tipo de cosas, pero por ahora solo quiero 
+
+952
+00:39:25,619 --> 00:39:28,619
+mantenerlo interesante. 
+
+953
+00:39:28,619 --> 00:39:30,660
+Me gusta otra línea “Why HAHA? What’s wrong?” 
+
+954
+00:39:30,660 --> 00:39:33,740
+Bueno, 
+
+955
+00:39:34,380 --> 00:39:36,839
+sea lo que sea, 
+
+956
+00:39:36,839 --> 00:39:39,680
+texto correcto otra vez, 
+
+957
+00:39:42,839 --> 00:39:47,400
+Ctrl S y luego, 
+
+958
+00:39:47,400 --> 00:39:50,040
+una vez que lo controlas en el lado izquierdo, 
+
+959
+00:39:50,040 --> 00:39:51,599
+te mostrará los cambios. 
+
+960
+00:39:51,599 --> 00:39:54,119
+Esta vez, quieres ver la "M" que 
+
+961
+00:39:54,119 --> 00:39:56,760
+indica "modificación", lo que significa que estamos 
+
+962
+00:39:56,760 --> 00:39:59,640
+modificando un archivo, pero también podemos crear nuevos 
+
+963
+00:39:59,640 --> 00:40:01,920
+si quieres. 
+
+964
+00:40:01,920 --> 00:40:03,359
+Tenemos algo nuevo, lo que significa que ahora 
+
+965
+00:40:03,359 --> 00:40:05,400
+creamos un nuevo archivo modificado.
+
+966
+00:40:05,400 --> 00:40:07,320
+Puedo agregar uno nuevo, así que ve 
+
+967
+00:40:07,320 --> 00:40:09,800
+al encabezado izquierdo. 
+
+968
+00:40:09,800 --> 00:40:12,060
+Si quieres agregar un nuevo archivo, 
+
+969
+00:40:12,060 --> 00:40:14,940
+debes cambiar al explorador, Git solo puede ver 
+
+970
+00:40:14,940 --> 00:40:17,339
+los 20. Puedo agregar otro. Por ejemplo, 
+
+971
+00:40:17,339 --> 00:40:19,500
+puedo crear 
+
+972
+00:40:19,500 --> 00:40:21,900
+nuevos archivos, 
+
+973
+00:40:21,900 --> 00:40:26,400
+“text.py” o archivo de Python. 
+
+974
+00:40:26,400 --> 00:40:29,160
+Aquí ves que se agregó uno nuevo y luego 
+
+975
+00:40:29,160 --> 00:40:31,800
+puedes comenzar a escribir y luego 
+
+976
+00:40:31,800 --> 00:40:33,300
+hacer una copia de seguridad de lo que quieras.
+
+977
+00:40:33,300 --> 00:40:37,440
+quiero así que aquí puedo decir 
+
+978
+00:40:37,440 --> 00:40:41,040
+print(“Hello World”)
+
+979
+00:40:41,040 --> 00:40:42,780
+Ni siquiera necesito escribir "hello world", 
+
+980
+00:40:42,780 --> 00:40:44,880
+el autocompletado es bastante bueno. 
+
+981
+00:40:44,880 --> 00:40:46,560
+Probablemente no lo veas 
+
+982
+00:40:46,560 --> 00:40:48,839
+porque no lo has instalado 
+
+983
+00:40:48,839 --> 00:40:51,720
+¿Puedes ver la 
+
+984
+00:40:51,720 --> 00:40:54,359
+recomendación automática? No, ¿verdad? Está bien, 
+
+985
+00:40:54,359 --> 00:40:56,280
+te lo mostraré más adelante, pero elimino 
+
+986
+00:40:56,280 --> 00:40:57,720
+esto. 
+
+987
+00:40:57,720 --> 00:41:00,240
+Con tab se autocompleta. 
+
+988
+00:41:00,240 --> 00:41:02,700
+Entonces, esto es mucho mejor que usar la 
+
+989
+00:41:02,700 --> 00:41:04,260
+terminal para escribir Python porque 
+
+990
+00:41:04,260 --> 00:41:06,599
+tienes toda la sintaxis y todas las funciones, 
+
+991
+00:41:06,599 --> 00:41:09,180
+mucho mejor. De nuevo, control s, 
+
+992
+00:41:09,180 --> 00:41:10,500
+para guardar 
+
+993
+00:41:10,500 --> 00:41:12,240
+y luego puedes volver a 
+
+994
+00:41:12,240 --> 00:41:17,520
+git. Entonces, esta vez verás que "m" 
+
+995
+00:41:17,520 --> 00:41:22,740
+significa modificar y "u" significa desmarcar. 
+
+996
+00:41:22,740 --> 00:41:24,900
+Básicamente, es un archivo nuevo y 
+
+997
+00:41:24,900 --> 00:41:26,820
+no estás haciendo un seguimiento de este archivo. Si 
+
+998
+00:41:26,820 --> 00:41:27,839
+quieres, 
+
+999
+00:41:27,839 --> 00:41:30,599
+puedes mover el ratón aquí, 
+
+1000
+00:41:30,599 --> 00:41:32,760
+mueve el ratón hacia los cambios a la derecha “u”.
+
+1001
+00:41:32,760 --> 00:41:36,420
+Veras en el signo más en “m”, 
+
+1002
+00:41:36,420 --> 00:41:38,700
+si mueves el ratón 
+
+1003
+00:41:38,700 --> 00:41:40,380
+sobre este, 
+
+1004
+00:41:40,380 --> 00:41:42,480
+de lo contrario no está ahí, ¿verdad? 
+
+1005
+00:41:42,480 --> 00:41:45,599
+Entonces lo que puedes hacer es hacer clic en el signo más 
+
+1006
+00:41:45,599 --> 00:41:48,240
+y todas las modificaciones pasarán al staging (área de preparación)
+
+1007
+00:41:48,240 --> 00:41:50,579
+significa que se va a tomar una instantánea y luego puedo 
+
+1008
+00:41:50,579 --> 00:41:52,740
+confirmar mis cambios. Pero puedes seguir 
+
+1009
+00:41:52,740 --> 00:41:55,440
+haciendo cambios. Cuando creas que 
+
+1010
+00:41:55,440 --> 00:41:57,720
+esté listo, puedes ponerlos 
+
+1011
+00:41:57,720 --> 00:41:59,940
+en el área de preparación. Básicamente, es 
+
+1012
+00:41:59,940 --> 00:42:03,359
+como tomar una instantánea. 
+
+1013
+00:42:03,359 --> 00:42:05,700
+Si algo sucede 
+
+1014
+00:42:05,700 --> 00:42:08,220
+y pierdes el archivo, 
+
+1015
+00:42:08,220 --> 00:42:12,000
+esta es también una buena 
+
+1016
+00:42:12,000 --> 00:42:14,760
+manera de hacer una copia de seguridad de 
+
+1017
+00:42:14,760 --> 00:42:16,859
+tus archivos con GitHub, especialmente si se trata de código que 
+
+1018
+00:42:16,859 --> 00:42:19,020
+estás escribiendo. Si tu computadora se estropea, 
+
+1019
+00:42:19,020 --> 00:42:21,240
+perderás todo. Entonces, 
+
+1020
+00:42:21,240 --> 00:42:23,760
+si lo haces de esta manera, en cada paso 
+
+1021
+00:42:23,760 --> 00:42:26,339
+sabrás exactamente lo que estás haciendo. Ahora, 
+
+1022
+00:42:26,339 --> 00:42:30,660
+de nuevo, solo preparo todos los cambios (clic en más)
+
+1023
+00:42:30,660 --> 00:42:33,180
+y los coloco en el área de preparación. 
+ 
+1024
+00:42:33,180 --> 00:42:36,599
+Verás que al cambiar se muestra “M” 
+
+1025
+00:42:36,599 --> 00:42:37,800
+“A” 
+
+1026
+00:42:37,800 --> 00:42:40,560
+que significa editar 
+
+1027
+00:42:40,560 --> 00:42:43,260
+un archivo nuevo, cuando lo envías al 
+
+1028
+00:42:43,260 --> 00:42:44,579
+área de preparación, te muestra 
+
+1029
+00:42:44,579 --> 00:42:46,560
+diferentes indicadores que te muestran 
+
+1030
+00:42:46,560 --> 00:42:48,300
+lo que has hecho con ese 
+
+1031
+00:42:48,300 --> 00:42:49,980
+archivo. Si es un archivo nuevo, si lo 
+
+1032
+00:42:49,980 --> 00:42:52,140
+modificaste o si lo eliminaste. 
+
+1033
+00:42:52,140 --> 00:42:53,359
+Bueno.
+
+1034
+00:42:53,359 --> 00:42:55,680
+Por ahora, solo estoy agregando archivos nuevos. 
+
+1035
+00:42:55,680 --> 00:42:56,640
+Luego te mostraré cómo 
+
+1036
+00:42:56,640 --> 00:42:58,740
+eliminar un archivo, pero ten en cuenta que 
+
+1037
+00:42:58,740 --> 00:43:00,960
+cada vez que haces un commit, queda en el historial.
+
+1038
+00:43:00,960 --> 00:43:03,660
+Si algo sale mal, puedo volver a un 
+
+1039
+00:43:03,660 --> 00:43:05,640
+punto específico y revisarlo para 
+
+1040
+00:43:05,640 --> 00:43:07,440
+recuperar los archivos. 
+
+1041
+00:43:07,440 --> 00:43:10,500
+Esto es como hacer copias de 
+
+1042
+00:43:10,500 --> 00:43:12,900
+seguridad de tus archivos, pero solo 
+
+1043
+00:43:12,900 --> 00:43:14,880
+se guarda la 
+
+1044
+00:43:14,880 --> 00:43:17,819
+diferencia entre ellos, es 
+
+1045
+00:43:17,819 --> 00:43:20,160
+decir, qué texto agregaste. Entonces, no está 
+
+1046
+00:43:20,160 --> 00:43:22,020
+copiando todo el archivo, por eso 
+
+1047
+00:43:22,020 --> 00:43:24,540
+es tan importante. Una vez que 
+
+1048
+00:43:24,540 --> 00:43:26,339
+tenga eso de nuevo, solo escriba un mensaje 
+
+1049
+00:43:26,339 --> 00:43:31,440
+y lo veré aquí. Agrego el script de Python 
+
+1050
+00:43:31,440 --> 00:43:33,480
+de nuevo con Ctrl+Enter, 
+
+1051
+00:43:33,480 --> 00:43:37,099
+y 
+
+1052
+00:43:39,060 --> 00:43:40,859
+ahora si ves, por ejemplo, el 
+
+1053
+00:43:40,859 --> 00:43:43,440
+historial de commits aquí, 
+
+1054
+00:43:43,440 --> 00:43:46,440
+simplemente verás un archivo nuevo. Si 
+
+1055
+00:43:46,440 --> 00:43:48,119
+haces algunos cambios, podrás ver 
+
+1056
+00:43:48,119 --> 00:43:50,460
+exactamente qué cambios se han 
+
+1057
+00:43:50,460 --> 00:43:52,200
+hecho. Si 
+
+1058
+00:43:52,200 --> 00:43:54,660
+hago clic en el archivo, se mostrarán 
+
+1059
+00:43:54,660 --> 00:43:56,520
+los cambios exactos. Todo 
+
+1060
+00:43:56,520 --> 00:43:59,400
+se está registrando en el 
+
+1061
+00:43:59,400 --> 00:44:00,960
+historial aquí, si lo deseas. 
+
+1062
+00:44:00,960 --> 00:44:04,260
+Creo que también hay una 
+
+1063
+00:44:04,260 --> 00:44:06,420
+extensión, así que, si vas a la 
+
+1064
+00:44:06,420 --> 00:44:09,000
+esquina inferior izquierda y haces clic en este grupo de iconos 
+
+1065
+00:44:09,000 --> 00:44:11,540
+(“problems”).
+
+1066
+00:44:12,420 --> 00:44:14,940
+Esto está 
+
+1067
+00:44:14,940 --> 00:44:15,900
+integrado 
+
+1068
+00:44:15,900 --> 00:44:19,140
+con 
+
+1069
+00:44:19,140 --> 00:44:21,420
+el 
+
+1070
+00:44:21,420 --> 00:44:24,780
+terminal, 
+
+1071
+00:44:24,780 --> 00:44:26,720
+por 
+
+1072
+00:44:26,720 --> 00:44:29,220
+lo que puedes 
+
+1073
+00:44:29,220 --> 00:44:31,200
+usar comandos directamente 
+
+1074
+00:44:31,200 --> 00:44:33,000
+desde aquí. 
+
+1075
+00:44:33,000 --> 00:44:34,800
+Hay un terminal táctico para que puedas 
+
+1076
+00:44:34,800 --> 00:44:37,319
+ejecutar cosas y, la mayoría del tiempo, no tendrás problemas. 
+
+1077
+00:44:37,319 --> 00:44:39,300
+No necesitas usar 
+
+1078
+00:44:39,300 --> 00:44:43,020
+el terminal de Windows. 
+
+1079
+00:44:43,020 --> 00:44:45,300
+El símbolo del sistema todo se puede 
+
+1080
+00:44:45,300 --> 00:44:47,400
+hacer dentro de la vista de Windows, pero 
+
+1081
+00:44:47,400 --> 00:44:49,380
+más adelante usaremos más, pero por ahora 
+
+1082
+00:44:49,380 --> 00:44:51,300
+solo te lo estoy mostrando aquí.
+
+1083
+00:44:51,300 --> 00:44:53,880
+Entonces lo que puedes hacer es hacer clic en GitLens, 
+
+1084
+00:44:53,880 --> 00:44:56,339
+si ya lo instalaste anteriormente, 
+
+1085
+00:44:56,339 --> 00:44:59,099
+también puedes verlo desde aquí. Esto es bueno 
+
+1086
+00:44:59,099 --> 00:45:02,160
+porque te muestra la historia cuando 
+
+1087
+00:45:02,160 --> 00:45:03,800
+lo mencionas. 
+
+1088
+00:45:03,800 --> 00:45:06,480
+Si quieres visualizar 
+
+1089
+00:45:06,480 --> 00:45:08,339
+la línea de tiempo porque podrías estar trabajando 
+
+1090
+00:45:08,339 --> 00:45:09,839
+en el proyecto durante mucho tiempo y quieres 
+
+1091
+00:45:09,839 --> 00:45:12,359
+volver a ver qué cosas 
+
+1092
+00:45:12,359 --> 00:45:16,099
+hice en un momento específico, como el 
+
+1093
+00:45:16,099 --> 00:45:19,680
+20 de febrero, esto es básicamente 
+
+1094
+00:45:19,680 --> 00:45:22,020
+lo mismo aquí, pero si tienen 
+
+1095
+00:45:22,020 --> 00:45:24,900
+una historia más larga, verás que 
+
+1096
+00:45:24,900 --> 00:45:27,780
+se extiende, pero es exactamente lo mismo, ves 
+
+1097
+00:45:27,780 --> 00:45:29,880
+la burbuja de cuántos commits, 
+
+1098
+00:45:29,880 --> 00:45:31,619
+cuántas cosas cambiaste, así que, si mueves 
+
+1099
+00:45:31,619 --> 00:45:33,960
+el mouse a la mitad, te lo mostrará 
+
+1100
+00:45:33,960 --> 00:45:37,619
+y si haces clic aquí, 
+
+1101
+00:45:37,619 --> 00:45:38,760
+hay muchas cosas que puedes 
+
+1102
+00:45:38,760 --> 00:45:40,319
+explorar, pero la mayoría de las veces no 
+
+1103
+00:45:40,319 --> 00:45:42,960
+necesitamos usar cosas muy avanzadas, es 
+
+1104
+00:45:42,960 --> 00:45:44,880
+bastante simple, escribes, 
+
+1105
+00:45:44,880 --> 00:45:47,220
+tomas una captura 
+
+1106
+00:45:47,220 --> 00:45:49,980
+y la publicas en GitHub, continúas escribiendo y publicando eso.
+
+1107
+00:45:49,980 --> 00:45:51,839
+Entonces así es como se agregan nuevos archivos, a continuación, 
+
+1108
+00:45:51,839 --> 00:45:53,520
+te mostraré, ¿puedo eliminar 
+
+1109
+00:45:53,520 --> 00:45:55,440
+un archivo si ya no se necesita? 
+
+1110
+00:45:55,440 --> 00:45:58,020
+Sí, puedes eliminarlo. Entonces, regresa aquí, 
+
+1111
+00:45:58,020 --> 00:46:01,020
+carga en la esquina superior izquierda y 
+
+1112
+00:46:01,020 --> 00:46:02,520
+luego verás que tienes dos 
+
+1113
+00:46:02,520 --> 00:46:04,440
+archivos aquí. Así que supongamos 
+
+1114
+00:46:04,440 --> 00:46:06,780
+que este ya no lo necesito, 
+
+1115
+00:46:06,780 --> 00:46:08,700
+hago clic derecho 
+
+1116
+00:46:08,700 --> 00:46:10,980
+y “delete” y se ha ido.
+
+1117
+00:46:10,980 --> 00:46:13,619
+Cada vez que 
+
+1118
+00:46:13,619 --> 00:46:16,200
+hagas cambios en algo, 
+
+1119
+00:46:16,200 --> 00:46:17,520
+solo verás aquí el 
+
+1120
+00:46:17,520 --> 00:46:20,220
+número uno, lo que significa que un archivo 
+
+1121
+00:46:20,220 --> 00:46:22,200
+ha sido cambiado. Si tienes varios 
+
+1122
+00:46:22,200 --> 00:46:24,599
+archivos, puedes eliminar ambos si quieres. 
+
+1123
+00:46:24,599 --> 00:46:26,220
+Si elimino ambos, te mostrará 
+
+1124
+00:46:26,220 --> 00:46:28,260
+dos. Esto te muestra 
+
+1125
+00:46:28,260 --> 00:46:30,480
+qué tipo de cosas has cambiado. 
+
+1126
+00:46:30,480 --> 00:46:33,060
+Es un poco complicado, así que déjame cerrar 
+
+1127
+00:46:33,060 --> 00:46:37,579
+todos ellos. Bueno, así que ahora ves
+
+1128
+00:46:40,140 --> 00:46:41,700
+la indicación
+
+1129
+00:46:41,700 --> 00:46:44,220
+para esta letra D.
+
+1130
+00:46:44,220 --> 00:46:48,660
+"D" significa "desmarcado", 
+
+1131
+00:46:48,660 --> 00:46:51,839
+está bien, y "M" es para
+
+1132
+00:46:51,839 --> 00:46:54,180
+"modificado". Así que ahora, si
+
+1133
+00:46:54,180 --> 00:46:56,400
+dices que quieres eliminarlo, verás
+
+1134
+00:46:56,400 --> 00:46:58,740
+aquí un "commit". Entonces, de nuevo, puedes 
+
+1135
+00:46:58,740 --> 00:47:00,540
+simplemente confirmar que eliminas, por ejemplo, 
+
+1136
+00:47:00,540 --> 00:47:03,200
+elimina 
+
+1137
+00:47:03,480 --> 00:47:08,099
+"text.py", control + enter, 
+
+1138
+00:47:08,099 --> 00:47:10,260
+y ya está eliminado.
+
+1139
+00:47:10,260 --> 00:47:13,700
+Ahora, si vuelves aquí, 
+
+1140
+00:47:15,060 --> 00:47:16,680
+el archivo se ha ido, pero solo para que sepas que 
+
+1141
+00:47:16,680 --> 00:47:19,500
+todo lo que modifiques está en el 
+
+1142
+00:47:19,500 --> 00:47:21,540
+historial, así que si necesitas regresar a
+
+1143
+00:47:21,540 --> 00:47:24,359
+un punto anterior, puedes hacerlo, porque
+
+1144
+00:47:24,359 --> 00:47:26,339
+esto es algo así como la nube, como
+
+1145
+00:47:26,339 --> 00:47:28,740
+Google Drive o Dropbox, lo identificas
+
+1146
+00:47:28,740 --> 00:47:30,300
+y luego puedes recuperarlo 
+
+1147
+00:47:30,300 --> 00:47:31,740
+porque todo se ha respaldado 
+
+1148
+00:47:31,740 --> 00:47:34,140
+utilizando el historial. Así es como 
+
+1149
+00:47:34,140 --> 00:47:35,640
+puedes hacerlo 
+
+1150
+00:47:35,640 --> 00:47:38,819
+usando este método. 
+
+1151
+00:47:38,819 --> 00:47:40,619
+¿Estamos bien? 
+
+1152
+00:47:40,619 --> 00:47:42,960
+Así que básicamente te he mostrado cómo puedes 
+
+1153
+00:47:42,960 --> 00:47:45,839
+configurar Git, cómo puedes 
+
+1154
+00:47:45,839 --> 00:47:48,060
+inicializar la posición de la puerta de enlace y cómo 
+
+1155
+00:47:48,060 --> 00:47:50,040
+puedes hacer algunos cambios. Parece 
+
+1156
+00:47:50,040 --> 00:47:52,680
+bastante aburrido, pero hay muchas cosas geniales 
+
+1157
+00:47:52,680 --> 00:47:53,940
+que puedes hacer. A continuación, te 
+
+1158
+00:47:53,940 --> 00:47:56,579
+mostraré cómo realmente puedes subir cosas a 
+
+1159
+00:47:56,579 --> 00:47:59,040
+GitHub. Por ahora, se almacena en tu 
+
+1160
+00:47:59,040 --> 00:48:00,720
+computadora local, no en internet, 
+
+1161
+00:48:00,720 --> 00:48:02,280
+pero puedes crear algo en 
+
+1162
+00:48:02,280 --> 00:48:04,380
+internet o puedes poner algo en 
+
+1163
+00:48:04,380 --> 00:48:06,720
+internet, esto facilita mucho 
+
+1164
+00:48:06,720 --> 00:48:08,280
+trabajar con otras personas en el mismo 
+
+1165
+00:48:08,280 --> 00:48:11,099
+proyecto, sin tener que enviar 
+
+1166
+00:48:11,099 --> 00:48:13,140
+archivos por correo electrónico y luego ir combinándolos
+
+1167
+00:48:13,140 --> 00:48:16,819
+porque eso no es desarrollo de 
+
+1168
+00:48:16,819 --> 00:48:20,700
+software. Así que lo siguiente que haremos…
+
+1169
+00:48:20,700 --> 00:48:24,859
+¿Preguntas? [Pregunta] Si se puede usar con
+
+1170
+00:48:28,740 --> 00:48:32,339
+Anaconda Prompt, 
+
+1171
+00:48:32,339 --> 00:48:35,160
+Windows PowerShell y todo eso, 
+
+1172
+00:48:35,160 --> 00:48:37,800
+y si puedeprofundizar más en ello. 
+
+1173
+00:48:37,800 --> 00:48:40,980
+[Respuesta] Esto aquí
+
+1174
+00:48:40,980 --> 00:48:42,660
+puedes pensar en la terminal de Windows y
+
+1175
+00:48:42,660 --> 00:48:44,460
+Anaconda Prompt, en realidad puedes
+
+1176
+00:48:44,460 --> 00:48:47,819
+acceder desde aquí. Por eso digo
+
+1177
+00:48:47,819 --> 00:48:53,240
+que es una buena analogía.
+
+1178
+00:48:54,960 --> 00:48:58,380
+Yo diría que es como la terminal y
+
+1179
+00:48:58,380 --> 00:49:00,839
+un componente como el bloc de notas, esto
+
+1180
+00:49:00,839 --> 00:49:04,400
+es como Microsoft Office.
+
+1181
+00:49:06,260 --> 00:49:08,280
+En realidad, no tienes que escribir
+
+1182
+00:49:08,280 --> 00:49:10,319
+código, pero todavía está allí, porque esto
+
+1183
+00:49:10,319 --> 00:49:13,560
+esencialmente aquí, si escribo "git",
+
+1184
+00:49:13,560 --> 00:49:14,640
+funciona.
+
+1185
+00:49:14,640 --> 00:49:16,200
+Entonces, es lo mismo que puedes escribir
+
+1186
+00:49:16,200 --> 00:49:18,000
+"conda" y no sabes que es eso,
+
+1187
+00:49:18,000 --> 00:49:19,440
+significa que no está en la variable del sistema
+
+1188
+00:49:19,440 --> 00:49:22,260
+en este caso, pero de vez en cuando podemos
+
+1189
+00:49:22,260 --> 00:49:24,060
+necesitar escribir algunas cosas aquí, pero
+
+1190
+00:49:24,060 --> 00:49:26,880
+de vez en cuando podemos necesitar escribir algo aquí. 
+
+1191
+00:49:26,880 --> 00:49:28,680
+Pero de nuevo, si hacemos esto, 
+
+1192
+00:49:28,680 --> 00:49:31,319
+tienes que hacer las cosas 
+
+1193
+00:49:31,319 --> 00:49:33,119
+usando el terminal
+
+1194
+00:49:33,119 --> 00:49:35,819
+cómo, si realmente necesitas
+
+1195
+00:49:35,819 --> 00:49:38,460
+saber las cosas a fondo, también proporciono
+
+1196
+00:49:38,460 --> 00:49:42,119
+comandos aquí, como "git init", "git status", "git
+
+1197
+00:49:42,119 --> 00:49:44,339
+push", "git pull", y cosas así. Entonces
+
+1198
+00:49:44,339 --> 00:49:45,720
+a continuación, te mostraré cómo, por ejemplo,
+
+1199
+00:49:45,720 --> 00:49:48,599
+sin Visual Studio Code, aún puedes usar "git",
+
+1200
+00:49:48,599 --> 00:49:50,339
+no requiere que uses Visual Studio Code,
+
+1201
+00:49:50,339 --> 00:49:51,839
+todo va a ser
+
+1202
+00:49:51,839 --> 00:49:53,579
+usando el símbolo del sistema. Así que voy a
+
+1203
+00:49:53,579 --> 00:49:55,800
+mostrarte cómo hacer esto realmente
+
+1204
+00:49:55,800 --> 00:49:58,200
+rápido. Cuando abres la terminal,
+
+1205
+00:49:58,200 --> 00:50:00,060
+te mostrará esto,
+
+1206
+00:50:00,060 --> 00:50:01,920
+porque
+
+1207
+00:50:01,920 --> 00:50:04,440
+aquí es donde está el directorio de Git,
+
+1208
+00:50:04,440 --> 00:50:07,760
+toda la historia se guarda aquí. Entonces,
+
+1209
+00:50:07,760 --> 00:50:10,200
+déjame hacer esto rápido no tienes que hacerlo
+
+1210
+00:50:10,200 --> 00:50:11,460
+porque no creo que lo 
+
+1211
+00:50:11,460 --> 00:50:12,960
+uses la mayor parte del tiempo, solo usa 
+
+1212
+00:50:12,960 --> 00:50:15,599
+VSC, pero es bueno saber qué comando 
+
+1213
+00:50:15,599 --> 00:50:17,339
+se está ejecutando 
+
+1214
+00:50:17,339 --> 00:50:20,339
+detrás de escena 
+
+1215
+00:50:20,339 --> 00:50:22,920
+bajo el capó, así que aquí, déjame
+
+1216
+00:50:22,920 --> 00:50:26,280
+crear un nuevo archivo, “New”
+
+1217
+00:50:26,280 --> 00:50:28,020
+“Text
+
+1218
+00:50:28,020 --> 00:50:29,700
+document"
+
+1219
+00:50:29,700 --> 00:50:33,480
+“sample.txt” y luego puedo
+
+1220
+00:50:33,480 --> 00:50:34,980
+simplemente hacer doble clic
+
+1221
+00:50:34,980 --> 00:50:37,800
+ah, y escribir lo que quieras
+
+1222
+00:50:37,800 --> 00:50:40,319
+y  control S.
+
+1223
+00:50:40,319 --> 00:50:42,900
+así que ahora aquí no hemos usado Visual Studio
+
+1224
+00:50:42,900 --> 00:50:45,180
+Code, todavía puedo hacer cambios, puedo
+
+1225
+00:50:45,180 --> 00:50:47,280
+Hacer commit, puedo agregar cosas, así que todo lo que necesitamos
+
+1226
+00:50:47,280 --> 00:50:50,099
+es hacer clic derecho, abrir Terminal,
+
+1227
+00:50:50,099 --> 00:50:52,260
+también puedes hacer eso
+
+1228
+00:50:52,260 --> 00:50:53,700
+no te preocupes si no puedes seguir
+
+1229
+00:50:53,700 --> 00:50:55,680
+solo quiero mostrarte.
+
+1230
+00:50:55,680 --> 00:50:57,240
+Una vez que abras
+
+1231
+00:50:57,240 --> 00:51:00,780
+solo escribe "git status". 
+
+1232
+00:51:00,780 --> 00:51:04,319
+Te voy a mostrar cómo desmarcar 
+
+1233
+00:51:04,319 --> 00:51:06,839
+archivos, lo que básicamente es similar 
+
+1234
+00:51:06,839 --> 00:51:08,640
+a cuando en Visual Studio Code
+
+1235
+00:51:08,640 --> 00:51:10,500
+a cuando creamos un nuevo archivo en Visual Studio Code, 
+
+1236
+00:51:10,500 --> 00:51:13,440
+aparece bajo el signo de verificación sin marcar, es lo mismo. 
+
+1237
+00:51:13,440 --> 00:51:15,960
+Si quieres hacer un seguimiento 
+
+1238
+00:51:15,960 --> 00:51:17,460
+específico de un archivo o de 
+
+1239
+00:51:17,460 --> 00:51:19,440
+todos los nuevos archivos, todo lo que necesitas es 
+
+1240
+00:51:19,440 --> 00:51:22,880
+"git add",  para agregar el archivo específico o todos los 
+
+1241
+00:51:25,400 --> 00:51:27,900
+archivos en el área de staging, este momento solo 
+
+1242
+00:51:27,900 --> 00:51:29,520
+tenemos un archivo, pero 
+
+1243
+00:51:29,520 --> 00:51:33,319
+podríamos tener dos en él. 
+
+1244
+00:51:34,319 --> 00:51:35,700
+Por ejemplo, puedo agregar otro. 
+
+1245
+00:51:35,700 --> 00:51:37,980
+“another.txt”
+
+1246
+00:51:37,980 --> 00:51:41,160
+Así
+
+1247
+00:51:41,160 --> 00:51:43,260
+puedo ejecutar "git status" 
+
+1248
+00:51:43,260 --> 00:51:45,300
+y ver los dos archivos. 
+
+1249
+00:51:45,300 --> 00:51:46,319
+Básicamente, lo que quiero mostrarte es qué 
+
+1250
+00:51:46,319 --> 00:51:49,140
+archivos hay en él que 
+
+1251
+00:51:49,140 --> 00:51:50,520
+no están siendo rastreados, es decir, que 
+
+1252
+00:51:50,520 --> 00:51:53,220
+aún no los hemos incluido en el espacio de trabajo para su 
+
+1253
+00:51:53,220 --> 00:51:55,559
+seguimiento. Entonces, si quieres llevar un 
+
+1254
+00:51:55,559 --> 00:51:57,960
+seguimiento de este archivo, todo lo que 
+
+1255
+00:51:57,960 --> 00:52:00,780
+necesitamos es agregar un punto, lo que significa que todos los 
+
+1256
+00:52:00,780 --> 00:52:02,700
+archivos dentro de este directorio, si es solo un 
+
+1257
+00:52:02,700 --> 00:52:05,460
+archivo específico, “git add achivo_especifico.txt” 
+
+1258
+00:52:05,460 --> 00:52:09,000
+otro .txt. Si solo quieres llevar un 
+
+1259
+00:52:09,000 --> 00:52:11,040
+seguimiento de un archivo individual, 
+
+1260
+00:52:11,040 --> 00:52:12,720
+puedes hacerlo, pero la mayoría de las 
+
+1261
+00:52:12,720 --> 00:52:15,540
+veces simplemente agregas un espacio “git add “ y presionas enter, 
+
+1262
+00:52:15,540 --> 00:52:17,040
+y luego
+
+1263
+00:52:17,040 --> 00:52:21,559
+verás que escribo de nuevo "git status", 
+
+1264
+00:52:21,780 --> 00:52:24,420
+verás que ahora se vuelve verde, lo que significa 
+
+1265
+00:52:24,420 --> 00:52:27,000
+que los cambios 
+
+1266
+00:52:27,000 --> 00:52:29,099
+están listos para ser 
+
+1267
+00:52:29,099 --> 00:52:30,720
+confirmados (commit). Eso significa que solo tomamos una instantánea y hacemos 
+
+1268
+00:52:30,720 --> 00:52:33,119
+commit para enviarlo al historial, es similar a lo que hicimos 
+
+1269
+00:52:33,119 --> 00:52:34,380
+anteriormente en Visual Studio Code, escribirás una 
+
+1270
+00:52:34,380 --> 00:52:36,900
+descripción de texto, presionarás control y 
+
+1271
+00:52:36,900 --> 00:52:37,980
+enter, 
+
+1272
+00:52:37,980 --> 00:52:40,200
+y en segundo plano se ejecutará 
+
+1273
+00:52:40,200 --> 00:52:43,260
+esto. Confirmarás el mensaje que 
+
+1274
+00:52:43,260 --> 00:52:44,880
+deseas escribir. Así que es lo mismo.
+
+1275
+00:52:44,880 --> 00:52:48,300
+Puedo hacerlo aquí, git commit, 
+
+1276
+00:52:48,300 --> 00:52:51,960
+presiono "m" que significa mensaje y luego 
+
+1277
+00:52:51,960 --> 00:52:53,640
+escribo "Agregados
+
+1278
+00:52:53,640 --> 00:52:57,000
+dos archivos más". 
+
+1279
+00:52:57,000 --> 00:52:58,440
+Presiono enter 
+
+1280
+00:52:58,440 --> 00:53:01,200
+y luego te mostrará que se agregaron dos archivos, 
+
+1281
+00:53:01,200 --> 00:53:04,140
+básicamente ocho nuevas líneas 
+
+1282
+00:53:04,140 --> 00:53:06,180
+creadas, se 
+
+1283
+00:53:06,180 --> 00:53:08,700
+agregó un archivo nuevo y se ha creado una copia de seguridad. 
+
+1284
+00:53:08,700 --> 00:53:12,859
+Ahora, si escribo "git status" de nuevo, 
+
+1285
+00:53:13,319 --> 00:53:15,240
+no hay nada para confirmar porque 
+
+1286
+00:53:15,240 --> 00:53:17,280
+ya tomé una instantánea y 
+
+1287
+00:53:17,280 --> 00:53:19,079
+está en el historial. Entonces, si vuelvo a 
+
+1288
+00:53:19,079 --> 00:53:21,859
+Visual Studio Code, ¿puedes 
+
+1289
+00:53:22,380 --> 00:53:23,940
+ver los dos archivos aquí? 
+
+1290
+00:53:23,940 --> 00:53:27,359
+Y si vamos a Git y vemos 
+
+1291
+00:53:27,359 --> 00:53:29,579
+el historial, ¿puedes ver el que se está 
+
+1292
+00:53:29,579 --> 00:53:30,900
+activando aquí? 
+
+1293
+00:53:30,900 --> 00:53:33,000
+Básicamente, Visual Studio puede cargar todas 
+
+1294
+00:53:33,000 --> 00:53:35,760
+las cosas, por lo que verás el archivo de 
+
+1295
+00:53:35,760 --> 00:53:38,400
+muestra. Entonces, básicamente, es interactivo, 
+
+1296
+00:53:38,400 --> 00:53:40,280
+pero no tienes que usar Visual Studio 
+
+1297
+00:53:40,280 --> 00:53:43,319
+porque te facilita 
+
+1298
+00:53:43,319 --> 00:53:44,579
+hacer 
+
+1299
+00:53:44,579 --> 00:53:46,020
+todo tipo de cosas sin tener que 
+
+1300
+00:53:46,020 --> 00:53:47,760
+escribir en la línea de comandos, pero esto es 
+
+1301
+00:53:47,760 --> 00:53:49,500
+esencialmente lo que haces. 
+
+1302
+00:53:49,500 --> 00:53:52,200
+¿Y con "git pull"? no puedes usar esto 
+
+1303
+00:53:52,200 --> 00:53:54,599
+aún porque no está en GitHub. 
+
+1304
+00:53:54,599 --> 00:53:57,359
+"git pull" significa que estamos sacando 
+
+1305
+00:53:57,359 --> 00:54:00,180
+cosas de Internet. "git push" significa que estamos 
+
+1306
+00:54:00,180 --> 00:54:01,200
+empujando la transición desde la computadora 
+
+1307
+00:54:01,200 --> 00:54:03,720
+local hacia Internet. Por lo tanto, tenemos que 
+
+1308
+00:54:03,720 --> 00:54:06,780
+configurar un repositorio de recolección para 
+
+1309
+00:54:06,780 --> 00:54:08,940
+poder hacer eso. Por ahora, sabes 
+
+1310
+00:54:08,940 --> 00:54:10,619
+cómo crear un repositorio de git, 
+
+1311
+00:54:10,619 --> 00:54:12,839
+iniciarlo y luego hacer algunos cambios, como 
+
+1312
+00:54:12,839 --> 00:54:15,540
+agregar un archivo nuevo, y luego confirmarlo o hacer un commit. 
+
+1313
+00:54:15,540 --> 00:54:17,940
+“commit” significa simplemente tomar los cambios.
+
+1314
+00:54:17,940 --> 00:54:20,220
+Estos son diferentes pasos para 
+
+1315
+00:54:20,220 --> 00:54:23,220
+entenderlo, básicamente consiste en hacer un seguimiento 
+
+1316
+00:54:23,220 --> 00:54:25,020
+del archivo porque si otros archivos 
+
+1317
+00:54:25,020 --> 00:54:26,700
+no importan, no tienes que hacerlo. Puede ser 
+
+1318
+00:54:26,700 --> 00:54:28,859
+básicamente tomar una instantánea 
+
+1319
+00:54:28,859 --> 00:54:31,280
+y luego 
+
+1320
+00:54:31,559 --> 00:54:34,380
+agregar al historial en el estado del archivo, 
+
+1321
+00:54:34,380 --> 00:54:36,660
+verificando si hay algún error o algo por el estilo.
+
+1322
+00:54:36,660 --> 00:54:39,260
+¿Entendido? Sí.
+
+1323
+00:54:43,079 --> 00:54:45,900
+Ah, necesitas saber que, si no hay cambios,
+
+1324
+00:54:45,900 --> 00:54:48,240
+no podrás hacer nada aquí.
+
+1325
+00:54:48,240 --> 00:54:51,200
+Es una "M" no una "A".
+
+1326
+00:54:51,319 --> 00:54:54,359
+Entonces, si no tienes nada que hacer “commit”, 
+
+1327
+00:54:54,359 --> 00:54:55,500
+no podrás hacerlo porque está 
+
+1328
+00:54:55,500 --> 00:54:57,780
+vacío. Por ahora, aquí solo 
+
+1329
+00:54:57,780 --> 00:55:00,240
+confirmé cinco cosas, no hay nada más que 
+
+1330
+00:55:00,240 --> 00:55:02,640
+confirmar, tres están limpios, 
+
+1331
+00:55:02,640 --> 00:55:04,559
+no hay nada más que necesites. 
+
+1332
+00:55:04,559 --> 00:55:07,800
+Entonces, si escribo "git commit -m" y luego 
+
+1333
+00:55:07,800 --> 00:55:09,839
+escribo lo que sea y 
+
+1334
+00:55:09,839 --> 00:55:11,280
+presiono enter, 
+
+1335
+00:55:11,280 --> 00:55:12,960
+me mostrará que es agradable, si se 
+
+1336
+00:55:12,960 --> 00:55:15,599
+presenta un error, revisar el mensaje de error. Si quiero confirmar 
+
+1337
+00:55:15,599 --> 00:55:17,760
+algo, asegúrate de que 
+
+1338
+00:55:17,760 --> 00:55:19,260
+haya algún 
+
+1339
+00:55:19,260 --> 00:55:22,200
+cambio ahí dentro. Así es cómo 
+
+1340
+00:55:22,200 --> 00:55:25,200
+puedes hacer algunas cosas simples, ahora pasemos 
+
+1341
+00:55:25,200 --> 00:55:28,079
+a hacer algo real. 
+
+1342
+00:55:28,079 --> 00:55:30,119
+¿Cómo podemos obtener cosas 
+
+1343
+00:55:30,119 --> 00:55:31,740
+de GitHub o crear un nuevo 
+
+1344
+00:55:31,740 --> 00:55:34,559
+repositorio?. Lo que 
+
+1345
+00:55:34,559 --> 00:55:36,540
+puedes hacer es utilizar 
+
+1346
+00:55:36,540 --> 00:55:40,020
+la terminal, así que déjame abrir 
+
+1347
+00:55:40,020 --> 00:55:42,480
+mi directorio de descargas. Por ahora, 
+
+1348
+00:55:42,480 --> 00:55:44,400
+puedes ir al 
+
+1349
+00:55:44,400 --> 00:55:47,099
+sitio web y tal vez al 
+
+1350
+00:55:47,099 --> 00:55:48,960
+leafmap que, es más 
+
+1351
+00:55:48,960 --> 00:55:51,660
+pequeño y tal vez sea mejor.
+
+1352
+00:55:51,660 --> 00:55:53,640
+Estamos tratando de obtener el código fuente de 
+
+1353
+00:55:53,640 --> 00:55:56,040
+GitHub. Entonces, GitHub es el 
+
+1354
+00:55:56,040 --> 00:55:59,280
+repositorio más grande, como millones de 
+
+1355
+00:55:59,280 --> 00:56:01,200
+proyectos, y ¿cómo obtenemos un código fuente? 
+
+1356
+00:56:01,200 --> 00:56:04,079
+Hay un par de formas: el botón aquí y el botón verde a la derecha. 
+
+1357
+00:56:04,079 --> 00:56:05,940
+Como se muestra aquí, descargar 
+
+1358
+00:56:05,940 --> 00:56:08,220
+es un archivo ZIP. Esta es la forma 
+
+1359
+00:56:08,220 --> 00:56:10,020
+más común, pero no la más común 
+
+1360
+00:56:10,020 --> 00:56:12,180
+si no usa Git. Si solo 
+
+1361
+00:56:12,180 --> 00:56:13,440
+desea ver el código fuente, puede 
+
+1362
+00:56:13,440 --> 00:56:15,780
+descargar el archivo ZIP. Pero si 
+
+1363
+00:56:15,780 --> 00:56:17,700
+está codificando, esta será la 
+
+1364
+00:56:17,700 --> 00:56:20,880
+mejor opción, porque si actualizo 
+
+1365
+00:56:20,880 --> 00:56:23,040
+mi código fuente, tendrá que volver a descargar 
+
+1366
+00:56:23,040 --> 00:56:25,380
+el archivo ZIP. No tendrá idea y 
+
+1367
+00:56:25,380 --> 00:56:27,119
+necesitará mantener una archivo local. Pero si 
+
+1368
+00:56:27,119 --> 00:56:29,040
+solo uso este Git, podrás 
+
+1369
+00:56:29,040 --> 00:56:31,200
+sincronizar lo mismo que yo hice. Después 
+
+1370
+00:56:31,200 --> 00:56:33,000
+te mostraré cómo 
+
+1371
+00:56:33,000 --> 00:56:34,800
+puedes crear tu propio repositorio, pero por ahora, 
+
+1372
+00:56:34,800 --> 00:56:38,339
+simplemente haz clic en el botón aquí 
+
+1373
+00:56:38,339 --> 00:56:40,940
+para copiar la URL. Como se muestra aquí 
+
+1374
+00:56:40,940 --> 00:56:43,140
+http://github.com con tu 
+
+1375
+00:56:43,140 --> 00:56:44,880
+nombre de usuario y el nombre del 
+
+1376
+00:56:44,880 --> 00:56:48,240
+repositorio. Entonces, todos los repositorios de GitHub 
+
+1377
+00:56:48,240 --> 00:56:49,500
+seguirán el mismo patrón. 
+
+1378
+00:56:49,500 --> 00:56:53,000
+Todo lo que necesitas hacer es 
+
+1379
+00:56:53,000 --> 00:56:56,579
+copiar esto y luego puedes ir a cualquier 
+
+1380
+00:56:56,579 --> 00:56:58,319
+directorio donde quieras guardar esto. 
+
+1381
+00:56:58,319 --> 00:56:59,880
+Así que no necesito descargar el archivo zip, 
+
+1382
+00:56:59,880 --> 00:57:02,400
+todo lo que necesitas hacer es abrir 
+
+1383
+00:57:02,400 --> 00:57:04,760
+la terminal de nuevo, 
+
+1384
+00:57:05,460 --> 00:57:09,780
+y luego escribir "git space 
+
+1385
+00:57:09,780 --> 00:57:12,000
+clone ”
+
+1386
+00:57:12,000 --> 00:57:16,500
+Ctrl V para pegar esta URL. 
+
+1387
+00:57:16,500 --> 00:57:18,059
+Así es como puedes obtener el material de 
+
+1388
+00:57:18,059 --> 00:57:20,900
+GitHub sin tener que descargarlo. 
+
+1389
+00:57:20,900 --> 00:57:23,700
+"Clone" básicamente significa que obtienes una copia 
+
+1390
+00:57:23,700 --> 00:57:25,500
+solo copiando la URL desde el 
+
+1391
+00:57:25,500 --> 00:57:28,260
+botón verde y 
+
+1392
+00:57:28,260 --> 00:57:30,480
+presionamos enter, ¿a ver qué 
+
+1393
+00:57:30,480 --> 00:57:33,480
+pasa?, 
+
+1394
+00:57:33,480 --> 00:57:36,119
+va a descargar todo el registro 
+
+1395
+00:57:36,119 --> 00:57:38,460
+en tu computadora. Así que no importa 
+
+1396
+00:57:38,460 --> 00:57:40,380
+lo que publiquemos, todo es 
+
+1397
+00:57:40,380 --> 00:57:42,660
+público y se puede obtener así. 
+
+1398
+00:57:42,660 --> 00:57:44,280
+Básicamente es como pensar en 
+
+1399
+00:57:44,280 --> 00:57:47,099
+tu navegador de correo electrónico, escribes la URL http y 
+
+1400
+00:57:47,099 --> 00:57:48,839
+luego abres el sitio web, es 
+
+1401
+00:57:48,839 --> 00:57:50,880
+lo mismo en “git”. “git clone” significa que 
+
+1402
+00:57:50,880 --> 00:57:53,579
+estás extrayendo cosas de allí, no tanto que sea 
+
+1403
+00:57:53,579 --> 00:57:55,319
+lento, puede ser que el archivo 
+
+1404
+00:57:55,319 --> 00:57:58,079
+sea un poco grande o algo así, 
+
+1405
+00:57:58,079 --> 00:58:01,020
+pero espera un par de minutos 
+
+1406
+00:58:01,020 --> 00:58:02,640
+y una vez que esté listo, tendrás 
+
+1407
+00:58:02,640 --> 00:58:05,280
+el código tu computadora. La razón por la que es 
+
+1408
+00:58:05,280 --> 00:58:06,960
+grande es porque verifica todo el 
+
+1409
+00:58:06,960 --> 00:58:09,540
+historial, por lo que puede haber cientos o 
+
+1410
+00:58:09,540 --> 00:58:11,640
+miles de cambios, por lo que cada vez 
+
+1411
+00:58:11,640 --> 00:58:13,740
+que se realizan cambios, se realiza una copia de seguridad. Entonces, 
+
+1412
+00:58:13,740 --> 00:58:15,720
+los informes crecerán, pero si creas uno nuevo 
+
+1413
+00:58:15,720 --> 00:58:18,540
+serás bastante pequeño. Pero últimamente 
+
+1414
+00:58:18,540 --> 00:58:19,859
+estoy mostrando cómo puedes crear uno nuevo 
+
+1415
+00:58:19,859 --> 00:58:21,540
+y luego también hacer 
+
+1416
+00:58:21,540 --> 00:58:25,020
+cambios en tu computadora 
+
+1417
+00:58:25,020 --> 00:58:28,079
+mientras se descarga. ¿Qué tal si 
+
+1418
+00:58:28,079 --> 00:58:30,839
+creamos un nuevo repositorio para que puedas 
+
+1419
+00:58:30,839 --> 00:58:33,780
+vincular tu computadora a GitHub? Lo único que 
+
+1420
+00:58:33,780 --> 00:58:35,880
+tienes que hacer es agregar el signo más 
+
+1421
+00:58:35,880 --> 00:58:37,920
+en la esquina superior derecha 
+
+1422
+00:58:37,920 --> 00:58:40,079
+y seleccionar "New repository" (repositorio nuevo). Así 
+
+1423
+00:58:40,079 --> 00:58:42,540
+podrás crear cualquier repositorio nuevo y 
+
+1424
+00:58:42,540 --> 00:58:44,520
+por defecto utilizaremos todas las 
+
+1425
+00:58:44,520 --> 00:58:45,839
+configuraciones predeterminadas. Entonces 
+
+1426
+00:58:45,839 --> 00:58:48,180
+puedes elegir el nombre, 
+
+1427
+00:58:48,180 --> 00:58:50,640
+trata de ser descriptivo, no lo hagas 
+
+1428
+00:58:50,640 --> 00:58:52,559
+demasiado largo, y si tienes 
+
+1429
+00:58:52,559 --> 00:58:55,140
+varias palabras, puedes usar un 
+
+1430
+00:58:55,140 --> 00:58:58,020
+guión o un guión medio entre ellas. Así que aquí diré, 
+
+1431
+00:58:58,020 --> 00:59:01,200
+¿qué tal GEOS-510? .
+
+1432
+00:59:01,200 --> 00:59:04,680
+El nombre necesita ser único 
+
+1433
+00:59:04,680 --> 00:59:06,180
+en tu cuenta, así que si ya 
+
+1434
+00:59:06,180 --> 00:59:08,220
+tienes un nombre de proyecto, no puedes 
+
+1435
+00:59:08,220 --> 00:59:10,020
+usarlo, pero 
+
+1436
+00:59:10,020 --> 00:59:11,760
+puedes usar el mismo nombre que el mío, 
+
+1437
+00:59:11,760 --> 00:59:14,099
+porque no es una cuenta sagrada, 
+
+1438
+00:59:14,099 --> 00:59:16,980
+ya que la URL debe ser única, “http//:github.com/tu-nombre-de-usuario
+
+1439
+00:59:16,980 --> 00:59:19,500
+y luego el nombre del 
+
+1440
+00:59:19,500 --> 00:59:21,420
+repositorio, así que para mí, puedo cambiar este 
+
+1441
+00:59:21,420 --> 00:59:23,220
+nombre, y aquí puedes 
+
+1442
+00:59:23,220 --> 00:59:24,960
+escribir una descripción si 
+
+1443
+00:59:24,960 --> 00:59:28,880
+quieres. Puedo decir, "Course 
+
+1444
+00:59:29,220 --> 00:59:32,180
+website for 
+
+1445
+00:59:32,940 --> 00:59:36,540
+GEOHG 510”. 
+
+1446
+00:59:36,540 --> 00:59:39,240
+Puedo sólo decir que establezco las 
+
+1447
+00:59:39,240 --> 00:59:41,640
+configuraciones predeterminadas y para mí agregaré 
+
+1448
+00:59:41,640 --> 00:59:44,040
+un archivo readme, es mucho mejor 
+
+1449
+00:59:44,040 --> 00:59:46,859
+y una licencia, sí, te recomiendo que 
+
+1450
+00:59:46,859 --> 00:59:48,900
+elijas la licencia y por ahora 
+
+1451
+00:59:48,900 --> 00:59:51,599
+no te preocupes si no lo has usado, 
+
+1452
+00:59:51,599 --> 00:59:53,400
+puedes elegir la licencia MIT, 
+
+1453
+00:59:53,400 --> 00:59:56,220
+que es una de las licencias 
+
+1454
+00:59:56,220 --> 00:59:58,200
+más comúnmente utilizadas. 
+
+1455
+00:59:58,200 --> 00:59:59,760
+Básicamente, 
+
+1456
+00:59:59,760 --> 01:00:01,500
+si estás haciendo algo comercial, 
+
+1457
+01:00:01,500 --> 01:00:02,640
+tienes que prestar atención a la licencia 
+
+1458
+01:00:02,640 --> 01:00:04,680
+del pasado solo elige este
+
+1459
+01:00:04,680 --> 01:00:06,960
+que elegiste en el pasado, pero si eliges esta es 
+
+1460
+01:00:06,960 --> 01:00:09,000
+más fácil. La licencia MIT significa básicamente que es de acceso libre, 
+
+1461
+01:00:09,000 --> 01:00:10,500
+puedes hacer lo que quieras, 
+
+1462
+01:00:10,500 --> 01:00:12,720
+pero si algo te causa daño, no vuelvas a 
+
+1463
+01:00:12,720 --> 01:00:15,180
+demandarme, no quiero asumir 
+
+1464
+01:00:15,180 --> 01:00:19,020
+responsabilidad por eso, así que usa lo que 
+
+1465
+01:00:19,020 --> 01:00:20,040
+quieras, 
+
+1466
+01:00:20,040 --> 01:00:20,819
+no 
+
+1467
+01:00:20,819 --> 01:00:23,339
+es mi culpa si algo sucede. 
+
+1468
+01:00:23,339 --> 01:00:25,140
+Hay otras licencias a las que tienes 
+
+1469
+01:00:25,140 --> 01:00:26,220
+que prestar atención si vas a 
+
+1470
+01:00:26,220 --> 01:00:27,839
+comercializar seguramente. Entonces, si estoy desarrollando este 
+
+1471
+01:00:27,839 --> 01:00:28,799
+software
+
+1472
+01:00:28,799 --> 01:00:30,839
+En un día, Microsoft y Apple quieren usar 
+
+1473
+01:00:30,839 --> 01:00:33,299
+mis paquetes, si elijo otra licencia
+
+1474
+01:00:33,299 --> 01:00:34,799
+prestaré atención porque algunos de esos
+
+1475
+01:00:34,799 --> 01:00:37,200
+requieren que, si usas mis cosas, y si mi
+
+1476
+01:00:37,200 --> 01:00:38,579
+trabajo es de código abierto, debes compartir el
+
+1477
+01:00:38,579 --> 01:00:39,599
+código fuente
+
+1478
+01:00:39,599 --> 01:00:42,420
+o si mis cosas son
+
+1479
+01:00:42,420 --> 01:00:45,000
+código abierto, pero si quieres
+
+1480
+01:00:45,000 --> 01:00:46,619
+comercializarlo, necesitas obtener una
+
+1481
+01:00:46,619 --> 01:00:48,119
+licencia. Así que los venden de diferentes
+
+1482
+01:00:48,119 --> 01:00:50,520
+maneras. A veces la gente
+
+1483
+01:00:50,520 --> 01:00:52,319
+copia cosas de código abierto y luego las pone
+
+1484
+01:00:52,319 --> 01:00:54,540
+en su empresa, y luego el código
+
+1485
+01:00:54,540 --> 01:00:56,700
+no se comparte
+
+1486
+01:00:56,700 --> 01:00:58,859
+y evitan cualquier cosa relacionada con licencias. La
+
+1487
+01:00:58,859 --> 01:01:01,920
+gente puede hacer algo que llaman ingeniería inversa
+
+1488
+01:01:01,920 --> 01:01:03,480
+para averiguar si estás
+
+1489
+01:01:03,480 --> 01:01:05,400
+usando realmente mis cosas, pero no lo admitiste,
+
+1490
+01:01:05,400 --> 01:01:07,680
+no me informaste, no obtuviste la licencia, entonces
+
+1491
+01:01:07,680 --> 01:01:10,140
+puedo demandarte y luego tendrías 
+
+1492
+01:01:10,140 --> 01:01:11,640
+que pagar una gran cantidad de dinero, así que esto es 
+
+1493
+01:01:11,640 --> 01:01:12,900
+bastante complicado, pero por ahora, 
+
+1494
+01:01:12,900 --> 01:01:15,480
+simplemente hagamos que la licencia de MIT sea la más 
+
+1495
+01:01:15,480 --> 01:01:17,640
+flexible, tienes derecho a 
+
+1496
+01:01:17,640 --> 01:01:19,260
+lo que quieras 
+
+1497
+01:01:19,260 --> 01:01:20,640
+y nosotros obtenemos lo que queremos,
+
+1498
+01:01:20,640 --> 01:01:23,400
+pero si surge un problema, tendrás que solucionarlo, 
+
+1499
+01:01:23,400 --> 01:01:25,260
+no me hagas daño, 
+
+1500
+01:01:25,260 --> 01:01:28,740
+¿de acuerdo? Y aquí, GEOG…, 
+
+1501
+01:01:28,740 --> 01:01:33,000
+¿por qué tengo esto aquí? GEOG-510 
+
+1502
+01:01:34,440 --> 01:01:38,280
+y luego crearemos 
+
+1503
+01:01:38,280 --> 01:01:40,380
+el repositorio. También 
+
+1504
+01:01:40,380 --> 01:01:41,940
+recomiendo esto porque más tarde la gente 
+
+1505
+01:01:41,940 --> 01:01:44,520
+va a añadir algunos archivos de Python, y Python 
+
+1506
+01:01:44,520 --> 01:01:45,960
+va a generar algunos archivos temporales 
+
+1507
+01:01:45,960 --> 01:01:47,819
+que a veces no son importantes, 
+
+1508
+01:01:47,819 --> 01:01:50,339
+así que es mejor ignorarlos. Además, 
+
+1509
+01:01:50,339 --> 01:01:52,200
+busquemos simplemente Python y podremos 
+
+1510
+01:01:52,200 --> 01:01:53,220
+desplazarnos hacia abajo 
+
+1511
+01:01:53,220 --> 01:01:56,180
+dependiendo del lenguaje que estemos utilizando. 
+
+1512
+01:01:56,180 --> 01:01:59,819
+Entonces voy a usar, 
+
+1513
+01:01:59,819 --> 01:02:01,740
+Python, bien, 
+
+1514
+01:02:01,740 --> 01:02:04,740
+así que agrego un archivo de remezcla, lo ignoro y luego 
+
+1515
+01:02:04,740 --> 01:02:06,359
+solo la licencia MIT. 
+
+1516
+01:02:06,359 --> 01:02:09,240
+Luego creo un repositorio, eso es todo. Así que 
+
+1517
+01:02:09,240 --> 01:02:11,160
+piense en este paso o ajústelo, 
+
+1518
+01:02:11,160 --> 01:02:13,559
+es lo mismo que antes en una 
+
+1519
+01:02:13,559 --> 01:02:16,200
+computadora local, creamos un nuevo directorio y 
+
+1520
+01:02:16,200 --> 01:02:18,420
+luego ejecutamos en él “git init”, 
+
+1521
+01:02:18,420 --> 01:02:20,099
+lo mismo, pero ahora se 
+
+1522
+01:02:20,099 --> 01:02:24,119
+aloja en la web. 
+
+1523
+01:02:24,119 --> 01:02:25,579
+[Pregunta] Entonces,
+
+1524
+01:02:25,579 --> 01:02:28,079
+hay una pequeña conexión que 
+
+1525
+01:02:28,079 --> 01:02:30,359
+se conecta de vuelta a lo que sea que 
+
+1526
+01:02:30,359 --> 01:02:32,780
+estemos usando para el control de 
+
+1527
+01:02:32,780 --> 01:02:35,640
+origen ¿Importa cuál es 
+
+1528
+01:02:35,640 --> 01:02:37,980
+eso? Porque los míos aún no coinciden. 
+
+1529
+01:02:37,980 --> 01:02:39,780
+[Respuesta] Déjame echar
+
+1530
+01:02:39,780 --> 01:02:45,020
+un vistazo.
+
+1531
+01:02:45,079 --> 01:02:47,040
+Por 
+
+1532
+01:02:47,040 --> 01:02:49,740
+eso lo mencioné antes. 
+
+1533
+01:02:49,740 --> 01:02:52,619
+Así que ahora mi cuenta está usando Master, 
+
+1534
+01:02:52,619 --> 01:02:54,599
+pero para la nueva cuenta podría estar usando Main. 
+
+1535
+01:02:54,599 --> 01:02:57,480
+La razón de esto es que hay
+
+1536
+01:02:57,480 --> 01:03:01,380
+un movimiento, tipo "metoo", ya que "master" es como
+
+1537
+01:03:01,380 --> 01:03:04,559
+usar terminología de esclavitud y solo para tener una
+
+1538
+01:03:04,559 --> 01:03:06,720
+idea, en este momento están tratando de prohibirlo
+
+1539
+01:03:06,720 --> 01:03:09,180
+pero quiero decir, yo comencé hace mucho
+
+1540
+01:03:09,180 --> 01:03:10,980
+tiempo, así que realmente no tengo que 
+
+1541
+01:03:10,980 --> 01:03:12,299
+cambiar eso, porque no cambiaría todas esas
+
+1542
+01:03:12,299 --> 01:03:14,819
+cosas, pero puedes cambiar la rama principal
+
+1543
+01:03:14,819 --> 01:03:16,920
+si quieres, así que será cualquier
+
+1544
+01:03:16,920 --> 01:03:18,839
+cosa, no importa
+
+1545
+01:03:18,839 --> 01:03:20,160
+así que no tienes que usar solo el
+
+1546
+01:03:20,160 --> 01:03:22,079
+predeterminado, si quieres cambiar eso
+
+1547
+01:03:22,079 --> 01:03:23,640
+puedes ir a la configuración de tu cuenta
+
+1548
+01:03:23,640 --> 01:03:26,160
+hay una forma, déjame ver si
+
+1549
+01:03:26,160 --> 01:03:28,700
+lo encuentro por aquí
+
+1550
+01:03:28,700 --> 01:03:32,520
+No recuerdo 
+
+1551
+01:03:32,520 --> 01:03:35,540
+exactamente 
+
+1552
+01:03:38,280 --> 01:03:39,900
+dónde está, 
+
+1553
+01:03:39,900 --> 01:03:41,460
+pero 
+
+1554
+01:03:41,460 --> 01:03:43,859
+no 
+
+1555
+01:03:43,859 --> 01:03:46,319
+te preocupes, 
+
+1556
+01:03:46,319 --> 01:03:49,559
+es solo un nombre. Es como Master 
+
+1557
+01:03:49,559 --> 01:03:52,079
+siempre significó. Una vez que esté aquí, 
+
+1558
+01:03:52,079 --> 01:03:54,059
+puedes poner las cosas de tu 
+
+1559
+01:03:54,059 --> 01:03:56,220
+cuenta de GitHub en tu computadora local. 
+
+1560
+01:03:56,220 --> 01:03:57,780
+La misma idea, 
+
+1561
+01:03:57,780 --> 01:03:59,940
+solo haz clic en este botón para obtener la 
+
+1562
+01:03:59,940 --> 01:04:02,359
+URL
+
+1563
+01:04:02,819 --> 01:04:04,020
+Copia 
+
+1564
+01:04:04,020 --> 01:04:07,920
+esto y luego vuelve aquí, 
+
+1565
+01:04:07,920 --> 01:04:10,260
+abre la terminal 
+
+1566
+01:04:10,260 --> 01:04:13,020
+y ahora puedes traer el repositorio a la 
+
+1567
+01:04:13,020 --> 01:04:15,059
+computadora. Entonces, esto es exactamente cómo está 
+
+1568
+01:04:15,059 --> 01:04:17,819
+vinculado ahora, así que si hago cambios, puedo publicarlos en 
+
+1569
+01:04:17,819 --> 01:04:19,619
+GitHub para que puedas 
+
+1570
+01:04:19,619 --> 01:04:22,819
+ver los cambios. 
+
+1571
+01:04:23,880 --> 01:04:25,740
+Pero no es necesario que lo hagas, si quieres, 
+
+1572
+01:04:25,740 --> 01:04:28,020
+puedes usar Visual Studio para 
+
+1573
+01:04:28,020 --> 01:04:30,960
+abrir directamente el archivo desde GitHub, 
+
+1574
+01:04:30,960 --> 01:04:32,520
+pero solo te mostraré el 
+
+1575
+01:04:32,520 --> 01:04:35,460
+Hardware “git clone”
+
+1576
+01:04:35,460 --> 01:04:37,140
+control V (URL), como puedes 
+
+1577
+01:04:37,140 --> 01:04:39,059
+ver, es bastante rápido porque 
+
+1578
+01:04:39,059 --> 01:04:42,119
+ahora mismo es un proyecto muy simple. 
+
+1579
+01:04:42,119 --> 01:04:44,280
+Deberías tener este y el de cualquier 
+
+1580
+01:04:44,280 --> 01:04:46,079
+dirección que veas aquí. 
+
+1581
+01:04:46,079 --> 01:04:50,240
+Luego solo tienes que abrirlo y 
+
+1582
+01:04:50,240 --> 01:04:54,180
+puedes mostrar más opciones para abrir 
+
+1583
+01:04:54,180 --> 01:04:55,619
+en Visual Studio o simplemente abrir los 
+
+1584
+01:04:55,619 --> 01:04:57,420
+videos de la gente y luego abrir las 
+
+1585
+01:04:57,420 --> 01:05:00,299
+direcciones, es lo mismo.
+
+1586
+01:05:00,299 --> 01:05:02,520
+Ahora tenemos que encontrar nuestra 
+
+1587
+01:05:02,520 --> 01:05:03,359
+computadora
+
+1588
+01:05:03,359 --> 01:05:05,160
+para empezar a hacer algunos cambios y 
+
+1589
+01:05:05,160 --> 01:05:07,559
+luego publicar en GitHub. Lo que queremos
+
+1590
+01:05:07,559 --> 01:05:09,900
+hacer aquí
+
+1591
+01:05:09,900 --> 01:05:12,660
+en el lado izquierdo, digamos en README es crear un 
+
+1592
+01:05:12,660 --> 01:05:15,599
+sitio web para un curso o algo así. 
+
+1593
+01:05:15,599 --> 01:05:17,280
+Ahora puedes agregar algunas cosas como 
+
+1594
+01:05:17,280 --> 01:05:20,520
+lo que hicimos antes y decir "esto 
+
+1595
+01:05:20,520 --> 01:05:21,839
+es 
+
+1596
+01:05:21,839 --> 01:05:25,619
+una prueba" o lo que sea. Presiona Ctrl + S para hacer algunos 
+
+1597
+01:05:25,619 --> 01:05:27,900
+cambios una vez que esté controlado, 
+
+1598
+01:05:27,900 --> 01:05:29,280
+Sigamos
+
+1599
+01:05:29,280 --> 01:05:31,440
+los mismos pasos que acabamos de recorrer, 
+
+1600
+01:05:31,440 --> 01:05:33,839
+podemos confirmar este cambio y luego 
+
+1601
+01:05:33,839 --> 01:05:36,119
+más tarde podemos subirlo. Me gustaría 
+
+1602
+01:05:36,119 --> 01:05:40,319
+“nueva línea agregada“
+
+1603
+01:05:40,319 --> 01:05:44,480
+muy simple y luego presionar Ctrl + Enter. 
+
+1604
+01:05:45,180 --> 01:05:48,200
+Así que si
+
+1605
+01:05:49,700 --> 01:05:52,260
+puedes hacer 
+
+1606
+01:05:52,260 --> 01:05:54,180
+clic derecho aquí. 
+
+1607
+01:05:54,180 --> 01:05:56,160
+Incluso en Windows, debes instalar 
+
+1608
+01:05:56,160 --> 01:05:57,780
+Visual Studio Code, pero podría estar 
+
+1609
+01:05:57,780 --> 01:06:01,140
+aquí de antemano. Si no lo tienes, es fácil, 
+
+1610
+01:06:01,140 --> 01:06:02,700
+solo puedo cerrar todo 
+
+1611
+01:06:02,700 --> 01:06:04,440
+y mostrarte desde cero. Entonces, 
+
+1612
+01:06:04,440 --> 01:06:06,420
+voy a hacer un ejemplo: simplemente abres Visual 
+
+1613
+01:06:06,420 --> 01:06:08,700
+Studio y luego lo abres
+
+1614
+01:06:08,700 --> 01:06:10,559
+directamente desde allí. Aquí puedo 
+
+1615
+01:06:10,559 --> 01:06:12,660
+hacerlo de esta manera, lo abro y actualmente 
+
+1616
+01:06:12,660 --> 01:06:15,960
+está vacío, 
+
+1617
+01:06:15,960 --> 01:06:20,579
+luego solo voy a Archivo, 
+
+1618
+01:06:20,579 --> 01:06:23,099
+Abrir carpeta 
+
+1619
+01:06:23,099 --> 01:06:25,200
+y navego hasta la carpeta 
+
+1620
+01:06:25,200 --> 01:06:26,579
+GEOS-510, 
+
+1621
+01:06:26,579 --> 01:06:29,039
+selecciono la carpeta y es como abrir 
+
+1622
+01:06:29,039 --> 01:06:30,660
+un documento de Word, lo abro 
+
+1623
+01:06:30,660 --> 01:06:32,400
+directamente y deberías tener esto 
+
+1624
+01:06:32,400 --> 01:06:34,380
+aquí.
+
+1625
+01:06:34,380 --> 01:06:36,900
+¿Está abierto? 
+
+1626
+01:06:36,900 --> 01:06:40,319
+[Pregunta] Es GEOS-510, ¿no es así? 
+
+1627
+01:06:40,319 --> 01:06:42,240
+[Respuesta] Está en la carpeta donde 
+
+1628
+01:06:42,240 --> 01:06:45,420
+clonaste el directorio 
+
+1629
+01:06:45,420 --> 01:06:47,160
+desde GitHub a 
+
+1630
+01:06:47,160 --> 01:06:49,559
+tu computadora. 
+
+1631
+01:06:49,559 --> 01:06:51,619
+Entonces.
+
+1632
+01:06:51,900 --> 01:06:55,140
+Déjame ver aquí, así que si no, simplemente copia el 
+
+1633
+01:06:55,140 --> 01:06:57,920
+enlace del sitio web y 
+
+1634
+01:06:57,920 --> 01:07:00,960
+en algún lugar de tu computadora…
+
+1635
+01:07:00,960 --> 01:07:04,079
+espera, mi computadora está congelada, 
+
+1636
+01:07:04,079 --> 01:07:07,220
+no puedo hacer clic en nada, así 
+
+1637
+01:07:07,799 --> 01:07:10,500
+que haz “git clon” y luego la URL y 
+
+1638
+01:07:10,500 --> 01:07:12,780
+deberías poder obtener eso. 
+
+1639
+01:07:12,780 --> 01:07:14,760
+No estoy seguro de qué está 
+
+1640
+01:07:14,760 --> 01:07:17,880
+mal aquí, pero, de todos modos, 
+
+1641
+01:07:17,880 --> 01:07:20,700
+aquí puedo seguir haciendo cambios, 
+
+1642
+01:07:20,700 --> 01:07:22,260
+lo que significa que puedo agregar otro. Entonces, 
+
+1643
+01:07:22,260 --> 01:07:23,579
+agrega un 
+
+1644
+01:07:23,579 --> 01:07:27,599
+nuevo control de línea con "control s" y 
+
+1645
+01:07:27,599 --> 01:07:31,020
+luego podemos confirmar los cambios nuevamente. Edita 
+
+1646
+01:07:31,020 --> 01:07:34,500
+una nueva línea y luego presiona "Ctrl enter", 
+
+1647
+01:07:34,500 --> 01:07:36,660
+para confirmar el siguiente paso. Lo que 
+
+1648
+01:07:36,660 --> 01:07:38,160
+podemos hacer ahora es ir a la esquina superior derecha y 
+
+1649
+01:07:38,160 --> 01:07:39,780
+hacer clic en "Push". Esto 
+
+1650
+01:07:39,780 --> 01:07:42,780
+significa que podemos enviar los cambios 
+
+1651
+01:07:42,780 --> 01:07:44,700
+a GitHub, así que haz clic en el botón y observa 
+
+1652
+01:07:44,700 --> 01:07:47,039
+lo que sucede. Puede que te pida que ingreses 
+
+1653
+01:07:47,039 --> 01:07:49,020
+tu nombre de usuario o contraseña, o algo similar, 
+
+1654
+01:07:49,020 --> 01:07:51,299
+ya que lo he hecho antes. 
+
+1655
+01:07:51,299 --> 01:07:53,220
+Si no me lo pide a mí, presta atención. Está bien, si  
+
+1656
+01:07:53,220 --> 01:07:55,700
+empujas de 
+
+1657
+01:07:56,420 --> 01:07:59,039
+nuevo, es probable que te pidan que ingreses 
+
+1658
+01:07:59,039 --> 01:08:01,440
+tu inicio de sesión. 
+
+1659
+01:08:01,440 --> 01:08:03,240
+¿Puedes 
+
+1660
+01:08:03,240 --> 01:08:04,799
+hacer eso? 
+
+1661
+01:08:04,799 --> 01:08:07,079
+Solo tienes que 
+
+1662
+01:08:07,079 --> 01:08:08,640
+presionar el botón aquí en la esquina superior con los 
+
+1663
+01:08:08,640 --> 01:08:12,380
+tres puntos y luego “Push” para 
+
+1664
+01:08:12,799 --> 01:08:16,799
+el repositorio que acabas de crear. ¿Puedes ver esto una vez que 
+
+1665
+01:08:16,799 --> 01:08:19,620
+hayas realizado 
+
+1666
+01:08:19,620 --> 01:08:22,319
+los cambios en GitHub? Así 
+
+1667
+01:08:22,319 --> 01:08:24,899
+podemos volver al repositorio de GitHub
+
+1668
+01:08:24,899 --> 01:08:27,660
+y verlo aquí. Antes estaba en este 
+
+1669
+01:08:27,660 --> 01:08:28,698
+commit, pero 
+
+1670
+01:08:28,698 --> 01:08:32,959
+ahora, si actualizo, 
+
+1671
+01:08:33,479 --> 01:08:35,460
+puedes ver que hay 
+
+1672
+01:08:35,460 --> 01:08:37,380
+tres commits: uno para 
+
+1673
+01:08:37,380 --> 01:08:39,839
+agregar una nueva línea, otro para agregar otra línea 
+
+1674
+01:08:39,839 --> 01:08:42,540
+y dos más anteriores. Así es 
+
+1675
+01:08:42,540 --> 01:08:44,460
+cómo podemos sincronizar el 
+
+1676
+01:08:44,460 --> 01:08:46,380
+código fuente desde la computadora local a 
+
+1677
+01:08:46,380 --> 01:08:49,560
+GitHub y si quieres, 
+
+1678
+01:08:49,560 --> 01:08:52,319
+puedes ver exactamente lo que 
+
+1679
+01:08:52,319 --> 01:08:54,719
+hice bien y la nueva línea aquí, y luego 
+
+1680
+01:08:54,719 --> 01:08:56,819
+lo confirmas. Puedes continuar haciendo tantas 
+
+1681
+01:08:56,819 --> 01:08:58,738
+confirmaciones como quieras. Tenemos mucha más 
+
+1682
+01:08:58,738 --> 01:09:00,899
+práctica en el estimador, pero 
+
+1683
+01:09:00,899 --> 01:09:02,660
+solo te estoy mostrando cómo 
+
+1684
+01:09:02,660 --> 01:09:05,460
+todo ha sido rastreado y 
+
+1685
+01:09:05,460 --> 01:09:07,080
+así es como sabes qué tipo de 
+
+1686
+01:09:07,080 --> 01:09:08,759
+cosas estás haciendo en la compra. 
+
+1687
+01:09:08,759 --> 01:09:11,219
+También puedes hacer estrategias en 
+
+1688
+01:09:11,219 --> 01:09:14,698
+GitHub y extraer los cambios. 
+
+1689
+01:09:14,698 --> 01:09:15,960
+A continuación, te mostraremos cómo 
+
+1690
+01:09:15,960 --> 01:09:17,759
+crear un repositorio y cómo 
+
+1691
+01:09:17,759 --> 01:09:20,279
+todos pueden contribuir a él. Entonces, por eso, 
+
+1692
+01:09:20,279 --> 01:09:22,679
+como contribución de código abierto, ¿cómo se 
+
+1693
+01:09:22,679 --> 01:09:24,960
+contribuye a un proyecto? Son estos los pasos que 
+
+1694
+01:09:24,960 --> 01:09:25,799
+debes seguir. 
+
+1695
+01:09:25,799 --> 01:09:28,080
+¿Puede alguno de ustedes levantar 
+
+1696
+01:09:28,080 --> 01:09:30,000
+la mano? 
+
+1697
+01:09:30,000 --> 01:09:32,880
+Nadie aún. 
+
+1698
+01:09:32,880 --> 01:09:34,738
+¿Pueden presionar el 
+
+1699
+01:09:34,738 --> 01:09:37,099
+botón 
+
+1700
+01:09:38,479 --> 01:09:42,060
+de "push" aquí, 
+
+1701
+01:09:42,060 --> 01:09:44,880
+con esto, publicarlo 
+
+1702
+01:09:44,880 --> 01:09:46,380
+juntos? Los dos significan obtener el programa fuente 
+
+1703
+01:09:46,380 --> 01:09:49,679
+de GitHub. Y luego déjenme mostrarles cómo hacer 
+
+1704
+01:09:49,679 --> 01:09:51,660
+cambios, por ejemplo, si el 
+
+1705
+01:09:51,660 --> 01:09:53,520
+repositorio GitHub ha sido actualizado, 
+
+1706
+01:09:53,520 --> 01:09:56,400
+¿cómo puedo obtener los últimos cambios? Aquí, 
+
+1707
+01:09:56,400 --> 01:09:58,380
+si quiero, puedo volver al 
+
+1708
+01:09:58,380 --> 01:10:01,920
+repositorio de GitHub y agregar un nuevo archivo, 
+
+1709
+01:10:01,920 --> 01:10:05,040
+por ejemplo, agregar archivos, cargar 
+
+1710
+01:10:05,040 --> 01:10:06,480
+el archivo si quieres. Puedo 
+
+1711
+01:10:06,480 --> 01:10:09,960
+crear un archivo nuevo y 
+
+1712
+01:10:09,960 --> 01:10:12,179
+desde aquí puedo agregar un archivo nuevo, por lo que es 
+
+1713
+01:10:12,179 --> 01:10:14,760
+lo mismo, es bidireccional. 
+
+1714
+01:10:14,760 --> 01:10:16,440
+Puedo hacer cosas en la web y acceder a mi equipo local. 
+
+1715
+01:10:16,440 --> 01:10:18,480
+Puedo obtener dos cosas en local y 
+
+1716
+01:10:18,480 --> 01:10:20,820
+enviar al web. Aquí puedo obtener otro, 
+
+1717
+01:10:20,820 --> 01:10:25,400
+puedo decir tal vez”sample.txt”, 
+
+1718
+01:10:27,060 --> 01:10:28,500
+y luego aquí puedo escribir 
+
+1719
+01:10:28,500 --> 01:10:30,179
+cualquier cosa, este es 
+
+1720
+01:10:30,179 --> 01:10:33,780
+un archivo de muestra. De nuevo, 
+
+1721
+01:10:33,780 --> 01:10:37,440
+desplázate hacia abajo, aquí es donde confirmas 
+
+1722
+01:10:37,440 --> 01:10:39,000
+los cambios, igual que en 
+
+1723
+01:10:39,000 --> 01:10:41,280
+Visual Studio Code, escribes un texto y 
+
+1724
+01:10:41,280 --> 01:10:42,840
+luego confirmas el archivo, por lo que es 
+
+1725
+01:10:42,840 --> 01:10:44,699
+lo mismo aquí. Usualmente puedes cambiarlo 
+
+1726
+01:10:44,699 --> 01:10:46,739
+si quieres, de lo contrario solo digo 
+
+1727
+01:10:46,739 --> 01:10:49,739
+crear archivo nuevo 
+
+1728
+01:10:49,739 --> 01:10:52,140
+y luego se confirma directamente en la 
+
+1729
+01:10:52,140 --> 01:10:54,540
+rama principal. Ahora ves este 
+
+1730
+01:10:54,540 --> 01:10:57,540
+archivo nuevo en mi repositorio de GitHub. 
+
+1731
+01:10:57,540 --> 01:11:00,480
+Entonces, este archivo todavía no está en mi computadora local, 
+
+1732
+01:11:00,480 --> 01:11:04,500
+así que, si hago clic, no podrás ver el archivo. Cuando 
+
+1733
+01:11:04,500 --> 01:11:06,840
+vuelva a mi computadora, 
+
+1734
+01:11:06,840 --> 01:11:10,140
+todavía no estará allí. Todo lo que necesitamos 
+
+1735
+01:11:10,140 --> 01:11:13,320
+es ir a mi botón de servicio de 
+
+1736
+01:11:13,320 --> 01:11:15,239
+llamada de Visual Studio. 
+
+1737
+01:11:15,239 --> 01:11:18,540
+Voy a mostrarte de nuevo que 
+
+1738
+01:11:18,540 --> 01:11:20,460
+el archivo no está aquí todavía, 
+
+1739
+01:11:20,460 --> 01:11:25,040
+pero una vez que haga clic en git “Pull", 
+
+1740
+01:11:28,739 --> 01:11:31,739
+verás que está regresando, por lo que se está 
+
+1741
+01:11:31,739 --> 01:11:33,780
+sincronizando. Puedes obtener cosas de 
+
+1742
+01:11:33,780 --> 01:11:35,280
+internet y enviar cosas a tu 
+
+1743
+01:11:35,280 --> 01:11:38,040
+GitHub, por lo que la práctica bidireccional 
+
+1744
+01:11:38,040 --> 01:11:40,440
+no es difícil, pero si 
+
+1745
+01:11:40,440 --> 01:11:42,179
+necesitas ayuda, avísame, si estos son los más 
+
+1746
+01:11:42,179 --> 01:11:44,400
+básicos que quieres usar prácticamente 
+
+1747
+01:11:44,400 --> 01:11:45,960
+todos los días todas las semanas para la tarea, 
+
+1748
+01:11:45,960 --> 01:11:47,940
+es cómo haces cosas en 
+
+1749
+01:11:47,940 --> 01:11:49,380
+GitHub, cómo haces cambios, cómo 
+
+1750
+01:11:49,380 --> 01:11:52,140
+creas un proyecto. 
+
+1751
+01:11:52,140 --> 01:11:53,280
+Todos los pasos son bastante similares: 
+
+1752
+01:11:53,280 --> 01:11:58,100
+configuración, hacer cambios, confirmar y publicar. 
+
+1753
+01:11:58,100 --> 01:12:01,560
+Realmente tienes que hacer cambios en el 
+
+1754
+01:12:01,560 --> 01:12:03,659
+repositorio de GitHub directamente en la 
+
+1755
+01:12:03,659 --> 01:12:06,179
+interfaz web. 
+
+1756
+01:12:06,179 --> 01:12:08,040
+Pero a veces puedes
+
+1757
+01:12:08,040 --> 01:12:09,540
+pensar que está mal si no pones los 
+
+1758
+01:12:09,540 --> 01:12:10,679
+cambios que intentas extraer. 
+
+1759
+01:12:10,679 --> 01:12:13,199
+A veces no te permitirá hacerlo porque 
+
+1760
+01:12:13,199 --> 01:12:15,060
+no estás obteniendo la última versión de 
+
+1761
+01:12:15,060 --> 01:12:17,520
+la base de código fuente, pero 
+
+1762
+01:12:17,520 --> 01:12:20,880
+hay formas de solucionarlo y creo 
+
+1763
+01:12:20,880 --> 01:12:22,699
+que es
+
+1764
+01:12:22,699 --> 01:12:25,380
+suficiente por hoy. Así que asegúrate de 
+
+1765
+01:12:25,380 --> 01:12:28,920
+practicar. Crearé un repositorio y 
+
+1766
+01:12:28,920 --> 01:12:30,719
+asegúrate de que puedas extraer 
+
+1767
+01:12:30,719 --> 01:12:32,940
+algo a GitHub, de lo contrario, no 
+
+1768
+01:12:32,940 --> 01:12:35,460
+tendrás problemas la próxima semana porque 
+
+1769
+01:12:35,460 --> 01:12:37,320
+vamos a crear un sitio web y te mostraremos 
+
+1770
+01:12:37,320 --> 01:12:39,060
+cómo puedes crear tu perfil en 
+
+1771
+01:12:39,060 --> 01:12:41,520
+GitHub, cómo puedes crear tu sitio web 
+
+1772
+01:12:41,520 --> 01:12:44,040
+en GitHub y alojarlo de forma gratuita, por lo que 
+
+1773
+01:12:44,040 --> 01:12:46,620
+podrás crear un sitio web personal 
+
+1774
+01:12:46,620 --> 01:12:48,440
+alojado allí utilizando 
+
+1775
+01:12:48,440 --> 01:12:50,880
+la misma
+
+1776
+01:12:50,880 --> 01:12:53,340
+herramienta. Puedes poner todo tipo de archivos 
+
+1777
+01:12:53,340 --> 01:12:55,020
+en ella y una vez que actualices, podemos 
+
+1778
+01:12:55,020 --> 01:12:57,600
+habilitar las llamadas Páginas de GitHub, que 
+
+1779
+01:12:57,600 --> 01:13:00,420
+alojarán el sitio web de forma gratuita. 
+
+1780
+01:13:00,420 --> 01:13:03,020
+Si tienes preguntas y no 
+
+1781
+01:13:03,179 --> 01:13:05,699
+puedes seguir adelante, mira 
+
+1782
+01:13:05,699 --> 01:13:07,560
+el video y luego envía preguntas 
+
+1783
+01:13:07,560 --> 01:13:10,020
+al correo electrónico de Google, pero esto es lo más básico, 
+
+1784
+01:13:10,020 --> 01:13:12,540
+así que no te preocupes demasiado, pero si empiezas, 
+
+1785
+01:13:12,540 --> 01:13:15,719
+avísame y te ayudaré. 
+
+1786
+01:13:15,719 --> 01:13:18,120
+¡Eso es todo por hoy! Te veré. 
+
+1787
+01:13:18,120 --> 01:13:20,280
+No hay tarea esta semana, pero 
+
+1788
+01:13:20,280 --> 01:13:22,140
+asegúrate de practicar, porque después 
+
+1789
+01:13:22,140 --> 01:13:25,460
+tendremos tarea cada semana.
