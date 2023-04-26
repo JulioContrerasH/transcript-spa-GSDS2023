@@ -30,4 +30,5 @@ Check out the [course website](https://sites.google.com/utk.edu/geog-510) for mo
 
 ## Subtitles
 - week1: [GEOG-510 Week 1 - Installing Visual Studio Code, Git, and Miniconda](https://youtu.be/aS5nDNLbO2w)
+- week2_2: [GEOG-510 Week 2 - Using Git and GitHub](https://youtu.be/xrhcyF38PO8)
 - week3_2: [GEOG-510 Week 3 - Introduction to GitHub](https://youtu.be/ndmJLOqs0lU)
